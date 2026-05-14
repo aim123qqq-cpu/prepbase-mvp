@@ -8,6 +8,9 @@ const SOURCES = [
   "https://t.me/tzprofi_job"
 ];
 
+const SINCE_DATE = new Date(process.env.SINCE_DATE || "2026-01-01T00:00:00+03:00");
+const MAX_PAGES_PER_SOURCE = Number(process.env.MAX_PAGES_PER_SOURCE || 300);
+
 const VACANCY_MARKERS = [
   /ваканс/i,
   /ищем/i,
@@ -83,9 +86,11 @@ main().catch((error) => {
 async function main() {
   const stats = {
     updatedAt: new Date().toISOString(),
+    since: SINCE_DATE.toISOString(),
     sources: SOURCES,
     totalMessages: 0,
     totalVacancies: 0,
+    sourceStats: [],
     skills: [],
     errors: []
   };
@@ -94,8 +99,7 @@ async function main() {
 
   for (const source of SOURCES) {
     try {
-      const html = await fetchText(toTelegramArchiveUrl(source));
-      const messages = extractMessages(html);
+      const { messages, pagesFetched, archiveUrl } = await collectMessagesSince(source);
       stats.totalMessages += messages.length;
 
       for (const message of messages) {
@@ -111,6 +115,13 @@ async function main() {
           item.sources[source] = (item.sources[source] || 0) + 1;
         }
       }
+
+      stats.sourceStats.push({
+        source,
+        archiveUrl,
+        pagesFetched,
+        messages: messages.length
+      });
     } catch (error) {
       stats.errors.push({ source, message: error.message });
     }
@@ -128,6 +139,49 @@ async function main() {
   const payload = `window.PREPBASE_SKILL_STATS = ${JSON.stringify(stats, null, 2)};\n`;
   fs.writeFileSync("skills-stats.js", payload, "utf8");
   console.log(`Parsed ${stats.totalVacancies} vacancies and ${stats.skills.length} skills.`);
+}
+
+async function collectMessagesSince(source) {
+  const archiveUrl = toTelegramArchiveUrl(source);
+  const seenIds = new Set();
+  const messages = [];
+  let before = null;
+  let pagesFetched = 0;
+
+  for (let page = 0; page < MAX_PAGES_PER_SOURCE; page += 1) {
+    const pageUrl = before ? `${archiveUrl}?before=${before}` : archiveUrl;
+    const html = await fetchText(pageUrl);
+    pagesFetched += 1;
+
+    const pageMessages = extractMessages(html, source).filter((message) => {
+      const key = message.id || `${message.date || "no-date"}:${message.text.slice(0, 80)}`;
+      if (seenIds.has(key)) return false;
+      seenIds.add(key);
+      return true;
+    });
+
+    if (!pageMessages.length) {
+      break;
+    }
+
+    const datedMessages = pageMessages.filter((message) => message.date);
+    const currentMessages = pageMessages.filter((message) => !message.date || message.date >= SINCE_DATE);
+    messages.push(...currentMessages);
+
+    const ids = pageMessages.map((message) => message.id).filter(Number.isFinite);
+    if (!ids.length) break;
+
+    const nextBefore = Math.min(...ids);
+    if (before === nextBefore) break;
+    before = nextBefore;
+
+    if (datedMessages.length) {
+      const newestDate = new Date(Math.max(...datedMessages.map((message) => message.date.getTime())));
+      if (newestDate < SINCE_DATE) break;
+    }
+  }
+
+  return { archiveUrl, messages, pagesFetched };
 }
 
 function toTelegramArchiveUrl(source) {
@@ -180,7 +234,14 @@ function extractMessages(html) {
 
   return blocks.map((block) => {
     const textBlock = block.match(/<div class="tgme_widget_message_text[^"]*"[^>]*>([\s\S]*?)<\/div>/);
+    const idMatch = block.match(/data-post="[^/]+\/(\d+)"/);
+    const dateMatch = block.match(/<time[^>]+datetime="([^"]+)"/);
+    const id = idMatch ? Number(idMatch[1]) : null;
+    const date = dateMatch ? new Date(dateMatch[1]) : null;
+
     return {
+      id: Number.isFinite(id) ? id : null,
+      date: date && !Number.isNaN(date.getTime()) ? date : null,
       text: decodeHtml(stripTags(textBlock ? textBlock[1] : block))
     };
   });

@@ -67,7 +67,7 @@
           <div class="panel-heading">
             <div>
               <p class="eyebrow">Рынок вакансий</p>
-              <h2>Навыки из Telegram-пабликов</h2>
+              <h2>Навыки из сайтов вакансий</h2>
             </div>
             <span class="pill" id="skillsUpdatedAt">Ожидает парсинг</span>
           </div>
@@ -79,27 +79,27 @@
       <section class="view-section" data-view="knowledge">
         <div class="knowledge-layout">
           <aside class="panel topics-panel">
-            <div class="panel-heading">
-              <div>
-                <p class="eyebrow">База знаний</p>
-                <h2>Темы и контекст</h2>
-              </div>
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">База знаний</p>
+              <h2>Темы и контекст</h2>
             </div>
+          </div>
 
-            <form class="stacked-form" id="topicForm">
-              <label>
-                Название темы
-                <input id="topicTitle" name="topicTitle" placeholder="Например, SQL" required />
-              </label>
-              <label>
-                Фокус
-                <input id="topicGoal" name="topicGoal" placeholder="Что должно стать понятным" required />
-              </label>
-              <button type="submit">Добавить тему</button>
-            </form>
+          <form class="stacked-form" id="topicForm">
+            <label>
+              Название темы
+              <input id="topicTitle" name="topicTitle" placeholder="Например, SQL" required />
+            </label>
+            <label>
+              Фокус
+              <input id="topicGoal" name="topicGoal" placeholder="Что должно стать понятным" required />
+            </label>
+            <button type="submit">Добавить тему</button>
+          </form>
 
-            <div class="topic-filters" id="topicFilters"></div>
-            <div class="topic-list" id="topicList"></div>
+          <div class="topic-filters" id="topicFilters"></div>
+          <div class="topic-list" id="topicList"></div>
           </aside>
 
           <section class="panel knowledge-panel">
@@ -143,39 +143,39 @@
 
       <section class="view-section" data-view="questions">
         <section class="panel question-panel">
-          <div class="panel-heading question-heading">
-            <div>
-              <p class="eyebrow">Карточки знаний</p>
-              <h2>Вопросы</h2>
-            </div>
-            <div class="question-tools">
-              <input id="questionSearch" placeholder="Поиск по вопросу, ответу или тегам" />
-              <select id="statusFilter" aria-label="Фильтр по статусу">
-                <option value="all">Все статусы</option>
-                <option value="Не знаю">Не знаю</option>
-                <option value="Учу">Учу</option>
-                <option value="Знаю">Знаю</option>
-                <option value="Повторить">Повторить</option>
-              </select>
-            </div>
+        <div class="panel-heading question-heading">
+          <div>
+            <p class="eyebrow">Карточки знаний</p>
+            <h2>Вопросы</h2>
           </div>
-
-          <form class="question-form" id="questionForm">
-            <input id="questionText" name="questionText" placeholder="Вопрос" required />
-            <select id="questionTopic" name="questionTopic" aria-label="Тема вопроса"></select>
-            <select id="questionStatus" name="questionStatus" aria-label="Статус знания">
+          <div class="question-tools">
+            <input id="questionSearch" placeholder="Поиск по вопросу, ответу или тегам" />
+            <select id="statusFilter" aria-label="Фильтр по статусу">
+              <option value="all">Все статусы</option>
               <option value="Не знаю">Не знаю</option>
-              <option value="Учу" selected>Учу</option>
+              <option value="Учу">Учу</option>
               <option value="Знаю">Знаю</option>
               <option value="Повторить">Повторить</option>
             </select>
-            <input id="questionTags" name="questionTags" placeholder="Теги через запятую" />
-            <textarea id="questionAnswer" name="questionAnswer" placeholder="Краткий ответ или тезисы" rows="3"></textarea>
-            <button id="questionSubmit" type="submit">Добавить вопрос</button>
-            <button class="ghost-button hidden" id="cancelQuestionEdit" type="button">Отмена</button>
-          </form>
+          </div>
+        </div>
 
-          <div class="question-list" id="questionList"></div>
+        <form class="question-form" id="questionForm">
+          <input id="questionText" name="questionText" placeholder="Вопрос" required />
+          <select id="questionTopic" name="questionTopic" aria-label="Тема вопроса"></select>
+          <select id="questionStatus" name="questionStatus" aria-label="Статус знания">
+            <option value="Не знаю">Не знаю</option>
+            <option value="Учу" selected>Учу</option>
+            <option value="Знаю">Знаю</option>
+            <option value="Повторить">Повторить</option>
+          </select>
+          <input id="questionTags" name="questionTags" placeholder="Теги через запятую" />
+          <textarea id="questionAnswer" name="questionAnswer" placeholder="Краткий ответ или тезисы" rows="3"></textarea>
+          <button id="questionSubmit" type="submit">Добавить вопрос</button>
+          <button class="ghost-button hidden" id="cancelQuestionEdit" type="button">Отмена</button>
+        </form>
+
+        <div class="question-list" id="questionList"></div>
         </section>
       </section>
     </main>

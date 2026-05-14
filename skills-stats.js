@@ -1,22 +1,22 @@
 window.PREPBASE_SKILL_STATS = {
-  "updatedAt": "2026-05-14T12:01:30.847Z",
-  "since": "2025-12-31T21:00:00.000Z",
+  "updatedAt": "2026-05-14T13:04:16.160Z",
+  "since": "2024-12-31T21:00:00.000Z",
   "sources": [
     "https://remote-job.ru/",
     "https://careerspace.app/",
     "https://jobrocket.ru/",
     "https://getmatch.ru/"
   ],
-  "totalPagesFetched": 42,
-  "totalVacancies": 15,
+  "totalPagesFetched": 157,
+  "totalVacancies": 59,
   "sourceStats": [
     {
       "source": "https://remote-job.ru/",
       "name": "remote-job.ru",
-      "pagesFetched": 11,
-      "crawlPagesFetched": 24,
-      "candidateUrls": 170,
-      "vacancies": 1,
+      "pagesFetched": 49,
+      "crawlPagesFetched": 59,
+      "candidateUrls": 228,
+      "vacancies": 16,
       "errors": [
         "https://remote-job.ru/sitemap.xml: Request timeout",
         "https://remote-job.ru/recruiting_agency/?utm_source=remote-job.ru&utm_target=main_navbar: HTTP 404",
@@ -26,10 +26,10 @@ window.PREPBASE_SKILL_STATS = {
     {
       "source": "https://careerspace.app/",
       "name": "careerspace.app",
-      "pagesFetched": 9,
-      "crawlPagesFetched": 10,
-      "candidateUrls": 10,
-      "vacancies": 7,
+      "pagesFetched": 10,
+      "crawlPagesFetched": 11,
+      "candidateUrls": 11,
+      "vacancies": 6,
       "errors": [
         "https://careerspace.app/vacancies: HTTP 404",
         "https://careerspace.app/vacancies: HTTP 404"
@@ -38,10 +38,10 @@ window.PREPBASE_SKILL_STATS = {
     {
       "source": "https://jobrocket.ru/",
       "name": "jobrocket.ru",
-      "pagesFetched": 10,
-      "crawlPagesFetched": 23,
-      "candidateUrls": 67,
-      "vacancies": 7,
+      "pagesFetched": 48,
+      "crawlPagesFetched": 58,
+      "candidateUrls": 84,
+      "vacancies": 37,
       "errors": [
         "https://jobrocket.ru/jobs: HTTP 404",
         "https://jobrocket.ru/vacancies: HTTP 404",
@@ -52,98 +52,119 @@ window.PREPBASE_SKILL_STATS = {
     {
       "source": "https://getmatch.ru/",
       "name": "getmatch.ru",
-      "pagesFetched": 12,
-      "crawlPagesFetched": 25,
-      "candidateUrls": 156,
+      "pagesFetched": 50,
+      "crawlPagesFetched": 60,
+      "candidateUrls": 291,
       "vacancies": 0,
       "errors": []
     }
   ],
   "skills": [
     {
-      "name": "SQL",
-      "count": 8,
-      "sources": {
-        "https://careerspace.app/": 5,
-        "https://jobrocket.ru/": 3
-      }
-    },
-    {
       "name": "Системный анализ",
-      "count": 6,
+      "count": 29,
       "sources": {
-        "https://careerspace.app/": 2,
-        "https://jobrocket.ru/": 4
+        "https://careerspace.app/": 1,
+        "https://jobrocket.ru/": 28
       }
     },
     {
       "name": "Python",
+      "count": 25,
+      "sources": {
+        "https://careerspace.app/": 1,
+        "https://jobrocket.ru/": 24
+      }
+    },
+    {
+      "name": "SQL",
+      "count": 22,
+      "sources": {
+        "https://careerspace.app/": 4,
+        "https://jobrocket.ru/": 18
+      }
+    },
+    {
+      "name": "ML/DS",
+      "count": 20,
+      "sources": {
+        "https://remote-job.ru/": 3,
+        "https://careerspace.app/": 2,
+        "https://jobrocket.ru/": 15
+      }
+    },
+    {
+      "name": "Английский",
+      "count": 14,
+      "sources": {
+        "https://remote-job.ru/": 7,
+        "https://careerspace.app/": 1,
+        "https://jobrocket.ru/": 6
+      }
+    },
+    {
+      "name": "Интеграции",
+      "count": 13,
+      "sources": {
+        "https://remote-job.ru/": 1,
+        "https://careerspace.app/": 1,
+        "https://jobrocket.ru/": 11
+      }
+    },
+    {
+      "name": "API",
+      "count": 11,
+      "sources": {
+        "https://remote-job.ru/": 1,
+        "https://careerspace.app/": 1,
+        "https://jobrocket.ru/": 9
+      }
+    },
+    {
+      "name": "Excel",
+      "count": 10,
+      "sources": {
+        "https://remote-job.ru/": 6,
+        "https://careerspace.app/": 1,
+        "https://jobrocket.ru/": 3
+      }
+    },
+    {
+      "name": "Git",
+      "count": 10,
+      "sources": {
+        "https://jobrocket.ru/": 10
+      }
+    },
+    {
+      "name": "Коммуникация",
+      "count": 8,
+      "sources": {
+        "https://remote-job.ru/": 5,
+        "https://careerspace.app/": 3
+      }
+    },
+    {
+      "name": "Метрики",
+      "count": 6,
+      "sources": {
+        "https://remote-job.ru/": 3,
+        "https://careerspace.app/": 3
+      }
+    },
+    {
+      "name": "Agile/Scrum",
       "count": 6,
       "sources": {
         "https://jobrocket.ru/": 6
       }
     },
     {
-      "name": "Интеграции",
-      "count": 5,
-      "sources": {
-        "https://careerspace.app/": 3,
-        "https://jobrocket.ru/": 2
-      }
-    },
-    {
-      "name": "Коммуникация",
-      "count": 5,
-      "sources": {
-        "https://careerspace.app/": 5
-      }
-    },
-    {
-      "name": "ML/DS",
+      "name": "BPMN",
       "count": 4,
       "sources": {
         "https://careerspace.app/": 1,
         "https://jobrocket.ru/": 3
-      }
-    },
-    {
-      "name": "Метрики",
-      "count": 3,
-      "sources": {
-        "https://careerspace.app/": 3
-      }
-    },
-    {
-      "name": "Agile/Scrum",
-      "count": 3,
-      "sources": {
-        "https://careerspace.app/": 1,
-        "https://jobrocket.ru/": 2
-      }
-    },
-    {
-      "name": "API",
-      "count": 3,
-      "sources": {
-        "https://careerspace.app/": 2,
-        "https://jobrocket.ru/": 1
-      }
-    },
-    {
-      "name": "BPMN",
-      "count": 3,
-      "sources": {
-        "https://careerspace.app/": 2,
-        "https://jobrocket.ru/": 1
-      }
-    },
-    {
-      "name": "Excel",
-      "count": 3,
-      "sources": {
-        "https://remote-job.ru/": 1,
-        "https://careerspace.app/": 1,
-        "https://jobrocket.ru/": 1
       }
     },
     {
@@ -161,25 +182,17 @@ window.PREPBASE_SKILL_STATS = {
       }
     },
     {
-      "name": "Git",
+      "name": "Linux",
       "count": 2,
       "sources": {
-        "https://careerspace.app/": 1,
-        "https://jobrocket.ru/": 1
-      }
-    },
-    {
-      "name": "Английский",
-      "count": 1,
-      "sources": {
-        "https://careerspace.app/": 1
+        "https://jobrocket.ru/": 2
       }
     },
     {
       "name": "Бизнес-анализ",
       "count": 1,
       "sources": {
-        "https://careerspace.app/": 1
+        "https://jobrocket.ru/": 1
       }
     },
     {
@@ -197,24 +210,10 @@ window.PREPBASE_SKILL_STATS = {
       }
     },
     {
-      "name": "DWH",
-      "count": 1,
-      "sources": {
-        "https://careerspace.app/": 1
-      }
-    },
-    {
       "name": "ETL",
       "count": 1,
       "sources": {
         "https://careerspace.app/": 1
-      }
-    },
-    {
-      "name": "Linux",
-      "count": 1,
-      "sources": {
-        "https://jobrocket.ru/": 1
       }
     },
     {

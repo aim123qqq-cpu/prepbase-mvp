@@ -1,4 +1,4 @@
-const STORAGE_KEY = "prepbase-mvp-v1";
+const STORAGE_KEY = "prepbase-mvp-v2";
 const STATUSES = ["Не знаю", "Учу", "Знаю", "Повторить"];
 const PRIORITIES = ["Высокий", "Средний", "Низкий"];
 
@@ -72,6 +72,7 @@ const starterState = {
   ]
 };
 
+const seedState = window.PREPBASE_SEED ?? starterState;
 let state = loadState();
 let editingTaskId = null;
 let editingQuestionId = null;
@@ -116,12 +117,12 @@ const elements = {
 
 function loadState() {
   const saved = localStorage.getItem(STORAGE_KEY);
-  if (!saved) return structuredClone(starterState);
+  if (!saved) return structuredClone(seedState);
 
   try {
     return normalizeState(JSON.parse(saved));
   } catch {
-    return structuredClone(starterState);
+    return structuredClone(seedState);
   }
 }
 
@@ -130,7 +131,7 @@ function saveState() {
 }
 
 function normalizeState(raw) {
-  const fallback = structuredClone(starterState);
+  const fallback = structuredClone(seedState);
   if (!raw || !Array.isArray(raw.topics) || !Array.isArray(raw.tasks) || !Array.isArray(raw.questions)) {
     return fallback;
   }
@@ -626,7 +627,7 @@ elements.importData.addEventListener("click", () => elements.importFile.click())
 elements.importFile.addEventListener("change", (event) => importState(event.target.files[0]));
 
 elements.resetDemo.addEventListener("click", () => {
-  state = structuredClone(starterState);
+  state = structuredClone(seedState);
   editingTaskId = null;
   editingQuestionId = null;
   elements.questionSearch.value = "";

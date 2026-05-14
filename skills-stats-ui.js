@@ -1,4 +1,4 @@
-(function renderTelegramSkills() {
+(function renderJobSiteSkills() {
   const stats = window.PREPBASE_SKILL_STATS || {};
   const skills = Array.isArray(stats.skills) ? stats.skills : [];
   const updatedAt = document.querySelector("#skillsUpdatedAt");
@@ -14,8 +14,8 @@
     : "Ожидает парсинг";
 
   summary.textContent = stats.updatedAt
-    ? `Проанализировано ${stats.totalVacancies || 0} вакансий из ${(stats.sources || []).length} Telegram-пабликов. Навыки отсортированы от частых к редким.`
-    : "Статистика появится после первого запуска ежедневного парсинга в GitHub Actions.";
+    ? `Проанализировано ${stats.totalVacancies || 0} вакансий из ${(stats.sources || []).length} сайтов. Навыки отсортированы от частых к редким.`
+    : "Статистика появится после первого запуска ежедневного парсинга сайтов в GitHub Actions.";
 
   if (!skills.length) {
     list.innerHTML = `<div class="empty-state">Пока нет собранных навыков.</div>`;

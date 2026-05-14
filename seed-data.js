@@ -1,0 +1,73 @@
+window.PREPBASE_SEED = {
+  activeTopicId: "all",
+  topics: [
+    { id: "sql", title: "SQL", goal: "Уверенно объяснять базовые операторы, объединения, агрегации, ограничения и нормализацию." },
+    { id: "integrations-api", title: "Интеграции и API", goal: "Понимать типы интеграций, REST/SOAP/RPC/GraphQL, HTTP и способы взаимодействия систем." },
+    { id: "requirements-analysis", title: "Требования и аналитика", goal: "Описывать user story/use case, требования, критерии качества, DoR/DoD и документацию аналитика." },
+    { id: "databases", title: "Базы данных", goal: "Различать типы БД, транзакции, нормализацию, проектирование и масштабирование." },
+    { id: "architecture", title: "Архитектура ПО", goal: "Сравнивать монолит, клиент-сервер, SOA и микросервисы через требования и trade-off." }
+  ],
+  tasks: [
+    { id: "task-sql-1", topicId: "sql", title: "Собрать 5 SQL-запросов: SELECT, JOIN, GROUP BY, HAVING, UNION", priority: "Высокий", done: false },
+    { id: "task-api-1", topicId: "integrations-api", title: "Подготовить короткий рассказ про опыт интеграций со стороны бизнес-анализа", priority: "Высокий", done: false },
+    { id: "task-req-1", topicId: "requirements-analysis", title: "Сформулировать примеры User Story, Use Case, DoR и DoD", priority: "Средний", done: false },
+    { id: "task-db-1", topicId: "databases", title: "Повторить ACID, нормальные формы и масштабирование БД", priority: "Высокий", done: false },
+    { id: "task-arch-1", topicId: "architecture", title: "Подготовить сравнение монолита, SOA, микросервисов и клиент-серверной архитектуры", priority: "Средний", done: false }
+  ],
+  questions: [
+    { id: "q-001", topicId: "sql", text: "Что делают SELECT, FROM, WHERE, ORDER BY и LIMIT?", answer: "SELECT выбирает столбцы, FROM задает источник, WHERE фильтрует строки, ORDER BY сортирует, LIMIT ограничивает количество строк.", status: "Учу", tags: ["sql", "select", "mindmaster"] },
+    { id: "q-002", topicId: "sql", text: "Какие группы SQL-операторов важно различать?", answer: "DDL описывает структуру, DML работает с данными, DCL управляет доступом, TCL управляет транзакциями.", status: "Учу", tags: ["sql", "ddl", "dml"] },
+    { id: "q-003", topicId: "sql", text: "Чем WHERE отличается от HAVING?", answer: "WHERE фильтрует строки до группировки, HAVING фильтрует уже сгруппированные результаты.", status: "Учу", tags: ["sql", "where", "having"] },
+    { id: "q-004", topicId: "sql", text: "Какие виды JOIN нужно уметь объяснить?", answer: "INNER возвращает совпадения, LEFT сохраняет левую таблицу, RIGHT правую, FULL обе стороны с NULL там, где пары нет.", status: "Учу", tags: ["sql", "join"] },
+    { id: "q-005", topicId: "sql", text: "Чем UNION отличается от UNION ALL?", answer: "UNION убирает дубликаты, UNION ALL оставляет все строки и обычно быстрее.", status: "Учу", tags: ["sql", "union"] },
+    { id: "q-006", topicId: "sql", text: "Какие агрегатные функции SQL стоит помнить?", answer: "COUNT, SUM, AVG, MIN, MAX. Обычно применяются вместе с GROUP BY.", status: "Учу", tags: ["sql", "aggregation"] },
+    { id: "q-007", topicId: "sql", text: "Какие ограничения таблиц нужно знать?", answer: "PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK, DEFAULT и INDEX для ускорения поиска.", status: "Учу", tags: ["sql", "constraints"] },
+    { id: "q-008", topicId: "sql", text: "Что такое первичный и внешний ключ?", answer: "Первичный ключ уникально идентифицирует строку, внешний ключ связывает таблицу с ключом другой таблицы.", status: "Учу", tags: ["sql", "keys"] },
+    { id: "q-009", topicId: "sql", text: "Зачем нужна нормализация в SQL-модели?", answer: "Она снижает дублирование, повышает целостность и раскладывает данные по связанным таблицам.", status: "Учу", tags: ["sql", "normalization"] },
+    { id: "q-010", topicId: "sql", text: "Что важно сказать про индексы?", answer: "Индекс ускоряет чтение и поиск, но занимает место и замедляет часть операций записи.", status: "Учу", tags: ["sql", "index"] },
+
+    { id: "q-011", topicId: "integrations-api", text: "Что такое интеграция систем?", answer: "Это связь систем для обмена данными или действиями через файлы, БД, API, брокеры сообщений или другие каналы.", status: "Учу", tags: ["integration", "api"] },
+    { id: "q-012", topicId: "integrations-api", text: "Как коротко рассказать про опыт интеграций на собеседовании?", answer: "Сказать, какие системы связывались, какие данные передавались, какой формат и метод использовались, какие ограничения и ошибки учитывались.", status: "Учу", tags: ["integration", "story"] },
+    { id: "q-013", topicId: "integrations-api", text: "Чем SOAP отличается от REST?", answer: "SOAP строгий протокол с XML и WSDL, REST архитектурный стиль вокруг ресурсов и HTTP, часто с JSON.", status: "Учу", tags: ["soap", "rest"] },
+    { id: "q-014", topicId: "integrations-api", text: "Что такое RPC?", answer: "Remote Procedure Call: одна система вызывает процедуру на другой системе как будто локально.", status: "Учу", tags: ["rpc", "api"] },
+    { id: "q-015", topicId: "integrations-api", text: "Что такое GraphQL в контексте API?", answer: "Подход, где клиент запрашивает только нужные поля через единую схему и один endpoint.", status: "Учу", tags: ["graphql", "api"] },
+    { id: "q-016", topicId: "integrations-api", text: "Какие HTTP-методы нужно помнить?", answer: "GET получает, POST создает или отправляет, PUT заменяет, PATCH частично обновляет, DELETE удаляет.", status: "Учу", tags: ["http", "methods"] },
+    { id: "q-017", topicId: "integrations-api", text: "Какие группы HTTP-кодов ответа важно знать?", answer: "1xx информация, 2xx успех, 3xx перенаправление, 4xx ошибка клиента, 5xx ошибка сервера.", status: "Учу", tags: ["http", "status"] },
+    { id: "q-018", topicId: "integrations-api", text: "Что важно описывать в API-требованиях?", answer: "Метод, URL, параметры, тело запроса, типы данных, обязательность, ответы, ошибки, авторизацию и ограничения.", status: "Учу", tags: ["api", "requirements"] },
+    { id: "q-019", topicId: "integrations-api", text: "Чем синхронная интеграция отличается от асинхронной?", answer: "Синхронная ждет ответа сразу, асинхронная передает сообщение и продолжает работу без ожидания немедленного результата.", status: "Учу", tags: ["integration", "async"] },
+    { id: "q-020", topicId: "integrations-api", text: "Зачем нужны брокеры сообщений?", answer: "Они развязывают системы, помогают обрабатывать события асинхронно и сглаживать нагрузку.", status: "Учу", tags: ["queue", "broker"] },
+
+    { id: "q-021", topicId: "requirements-analysis", text: "Что такое требование?", answer: "Формализованное описание потребности, поведения, ограничения или качества будущей системы.", status: "Учу", tags: ["requirements"] },
+    { id: "q-022", topicId: "requirements-analysis", text: "Чем функциональные требования отличаются от нефункциональных?", answer: "Функциональные описывают, что система делает. Нефункциональные описывают качество: скорость, надежность, безопасность, удобство.", status: "Учу", tags: ["requirements", "nfr"] },
+    { id: "q-023", topicId: "requirements-analysis", text: "Что такое User Story?", answer: "Краткое описание ценности для пользователя: как роль, я хочу действие, чтобы получить результат.", status: "Учу", tags: ["user-story"] },
+    { id: "q-024", topicId: "requirements-analysis", text: "Что такое Use Case?", answer: "Сценарий взаимодействия актера и системы с основной последовательностью, альтернативами и исключениями.", status: "Учу", tags: ["use-case"] },
+    { id: "q-025", topicId: "requirements-analysis", text: "Что такое acceptance criteria?", answer: "Проверяемые условия, по которым понятно, что история или требование выполнены корректно.", status: "Учу", tags: ["acceptance-criteria"] },
+    { id: "q-026", topicId: "requirements-analysis", text: "Чем DoR отличается от DoD?", answer: "DoR показывает готовность задачи к разработке, DoD показывает готовность результата к завершению.", status: "Учу", tags: ["dor", "dod"] },
+    { id: "q-027", topicId: "requirements-analysis", text: "Какие техники сбора требований стоит помнить?", answer: "Интервью, воркшоп, анкетирование, наблюдение, анализ документов, прототипирование и мозговой штурм.", status: "Учу", tags: ["elicitation"] },
+    { id: "q-028", topicId: "requirements-analysis", text: "Какие критерии качества требований важны?", answer: "Требования должны быть понятными, однозначными, полными, непротиворечивыми, проверяемыми и актуальными.", status: "Учу", tags: ["quality"] },
+    { id: "q-029", topicId: "requirements-analysis", text: "Что такое BPMN на уровне собеседования?", answer: "Нотация для описания бизнес-процессов через события, задачи, шлюзы, потоки и участников.", status: "Учу", tags: ["bpmn"] },
+    { id: "q-030", topicId: "requirements-analysis", text: "Что входит в документацию аналитика?", answer: "Требования, user stories, use cases, схемы процессов, API-описания, модели данных, прототипы и критерии приемки.", status: "Учу", tags: ["documentation"] },
+
+    { id: "q-031", topicId: "databases", text: "Какие типы БД нужно различать?", answer: "Реляционные SQL и NoSQL: документные, ключ-значение, графовые, колоночные.", status: "Учу", tags: ["database", "nosql"] },
+    { id: "q-032", topicId: "databases", text: "Что такое реляционная база данных?", answer: "Данные организованы в таблицы со строками, столбцами и связями через ключи.", status: "Учу", tags: ["relational-db"] },
+    { id: "q-033", topicId: "databases", text: "Что такое транзакция?", answer: "Логическая единица работы с данными, которая выполняется целиком или откатывается.", status: "Учу", tags: ["transaction"] },
+    { id: "q-034", topicId: "databases", text: "Что означает ACID?", answer: "Atomicity, Consistency, Isolation, Durability: атомарность, согласованность, изоляция и устойчивость изменений.", status: "Учу", tags: ["acid"] },
+    { id: "q-035", topicId: "databases", text: "Что такое первая нормальная форма?", answer: "Нет повторяющихся строк, значения атомарны, в ячейках нет списков и массивов.", status: "Учу", tags: ["1nf"] },
+    { id: "q-036", topicId: "databases", text: "Что такое вторая нормальная форма?", answer: "Таблица уже в 1НФ, и неключевые поля зависят от полного ключа, а не от его части.", status: "Учу", tags: ["2nf"] },
+    { id: "q-037", topicId: "databases", text: "Что такое третья нормальная форма?", answer: "Неключевые поля зависят только от первичного ключа, без транзитивных зависимостей друг от друга.", status: "Учу", tags: ["3nf"] },
+    { id: "q-038", topicId: "databases", text: "Чем вертикальное масштабирование отличается от горизонтального?", answer: "Вертикальное усиливает один сервер, горизонтальное распределяет нагрузку между несколькими серверами.", status: "Учу", tags: ["scaling"] },
+    { id: "q-039", topicId: "databases", text: "Чем репликация отличается от шардинга?", answer: "Репликация копирует данные между узлами, шардинг делит данные на части между узлами.", status: "Учу", tags: ["replication", "sharding"] },
+    { id: "q-040", topicId: "databases", text: "Какие NoSQL-БД можно привести как примеры?", answer: "MongoDB как документная, Redis как ключ-значение, Neo4j или OrientDB как графовая, Cassandra как колоночная.", status: "Учу", tags: ["nosql"] },
+
+    { id: "q-041", topicId: "architecture", text: "От чего зависит выбор архитектуры ПО?", answer: "От требований к масштабу, надежности, производительности, безопасности, стоимости изменений и эксплуатации.", status: "Учу", tags: ["architecture"] },
+    { id: "q-042", topicId: "architecture", text: "Что такое монолитная архитектура?", answer: "Все компоненты собраны в одно приложение. Проще стартовать, сложнее независимо масштабировать и менять части.", status: "Учу", tags: ["monolith"] },
+    { id: "q-043", topicId: "architecture", text: "Что такое клиент-серверная архитектура?", answer: "Клиент отвечает за интерфейс и взаимодействие, сервер хранит данные и бизнес-логику.", status: "Учу", tags: ["client-server"] },
+    { id: "q-044", topicId: "architecture", text: "Что такое SOA?", answer: "Сервис-ориентированная архитектура: система состоит из слабо связанных сервисов с унифицированными контрактами.", status: "Учу", tags: ["soa"] },
+    { id: "q-045", topicId: "architecture", text: "Что такое микросервисная архитектура?", answer: "Система делится на независимые маленькие сервисы, каждый отвечает за свою область и может разворачиваться отдельно.", status: "Учу", tags: ["microservices"] },
+    { id: "q-046", topicId: "architecture", text: "Какие плюсы микросервисов?", answer: "Независимое развертывание, гибкое масштабирование, технологическая автономность и лучшая изоляция команд.", status: "Учу", tags: ["microservices", "pros"] },
+    { id: "q-047", topicId: "architecture", text: "Какие минусы микросервисов?", answer: "Сложнее наблюдаемость, сеть, согласованность данных, тестирование, DevOps и управление контрактами.", status: "Учу", tags: ["microservices", "cons"] },
+    { id: "q-048", topicId: "architecture", text: "Что такое API Gateway?", answer: "Единая точка входа к сервисам, которая может заниматься маршрутизацией, авторизацией, лимитами и агрегацией ответов.", status: "Учу", tags: ["api-gateway"] },
+    { id: "q-049", topicId: "architecture", text: "Что такое отказоустойчивость?", answer: "Способность системы продолжать работу при сбоях отдельных компонентов или быстро восстанавливаться.", status: "Учу", tags: ["reliability"] },
+    { id: "q-050", topicId: "architecture", text: "Как объяснять trade-off архитектурного решения?", answer: "Называть, что решение улучшает, чем за это платим, какие риски появляются и почему в текущих условиях это оправдано.", status: "Учу", tags: ["tradeoff"] }
+  ]
+};

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prepbase MVP</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">MVP базы подготовки</p>
+          <h1>Prepbase</h1>
+        </div>
+        <div class="topbar-actions">
+          <button class="ghost-button" id="exportData" type="button">Экспорт JSON</button>
+          <button class="ghost-button" id="importData" type="button">Импорт JSON</button>
+          <button class="ghost-button" id="resetDemo" type="button">Сбросить демо</button>
+          <input id="importFile" type="file" accept="application/json,.json" hidden />
+        </div>
+      </header>
+
+      <section class="stats-grid" aria-label="Сводка">
+        <article class="metric">
+          <span class="metric-label">Прогресс задач</span>
+          <strong id="taskProgress">0%</strong>
+          <div class="progress-track"><span id="taskProgressBar"></span></div>
+        </article>
+        <article class="metric">
+          <span class="metric-label">Вопросов в базе</span>
+          <strong id="questionCount">0</strong>
+          <p id="repeatCount">0 на повторение</p>
+        </article>
+        <article class="metric">
+          <span class="metric-label">Активная тема</span>
+          <strong id="activeTopicName">Все темы</strong>
+          <p id="activeTopicMeta">Фильтр не выбран</p>
+        </article>
+      </section>
+
+      <section class="workspace">
+        <aside class="panel topics-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Подготовка</p>
+              <h2>Темы и задачи</h2>
+            </div>
+          </div>
+
+          <form class="stacked-form" id="topicForm">
+            <label>
+              Название темы
+              <input id="topicTitle" name="topicTitle" placeholder="Например, SQL" required />
+            </label>
+            <label>
+              Фокус
+              <input id="topicGoal" name="topicGoal" placeholder="Что должно стать понятным" required />
+            </label>
+            <button type="submit">Добавить тему</button>
+          </form>
+
+          <div class="topic-filters" id="topicFilters"></div>
+          <div class="topic-list" id="topicList"></div>
+        </aside>
+
+        <section class="panel tasks-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Текущий план</p>
+              <h2 id="taskPanelTitle">Задачи</h2>
+            </div>
+            <span class="pill" id="taskPanelCount">0</span>
+          </div>
+
+          <form class="task-form" id="taskForm">
+            <input id="taskTitle" name="taskTitle" placeholder="Новая задача подготовки" required />
+            <select id="taskTopic" name="taskTopic" aria-label="Тема задачи"></select>
+            <select id="taskPriority" name="taskPriority" aria-label="Приоритет">
+              <option value="Высокий">Высокий</option>
+              <option value="Средний" selected>Средний</option>
+              <option value="Низкий">Низкий</option>
+            </select>
+            <button id="taskSubmit" type="submit">Добавить</button>
+            <button class="ghost-button hidden" id="cancelTaskEdit" type="button">Отмена</button>
+          </form>
+
+          <div class="task-list" id="taskList"></div>
+        </section>
+      </section>
+
+      <section class="panel question-panel">
+        <div class="panel-heading question-heading">
+          <div>
+            <p class="eyebrow">База знаний</p>
+            <h2>Вопросы</h2>
+          </div>
+          <div class="question-tools">
+            <input id="questionSearch" placeholder="Поиск по вопросу, ответу или тегам" />
+            <select id="statusFilter" aria-label="Фильтр по статусу">
+              <option value="all">Все статусы</option>
+              <option value="Не знаю">Не знаю</option>
+              <option value="Учу">Учу</option>
+              <option value="Знаю">Знаю</option>
+              <option value="Повторить">Повторить</option>
+            </select>
+          </div>
+        </div>
+
+        <form class="question-form" id="questionForm">
+          <input id="questionText" name="questionText" placeholder="Вопрос" required />
+          <select id="questionTopic" name="questionTopic" aria-label="Тема вопроса"></select>
+          <select id="questionStatus" name="questionStatus" aria-label="Статус знания">
+            <option value="Не знаю">Не знаю</option>
+            <option value="Учу" selected>Учу</option>
+            <option value="Знаю">Знаю</option>
+            <option value="Повторить">Повторить</option>
+          </select>
+          <input id="questionTags" name="questionTags" placeholder="Теги через запятую" />
+          <textarea id="questionAnswer" name="questionAnswer" placeholder="Краткий ответ или тезисы" rows="3"></textarea>
+          <button id="questionSubmit" type="submit">Добавить вопрос</button>
+          <button class="ghost-button hidden" id="cancelQuestionEdit" type="button">Отмена</button>
+        </form>
+
+        <div class="question-list" id="questionList"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

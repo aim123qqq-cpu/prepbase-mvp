@@ -1,5 +1,5 @@
 window.PREPBASE_SKILL_STATS = {
-  "updatedAt": "2026-05-14T13:04:16.160Z",
+  "updatedAt": "2026-05-14T13:07:30.493Z",
   "since": "2024-12-31T21:00:00.000Z",
   "sources": [
     "https://remote-job.ru/",
@@ -95,10 +95,10 @@ window.PREPBASE_SKILL_STATS = {
     },
     {
       "name": "Английский",
-      "count": 14,
+      "count": 15,
       "sources": {
         "https://remote-job.ru/": 7,
-        "https://careerspace.app/": 1,
+        "https://careerspace.app/": 2,
         "https://jobrocket.ru/": 6
       }
     },
@@ -138,18 +138,18 @@ window.PREPBASE_SKILL_STATS = {
     },
     {
       "name": "Коммуникация",
-      "count": 8,
+      "count": 9,
       "sources": {
         "https://remote-job.ru/": 5,
-        "https://careerspace.app/": 3
+        "https://careerspace.app/": 4
       }
     },
     {
       "name": "Метрики",
-      "count": 6,
+      "count": 7,
       "sources": {
         "https://remote-job.ru/": 3,
-        "https://careerspace.app/": 3
+        "https://careerspace.app/": 4
       }
     },
     {
@@ -169,13 +169,6 @@ window.PREPBASE_SKILL_STATS = {
     },
     {
       "name": "BI",
-      "count": 2,
-      "sources": {
-        "https://careerspace.app/": 2
-      }
-    },
-    {
-      "name": "DataLens",
       "count": 2,
       "sources": {
         "https://careerspace.app/": 2
@@ -203,14 +196,7 @@ window.PREPBASE_SKILL_STATS = {
       }
     },
     {
-      "name": "A/B-тесты",
-      "count": 1,
-      "sources": {
-        "https://careerspace.app/": 1
-      }
-    },
-    {
-      "name": "ETL",
+      "name": "DataLens",
       "count": 1,
       "sources": {
         "https://careerspace.app/": 1
@@ -218,13 +204,6 @@ window.PREPBASE_SKILL_STATS = {
     },
     {
       "name": "Power BI",
-      "count": 1,
-      "sources": {
-        "https://careerspace.app/": 1
-      }
-    },
-    {
-      "name": "Tableau",
       "count": 1,
       "sources": {
         "https://careerspace.app/": 1

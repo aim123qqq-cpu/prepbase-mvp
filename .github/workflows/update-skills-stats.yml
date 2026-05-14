@@ -30,7 +30,7 @@ jobs:
       - name: Parse job site vacancies
         run: node scripts/parse-job-sites-skills.js
         env:
-          SINCE_DATE: "2026-01-01T00:00:00+03:00"
+          SINCE_DATE: "2025-01-01T00:00:00+03:00"
 
       - name: Commit updated stats
         run: |

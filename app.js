@@ -76,19 +76,28 @@ const seedState = window.PREPBASE_SEED ?? starterState;
 let state = loadState();
 let editingTaskId = null;
 let editingQuestionId = null;
+let activeView = "overview";
 
 const elements = {
+  appNav: document.querySelector(".app-nav"),
+  viewSections: document.querySelectorAll("[data-view]"),
+  navTabs: document.querySelectorAll("[data-view-target]"),
   taskProgress: document.querySelector("#taskProgress"),
   taskProgressBar: document.querySelector("#taskProgressBar"),
   questionCount: document.querySelector("#questionCount"),
   repeatCount: document.querySelector("#repeatCount"),
   activeTopicName: document.querySelector("#activeTopicName"),
   activeTopicMeta: document.querySelector("#activeTopicMeta"),
+  overviewFocusTitle: document.querySelector("#overviewFocusTitle"),
+  overviewFocusText: document.querySelector("#overviewFocusText"),
   topicForm: document.querySelector("#topicForm"),
   topicTitle: document.querySelector("#topicTitle"),
   topicGoal: document.querySelector("#topicGoal"),
   topicFilters: document.querySelector("#topicFilters"),
   topicList: document.querySelector("#topicList"),
+  knowledgePanelTitle: document.querySelector("#knowledgePanelTitle"),
+  knowledgePanelCount: document.querySelector("#knowledgePanelCount"),
+  knowledgeMap: document.querySelector("#knowledgeMap"),
   taskForm: document.querySelector("#taskForm"),
   taskTitle: document.querySelector("#taskTitle"),
   taskTopic: document.querySelector("#taskTopic"),
@@ -213,13 +222,30 @@ function getVisibleQuestions() {
 }
 
 function render() {
+  renderView();
   renderStats();
   renderTopicControls();
   renderTopicCards();
+  renderKnowledgeMap();
   renderTaskFormOptions();
   renderTasks();
   renderQuestionFormOptions();
   renderQuestions();
+}
+
+function setActiveView(view) {
+  activeView = view;
+  renderView();
+}
+
+function renderView() {
+  elements.viewSections.forEach((section) => {
+    section.classList.toggle("active", section.dataset.view === activeView);
+  });
+
+  elements.navTabs.forEach((tab) => {
+    tab.classList.toggle("active", tab.dataset.viewTarget === activeView);
+  });
 }
 
 function renderStats() {
@@ -235,6 +261,10 @@ function renderStats() {
   elements.repeatCount.textContent = `${repeat} на повторение`;
   elements.activeTopicName.textContent = activeTopic ? activeTopic.title : "Все темы";
   elements.activeTopicMeta.textContent = activeTopic ? activeTopic.goal : "Фильтр не выбран";
+  elements.overviewFocusTitle.textContent = activeTopic ? activeTopic.title : "Все темы";
+  elements.overviewFocusText.textContent = activeTopic
+    ? activeTopic.goal
+    : "Выберите тему в базе знаний, чтобы сузить задачи и вопросы.";
 }
 
 function renderTopicControls() {
@@ -268,6 +298,43 @@ function renderTopicCards() {
           <div class="topic-actions">
             <button class="small-button" data-topic-filter="${topic.id}" type="button">Открыть</button>
             <span class="tag">${questions} вопросов</span>
+          </div>
+        </article>
+      `;
+    })
+    .join("");
+}
+
+function renderKnowledgeMap() {
+  const activeTopic = getActiveTopic();
+  const topics = activeTopic ? [activeTopic] : state.topics;
+
+  elements.knowledgePanelTitle.textContent = activeTopic ? activeTopic.title : "Все темы";
+  elements.knowledgePanelCount.textContent = `${topics.length} ${getPlural(topics.length, "тема", "темы", "тем")}`;
+
+  elements.knowledgeMap.innerHTML = topics
+    .map((topic) => {
+      const tasks = state.tasks.filter((task) => task.topicId === topic.id);
+      const questions = state.questions.filter((question) => question.topicId === topic.id);
+      const done = tasks.filter((task) => task.done).length;
+      const repeat = questions.filter((question) => question.status === "Повторить").length;
+
+      return `
+        <article class="knowledge-node ${state.activeTopicId === topic.id ? "active" : ""}">
+          <div class="knowledge-node-top">
+            <div>
+              <p class="knowledge-node-title">${escapeHtml(topic.title)}</p>
+              <p class="knowledge-node-goal">${escapeHtml(topic.goal)}</p>
+            </div>
+            <span class="pill">${questions.length} вопросов</span>
+          </div>
+          <p class="knowledge-node-meta">
+            ${done}/${tasks.length} задач готово · ${repeat} на повторение
+          </p>
+          <div class="knowledge-node-actions">
+            <button class="small-button" data-topic-filter="${topic.id}" type="button">Сфокусироваться</button>
+            <button class="small-button" data-open-view="tasks" data-topic-filter="${topic.id}" type="button">К задачам</button>
+            <button class="small-button" data-open-view="questions" data-topic-filter="${topic.id}" type="button">К вопросам</button>
           </div>
         </article>
       `;
@@ -456,6 +523,20 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
+function getPlural(count, one, few, many) {
+  const mod10 = count % 10;
+  const mod100 = count % 100;
+  if (mod10 === 1 && mod100 !== 11) return one;
+  if (mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)) return few;
+  return many;
+}
+
+elements.appNav.addEventListener("click", (event) => {
+  const view = event.target.dataset.viewTarget;
+  if (!view) return;
+  setActiveView(view);
+});
+
 elements.topicForm.addEventListener("submit", (event) => {
   event.preventDefault();
   const title = elements.topicTitle.value.trim();
@@ -483,6 +564,20 @@ elements.topicList.addEventListener("click", (event) => {
   if (!topicId) return;
   state.activeTopicId = topicId;
   saveState();
+  render();
+});
+
+elements.knowledgeMap.addEventListener("click", (event) => {
+  const topicId = event.target.dataset.topicFilter;
+  const view = event.target.dataset.openView;
+  if (!topicId && !view) return;
+
+  if (topicId) {
+    state.activeTopicId = topicId;
+    saveState();
+  }
+
+  if (view) activeView = view;
   render();
 });
 

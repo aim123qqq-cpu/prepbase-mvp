@@ -1,0 +1,434 @@
+:root {
+  color-scheme: light;
+  --bg: #f4f1eb;
+  --surface: #fffdfa;
+  --surface-strong: #f9f6f0;
+  --ink: #22201d;
+  --muted: #6f675d;
+  --line: #ded6ca;
+  --accent: #176b63;
+  --accent-soft: #d8ebe7;
+  --warn: #b85c38;
+  --ok: #386641;
+  --shadow: 0 16px 44px rgba(54, 44, 31, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    linear-gradient(180deg, rgba(23, 107, 99, 0.08), rgba(244, 241, 235, 0) 340px),
+    var(--bg);
+  color: var(--ink);
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  border: 0;
+  border-radius: 8px;
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  min-height: 42px;
+  padding: 0 16px;
+}
+
+button:hover {
+  filter: brightness(0.94);
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  color: var(--ink);
+  outline: none;
+  padding: 11px 12px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+label {
+  display: grid;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.app-shell {
+  width: min(1360px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 28px 0 42px;
+}
+
+.topbar,
+.panel-heading,
+.question-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.topbar {
+  margin-bottom: 22px;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2.1rem, 5vw, 4.5rem);
+  line-height: 0.95;
+  letter-spacing: 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+  letter-spacing: 0;
+}
+
+.eyebrow {
+  color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.ghost-button {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.topbar-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.metric,
+.panel {
+  border: 1px solid rgba(222, 214, 202, 0.9);
+  border-radius: 8px;
+  background: rgba(255, 253, 250, 0.86);
+  box-shadow: var(--shadow);
+}
+
+.metric {
+  display: grid;
+  align-content: space-between;
+  min-height: 128px;
+  padding: 18px;
+}
+
+.metric-label {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.metric strong {
+  display: block;
+  margin: 10px 0 6px;
+  font-size: 2rem;
+}
+
+.metric p {
+  color: var(--muted);
+}
+
+.progress-track {
+  height: 10px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e9e1d6;
+}
+
+.progress-track span {
+  display: block;
+  width: 0%;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transition: width 180ms ease;
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.panel {
+  padding: 18px;
+}
+
+.stacked-form,
+.question-form {
+  display: grid;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.task-form {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(130px, 180px) minmax(120px, 150px) auto auto;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.question-form {
+  grid-template-columns: minmax(260px, 1.4fr) minmax(140px, 0.7fr) minmax(120px, 0.6fr) minmax(160px, 0.8fr);
+}
+
+.question-form textarea,
+.question-form button {
+  grid-column: 1 / -1;
+}
+
+.question-form #questionSubmit,
+.question-form #cancelQuestionEdit {
+  grid-column: auto;
+}
+
+.topic-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0 12px;
+}
+
+.filter-chip,
+.pill,
+.tag,
+.status {
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  line-height: 1;
+  padding: 8px 10px;
+}
+
+.filter-chip {
+  border: 1px solid var(--line);
+  background: white;
+  color: var(--muted);
+  min-height: auto;
+}
+
+.filter-chip.active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.topic-list,
+.task-list,
+.question-list {
+  display: grid;
+  gap: 10px;
+}
+
+.topic-card,
+.task-card,
+.question-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  padding: 14px;
+}
+
+.topic-card {
+  display: grid;
+  gap: 12px;
+}
+
+.topic-card.active {
+  border-color: var(--accent);
+  box-shadow: inset 4px 0 0 var(--accent);
+}
+
+.editing {
+  border-color: var(--accent);
+  box-shadow: inset 4px 0 0 var(--accent);
+}
+
+.topic-top,
+.task-card,
+.question-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.topic-title,
+.task-title,
+.question-title {
+  font-weight: 850;
+}
+
+.topic-goal,
+.task-meta,
+.question-answer,
+.empty-state {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.topic-actions,
+.task-actions,
+.question-actions,
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.small-button {
+  min-height: 32px;
+  border: 1px solid var(--line);
+  background: var(--surface-strong);
+  color: var(--ink);
+  font-size: 0.82rem;
+  padding: 0 10px;
+}
+
+.danger {
+  color: var(--warn);
+}
+
+.hidden {
+  display: none !important;
+}
+
+.done .task-title {
+  color: var(--muted);
+  text-decoration: line-through;
+}
+
+.question-tools {
+  display: grid;
+  grid-template-columns: minmax(220px, 360px) minmax(140px, 180px);
+  gap: 10px;
+}
+
+.question-panel {
+  margin-bottom: 20px;
+}
+
+.question-list {
+  margin-top: 16px;
+}
+
+.question-card {
+  display: grid;
+  gap: 12px;
+}
+
+.status {
+  background: #ece5dc;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.status[data-status="Знаю"] {
+  background: #e0ecd9;
+  color: var(--ok);
+}
+
+.status[data-status="Повторить"] {
+  background: #f6dfd2;
+  color: var(--warn);
+}
+
+.status[data-status="Учу"] {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.tag {
+  background: var(--surface-strong);
+  color: var(--muted);
+}
+
+.empty-state {
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+}
+
+@media (max-width: 980px) {
+  .stats-grid,
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .task-form,
+  .question-form,
+  .question-tools {
+    grid-template-columns: 1fr;
+  }
+
+  .question-form #questionSubmit,
+  .question-form #cancelQuestionEdit {
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .app-shell {
+    width: min(100% - 20px, 1360px);
+    padding-top: 18px;
+  }
+
+  .topbar,
+  .topbar-actions,
+  .panel-heading,
+  .question-heading,
+  .task-card,
+  .question-top {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

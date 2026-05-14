@@ -4,6 +4,12 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 3 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/parse-telegram-skills.js"
+      - ".github/workflows/update-skills-stats.yml"
 
 permissions:
   contents: write
@@ -23,6 +29,8 @@ jobs:
 
       - name: Parse Telegram vacancies
         run: node scripts/parse-telegram-skills.js
+        env:
+          SINCE_DATE: "2026-01-01T00:00:00+03:00"
 
       - name: Commit updated stats
         run: |

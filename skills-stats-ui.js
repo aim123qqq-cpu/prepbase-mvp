@@ -34,7 +34,6 @@
       <span>${maxCount}</span>
     </div>
     ${skills
-    .slice(0, 30)
     .map((skill) => {
       const width = Math.max(6, Math.round((skill.count / maxCount) * 100));
       return `

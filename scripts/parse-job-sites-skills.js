@@ -1,48 +1,28 @@
 const fs = require("node:fs");
 const { setTimeout: delay } = require("node:timers/promises");
-const cheerio = require("cheerio");
 
-const SINCE_DATE = new Date(process.env.SINCE_DATE || "2026-01-01T00:00:00+03:00");
 const OUT_FILE = "skills-stats.js";
-const MAX_CRAWL_PAGES_PER_SOURCE = Number(process.env.MAX_CRAWL_PAGES_PER_SOURCE || 70);
-const MAX_JOB_PAGES_PER_SOURCE = Number(process.env.MAX_JOB_PAGES_PER_SOURCE || 60);
-const MAX_SITEMAP_FILES_PER_SOURCE = Number(process.env.MAX_SITEMAP_FILES_PER_SOURCE || 10);
-const MAX_SITEMAP_URLS_PER_SOURCE = Number(process.env.MAX_SITEMAP_URLS_PER_SOURCE || 220);
-const REQUEST_TIMEOUT_MS = Number(process.env.REQUEST_TIMEOUT_MS || 9000);
-const REQUEST_DELAY_MS = Number(process.env.REQUEST_DELAY_MS || 250);
+const HH_API_BASE = "https://api.hh.ru";
+const USER_AGENT = process.env.HH_USER_AGENT || "prepbase-mvp/0.1 (aim123qqq-cpu@users.noreply.github.com)";
+const ACCESS_TOKEN = process.env.HH_ACCESS_TOKEN || "";
+const SEARCH_QUERIES = splitEnvList(process.env.HH_SEARCH_QUERIES, [
+  "Системный аналитик",
+  "Бизнес-аналитик",
+  "Бизнес аналитик"
+]);
+const SEARCH_AREA = process.env.HH_AREA || "113";
+const SEARCH_FIELDS = splitEnvList(process.env.HH_SEARCH_FIELDS, ["name"]);
+const PER_PAGE = clampNumber(process.env.HH_PER_PAGE, 1, 100, 100);
+const MAX_SEARCH_PAGES_PER_QUERY = clampNumber(process.env.HH_MAX_SEARCH_PAGES_PER_QUERY, 1, 20, 20);
+const MAX_DETAILS = clampNumber(process.env.HH_MAX_DETAILS, 1, 2000, 2000);
+const REQUEST_TIMEOUT_MS = clampNumber(process.env.REQUEST_TIMEOUT_MS, 1000, 30000, 12000);
+const REQUEST_DELAY_MS = clampNumber(process.env.REQUEST_DELAY_MS, 0, 5000, 250);
+const DATE_FROM = parseDateValue(process.env.HH_DATE_FROM || process.env.SINCE_DATE);
 
-const SOURCES = [
-  {
-    name: "remote-job.ru",
-    url: "https://remote-job.ru/",
-    seeds: [
-      "https://remote-job.ru/",
-      "https://remote-job.ru/?q=%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA"
-    ],
-    sitemaps: ["https://remote-job.ru/sitemap.xml"]
-  },
-  {
-    name: "careerspace.app",
-    url: "https://careerspace.app/",
-    seeds: ["https://careerspace.app/"],
-    sitemaps: ["https://careerspace.app/sitemap.xml"]
-  },
-  {
-    name: "jobrocket.ru",
-    url: "https://jobrocket.ru/",
-    seeds: ["https://jobrocket.ru/"],
-    sitemaps: ["https://jobrocket.ru/sitemap.xml"]
-  },
-  {
-    name: "getmatch.ru",
-    url: "https://getmatch.ru/",
-    seeds: ["https://getmatch.ru/"],
-    sitemaps: ["https://getmatch.ru/sitemap.xml"]
-  }
-];
-
-const SKILLS = [
+const FALLBACK_SKILLS = [
   ["SQL", /\bSQL\b|PostgreSQL|MySQL|ClickHouse|Greenplum|MSSQL|Oracle/i],
+  ["PostgreSQL", /PostgreSQL|Postgres/i],
+  ["ClickHouse", /ClickHouse/i],
   ["Python", /\bPython\b|pandas|numpy|jupyter/i],
   ["Excel", /\bExcel\b|Google Sheets|таблиц/i],
   ["Power BI", /Power\s?BI|DAX|Power Query/i],
@@ -51,18 +31,24 @@ const SKILLS = [
   ["BI", /\bBI\b|Business Intelligence|дашборд/i],
   ["A/B-тесты", /A\/B|AB[-\s]?тест|эксперимент/i],
   ["Метрики", /метрик|KPI|OKR|юнит[-\s]?экономик/i],
-  ["Продуктовая аналитика", /продуктов(ый|ая|ого) аналит|product analyst|Amplitude|Mixpanel|AppMetrica/i],
-  ["Системный анализ", /системн(ый|ого) аналит|system analyst|UML|BPMN|sequence diagram|use case/i],
-  ["Бизнес-анализ", /бизнес[-\s]?аналит|business analyst|BRD|FRD|stakeholder/i],
+  ["Системный анализ", /системн(ый|ого) анализ|system analysis|system analyst/i],
+  ["Бизнес-анализ", /бизнес[-\s]?анализ|business analysis|business analyst/i],
   ["ТЗ", /\bТЗ\b|техническ(ое|ого) задан/i],
   ["API", /\bAPI\b|REST|SOAP|GraphQL|Swagger|OpenAPI|Postman/i],
+  ["REST API", /\bREST\b|REST API|RESTful/i],
+  ["SOAP", /\bSOAP\b/i],
+  ["GraphQL", /GraphQL/i],
+  ["Swagger/OpenAPI", /Swagger|OpenAPI/i],
   ["Интеграции", /интеграц|Kafka|RabbitMQ|message broker|шина данных/i],
+  ["Kafka", /Kafka/i],
+  ["RabbitMQ", /RabbitMQ/i],
   ["BPMN", /\bBPMN\b|Camunda/i],
   ["UML", /\bUML\b|ER[-\s]?diagram|диаграмм/i],
-  ["Agile/Scrum", /Agile|Scrum|Kanban|Jira|Confluence/i],
+  ["Jira", /\bJira\b/i],
+  ["Confluence", /Confluence/i],
+  ["Agile/Scrum", /Agile|Scrum|Kanban/i],
   ["ETL", /\bETL\b|ELT|Airflow|dbt/i],
   ["DWH", /\bDWH\b|Data Warehouse|хранилищ.*данн/i],
-  ["ML/DS", /\bML\b|Machine Learning|Data Science|scikit|модел/i],
   ["Git", /\bGit\b|GitLab|GitHub/i],
   ["Linux", /\bLinux\b|bash|shell/i],
   ["Английский", /английск|English|Upper[-\s]?Intermediate|B2|C1/i],
@@ -70,328 +56,165 @@ const SKILLS = [
 ];
 
 async function main() {
-  const totals = new Map(SKILLS.map(([name]) => [name, { name, count: 0, sources: {} }]));
-  const vacancies = new Map();
+  const seenVacancyIds = new Set();
+  const searchStats = [];
   const errors = [];
-  const sourceStats = [];
-  let totalPagesFetched = 0;
 
-  for (const source of SOURCES) {
-    const stat = createSourceStat(source);
+  for (const query of SEARCH_QUERIES) {
+    for (const searchField of SEARCH_FIELDS) {
+      const stat = createSearchStat(query, searchField);
+
+      try {
+        await collectVacancyIds(query, searchField, seenVacancyIds, stat);
+      } catch (error) {
+        stat.errors.push(error.message);
+        errors.push(`${query}: ${error.message}`);
+      }
+
+      searchStats.push(stat);
+    }
+  }
+
+  const searchPagesFetched = searchStats.reduce((sum, stat) => sum + stat.pagesFetched, 0);
+  if (searchPagesFetched === 0 && errors.length) {
+    throw new Error(`HH API search failed before collecting vacancies: ${unique(errors).join("; ")}`);
+  }
+
+  const totals = new Map();
+  const vacancies = [];
+  let detailsFetched = 0;
+
+  for (const id of seenVacancyIds) {
+    if (detailsFetched >= MAX_DETAILS) break;
 
     try {
-      const candidates = await collectCandidateUrls(source, stat);
-      stat.candidateUrls = candidates.length;
+      const vacancy = await fetchVacancyDetails(id);
+      detailsFetched += 1;
 
-      for (const candidate of candidates.slice(0, MAX_JOB_PAGES_PER_SOURCE)) {
-        if (vacancies.has(candidate.url)) continue;
+      if (!vacancy || vacancy.archived) continue;
+      const publishedAt = parseDateValue(vacancy.published_at || vacancy.created_at);
+      if (DATE_FROM && publishedAt && publishedAt < DATE_FROM) continue;
 
-        const parsed = await parseVacancyCandidate(candidate, source, stat);
-        if (!parsed) continue;
+      const skills = extractSkills(vacancy);
+      if (!skills.length) continue;
 
-        totalPagesFetched += 1;
-        stat.pagesFetched += 1;
+      const sourceUrl = vacancy.alternate_url || `${HH_API_BASE}/vacancies/${id}`;
+      vacancies.push({
+        id,
+        url: sourceUrl,
+        source: "https://api.hh.ru/",
+        title: vacancy.name,
+        employer: vacancy.employer?.name || null,
+        area: vacancy.area?.name || null,
+        date: publishedAt ? publishedAt.toISOString() : null,
+        skills
+      });
 
-        const matchedSkills = matchSkills(`${parsed.title}\n${parsed.text}`);
-        if (!matchedSkills.length) continue;
-
-        vacancies.set(candidate.url, {
-          url: candidate.url,
-          source: source.url,
-          title: parsed.title,
-          date: parsed.date ? parsed.date.toISOString() : null,
-          skills: matchedSkills
-        });
-
-        stat.vacancies += 1;
-        for (const skillName of matchedSkills) {
-          const skill = totals.get(skillName);
-          skill.count += 1;
-          skill.sources[source.url] = (skill.sources[source.url] || 0) + 1;
-        }
+      for (const skillName of skills) {
+        const skill = getOrCreateSkill(totals, skillName);
+        skill.count += 1;
+        skill.sources["https://api.hh.ru/"] = (skill.sources["https://api.hh.ru/"] || 0) + 1;
       }
     } catch (error) {
-      stat.errors.push(error.message);
-      errors.push(`${source.name}: ${error.message}`);
+      errors.push(`vacancy ${id}: ${error.message}`);
     }
-
-    stat.errors = unique(stat.errors).slice(0, 12);
-    sourceStats.push(stat);
   }
 
   const skills = [...totals.values()]
-    .filter((skill) => skill.count > 0)
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "ru"));
 
   const payload = {
     updatedAt: new Date().toISOString(),
-    since: SINCE_DATE.toISOString(),
-    parser: "node-fetch + cheerio",
-    sources: SOURCES.map((source) => source.url),
-    totalPagesFetched,
-    totalVacancies: vacancies.size,
-    sourceStats,
+    since: DATE_FROM ? DATE_FROM.toISOString() : null,
+    parser: "hh.ru public API",
+    api: `${HH_API_BASE}/vacancies`,
+    queries: SEARCH_QUERIES,
+    searchFields: SEARCH_FIELDS,
+    area: SEARCH_AREA,
+    sources: ["https://api.hh.ru/"],
+    totalSearchResults: searchStats.reduce((sum, stat) => sum + stat.found, 0),
+    totalVacancies: vacancies.length,
+    detailsFetched,
+    sourceStats: [
+      {
+        source: "https://api.hh.ru/",
+        name: "hh.ru",
+        engine: "public API",
+        searchQueries: SEARCH_QUERIES.length * SEARCH_FIELDS.length,
+        pagesFetched: searchPagesFetched,
+        vacancies: vacancies.length,
+        errors: unique(errors).slice(0, 20)
+      }
+    ],
+    searchStats,
     skills,
-    errors
+    vacancies,
+    errors: unique(errors)
   };
 
   fs.writeFileSync(OUT_FILE, `window.PREPBASE_SKILL_STATS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
-  console.log(`Parsed ${payload.totalVacancies} vacancies from ${payload.sources.length} job sites.`);
+  console.log(`Parsed ${payload.totalVacancies} hh.ru vacancies and ${payload.skills.length} skills.`);
 }
 
-function createSourceStat(source) {
-  return {
-    source: source.url,
-    name: source.name,
-    engine: "cheerio",
-    crawlPagesFetched: 0,
-    pagesFetched: 0,
-    candidateUrls: 0,
-    structuredJobPostings: 0,
-    vacancies: 0,
-    errors: []
-  };
-}
+async function collectVacancyIds(query, searchField, seenVacancyIds, stat) {
+  for (let page = 0; page < MAX_SEARCH_PAGES_PER_QUERY; page += 1) {
+    const data = await fetchJson("/vacancies", {
+      text: query,
+      search_field: searchField,
+      area: SEARCH_AREA,
+      per_page: String(PER_PAGE),
+      page: String(page)
+    });
 
-async function collectCandidateUrls(source, stat) {
-  const sourceHost = getComparableHost(source.url);
-  const candidates = new Map();
-  const crawlQueue = [];
-  const visited = new Set();
+    stat.pagesFetched += 1;
+    stat.found = Math.max(stat.found, Number(data.found || 0));
 
-  for (const sitemapUrl of source.sitemaps) {
-    try {
-      const sitemapUrls = await readSitemapUrls(sitemapUrl, sourceHost, stat);
-      for (const item of sitemapUrls) {
-        if (isRelevantUrl(item.url)) addCandidate(candidates, item.url, item.lastmod);
-        if (shouldCrawlUrl(item.url)) crawlQueue.push(item.url);
-      }
-    } catch (error) {
-      stat.errors.push(`${sitemapUrl}: ${error.message}`);
-    }
-  }
-
-  for (const seed of source.seeds) {
-    crawlQueue.push(seed);
-    if (isRelevantUrl(seed)) addCandidate(candidates, seed);
-  }
-
-  while (crawlQueue.length && visited.size < MAX_CRAWL_PAGES_PER_SOURCE) {
-    const pageUrl = normalizeUrl(crawlQueue.shift());
-    if (!pageUrl || visited.has(pageUrl) || !isSameHost(pageUrl, sourceHost)) continue;
-
-    visited.add(pageUrl);
-
-    let body;
-    try {
-      body = await fetchText(pageUrl);
-    } catch (error) {
-      stat.errors.push(`${pageUrl}: ${error.message}`);
-      continue;
+    for (const item of data.items || []) {
+      if (!item.id || seenVacancyIds.has(item.id)) continue;
+      seenVacancyIds.add(item.id);
+      stat.vacancyIds += 1;
     }
 
-    stat.crawlPagesFetched += 1;
-    const $ = cheerio.load(body);
-    const links = extractLinks($, pageUrl)
-      .filter((url) => isSameHost(url, sourceHost))
-      .filter((url) => isRelevantUrl(url) || shouldCrawlUrl(url));
-
-    for (const link of links) {
-      if (isRelevantUrl(link)) addCandidate(candidates, link);
-      if (!visited.has(link) && shouldCrawlUrl(link)) crawlQueue.push(link);
-    }
-  }
-
-  return [...candidates.values()];
-}
-
-async function readSitemapUrls(url, sourceHost, stat, seen = new Set()) {
-  const normalized = normalizeUrl(url);
-  if (!normalized || seen.has(normalized)) return [];
-  if (seen.size >= MAX_SITEMAP_FILES_PER_SOURCE) return [];
-  seen.add(normalized);
-
-  const body = await fetchText(normalized);
-  const $ = cheerio.load(body, { xmlMode: true });
-  const urls = [];
-
-  for (const element of $("sitemap").toArray()) {
-    if (urls.length >= MAX_SITEMAP_URLS_PER_SOURCE) break;
-    const loc = normalizeUrl($(element).find("loc").first().text());
-    if (!loc || !isSameHost(loc, sourceHost)) continue;
-
-    const lastmod = parseDateValue($(element).find("lastmod").first().text());
-    if (lastmod && lastmod < SINCE_DATE) continue;
-
-    try {
-      urls.push(...(await readSitemapUrls(loc, sourceHost, stat, seen)));
-    } catch (error) {
-      stat.errors.push(`${loc}: ${error.message}`);
-    }
-  }
-
-  for (const element of $("url").toArray()) {
-    if (urls.length >= MAX_SITEMAP_URLS_PER_SOURCE) break;
-    const loc = normalizeUrl($(element).find("loc").first().text());
-    if (!loc || !isSameHost(loc, sourceHost)) continue;
-
-    const lastmod = parseDateValue($(element).find("lastmod").first().text());
-    if (lastmod && lastmod < SINCE_DATE) continue;
-    urls.push({ url: loc, lastmod });
-  }
-
-  return urls;
-}
-
-async function parseVacancyCandidate(candidate, source, stat) {
-  let body;
-  try {
-    body = await fetchText(candidate.url);
-  } catch (error) {
-    stat.errors.push(`${candidate.url}: ${error.message}`);
-    return null;
-  }
-
-  const $ = cheerio.load(body);
-  const structuredJobs = extractStructuredJobs($, candidate.url);
-  if (structuredJobs.length) stat.structuredJobPostings += structuredJobs.length;
-
-  const title = normalizeText(
-    structuredJobs[0]?.title ||
-      $("h1").first().text() ||
-      $("meta[property='og:title']").attr("content") ||
-      $("title").first().text()
-  );
-  const text = collectPageText($, structuredJobs);
-  const date = extractDate($, structuredJobs, candidate.lastmod);
-
-  if (date && date < SINCE_DATE) return null;
-  if (!isLikelyVacancy(candidate.url, title, text, structuredJobs.length > 0)) return null;
-
-  return { title, text, date, source: source.url };
-}
-
-function extractStructuredJobs($, pageUrl) {
-  const jobs = [];
-
-  $("script[type='application/ld+json']").each((_, element) => {
-    const raw = $(element).contents().text().trim();
-    if (!raw) return;
-
-    for (const item of parseJsonLd(raw)) {
-      if (!isJobPosting(item)) continue;
-      jobs.push({
-        title: normalizeText(item.title || item.name || ""),
-        url: normalizeUrl(item.url || pageUrl, pageUrl),
-        datePosted: parseDateValue(item.datePosted || item.datePublished),
-        text: normalizeText([
-          item.description,
-          item.responsibilities,
-          item.qualifications,
-          item.skills,
-          item.experienceRequirements,
-          item.educationRequirements,
-          item.employmentType,
-          item.industry
-        ].filter(Boolean).join(" "))
-      });
-    }
-  });
-
-  return jobs;
-}
-
-function parseJsonLd(raw) {
-  try {
-    return flattenJsonLd(JSON.parse(raw));
-  } catch {
-    return [];
+    if (page + 1 >= Number(data.pages || 0)) break;
   }
 }
 
-function flattenJsonLd(value) {
-  if (!value) return [];
-  if (Array.isArray(value)) return value.flatMap(flattenJsonLd);
-  if (typeof value !== "object") return [];
-
-  const graph = Array.isArray(value["@graph"]) ? value["@graph"].flatMap(flattenJsonLd) : [];
-  return [value, ...graph];
+async function fetchVacancyDetails(id) {
+  return fetchJson(`/vacancies/${encodeURIComponent(id)}`);
 }
 
-function isJobPosting(item) {
-  const type = item["@type"];
-  const types = Array.isArray(type) ? type : [type];
-  return types.filter(Boolean).some((value) => String(value).toLowerCase() === "jobposting");
-}
-
-function collectPageText($, structuredJobs) {
-  const structuredText = structuredJobs.map((job) => `${job.title} ${job.text}`).join(" ");
-  $("script, style, noscript, svg").remove();
-
-  const semanticText = [
-    $("main").text(),
-    $("article").text(),
-    $("[class*='vacancy'], [class*='job'], [class*='career'], [class*='position']").text(),
-    $("body").text()
-  ].map(normalizeText).filter(Boolean).join(" ");
-
-  return normalizeText(`${structuredText} ${semanticText}`);
-}
-
-function extractDate($, structuredJobs, fallback) {
-  const candidates = [
-    ...structuredJobs.map((job) => job.datePosted),
-    fallback,
-    $("time[datetime]").first().attr("datetime"),
-    $("meta[property='article:published_time']").attr("content"),
-    $("meta[name='date']").attr("content"),
-    $("meta[itemprop='datePosted']").attr("content")
-  ];
-
-  const bodyText = $("body").text();
-  for (const match of bodyText.matchAll(/\b20\d{2}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:?\d{2})?)?/g)) {
-    candidates.push(match[0]);
-  }
-
-  for (const value of candidates) {
-    const date = parseDateValue(value);
-    if (date) return date;
-  }
-
-  return null;
-}
-
-function addCandidate(map, url, lastmod = null) {
-  const normalized = normalizeUrl(url);
-  if (!normalized) return;
-  if (!map.has(normalized)) map.set(normalized, { url: normalized, lastmod });
-}
-
-async function fetchText(url, redirects = 0) {
-  if (redirects > 5) throw new Error("Too many redirects");
+async function fetchJson(path, query = {}) {
   await delay(REQUEST_DELAY_MS);
+
+  const url = new URL(path, HH_API_BASE);
+  for (const [key, value] of Object.entries(query)) {
+    if (value !== undefined && value !== null && value !== "") url.searchParams.set(key, value);
+  }
 
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
 
   try {
+    const headers = {
+      "User-Agent": USER_AGENT,
+      "HH-User-Agent": USER_AGENT,
+      Accept: "application/json",
+      "Accept-Language": "ru,en;q=0.8"
+    };
+
+    if (ACCESS_TOKEN) headers.Authorization = `Bearer ${ACCESS_TOKEN}`;
+
     const response = await fetch(url, {
-      redirect: "manual",
       signal: controller.signal,
-      headers: {
-        "User-Agent": "PrepbaseMVP/1.0 (+https://github.com/aim123qqq-cpu/prepbase-mvp)",
-        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "ru,en;q=0.8"
-      }
+      headers
     });
 
-    if (response.status >= 300 && response.status < 400 && response.headers.get("location")) {
-      const nextUrl = new URL(response.headers.get("location"), url).toString();
-      return fetchText(nextUrl, redirects + 1);
+    if (!response.ok) {
+      const text = await response.text().catch(() => "");
+      throw new Error(`HTTP ${response.status}${text ? `: ${text.slice(0, 180)}` : ""}`);
     }
 
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    return response.text();
+    return response.json();
   } catch (error) {
     if (error.name === "AbortError") throw new Error("Request timeout");
     throw error;
@@ -400,79 +223,110 @@ async function fetchText(url, redirects = 0) {
   }
 }
 
-function extractLinks($, baseUrl) {
-  const links = new Set();
+function extractSkills(vacancy) {
+  const skills = new Map();
 
-  $("[href], [data-href]").each((_, element) => {
-    const raw = $(element).attr("href") || $(element).attr("data-href");
-    if (!raw || raw.startsWith("#") || raw.startsWith("mailto:") || raw.startsWith("tel:")) return;
-
-    const normalized = normalizeUrl(raw, baseUrl);
-    if (normalized) links.add(normalized);
-  });
-
-  return [...links];
-}
-
-function matchSkills(text) {
-  return SKILLS.filter(([, pattern]) => pattern.test(text)).map(([name]) => name);
-}
-
-function isLikelyVacancy(url, title, text, hasStructuredJob) {
-  const lowerTitle = title.toLowerCase();
-  const lowerText = text.toLowerCase();
-  const path = new URL(url).pathname.toLowerCase();
-  const hasRole = /(аналитик|analyst|business|system|product|data|bi|dwh|etl|developer|engineer|менеджер|manager)/i.test(
-    `${title}\n${text.slice(0, 2500)}`
-  );
-  const hasVacancyMarker = /(ваканси|vacancy|job|jobs|career|отклик|зарплат|опыт работы|требования|обязанности|удаленн|jobposting)/i.test(
-    text.slice(0, 7000)
-  );
-  const detailPath = /\/(job|jobs|vacanc|career|position|offers|rabota|remote|work)\b|\/\d{3,}|-[a-z0-9]{6,}$/i.test(path);
-  const isListing = /\/(jobs|vacancies|career|careers|search|catalog)\/?$/i.test(path);
-
-  if (hasStructuredJob) return hasRole && !isListing;
-  return hasRole && hasVacancyMarker && (detailPath || lowerTitle.includes("аналитик") || lowerTitle.includes("analyst")) && !isListing && lowerText.length > 800;
-}
-
-function isRelevantUrl(url) {
-  const normalized = normalizeUrl(url);
-  if (!normalized) return false;
-  const { pathname, search } = new URL(normalized);
-  const value = `${pathname}${search}`.toLowerCase();
-  return /(job|jobs|vacanc|career|position|offers|rabota|remote|work|analyst|analytics|business|system|data|bi|product|аналит)/i.test(value);
-}
-
-function shouldCrawlUrl(url) {
-  const normalized = normalizeUrl(url);
-  if (!normalized) return false;
-  const { pathname, search } = new URL(normalized);
-  const value = `${pathname}${search}`.toLowerCase();
-  return value === "/" || /(job|jobs|vacanc|career|careers|search|catalog|remote|analyst|analytics|data|product)/i.test(value);
-}
-
-function isSameHost(url, host) {
-  try {
-    return getComparableHost(url) === host;
-  } catch {
-    return false;
+  for (const item of vacancy.key_skills || []) {
+    addSkill(skills, item.name);
   }
-}
 
-function getComparableHost(url) {
-  return new URL(url).hostname.replace(/^www\./, "");
-}
+  const text = stripHtml([
+    vacancy.name,
+    vacancy.description,
+    vacancy.branded_description,
+    vacancy.snippet?.requirement,
+    vacancy.snippet?.responsibility
+  ].filter(Boolean).join(" "));
 
-function normalizeUrl(url, baseUrl) {
-  try {
-    const parsed = new URL(String(url || "").trim(), baseUrl);
-    parsed.hash = "";
-    parsed.hostname = parsed.hostname.replace(/^www\./, "");
-    if (!["http:", "https:"].includes(parsed.protocol)) return null;
-    return parsed.toString();
-  } catch {
-    return null;
+  for (const [name, pattern] of FALLBACK_SKILLS) {
+    if (pattern.test(text)) addSkill(skills, name);
   }
+
+  return [...skills.values()].sort((a, b) => a.localeCompare(b, "ru"));
+}
+
+function addSkill(map, value) {
+  const name = canonicalSkillName(value);
+  if (!name) return;
+  map.set(name.toLowerCase(), name);
+}
+
+function getOrCreateSkill(map, name) {
+  const key = name.toLowerCase();
+  if (!map.has(key)) map.set(key, { name, count: 0, sources: {} });
+  return map.get(key);
+}
+
+function canonicalSkillName(value) {
+  const normalized = normalizeText(value)
+    .replace(/^["'«]+|["'»]+$/g, "")
+    .replace(/\s*\/\s*/g, "/");
+  if (!normalized || normalized.length < 2 || normalized.length > 80) return null;
+
+  const key = normalized.toLowerCase();
+  const aliases = new Map([
+    ["sql", "SQL"],
+    ["postgres", "PostgreSQL"],
+    ["postgresql", "PostgreSQL"],
+    ["postgre sql", "PostgreSQL"],
+    ["ms sql", "MS SQL"],
+    ["mssql", "MS SQL"],
+    ["rest", "REST API"],
+    ["rest api", "REST API"],
+    ["restful api", "REST API"],
+    ["open api", "OpenAPI"],
+    ["openapi", "OpenAPI"],
+    ["swagger", "Swagger/OpenAPI"],
+    ["bpmn", "BPMN"],
+    ["uml", "UML"],
+    ["jira", "Jira"],
+    ["confluence", "Confluence"],
+    ["git", "Git"],
+    ["gitlab", "GitLab"],
+    ["github", "GitHub"],
+    ["api", "API"],
+    ["soap", "SOAP"],
+    ["graphql", "GraphQL"],
+    ["etl", "ETL"],
+    ["dwh", "DWH"],
+    ["bi", "BI"],
+    ["power bi", "Power BI"]
+  ]);
+
+  return aliases.get(key) || normalized;
+}
+
+function createSearchStat(query, searchField) {
+  return {
+    source: "https://api.hh.ru/",
+    name: `hh.ru: ${query}`,
+    query,
+    searchField,
+    area: SEARCH_AREA,
+    engine: "public API",
+    found: 0,
+    pagesFetched: 0,
+    vacancyIds: 0,
+    errors: []
+  };
+}
+
+function splitEnvList(value, fallback) {
+  if (!value) return fallback;
+  return value
+    .split(/[|,\n]/)
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function clampNumber(value, min, max, fallback) {
+  const number = Number(value || fallback);
+  if (!Number.isFinite(number)) return fallback;
+  return Math.min(max, Math.max(min, Math.trunc(number)));
+}
+
+function stripHtml(value) {
+  return normalizeText(String(value || "").replace(/<[^>]+>/g, " "));
 }
 
 function normalizeText(value) {

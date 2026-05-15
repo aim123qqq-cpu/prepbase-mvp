@@ -1,0 +1,12 @@
+{
+  "name": "prepbase-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "parse:skills": "node scripts/parse-job-sites-skills.js"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0"
+  },
+  "devDependencies": {}
+}

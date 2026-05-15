@@ -1,5 +1,5 @@
 window.PREPBASE_SKILL_STATS = {
-  "updatedAt": "2026-05-15T08:39:35.831Z",
+  "updatedAt": "2026-05-15T09:03:56.683Z",
   "since": "2025-12-31T21:00:00.000Z",
   "parser": "node-fetch + cheerio",
   "sources": [

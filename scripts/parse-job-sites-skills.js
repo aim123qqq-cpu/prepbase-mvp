@@ -1,14 +1,15 @@
 const fs = require("node:fs");
-const http = require("node:http");
-const https = require("node:https");
+const { setTimeout: delay } = require("node:timers/promises");
+const cheerio = require("cheerio");
 
 const SINCE_DATE = new Date(process.env.SINCE_DATE || "2026-01-01T00:00:00+03:00");
 const OUT_FILE = "skills-stats.js";
-const MAX_PAGES_PER_SOURCE = Number(process.env.MAX_PAGES_PER_SOURCE || 60);
-const MAX_JOB_PAGES_PER_SOURCE = Number(process.env.MAX_JOB_PAGES_PER_SOURCE || 50);
-const MAX_SITEMAP_FILES_PER_SOURCE = Number(process.env.MAX_SITEMAP_FILES_PER_SOURCE || 8);
-const MAX_SITEMAP_URLS_PER_SOURCE = Number(process.env.MAX_SITEMAP_URLS_PER_SOURCE || 160);
-const REQUEST_TIMEOUT_MS = Number(process.env.REQUEST_TIMEOUT_MS || 6000);
+const MAX_CRAWL_PAGES_PER_SOURCE = Number(process.env.MAX_CRAWL_PAGES_PER_SOURCE || 70);
+const MAX_JOB_PAGES_PER_SOURCE = Number(process.env.MAX_JOB_PAGES_PER_SOURCE || 60);
+const MAX_SITEMAP_FILES_PER_SOURCE = Number(process.env.MAX_SITEMAP_FILES_PER_SOURCE || 10);
+const MAX_SITEMAP_URLS_PER_SOURCE = Number(process.env.MAX_SITEMAP_URLS_PER_SOURCE || 220);
+const REQUEST_TIMEOUT_MS = Number(process.env.REQUEST_TIMEOUT_MS || 9000);
+const REQUEST_DELAY_MS = Number(process.env.REQUEST_DELAY_MS || 250);
 
 const SOURCES = [
   {
@@ -16,39 +17,26 @@ const SOURCES = [
     url: "https://remote-job.ru/",
     seeds: [
       "https://remote-job.ru/",
-      "https://remote-job.ru/?q=%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA",
-      "https://remote-job.ru/search?search=%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA"
+      "https://remote-job.ru/?q=%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA"
     ],
     sitemaps: ["https://remote-job.ru/sitemap.xml"]
   },
   {
     name: "careerspace.app",
     url: "https://careerspace.app/",
-    seeds: [
-      "https://careerspace.app/",
-      "https://careerspace.app/jobs",
-      "https://careerspace.app/vacancies"
-    ],
+    seeds: ["https://careerspace.app/"],
     sitemaps: ["https://careerspace.app/sitemap.xml"]
   },
   {
     name: "jobrocket.ru",
     url: "https://jobrocket.ru/",
-    seeds: [
-      "https://jobrocket.ru/",
-      "https://jobrocket.ru/jobs",
-      "https://jobrocket.ru/vacancies"
-    ],
+    seeds: ["https://jobrocket.ru/"],
     sitemaps: ["https://jobrocket.ru/sitemap.xml"]
   },
   {
     name: "getmatch.ru",
     url: "https://getmatch.ru/",
-    seeds: [
-      "https://getmatch.ru/",
-      "https://getmatch.ru/jobs",
-      "https://getmatch.ru/vacancies"
-    ],
+    seeds: ["https://getmatch.ru/"],
     sitemaps: ["https://getmatch.ru/sitemap.xml"]
   }
 ];
@@ -83,54 +71,39 @@ const SKILLS = [
 
 async function main() {
   const totals = new Map(SKILLS.map(([name]) => [name, { name, count: 0, sources: {} }]));
-  const allVacancyUrls = new Set();
+  const vacancies = new Map();
   const errors = [];
   const sourceStats = [];
   let totalPagesFetched = 0;
 
   for (const source of SOURCES) {
-    const stat = {
-      source: source.url,
-      name: source.name,
-      pagesFetched: 0,
-      crawlPagesFetched: 0,
-      candidateUrls: 0,
-      vacancies: 0,
-      errors: []
-    };
+    const stat = createSourceStat(source);
 
     try {
       const candidates = await collectCandidateUrls(source, stat);
       stat.candidateUrls = candidates.length;
 
-      for (const item of candidates.slice(0, MAX_JOB_PAGES_PER_SOURCE)) {
-        if (allVacancyUrls.has(item.url)) continue;
-        if (stat.pagesFetched >= MAX_JOB_PAGES_PER_SOURCE) break;
+      for (const candidate of candidates.slice(0, MAX_JOB_PAGES_PER_SOURCE)) {
+        if (vacancies.has(candidate.url)) continue;
 
-        let response;
-        try {
-          response = await fetchText(item.url);
-        } catch (error) {
-          stat.errors.push(`${item.url}: ${error.message}`);
-          continue;
-        }
+        const parsed = await parseVacancyCandidate(candidate, source, stat);
+        if (!parsed) continue;
 
-        stat.pagesFetched += 1;
         totalPagesFetched += 1;
+        stat.pagesFetched += 1;
 
-        const text = htmlToText(response.body);
-        const title = extractTitle(response.body);
-        const date = extractDate(response.body, item.lastmod);
-
-        if (date && date < SINCE_DATE) continue;
-        if (!isLikelyVacancy(item.url, title, text)) continue;
-
-        const matchedSkills = matchSkills(`${title}\n${text}`);
+        const matchedSkills = matchSkills(`${parsed.title}\n${parsed.text}`);
         if (!matchedSkills.length) continue;
 
-        allVacancyUrls.add(item.url);
-        stat.vacancies += 1;
+        vacancies.set(candidate.url, {
+          url: candidate.url,
+          source: source.url,
+          title: parsed.title,
+          date: parsed.date ? parsed.date.toISOString() : null,
+          skills: matchedSkills
+        });
 
+        stat.vacancies += 1;
         for (const skillName of matchedSkills) {
           const skill = totals.get(skillName);
           skill.count += 1;
@@ -142,6 +115,7 @@ async function main() {
       errors.push(`${source.name}: ${error.message}`);
     }
 
+    stat.errors = unique(stat.errors).slice(0, 12);
     sourceStats.push(stat);
   }
 
@@ -152,20 +126,35 @@ async function main() {
   const payload = {
     updatedAt: new Date().toISOString(),
     since: SINCE_DATE.toISOString(),
+    parser: "node-fetch + cheerio",
     sources: SOURCES.map((source) => source.url),
     totalPagesFetched,
-    totalVacancies: allVacancyUrls.size,
+    totalVacancies: vacancies.size,
     sourceStats,
     skills,
     errors
   };
 
-  fs.writeFileSync(OUT_FILE, `window.PREPBASE_SKILL_STATS = ${JSON.stringify(payload, null, 2)};\n`);
+  fs.writeFileSync(OUT_FILE, `window.PREPBASE_SKILL_STATS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
   console.log(`Parsed ${payload.totalVacancies} vacancies from ${payload.sources.length} job sites.`);
 }
 
+function createSourceStat(source) {
+  return {
+    source: source.url,
+    name: source.name,
+    engine: "cheerio",
+    crawlPagesFetched: 0,
+    pagesFetched: 0,
+    candidateUrls: 0,
+    structuredJobPostings: 0,
+    vacancies: 0,
+    errors: []
+  };
+}
+
 async function collectCandidateUrls(source, stat) {
-  const sourceHost = new URL(source.url).hostname.replace(/^www\./, "");
+  const sourceHost = getComparableHost(source.url);
   const candidates = new Map();
   const crawlQueue = [];
   const visited = new Set();
@@ -187,22 +176,23 @@ async function collectCandidateUrls(source, stat) {
     if (isRelevantUrl(seed)) addCandidate(candidates, seed);
   }
 
-  while (crawlQueue.length && visited.size < MAX_PAGES_PER_SOURCE) {
+  while (crawlQueue.length && visited.size < MAX_CRAWL_PAGES_PER_SOURCE) {
     const pageUrl = normalizeUrl(crawlQueue.shift());
     if (!pageUrl || visited.has(pageUrl) || !isSameHost(pageUrl, sourceHost)) continue;
 
     visited.add(pageUrl);
 
-    let response;
+    let body;
     try {
-      response = await fetchText(pageUrl);
+      body = await fetchText(pageUrl);
     } catch (error) {
       stat.errors.push(`${pageUrl}: ${error.message}`);
       continue;
     }
 
     stat.crawlPagesFetched += 1;
-    const links = extractLinks(response.body, pageUrl)
+    const $ = cheerio.load(body);
+    const links = extractLinks($, pageUrl)
       .filter((url) => isSameHost(url, sourceHost))
       .filter((url) => isRelevantUrl(url) || shouldCrawlUrl(url));
 
@@ -221,17 +211,18 @@ async function readSitemapUrls(url, sourceHost, stat, seen = new Set()) {
   if (seen.size >= MAX_SITEMAP_FILES_PER_SOURCE) return [];
   seen.add(normalized);
 
-  const response = await fetchText(normalized);
-  const locBlocks = [...response.body.matchAll(/<url>\s*([\s\S]*?)<\/url>/gi)];
-  const sitemapBlocks = [...response.body.matchAll(/<sitemap>\s*([\s\S]*?)<\/sitemap>/gi)];
+  const body = await fetchText(normalized);
+  const $ = cheerio.load(body, { xmlMode: true });
   const urls = [];
 
-  for (const block of sitemapBlocks) {
+  for (const element of $("sitemap").toArray()) {
     if (urls.length >= MAX_SITEMAP_URLS_PER_SOURCE) break;
-    const loc = extractXmlTag(block[1], "loc");
+    const loc = normalizeUrl($(element).find("loc").first().text());
     if (!loc || !isSameHost(loc, sourceHost)) continue;
-    const lastmod = parseDateValue(extractXmlTag(block[1], "lastmod"));
+
+    const lastmod = parseDateValue($(element).find("lastmod").first().text());
     if (lastmod && lastmod < SINCE_DATE) continue;
+
     try {
       urls.push(...(await readSitemapUrls(loc, sourceHost, stat, seen)));
     } catch (error) {
@@ -239,103 +230,128 @@ async function readSitemapUrls(url, sourceHost, stat, seen = new Set()) {
     }
   }
 
-  for (const block of locBlocks) {
+  for (const element of $("url").toArray()) {
     if (urls.length >= MAX_SITEMAP_URLS_PER_SOURCE) break;
-    const loc = extractXmlTag(block[1], "loc");
+    const loc = normalizeUrl($(element).find("loc").first().text());
     if (!loc || !isSameHost(loc, sourceHost)) continue;
-    const lastmod = parseDateValue(extractXmlTag(block[1], "lastmod"));
-    if (lastmod && lastmod < SINCE_DATE) continue;
-    urls.push({ url: normalizeUrl(loc), lastmod });
-  }
 
-  if (!locBlocks.length && !sitemapBlocks.length) {
-    for (const match of response.body.matchAll(/<loc>(.*?)<\/loc>/gi)) {
-      if (urls.length >= MAX_SITEMAP_URLS_PER_SOURCE) break;
-      const loc = decodeHtml(match[1].trim());
-      if (loc && isSameHost(loc, sourceHost)) urls.push({ url: normalizeUrl(loc), lastmod: null });
-    }
+    const lastmod = parseDateValue($(element).find("lastmod").first().text());
+    if (lastmod && lastmod < SINCE_DATE) continue;
+    urls.push({ url: loc, lastmod });
   }
 
   return urls;
 }
 
-function addCandidate(map, url, lastmod = null) {
-  const normalized = normalizeUrl(url);
-  if (!normalized) return;
-  if (!map.has(normalized)) map.set(normalized, { url: normalized, lastmod });
-}
-
-function fetchText(url, redirects = 0) {
-  return new Promise((resolve, reject) => {
-    if (redirects > 5) {
-      reject(new Error("Too many redirects"));
-      return;
-    }
-
-    const requestUrl = new URL(url);
-    const client = requestUrl.protocol === "http:" ? http : https;
-    const req = client.get(
-      requestUrl,
-      {
-        timeout: REQUEST_TIMEOUT_MS,
-        headers: {
-          "User-Agent": "PrepbaseMVP/1.0 (+https://github.com/aim123qqq-cpu/prepbase-mvp)",
-          Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-          "Accept-Language": "ru,en;q=0.8"
-        }
-      },
-      (res) => {
-        const status = res.statusCode || 0;
-        const location = res.headers.location;
-        if (status >= 300 && status < 400 && location) {
-          res.resume();
-          resolve(fetchText(new URL(location, requestUrl).toString(), redirects + 1));
-          return;
-        }
-
-        if (status >= 400) {
-          res.resume();
-          reject(new Error(`HTTP ${status}`));
-          return;
-        }
-
-        const chunks = [];
-        res.setEncoding("utf8");
-        res.on("data", (chunk) => chunks.push(chunk));
-        res.on("end", () => resolve({ url: requestUrl.toString(), body: chunks.join("") }));
-      }
-    );
-
-    req.on("timeout", () => req.destroy(new Error("Request timeout")));
-    req.on("error", reject);
-  });
-}
-
-function extractLinks(html, baseUrl) {
-  const links = new Set();
-  for (const match of html.matchAll(/\s(?:href|data-href)=["']([^"']+)["']/gi)) {
-    const raw = decodeHtml(match[1]);
-    if (!raw || raw.startsWith("#") || raw.startsWith("mailto:") || raw.startsWith("tel:")) continue;
-    const normalized = normalizeUrl(raw, baseUrl);
-    if (normalized) links.add(normalized);
+async function parseVacancyCandidate(candidate, source, stat) {
+  let body;
+  try {
+    body = await fetchText(candidate.url);
+  } catch (error) {
+    stat.errors.push(`${candidate.url}: ${error.message}`);
+    return null;
   }
-  return [...links];
+
+  const $ = cheerio.load(body);
+  const structuredJobs = extractStructuredJobs($, candidate.url);
+  if (structuredJobs.length) stat.structuredJobPostings += structuredJobs.length;
+
+  const title = normalizeText(
+    structuredJobs[0]?.title ||
+      $("h1").first().text() ||
+      $("meta[property='og:title']").attr("content") ||
+      $("title").first().text()
+  );
+  const text = collectPageText($, structuredJobs);
+  const date = extractDate($, structuredJobs, candidate.lastmod);
+
+  if (date && date < SINCE_DATE) return null;
+  if (!isLikelyVacancy(candidate.url, title, text, structuredJobs.length > 0)) return null;
+
+  return { title, text, date, source: source.url };
 }
 
-function extractTitle(html) {
-  const h1 = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
-  if (h1) return htmlToText(h1[1]).slice(0, 160);
-  const title = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
-  return title ? htmlToText(title[1]).slice(0, 160) : "";
+function extractStructuredJobs($, pageUrl) {
+  const jobs = [];
+
+  $("script[type='application/ld+json']").each((_, element) => {
+    const raw = $(element).contents().text().trim();
+    if (!raw) return;
+
+    for (const item of parseJsonLd(raw)) {
+      if (!isJobPosting(item)) continue;
+      jobs.push({
+        title: normalizeText(item.title || item.name || ""),
+        url: normalizeUrl(item.url || pageUrl, pageUrl),
+        datePosted: parseDateValue(item.datePosted || item.datePublished),
+        text: normalizeText([
+          item.description,
+          item.responsibilities,
+          item.qualifications,
+          item.skills,
+          item.experienceRequirements,
+          item.educationRequirements,
+          item.employmentType,
+          item.industry
+        ].filter(Boolean).join(" "))
+      });
+    }
+  });
+
+  return jobs;
 }
 
-function extractDate(html, fallback) {
+function parseJsonLd(raw) {
+  try {
+    return flattenJsonLd(JSON.parse(raw));
+  } catch {
+    return [];
+  }
+}
+
+function flattenJsonLd(value) {
+  if (!value) return [];
+  if (Array.isArray(value)) return value.flatMap(flattenJsonLd);
+  if (typeof value !== "object") return [];
+
+  const graph = Array.isArray(value["@graph"]) ? value["@graph"].flatMap(flattenJsonLd) : [];
+  return [value, ...graph];
+}
+
+function isJobPosting(item) {
+  const type = item["@type"];
+  const types = Array.isArray(type) ? type : [type];
+  return types.filter(Boolean).some((value) => String(value).toLowerCase() === "jobposting");
+}
+
+function collectPageText($, structuredJobs) {
+  const structuredText = structuredJobs.map((job) => `${job.title} ${job.text}`).join(" ");
+  $("script, style, noscript, svg").remove();
+
+  const semanticText = [
+    $("main").text(),
+    $("article").text(),
+    $("[class*='vacancy'], [class*='job'], [class*='career'], [class*='position']").text(),
+    $("body").text()
+  ].map(normalizeText).filter(Boolean).join(" ");
+
+  return normalizeText(`${structuredText} ${semanticText}`);
+}
+
+function extractDate($, structuredJobs, fallback) {
   const candidates = [
+    ...structuredJobs.map((job) => job.datePosted),
     fallback,
-    ...extractJsonValues(html, ["datePosted", "datePublished", "published_at", "created_at", "updated_at", "validThrough"]),
-    ...[...html.matchAll(/(?:datetime|content)=["']([^"']*20\d{2}[^"']*)["']/gi)].map((match) => match[1]),
-    ...[...html.matchAll(/\b20\d{2}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:?\d{2})?)?/g)].map((match) => match[0])
+    $("time[datetime]").first().attr("datetime"),
+    $("meta[property='article:published_time']").attr("content"),
+    $("meta[name='date']").attr("content"),
+    $("meta[itemprop='datePosted']").attr("content")
   ];
+
+  const bodyText = $("body").text();
+  for (const match of bodyText.matchAll(/\b20\d{2}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:?\d{2})?)?/g)) {
+    candidates.push(match[0]);
+  }
 
   for (const value of candidates) {
     const date = parseDateValue(value);
@@ -345,32 +361,77 @@ function extractDate(html, fallback) {
   return null;
 }
 
-function extractJsonValues(html, keys) {
-  const values = [];
-  for (const key of keys) {
-    const pattern = new RegExp(`"${key}"\\s*:\\s*"([^"]+)"`, "gi");
-    for (const match of html.matchAll(pattern)) values.push(match[1]);
+function addCandidate(map, url, lastmod = null) {
+  const normalized = normalizeUrl(url);
+  if (!normalized) return;
+  if (!map.has(normalized)) map.set(normalized, { url: normalized, lastmod });
+}
+
+async function fetchText(url, redirects = 0) {
+  if (redirects > 5) throw new Error("Too many redirects");
+  await delay(REQUEST_DELAY_MS);
+
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+
+  try {
+    const response = await fetch(url, {
+      redirect: "manual",
+      signal: controller.signal,
+      headers: {
+        "User-Agent": "PrepbaseMVP/1.0 (+https://github.com/aim123qqq-cpu/prepbase-mvp)",
+        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "ru,en;q=0.8"
+      }
+    });
+
+    if (response.status >= 300 && response.status < 400 && response.headers.get("location")) {
+      const nextUrl = new URL(response.headers.get("location"), url).toString();
+      return fetchText(nextUrl, redirects + 1);
+    }
+
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.text();
+  } catch (error) {
+    if (error.name === "AbortError") throw new Error("Request timeout");
+    throw error;
+  } finally {
+    clearTimeout(timeout);
   }
-  return values;
+}
+
+function extractLinks($, baseUrl) {
+  const links = new Set();
+
+  $("[href], [data-href]").each((_, element) => {
+    const raw = $(element).attr("href") || $(element).attr("data-href");
+    if (!raw || raw.startsWith("#") || raw.startsWith("mailto:") || raw.startsWith("tel:")) return;
+
+    const normalized = normalizeUrl(raw, baseUrl);
+    if (normalized) links.add(normalized);
+  });
+
+  return [...links];
 }
 
 function matchSkills(text) {
   return SKILLS.filter(([, pattern]) => pattern.test(text)).map(([name]) => name);
 }
 
-function isLikelyVacancy(url, title, text) {
+function isLikelyVacancy(url, title, text, hasStructuredJob) {
   const lowerTitle = title.toLowerCase();
   const lowerText = text.toLowerCase();
   const path = new URL(url).pathname.toLowerCase();
   const hasRole = /(аналитик|analyst|business|system|product|data|bi|dwh|etl|developer|engineer|менеджер|manager)/i.test(
-    `${title}\n${text.slice(0, 2000)}`
+    `${title}\n${text.slice(0, 2500)}`
   );
-  const hasVacancyMarker = /(ваканси|vacancy|job|jobs|career|отклик|зарплат|опыт работы|требования|обязанности|удаленн)/i.test(
-    text.slice(0, 5000)
+  const hasVacancyMarker = /(ваканси|vacancy|job|jobs|career|отклик|зарплат|опыт работы|требования|обязанности|удаленн|jobposting)/i.test(
+    text.slice(0, 7000)
   );
   const detailPath = /\/(job|jobs|vacanc|career|position|offers|rabota|remote|work)\b|\/\d{3,}|-[a-z0-9]{6,}$/i.test(path);
   const isListing = /\/(jobs|vacancies|career|careers|search|catalog)\/?$/i.test(path);
 
+  if (hasStructuredJob) return hasRole && !isListing;
   return hasRole && hasVacancyMarker && (detailPath || lowerTitle.includes("аналитик") || lowerTitle.includes("analyst")) && !isListing && lowerText.length > 800;
 }
 
@@ -392,15 +453,19 @@ function shouldCrawlUrl(url) {
 
 function isSameHost(url, host) {
   try {
-    return new URL(url).hostname.replace(/^www\./, "") === host;
+    return getComparableHost(url) === host;
   } catch {
     return false;
   }
 }
 
+function getComparableHost(url) {
+  return new URL(url).hostname.replace(/^www\./, "");
+}
+
 function normalizeUrl(url, baseUrl) {
   try {
-    const parsed = new URL(decodeHtml(url).trim(), baseUrl);
+    const parsed = new URL(String(url || "").trim(), baseUrl);
     parsed.hash = "";
     parsed.hostname = parsed.hostname.replace(/^www\./, "");
     if (!["http:", "https:"].includes(parsed.protocol)) return null;
@@ -410,36 +475,18 @@ function normalizeUrl(url, baseUrl) {
   }
 }
 
-function htmlToText(html) {
-  return decodeHtml(
-    html
-      .replace(/<script[\s\S]*?<\/script>/gi, " ")
-      .replace(/<style[\s\S]*?<\/style>/gi, " ")
-      .replace(/<noscript[\s\S]*?<\/noscript>/gi, " ")
-      .replace(/<[^>]+>/g, " ")
-      .replace(/\s+/g, " ")
-      .trim()
-  );
+function normalizeText(value) {
+  return String(value || "").replace(/\s+/g, " ").trim();
 }
 
-function extractXmlTag(xml, tag) {
-  const match = xml.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i"));
-  return match ? decodeHtml(match[1].trim()) : null;
-}
-
-function decodeHtml(value) {
-  return String(value || "")
-    .replace(/&amp;/g, "&")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"')
-    .replace(/&#039;/g, "'")
-    .replace(/&#x2F;/g, "/");
+function unique(values) {
+  return [...new Set(values.filter(Boolean))];
 }
 
 function parseDateValue(value) {
   if (!value) return null;
-  const date = value instanceof Date ? value : new Date(String(value).replace(/(\+\d{2})(\d{2})$/, "$1:$2"));
+  if (value instanceof Date) return Number.isNaN(value.getTime()) ? null : value;
+  const date = new Date(String(value).replace(/(\+\d{2})(\d{2})$/, "$1:$2"));
   return Number.isNaN(date.getTime()) ? null : date;
 }
 

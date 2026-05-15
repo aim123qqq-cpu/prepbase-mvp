@@ -48,20 +48,8 @@
       </section>
 
       <section class="view-section active" data-view="overview">
-        <div class="overview-grid">
-          <article class="panel overview-card">
-            <p class="eyebrow">Структура</p>
-            <h2>База разложена по смысловым разделам</h2>
-            <p class="overview-copy">
-              Темы хранят контекст, задачи держат план подготовки, вопросы превращают базу в повторяемые карточки.
-            </p>
-          </article>
-          <article class="panel overview-card accent-card">
-            <p class="eyebrow">Быстрый фокус</p>
-            <h2 id="overviewFocusTitle">Все темы</h2>
-            <p class="overview-copy" id="overviewFocusText">Выберите тему в базе знаний, чтобы сузить задачи и вопросы.</p>
-          </article>
-        </div>
+        <span id="overviewFocusTitle" hidden>Все темы</span>
+        <span id="overviewFocusText" hidden>Фильтр не выбран</span>
 
         <section class="panel skills-panel">
           <div class="panel-heading">
@@ -69,7 +57,15 @@
               <p class="eyebrow">Рынок вакансий</p>
               <h2>Навыки из сайтов вакансий</h2>
             </div>
-            <span class="pill" id="skillsUpdatedAt">Ожидает парсинг</span>
+            <div class="skills-actions">
+              <a
+                class="workflow-button"
+                href="https://github.com/aim123qqq-cpu/prepbase-mvp/actions/workflows/update-skills-stats.yml"
+                target="_blank"
+                rel="noreferrer"
+              >Обновить вакансии</a>
+              <span class="pill" id="skillsUpdatedAt">Ожидает парсинг</span>
+            </div>
           </div>
           <div class="skills-summary" id="skillsSummary"></div>
           <div class="skills-list" id="skillsList"></div>

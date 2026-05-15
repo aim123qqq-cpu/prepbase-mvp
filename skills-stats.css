@@ -3,6 +3,14 @@
   padding-top: 22px;
 }
 
+.skills-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
 .skills-panel::before {
   background: var(--blue);
 }
@@ -69,6 +77,11 @@
 }
 
 @media (max-width: 980px) {
+  .skills-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
   .skill-row {
     grid-template-columns: 1fr;
   }

@@ -18,11 +18,22 @@
     : "Статистика появится после первого запуска ежедневного парсинга сайтов в GitHub Actions.";
 
   if (!skills.length) {
+    list.classList.remove("skills-gantt");
     list.innerHTML = `<div class="empty-state">Пока нет собранных навыков.</div>`;
     return;
   }
 
-  list.innerHTML = skills
+  list.classList.add("skills-gantt");
+  list.innerHTML = `
+    <div class="gantt-scale" aria-hidden="true">
+      <span></span>
+      <span>0</span>
+      <span>25%</span>
+      <span>50%</span>
+      <span>75%</span>
+      <span>${maxCount}</span>
+    </div>
+    ${skills
     .slice(0, 30)
     .map((skill) => {
       const width = Math.max(6, Math.round((skill.count / maxCount) * 100));
@@ -34,7 +45,8 @@
         </article>
       `;
     })
-    .join("");
+    .join("")}
+  `;
 })();
 
 function escapeHtml(value) {

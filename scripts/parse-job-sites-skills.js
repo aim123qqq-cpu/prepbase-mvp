@@ -17,6 +17,7 @@ const SEARCH_FIELDS = splitEnvList(process.env.HH_SEARCH_FIELDS, ["name"]);
 const PER_PAGE = clampNumber(process.env.HH_PER_PAGE, 1, 100, 100);
 const MAX_SEARCH_PAGES_PER_QUERY = clampNumber(process.env.HH_MAX_SEARCH_PAGES_PER_QUERY, 1, 20, 20);
 const MAX_DETAILS = clampNumber(process.env.HH_MAX_DETAILS, 1, 2000, 2000);
+const COMPANY_STATS_LIMIT = clampNumber(process.env.COMPANY_STATS_LIMIT, 1, 500, 50);
 const REQUEST_TIMEOUT_MS = clampNumber(process.env.REQUEST_TIMEOUT_MS, 1000, 30000, 12000);
 const REQUEST_DELAY_MS = clampNumber(process.env.REQUEST_DELAY_MS, 0, 5000, 250);
 const DATE_FROM = parseDateValue(process.env.HH_DATE_FROM || process.env.SINCE_DATE);
@@ -60,6 +61,7 @@ const FALLBACK_SKILLS = [
 
 async function main() {
   const seenVacancyIds = new Set();
+  const vacancyRoles = new Map();
   const searchStats = [];
   const errors = [];
 
@@ -68,7 +70,7 @@ async function main() {
       const stat = createSearchStat(query, searchField);
 
       try {
-        await collectVacancyIds(query, searchField, seenVacancyIds, stat);
+        await collectVacancyIds(query, searchField, seenVacancyIds, vacancyRoles, stat);
       } catch (error) {
         stat.errors.push(error.message);
         errors.push(`${query}: ${error.message}`);
@@ -84,6 +86,7 @@ async function main() {
   }
 
   const totals = new Map();
+  const companyTotals = new Map();
   const vacancies = [];
   let detailsFetched = 0;
 
@@ -99,7 +102,8 @@ async function main() {
       if (DATE_FROM && publishedAt && publishedAt < DATE_FROM) continue;
 
       const skills = extractSkills(vacancy);
-      if (!skills.length) continue;
+      const roles = getVacancyRoles(id, vacancy, vacancyRoles);
+      addCompanyStat(companyTotals, vacancy, skills, roles, publishedAt);
 
       const sourceUrl = vacancy.alternate_url || `${HH_API_BASE}/vacancies/${id}`;
       vacancies.push({
@@ -110,6 +114,7 @@ async function main() {
         employer: vacancy.employer?.name || null,
         area: vacancy.area?.name || null,
         date: publishedAt ? publishedAt.toISOString() : null,
+        roles,
         skills
       });
 
@@ -125,9 +130,12 @@ async function main() {
 
   const skills = [...totals.values()]
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "ru"));
+  const allCompanyStats = buildCompanyStats(companyTotals);
+  const companyStats = allCompanyStats.slice(0, COMPANY_STATS_LIMIT);
+  const generatedAt = new Date().toISOString();
 
   const payload = {
-    updatedAt: new Date().toISOString(),
+    updatedAt: generatedAt,
     since: DATE_FROM ? DATE_FROM.toISOString() : null,
     parser: "hh.ru public API",
     api: `${HH_API_BASE}/vacancies`,
@@ -152,6 +160,12 @@ async function main() {
       }
     ],
     searchStats,
+    companyStats,
+    companyStatsMeta: {
+      totalCompanies: allCompanyStats.length,
+      limit: COMPANY_STATS_LIMIT,
+      generatedAt
+    },
     skills,
     vacancies,
     errors: unique(errors)
@@ -161,7 +175,9 @@ async function main() {
   console.log(`Parsed ${payload.totalVacancies} hh.ru vacancies and ${payload.skills.length} skills.`);
 }
 
-async function collectVacancyIds(query, searchField, seenVacancyIds, stat) {
+async function collectVacancyIds(query, searchField, seenVacancyIds, vacancyRoles, stat) {
+  const roleName = canonicalRoleName(query);
+
   for (let page = 0; page < MAX_SEARCH_PAGES_PER_QUERY; page += 1) {
     const data = await fetchJson("/vacancies", {
       text: query,
@@ -175,7 +191,9 @@ async function collectVacancyIds(query, searchField, seenVacancyIds, stat) {
     stat.found = Math.max(stat.found, Number(data.found || 0));
 
     for (const item of data.items || []) {
-      if (!item.id || seenVacancyIds.has(item.id)) continue;
+      if (!item.id) continue;
+      if (roleName) addVacancyRole(vacancyRoles, item.id, roleName);
+      if (seenVacancyIds.has(item.id)) continue;
       seenVacancyIds.add(item.id);
       stat.vacancyIds += 1;
     }
@@ -312,6 +330,108 @@ function addSkill(map, value) {
   const name = canonicalSkillName(value);
   if (!name) return;
   map.set(name.toLowerCase(), name);
+}
+
+function addCompanyStat(map, vacancy, skills, roles, publishedAt) {
+  const employer = vacancy.employer || {};
+  const name = normalizeText(employer.name || "Компания не указана") || "Компания не указана";
+  const employerId = employer.id ? String(employer.id) : "";
+  const key = employerId ? `id:${employerId}` : `name:${name.toLowerCase()}`;
+  const stat = getOrCreateCompanyStat(map, key, employerId, name, getEmployerLogo(employer));
+  const vacancyId = String(vacancy.id || "");
+
+  if (vacancyId && !stat.vacancyIds.includes(vacancyId)) {
+    stat.vacancyIds.push(vacancyId);
+    stat.vacanciesCount += 1;
+  }
+
+  for (const role of roles) {
+    if (!stat.roles[role]) stat.roles[role] = 0;
+    stat.roles[role] += 1;
+  }
+
+  const area = normalizeText(vacancy.area?.name);
+  if (area) stat.areas[area] = (stat.areas[area] || 0) + 1;
+
+  for (const skill of skills) {
+    stat.skills[skill] = (stat.skills[skill] || 0) + 1;
+  }
+
+  const publishedIso = publishedAt ? publishedAt.toISOString() : null;
+  if (publishedIso && (!stat.firstPublishedAt || publishedIso < stat.firstPublishedAt)) {
+    stat.firstPublishedAt = publishedIso;
+  }
+  if (publishedIso && (!stat.lastPublishedAt || publishedIso > stat.lastPublishedAt)) {
+    stat.lastPublishedAt = publishedIso;
+  }
+}
+
+function getOrCreateCompanyStat(map, key, employerId, name, logo) {
+  if (!map.has(key)) {
+    map.set(key, {
+      employerId: employerId || key,
+      name,
+      logo: logo || null,
+      vacanciesCount: 0,
+      vacancyIds: [],
+      roles: {
+        "Системный аналитик": 0,
+        "Бизнес-аналитик": 0
+      },
+      areas: {},
+      skills: {},
+      firstPublishedAt: null,
+      lastPublishedAt: null
+    });
+  }
+
+  const stat = map.get(key);
+  if (!stat.logo && logo) stat.logo = logo;
+  return stat;
+}
+
+function buildCompanyStats(map) {
+  return [...map.values()]
+    .map((company) => ({
+      ...company,
+      vacancyIds: [...company.vacancyIds].sort(),
+      roles: sortCountObject(company.roles),
+      areas: sortCountObject(company.areas),
+      skills: sortCountObject(company.skills)
+    }))
+    .sort((a, b) => b.vacanciesCount - a.vacanciesCount || a.name.localeCompare(b.name, "ru"));
+}
+
+function getEmployerLogo(employer) {
+  const logos = employer?.logo_urls || {};
+  return logos.original || logos["240"] || logos["90"] || null;
+}
+
+function getVacancyRoles(id, vacancy, vacancyRoles) {
+  const roles = new Set(vacancyRoles.get(id) || []);
+  const titleRole = canonicalRoleName(vacancy.name);
+  if (titleRole) roles.add(titleRole);
+  return [...roles].sort((a, b) => a.localeCompare(b, "ru"));
+}
+
+function addVacancyRole(map, vacancyId, role) {
+  if (!map.has(vacancyId)) map.set(vacancyId, new Set());
+  map.get(vacancyId).add(role);
+}
+
+function canonicalRoleName(value) {
+  const normalized = normalizeText(value).toLowerCase();
+  if (/системн|system/.test(normalized)) return "Системный аналитик";
+  if (/бизнес|business/.test(normalized)) return "Бизнес-аналитик";
+  return null;
+}
+
+function sortCountObject(value) {
+  return Object.fromEntries(
+    Object.entries(value || {})
+      .filter(([, count]) => count > 0)
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ru"))
+  );
 }
 
 function getOrCreateSkill(map, name) {

@@ -37,6 +37,8 @@ jobs:
           HH_AREA: "113"
           HH_USER_AGENT: ${{ vars.HH_USER_AGENT }}
           HH_ACCESS_TOKEN: ${{ secrets.HH_ACCESS_TOKEN }}
+          HH_CLIENT_ID: ${{ secrets.HH_CLIENT_ID }}
+          HH_CLIENT_SECRET: ${{ secrets.HH_CLIENT_SECRET }}
 
       - name: Commit updated stats
         run: |

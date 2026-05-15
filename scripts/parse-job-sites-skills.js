@@ -5,6 +5,8 @@ const OUT_FILE = "skills-stats.js";
 const HH_API_BASE = "https://api.hh.ru";
 const USER_AGENT = process.env.HH_USER_AGENT || "prepbase-mvp/0.1 (aim123qqq-cpu@users.noreply.github.com)";
 const ACCESS_TOKEN = process.env.HH_ACCESS_TOKEN || "";
+const CLIENT_ID = process.env.HH_CLIENT_ID || "";
+const CLIENT_SECRET = process.env.HH_CLIENT_SECRET || "";
 const SEARCH_QUERIES = splitEnvList(process.env.HH_SEARCH_QUERIES, [
   "Системный аналитик",
   "Бизнес-аналитик",
@@ -18,6 +20,7 @@ const MAX_DETAILS = clampNumber(process.env.HH_MAX_DETAILS, 1, 2000, 2000);
 const REQUEST_TIMEOUT_MS = clampNumber(process.env.REQUEST_TIMEOUT_MS, 1000, 30000, 12000);
 const REQUEST_DELAY_MS = clampNumber(process.env.REQUEST_DELAY_MS, 0, 5000, 250);
 const DATE_FROM = parseDateValue(process.env.HH_DATE_FROM || process.env.SINCE_DATE);
+let cachedAccessToken = ACCESS_TOKEN;
 
 const FALLBACK_SKILLS = [
   ["SQL", /\bSQL\b|PostgreSQL|MySQL|ClickHouse|Greenplum|MSSQL|Oracle/i],
@@ -128,6 +131,7 @@ async function main() {
     since: DATE_FROM ? DATE_FROM.toISOString() : null,
     parser: "hh.ru public API",
     api: `${HH_API_BASE}/vacancies`,
+    authMode: getAuthMode(),
     queries: SEARCH_QUERIES,
     searchFields: SEARCH_FIELDS,
     area: SEARCH_AREA,
@@ -140,6 +144,7 @@ async function main() {
         source: "https://api.hh.ru/",
         name: "hh.ru",
         engine: "public API",
+        authMode: getAuthMode(),
         searchQueries: SEARCH_QUERIES.length * SEARCH_FIELDS.length,
         pagesFetched: searchPagesFetched,
         vacancies: vacancies.length,
@@ -202,7 +207,8 @@ async function fetchJson(path, query = {}) {
       "Accept-Language": "ru,en;q=0.8"
     };
 
-    if (ACCESS_TOKEN) headers.Authorization = `Bearer ${ACCESS_TOKEN}`;
+    const accessToken = await getAccessToken();
+    if (accessToken) headers.Authorization = `Bearer ${accessToken}`;
 
     const response = await fetch(url, {
       signal: controller.signal,
@@ -217,6 +223,63 @@ async function fetchJson(path, query = {}) {
     return response.json();
   } catch (error) {
     if (error.name === "AbortError") throw new Error("Request timeout");
+    throw error;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+async function getAccessToken() {
+  if (cachedAccessToken) return cachedAccessToken;
+  if (!CLIENT_ID || !CLIENT_SECRET) return "";
+
+  cachedAccessToken = await fetchApplicationToken();
+  return cachedAccessToken;
+}
+
+async function fetchApplicationToken() {
+  await delay(REQUEST_DELAY_MS);
+
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  const body = new URLSearchParams({
+    grant_type: "client_credentials",
+    client_id: CLIENT_ID,
+    client_secret: CLIENT_SECRET
+  });
+
+  try {
+    const response = await fetch(new URL("/token", HH_API_BASE), {
+      method: "POST",
+      signal: controller.signal,
+      headers: {
+        "User-Agent": USER_AGENT,
+        "HH-User-Agent": USER_AGENT,
+        Accept: "application/json",
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      body
+    });
+
+    const text = await response.text();
+    let data = {};
+    try {
+      data = text ? JSON.parse(text) : {};
+    } catch {
+      data = {};
+    }
+
+    if (!response.ok) {
+      throw new Error(`HH token request failed: HTTP ${response.status}${text ? `: ${text.slice(0, 180)}` : ""}`);
+    }
+
+    if (!data.access_token) {
+      throw new Error("HH token request failed: access_token is missing in response");
+    }
+
+    return data.access_token;
+  } catch (error) {
+    if (error.name === "AbortError") throw new Error("HH token request timeout");
     throw error;
   } finally {
     clearTimeout(timeout);
@@ -335,6 +398,12 @@ function normalizeText(value) {
 
 function unique(values) {
   return [...new Set(values.filter(Boolean))];
+}
+
+function getAuthMode() {
+  if (ACCESS_TOKEN) return "access_token";
+  if (CLIENT_ID && CLIENT_SECRET) return "client_credentials";
+  return "anonymous";
 }
 
 function parseDateValue(value) {

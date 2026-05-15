@@ -73,6 +73,8 @@ const starterState = {
 };
 
 const seedState = window.PREPBASE_SEED ?? starterState;
+const knowledgeTree = Array.isArray(window.PREPBASE_KNOWLEDGE_TREE) ? window.PREPBASE_KNOWLEDGE_TREE : [];
+const knowledgeSources = window.PREPBASE_KNOWLEDGE_SOURCES ?? {};
 let state = loadState();
 let editingTaskId = null;
 let editingQuestionId = null;
@@ -307,38 +309,74 @@ function renderTopicCards() {
 
 function renderKnowledgeMap() {
   const activeTopic = getActiveTopic();
-  const topics = activeTopic ? [activeTopic] : state.topics;
+  const nodes = getVisibleKnowledgeTree();
+  const nodeCount = countKnowledgeNodes(nodes);
 
-  elements.knowledgePanelTitle.textContent = activeTopic ? activeTopic.title : "Все темы";
-  elements.knowledgePanelCount.textContent = `${topics.length} ${getPlural(topics.length, "тема", "темы", "тем")}`;
+  elements.knowledgePanelTitle.textContent = activeTopic ? activeTopic.title : "Карта знаний";
+  elements.knowledgePanelCount.textContent = `${nodeCount} ${getPlural(nodeCount, "узел", "узла", "узлов")}`;
 
-  elements.knowledgeMap.innerHTML = topics
-    .map((topic) => {
-      const tasks = state.tasks.filter((task) => task.topicId === topic.id);
-      const questions = state.questions.filter((question) => question.topicId === topic.id);
-      const done = tasks.filter((task) => task.done).length;
-      const repeat = questions.filter((question) => question.status === "Повторить").length;
+  if (!nodes.length) {
+    elements.knowledgeMap.innerHTML = `<div class="empty-state">Для выбранной темы пока нет ветки знаний.</div>`;
+    return;
+  }
 
-      return `
-        <article class="knowledge-node ${state.activeTopicId === topic.id ? "active" : ""}">
-          <div class="knowledge-node-top">
-            <div>
-              <p class="knowledge-node-title">${escapeHtml(topic.title)}</p>
-              <p class="knowledge-node-goal">${escapeHtml(topic.goal)}</p>
-            </div>
-            <span class="pill">${questions.length} вопросов</span>
-          </div>
-          <p class="knowledge-node-meta">
-            ${done}/${tasks.length} задач готово · ${repeat} на повторение
-          </p>
-          <div class="knowledge-node-actions">
-            <button class="small-button" data-topic-filter="${topic.id}" type="button">Сфокусироваться</button>
-            <button class="small-button" data-open-view="tasks" data-topic-filter="${topic.id}" type="button">К задачам</button>
-            <button class="small-button" data-open-view="questions" data-topic-filter="${topic.id}" type="button">К вопросам</button>
-          </div>
-        </article>
-      `;
-    })
+  elements.knowledgeMap.innerHTML = `
+    <div class="knowledge-tree">
+      ${nodes.map((node) => renderKnowledgeBranch(node)).join("")}
+    </div>
+  `;
+}
+
+function getVisibleKnowledgeTree() {
+  if (state.activeTopicId === "all") return knowledgeTree;
+  return filterKnowledgeTree(knowledgeTree, state.activeTopicId);
+}
+
+function filterKnowledgeTree(nodes, topicId) {
+  return nodes.reduce((filtered, node) => {
+    const children = filterKnowledgeTree(node.children || [], topicId);
+    if (node.topicId === topicId) {
+      filtered.push(node);
+      return filtered;
+    }
+    if (children.length) filtered.push({ ...node, children });
+    return filtered;
+  }, []);
+}
+
+function countKnowledgeNodes(nodes) {
+  return nodes.reduce((count, node) => count + 1 + countKnowledgeNodes(node.children || []), 0);
+}
+
+function renderKnowledgeBranch(node, depth = 0) {
+  const children = Array.isArray(node.children) ? node.children : [];
+  const topic = node.topicId ? getTopic(node.topicId) : null;
+  const sources = renderKnowledgeSources(node.sources);
+  const depthClass = depth === 0 ? "root" : "child";
+
+  return `
+    <article class="knowledge-branch ${depthClass}" style="--depth: ${Math.min(depth, 5)}">
+      <div class="knowledge-branch-body">
+        <div class="knowledge-branch-copy">
+          <p class="knowledge-node-title">${escapeHtml(node.title)}</p>
+          <p class="knowledge-node-goal">${escapeHtml(node.summary || "")}</p>
+        </div>
+        ${topic ? `<button class="small-button" data-topic-filter="${topic.id}" type="button">${escapeHtml(topic.title)}</button>` : ""}
+      </div>
+      ${sources ? `<div class="knowledge-source-row">${sources}</div>` : ""}
+      ${children.length ? `<div class="knowledge-children">${children.map((child) => renderKnowledgeBranch(child, depth + 1)).join("")}</div>` : ""}
+    </article>
+  `;
+}
+
+function renderKnowledgeSources(sourceIds = []) {
+  return sourceIds
+    .map((sourceId) => knowledgeSources[sourceId])
+    .filter(Boolean)
+    .map(
+      (source) =>
+        `<a class="knowledge-source" href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.title)}</a>`
+    )
     .join("");
 }
 

@@ -16,8 +16,8 @@
   --blue-soft: #e4ebff;
   --coral: #ff6a4a;
   --coral-soft: #ffe7df;
-  --violet: #7d5cff;
-  --violet-soft: #ece7ff;
+  --violet: #7b45ff;
+  --violet-soft: #eee7ff;
   --ok: #16834f;
   --warn: #cc4b2c;
   --shadow: 0 18px 0 rgba(16, 17, 20, 0.08);
@@ -34,7 +34,7 @@ body {
   background: #1c1c1c;
   color: var(--ink);
   font-family:
-    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont,
     sans-serif;
 }
 
@@ -52,7 +52,7 @@ button {
   background: var(--accent);
   color: var(--ink);
   cursor: pointer;
-  font-weight: 900;
+  font-weight: 800;
   padding: 0 16px;
   transition:
     box-shadow 160ms ease,
@@ -112,6 +112,7 @@ p {
 
 h1 {
   font-size: clamp(2.8rem, 7vw, 6.8rem);
+  font-weight: 900;
   line-height: 0.86;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -119,6 +120,7 @@ h1 {
 
 h2 {
   font-size: clamp(1.15rem, 1.6vw, 1.55rem);
+  font-weight: 900;
   line-height: 1.05;
   letter-spacing: 0;
 }
@@ -140,41 +142,15 @@ h2 {
 
 .topbar {
   position: relative;
-  min-height: 210px;
+  min-height: 176px;
   margin-bottom: 18px;
   border: 2px solid var(--ink);
   border-radius: 8px;
-  background:
-    linear-gradient(90deg, transparent 0 58%, rgba(255, 255, 255, 0.18) 58% 100%),
-    var(--accent);
+  background: var(--violet);
   box-shadow: 8px 8px 0 var(--ink);
-  color: var(--ink);
+  color: white;
   overflow: hidden;
   padding: 26px;
-}
-
-.topbar::before {
-  position: absolute;
-  right: 26px;
-  bottom: 24px;
-  width: min(38vw, 380px);
-  height: 76px;
-  border: 2px solid var(--ink);
-  border-radius: 8px;
-  background:
-    linear-gradient(90deg, var(--green) 0 32%, var(--blue) 32% 64%, var(--coral) 64% 100%);
-  content: "";
-}
-
-.topbar::after {
-  position: absolute;
-  right: 52px;
-  bottom: 50px;
-  width: min(32vw, 300px);
-  height: 24px;
-  border: 2px solid var(--ink);
-  background: var(--surface);
-  content: "";
 }
 
 .topbar > div {
@@ -200,7 +176,7 @@ h2 {
 }
 
 .topbar .eyebrow {
-  color: var(--ink);
+  color: white;
 }
 
 .ghost-button {
@@ -217,7 +193,7 @@ h2 {
   border-radius: 8px;
   background: var(--accent);
   color: var(--ink);
-  font-weight: 900;
+  font-weight: 800;
   padding: 0 16px;
   text-decoration: none;
   transition:
@@ -243,16 +219,34 @@ h2 {
 }
 
 .nav-tab {
-  border: 2px solid var(--ink);
+  border: 2px solid var(--violet);
   background: var(--surface);
   color: var(--ink);
+  box-shadow: inset 0 -4px 0 var(--violet-soft);
+  font-weight: 800;
   min-height: 52px;
 }
 
+.nav-tab:hover {
+  background: var(--violet-soft);
+  box-shadow: 4px 4px 0 var(--violet);
+}
+
 .nav-tab.active {
-  background: var(--surface-strong);
+  border-color: white;
+  background: var(--violet);
   color: white;
-  box-shadow: inset 0 -6px 0 var(--accent);
+  box-shadow:
+    0 0 0 2px var(--ink),
+    6px 6px 0 var(--violet-soft);
+  transform: translate(-1px, -1px);
+}
+
+.nav-tab.active:hover {
+  background: var(--violet);
+  box-shadow:
+    0 0 0 2px var(--ink),
+    6px 6px 0 var(--violet-soft);
 }
 
 .stats-grid {
@@ -623,6 +617,81 @@ h2 {
   border-left-width: 8px;
 }
 
+.knowledge-tree {
+  display: grid;
+  gap: 10px;
+}
+
+.knowledge-branch {
+  position: relative;
+  display: grid;
+  gap: 10px;
+  margin-left: calc(var(--depth) * 18px);
+  border: 2px solid var(--line);
+  border-left: 8px solid var(--violet);
+  border-radius: 8px;
+  background: var(--surface);
+  padding: 12px;
+}
+
+.knowledge-branch.root {
+  border-color: var(--ink);
+  border-left-color: var(--green);
+  background:
+    linear-gradient(135deg, rgba(123, 69, 255, 0.08), transparent 42%),
+    var(--surface);
+}
+
+.knowledge-branch.child::before {
+  position: absolute;
+  top: 25px;
+  left: -26px;
+  width: 18px;
+  border-top: 2px solid var(--line);
+  content: "";
+}
+
+.knowledge-branch-body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.knowledge-branch-copy {
+  min-width: 0;
+}
+
+.knowledge-children {
+  display: grid;
+  gap: 10px;
+}
+
+.knowledge-source-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.knowledge-source {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  background: var(--violet-soft);
+  color: #4f35c7;
+  font-size: 0.74rem;
+  font-weight: 950;
+  padding: 0 9px;
+  text-decoration: none;
+}
+
+.knowledge-source:hover {
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
 .knowledge-node-top {
   display: flex;
   align-items: flex-start;
@@ -697,30 +766,28 @@ h2 {
   .question-heading,
   .task-card,
   .question-top,
-  .knowledge-node-top {
+  .knowledge-node-top,
+  .knowledge-branch-body {
     align-items: stretch;
     flex-direction: column;
   }
 
   .topbar {
-    min-height: 260px;
+    min-height: auto;
     padding: 20px;
-  }
-
-  .topbar::before {
-    left: 20px;
-    right: 20px;
-    width: auto;
-  }
-
-  .topbar::after {
-    left: 44px;
-    right: 44px;
-    width: auto;
   }
 
   .app-nav {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .knowledge-branch {
+    margin-left: calc(var(--depth) * 10px);
+  }
+
+  .knowledge-branch.child::before {
+    left: -18px;
+    width: 10px;
   }
 }
 

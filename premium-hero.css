@@ -70,34 +70,58 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 2px;
-  width: 42px;
+  position: relative;
+  width: 54px;
   height: 42px;
+  overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 12px;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.9), rgba(139, 92, 246, 0.95));
-  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.35);
-  color: white;
-  line-height: 1;
+  border-radius: 12px 18px 12px 18px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(226, 232, 240, 0.88)),
+    #f8fafc;
+  box-shadow:
+    0 14px 34px rgba(255, 255, 255, 0.12),
+    inset 0 0 0 1px rgba(15, 23, 42, 0.08);
+  color: #050816;
+  transform: skewX(-8deg);
 }
 
-.brand-orb-sa,
-.brand-orb-halper {
-  display: block;
-  width: 26px;
-  text-align: center;
+.brand-orb::before,
+.brand-orb::after {
+  position: absolute;
+  inset: auto auto 0 0;
+  width: 70%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--shell-blue), var(--shell-violet));
+  content: "";
 }
 
-.brand-orb-sa {
-  font-size: 0.86rem;
-  font-weight: 920;
+.brand-orb::after {
+  inset: 0 0 auto auto;
+  width: 38%;
+  background: #050816;
+  opacity: 0.9;
+}
+
+.brand-emblem {
+  display: grid;
+  justify-items: center;
+  line-height: 0.9;
+  transform: skewX(8deg);
+}
+
+.brand-emblem-main {
+  font-size: 1.05rem;
+  font-style: italic;
+  font-weight: 950;
   letter-spacing: 0;
 }
 
-.brand-orb-halper {
-  font-size: 0.33rem;
-  font-weight: 820;
+.brand-emblem-sub {
+  margin-top: 2px;
+  color: rgba(5, 8, 22, 0.72);
+  font-size: 0.32rem;
+  font-weight: 920;
   letter-spacing: 0;
 }
 

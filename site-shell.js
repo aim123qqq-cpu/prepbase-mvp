@@ -1,27 +1,10 @@
 (() => {
-  const stats = window.PREPBASE_SKILL_STATS || {};
-  const skills = Array.isArray(stats.skills) ? stats.skills : [];
-  const companies = Array.isArray(stats.companyStats) ? stats.companyStats : [];
   const header = document.querySelector(".site-header");
   const menuButton = document.querySelector("#mobileMenuButton");
 
-  updateHeroMetrics();
   setupMobileMenu();
   setupSmoothNavigation();
-
-  function updateHeroMetrics() {
-    setMetric("#heroVacanciesMetric", stats.totalVacancies, "12k+");
-    setMetric("#heroSkillsMetric", skills.length, "320+");
-    setMetric("#heroCompaniesMetric", companies.length, "150+");
-  }
-
-  function setMetric(selector, value, fallback) {
-    const element = document.querySelector(selector);
-    if (!element) return;
-
-    const number = Number(value || 0);
-    element.textContent = number > 0 ? compactNumber(number) : fallback;
-  }
+  setupViewButtons();
 
   function setupMobileMenu() {
     if (!header || !menuButton) return;
@@ -41,12 +24,22 @@
       if (!target) return;
 
       event.preventDefault();
-      if (header) header.classList.remove("menu-open");
-      if (menuButton) menuButton.setAttribute("aria-expanded", "false");
+      closeMobileMenu();
 
       const view = link.dataset.openView;
       if (view) openDashboardView(view);
+
       target.scrollIntoView({ behavior: getScrollBehavior(), block: "start" });
+    });
+  }
+
+  function setupViewButtons() {
+    document.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-open-view]");
+      if (!button) return;
+
+      openDashboardView(button.dataset.openView);
+      document.querySelector("#dashboard")?.scrollIntoView({ behavior: getScrollBehavior(), block: "start" });
     });
   }
 
@@ -62,15 +55,12 @@
     });
   }
 
-  function getScrollBehavior() {
-    return window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+  function closeMobileMenu() {
+    if (header) header.classList.remove("menu-open");
+    if (menuButton) menuButton.setAttribute("aria-expanded", "false");
   }
 
-  function compactNumber(value) {
-    if (value >= 1000) {
-      const compact = value / 1000;
-      return `${Number.isInteger(compact) ? compact : compact.toFixed(1)}k`;
-    }
-    return String(value);
+  function getScrollBehavior() {
+    return window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
   }
 })();

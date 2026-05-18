@@ -2,7 +2,7 @@
   const ORDER_KEY = "prepbase-knowledge-order-v1";
   const tree = Array.isArray(window.PREPBASE_KNOWLEDGE_TREE) ? window.PREPBASE_KNOWLEDGE_TREE : [];
   const sources = window.PREPBASE_KNOWLEDGE_SOURCES || {};
-  const collapsed = new Set();
+  const collapsed = getDefaultCollapsedIds(tree);
   let rootOrder = loadRootOrder();
   let textHidden = false;
 
@@ -99,11 +99,32 @@
     render();
   });
   elements.nav?.addEventListener("click", () => window.setTimeout(render, 0));
+  document.addEventListener("click", handleViewOpen);
   elements.map.addEventListener("click", handleMapClick, true);
 
+  function handleViewOpen(event) {
+    const trigger = event.target.closest("[data-open-view]");
+    if (!trigger) return;
+
+    const view = trigger.dataset.openView;
+    if (!view) return;
+
+    event.preventDefault();
+    document.querySelectorAll("[data-view]").forEach((section) => {
+      section.classList.toggle("active", section.dataset.view === view);
+    });
+    document.querySelectorAll("[data-view-target]").forEach((tab) => {
+      tab.classList.toggle("active", tab.dataset.viewTarget === view);
+    });
+    window.setTimeout(render, 0);
+  }
+
   function handleMapClick(event) {
-    const toggleId = event.target.dataset.knowledgeToggle;
-    const movePayload = event.target.dataset.knowledgeMove;
+    const control = event.target.closest("[data-knowledge-toggle], [data-knowledge-move]");
+    if (!control) return;
+
+    const toggleId = control.dataset.knowledgeToggle;
+    const movePayload = control.dataset.knowledgeMove;
     if (!toggleId && !movePayload) return;
 
     event.preventDefault();
@@ -173,7 +194,8 @@
     const children = node.children || [];
     const details = getDetails(node, depth);
     const sourceLinks = renderSources(node.sources);
-    const isCollapsed = collapsed.has(node.id);
+    const isSearching = Boolean((elements.search?.value || "").trim());
+    const isCollapsed = !isSearching && collapsed.has(node.id);
     const hasBody = Boolean(node.summary || details.length || sourceLinks || children.length);
     const moveControls = depth === 0
       ? `
@@ -243,6 +265,20 @@
 
   function countNodes(nodes) {
     return nodes.reduce((count, node) => count + 1 + countNodes(node.children || []), 0);
+  }
+
+  function getDefaultCollapsedIds(nodes, depth = 0) {
+    return nodes.reduce((ids, node) => {
+      const children = node.children || [];
+      const hasBody = Boolean(node.summary || (node.details || []).length || (node.sources || []).length || children.length);
+
+      if (hasBody && depth >= 1 && depth <= 2) {
+        ids.add(node.id);
+      }
+
+      getDefaultCollapsedIds(children, depth + 1).forEach((id) => ids.add(id));
+      return ids;
+    }, new Set());
   }
 
   function loadRootOrder() {

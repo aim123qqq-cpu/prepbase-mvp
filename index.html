@@ -10,7 +10,7 @@
   </head>
   <body>
     <header class="site-header" aria-label="Главная навигация">
-      <a class="brand-mark" href="#dashboard" aria-label="PrepBase dashboard">
+      <a class="brand-mark" href="#dashboard" aria-label="SA HALPER dashboard">
         <span class="brand-orb" aria-hidden="true">P</span>
         <span>PrepBase</span>
       </a>
@@ -36,13 +36,13 @@
       <header class="dashboard-control-panel" id="analytics-overview">
         <div>
           <p class="eyebrow">Workspace</p>
-          <h1>PrepBase Dashboard</h1>
-          <p class="dashboard-lead">Roadmap, база знаний, вопросы и задачи подготовки в одном статическом frontend.</p>
+          <h1>SA HALPER</h1>
+          <p class="dashboard-lead">Рабочая база системного аналитика: знания, вопросы и задачи подготовки без лишнего шума.</p>
         </div>
-        <div class="topbar-actions">
-          <button class="ghost-button" id="exportData" type="button">Экспорт JSON</button>
-          <button class="ghost-button" id="importData" type="button">Импорт JSON</button>
-          <button class="ghost-button" id="resetDemo" type="button">Сбросить демо</button>
+        <div class="topbar-actions" aria-hidden="true" hidden>
+          <button class="ghost-button" id="exportData" type="button" tabindex="-1" hidden>Экспорт JSON</button>
+          <button class="ghost-button" id="importData" type="button" tabindex="-1" hidden>Импорт JSON</button>
+          <button class="ghost-button" id="resetDemo" type="button" tabindex="-1" hidden>Сбросить демо</button>
           <input id="importFile" type="file" accept="application/json,.json" hidden />
         </div>
       </header>

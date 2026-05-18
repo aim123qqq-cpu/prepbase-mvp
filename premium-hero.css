@@ -40,7 +40,7 @@ a {
   grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
   gap: 24px;
-  width: min(1180px, calc(100% - 32px));
+  width: min(1360px, calc(100% - 32px));
   min-height: 68px;
   margin: 12px auto 0;
   border: 1px solid var(--shell-line);
@@ -70,13 +70,35 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
+  flex-direction: column;
+  gap: 2px;
+  width: 42px;
+  height: 42px;
   border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 11px;
+  border-radius: 12px;
   background: linear-gradient(135deg, rgba(59, 130, 246, 0.9), rgba(139, 92, 246, 0.95));
   box-shadow: 0 10px 30px rgba(99, 102, 241, 0.35);
   color: white;
+  line-height: 1;
+}
+
+.brand-orb-sa,
+.brand-orb-halper {
+  display: block;
+  width: 26px;
+  text-align: center;
+}
+
+.brand-orb-sa {
+  font-size: 0.86rem;
+  font-weight: 920;
+  letter-spacing: 0;
+}
+
+.brand-orb-halper {
+  font-size: 0.33rem;
+  font-weight: 820;
+  letter-spacing: 0;
 }
 
 .site-nav {
@@ -192,7 +214,7 @@ textarea:focus-visible {
 
   .site-header {
     grid-template-columns: auto auto;
-    width: min(100% - 20px, 1180px);
+    width: min(100% - 20px, 1360px);
     min-height: 62px;
     padding: 0 8px 0 14px;
   }

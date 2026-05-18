@@ -87,6 +87,68 @@ button,
   margin: 14px 0;
 }
 
+.company-filters {
+  display: grid;
+  grid-template-columns: minmax(180px, 1.3fr) minmax(150px, 0.8fr) minmax(150px, 0.9fr) minmax(220px, 1fr) auto;
+  align-items: end;
+  gap: 10px;
+  margin: 16px 0 14px;
+}
+
+.company-filters input,
+.company-filters select {
+  width: 100%;
+  min-height: 46px;
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 800;
+  padding: 0 12px;
+}
+
+.company-filters input:focus,
+.company-filters select:focus {
+  outline: 3px solid var(--violet-soft);
+  box-shadow: 3px 3px 0 var(--violet);
+}
+
+.company-min-filter {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 6px 10px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 950;
+}
+
+.company-min-filter input {
+  grid-column: 1 / -1;
+  min-height: 10px;
+  accent-color: var(--violet);
+  padding: 0;
+}
+
+.company-min-filter output {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  min-height: 28px;
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  background: var(--violet-soft);
+  color: #4f35c7;
+  font-weight: 950;
+}
+
+.company-filter-reset {
+  min-height: 46px;
+  background: var(--surface);
+}
+
 .skills-list,
 .companies-list {
   display: grid;
@@ -116,7 +178,7 @@ button,
 }
 
 .company-gantt-scale {
-  grid-template-columns: minmax(190px, 300px) repeat(5, minmax(0, 1fr)) minmax(84px, auto);
+  grid-template-columns: minmax(220px, 320px) minmax(92px, auto) repeat(5, minmax(0, 1fr));
 }
 
 .gantt-scale span,
@@ -146,7 +208,7 @@ button,
 }
 
 .company-row {
-  grid-template-columns: minmax(190px, 300px) minmax(0, 1fr) minmax(84px, auto);
+  grid-template-columns: minmax(220px, 320px) minmax(92px, auto) minmax(0, 1fr);
 }
 
 .skill-row:last-child,
@@ -222,6 +284,10 @@ button,
   padding: 13px;
 }
 
+.company-bar {
+  border-left: 0;
+}
+
 .skill-bar span,
 .company-bar span {
   display: block;
@@ -252,6 +318,16 @@ button,
   .skills-actions {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .company-filters {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .company-filters input[type="search"],
+  .company-min-filter,
+  .company-filter-reset {
+    grid-column: 1 / -1;
   }
 
   .gantt-scale {
@@ -287,5 +363,17 @@ button,
 
   .company-name {
     white-space: normal;
+  }
+}
+
+@media (max-width: 620px) {
+  .company-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .company-filters input[type="search"],
+  .company-min-filter,
+  .company-filter-reset {
+    grid-column: auto;
   }
 }

@@ -82,7 +82,8 @@ async function main() {
 
   const searchPagesFetched = searchStats.reduce((sum, stat) => sum + stat.pagesFetched, 0);
   if (searchPagesFetched === 0 && errors.length) {
-    throw new Error(`HH API search failed before collecting vacancies: ${unique(errors).join("; ")}`);
+    writeSearchFailureResult(searchStats, errors);
+    return;
   }
 
   const totals = new Map();
@@ -173,6 +174,57 @@ async function main() {
 
   fs.writeFileSync(OUT_FILE, `window.PREPBASE_SKILL_STATS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
   console.log(`Parsed ${payload.totalVacancies} hh.ru vacancies and ${payload.skills.length} skills.`);
+}
+
+function writeSearchFailureResult(searchStats, errors) {
+  const message = `HH API search failed before collecting vacancies: ${unique(errors).join("; ")}`;
+
+  if (fs.existsSync(OUT_FILE)) {
+    console.warn(`${message}. Keeping existing ${OUT_FILE}.`);
+    return;
+  }
+
+  const generatedAt = new Date().toISOString();
+  const payload = {
+    updatedAt: generatedAt,
+    since: DATE_FROM ? DATE_FROM.toISOString() : null,
+    parser: "hh.ru public API",
+    api: `${HH_API_BASE}/vacancies`,
+    authMode: getAuthMode(),
+    parserStatus: "search_failed",
+    queries: SEARCH_QUERIES,
+    searchFields: SEARCH_FIELDS,
+    area: SEARCH_AREA,
+    sources: ["https://api.hh.ru/"],
+    totalSearchResults: searchStats.reduce((sum, stat) => sum + stat.found, 0),
+    totalVacancies: 0,
+    detailsFetched: 0,
+    sourceStats: [
+      {
+        source: "https://api.hh.ru/",
+        name: "hh.ru",
+        engine: "public API",
+        authMode: getAuthMode(),
+        searchQueries: SEARCH_QUERIES.length * SEARCH_FIELDS.length,
+        pagesFetched: 0,
+        vacancies: 0,
+        errors: unique(errors).slice(0, 20)
+      }
+    ],
+    searchStats,
+    companyStats: [],
+    companyStatsMeta: {
+      totalCompanies: 0,
+      limit: COMPANY_STATS_LIMIT,
+      generatedAt
+    },
+    skills: [],
+    vacancies: [],
+    errors: unique(errors)
+  };
+
+  fs.writeFileSync(OUT_FILE, `window.PREPBASE_SKILL_STATS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
+  console.warn(message);
 }
 
 async function collectVacancyIds(query, searchField, seenVacancyIds, vacancyRoles, stat) {

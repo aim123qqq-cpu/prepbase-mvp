@@ -5,15 +5,13 @@
   const updatedAt = document.querySelector("#skillsUpdatedAt");
   const summary = document.querySelector("#skillsSummary");
   const list = document.querySelector("#skillsList");
-  const companiesCount = document.querySelector("#companiesCount");
-  const companiesSummary = document.querySelector("#companiesSummary");
-  const companiesList = document.querySelector("#companiesList");
+  const companyElements = getCompanyElements();
 
   if (!updatedAt || !summary || !list) return;
 
   renderSkills(stats, skills, updatedAt, summary, list);
-  if (companiesCount && companiesSummary && companiesList) {
-    renderCompanies(stats, companies, companiesCount, companiesSummary, companiesList);
+  if (companyElements.count && companyElements.summary && companyElements.list) {
+    renderCompanies(stats, companies, companyElements);
   }
 })();
 
@@ -59,24 +57,41 @@ function renderSkills(stats, skills, updatedAt, summary, list) {
   `;
 }
 
-function renderCompanies(stats, companies, count, summary, list) {
+function renderCompanies(stats, companies, elements) {
   const meta = stats.companyStatsMeta || {};
-  const maxCount = Math.max(...companies.map((company) => company.vacanciesCount), 1);
+  const sortedCompanies = getSortedCompanies(companies);
+  const totalCompanies = Number(meta.totalCompanies || sortedCompanies.length);
 
-  count.textContent = `${meta.totalCompanies || companies.length} ${getPlural(meta.totalCompanies || companies.length, "компания", "компании", "компаний")}`;
-  summary.textContent = companies.length
-    ? `Показано ${companies.length} из ${meta.totalCompanies || companies.length} компаний. Длина бара равна количеству открытых неархивных вакансий.`
+  setupCompanyFilters(sortedCompanies, elements, () => renderCompanies(stats, companies, elements));
+
+  const filters = getCompanyFilters(elements);
+  const filteredCompanies = filterCompanies(sortedCompanies, filters);
+  const maxCount = Math.max(...sortedCompanies.map((company) => company.vacanciesCount), 1);
+
+  elements.count.textContent = filteredCompanies.length === totalCompanies
+    ? `${totalCompanies} ${getPlural(totalCompanies, "компания", "компании", "компаний")}`
+    : `${filteredCompanies.length} из ${totalCompanies} ${getPlural(totalCompanies, "компании", "компаний", "компаний")}`;
+
+  elements.summary.textContent = sortedCompanies.length
+    ? `Показано ${filteredCompanies.length} из ${totalCompanies} компаний. Строки отсортированы по количеству открытых неархивных вакансий.`
     : "Статистика по компаниям появится после успешного запуска парсинга hh.ru.";
 
-  if (!companies.length) {
-    list.classList.remove("companies-gantt");
-    list.innerHTML = `<div class="empty-state">Пока нет данных по компаниям.</div>`;
+  if (!sortedCompanies.length) {
+    elements.list.classList.remove("companies-gantt");
+    elements.list.innerHTML = `<div class="empty-state">Пока нет данных по компаниям.</div>`;
     return;
   }
 
-  list.classList.add("companies-gantt");
-  list.innerHTML = `
+  if (!filteredCompanies.length) {
+    elements.list.classList.remove("companies-gantt");
+    elements.list.innerHTML = `<div class="empty-state">По выбранным фильтрам компаний нет.</div>`;
+    return;
+  }
+
+  elements.list.classList.add("companies-gantt");
+  elements.list.innerHTML = `
     <div class="company-gantt-scale" aria-hidden="true">
+      <span></span>
       <span></span>
       <span>0</span>
       <span>25%</span>
@@ -84,8 +99,127 @@ function renderCompanies(stats, companies, count, summary, list) {
       <span>75%</span>
       <span>${maxCount}</span>
     </div>
-    ${companies.map((company) => renderCompanyRow(company, maxCount)).join("")}
+    ${filteredCompanies.map((company) => renderCompanyRow(company, maxCount)).join("")}
   `;
+}
+
+function getCompanyElements() {
+  return {
+    count: document.querySelector("#companiesCount"),
+    summary: document.querySelector("#companiesSummary"),
+    list: document.querySelector("#companiesList"),
+    filters: document.querySelector("#companyFilters"),
+    search: document.querySelector("#companySearch"),
+    role: document.querySelector("#companyRoleFilter"),
+    area: document.querySelector("#companyAreaFilter"),
+    min: document.querySelector("#companyMinVacancies"),
+    minValue: document.querySelector("#companyMinVacanciesValue"),
+    reset: document.querySelector("#companyFiltersReset")
+  };
+}
+
+function setupCompanyFilters(companies, elements, onChange) {
+  if (!elements.filters) return;
+
+  const signature = companies
+    .map((company) => `${company.employerId || company.name}:${company.vacanciesCount}`)
+    .join("|");
+
+  if (elements.filters.dataset.companySignature !== signature) {
+    populateCompanySelect(elements.role, getCompanyOptionStats(companies, "roles"), "Все роли");
+    populateCompanySelect(elements.area, getCompanyOptionStats(companies, "areas"), "Все регионы");
+    setupCompanyMinFilter(companies, elements);
+    elements.filters.dataset.companySignature = signature;
+  }
+
+  updateCompanyMinValue(elements);
+
+  if (elements.filters.dataset.ready === "true") return;
+
+  elements.search?.addEventListener("input", onChange);
+  elements.role?.addEventListener("change", onChange);
+  elements.area?.addEventListener("change", onChange);
+  elements.min?.addEventListener("input", onChange);
+  elements.reset?.addEventListener("click", () => {
+    if (elements.search) elements.search.value = "";
+    if (elements.role) elements.role.value = "";
+    if (elements.area) elements.area.value = "";
+    if (elements.min) elements.min.value = "0";
+    updateCompanyMinValue(elements);
+    onChange();
+  });
+
+  elements.filters.dataset.ready = "true";
+}
+
+function setupCompanyMinFilter(companies, elements) {
+  if (!elements.min) return;
+  const maxVacancies = Math.max(...companies.map((company) => company.vacanciesCount), 0);
+  elements.min.max = String(maxVacancies);
+  if (Number(elements.min.value || 0) > maxVacancies) elements.min.value = String(maxVacancies);
+}
+
+function updateCompanyMinValue(elements) {
+  if (elements.minValue && elements.min) {
+    elements.minValue.textContent = elements.min.value || "0";
+  }
+}
+
+function populateCompanySelect(select, options, defaultLabel) {
+  if (!select) return;
+  const selectedValue = select.value;
+  select.innerHTML = `
+    <option value="">${escapeHtml(defaultLabel)}</option>
+    ${options
+    .map(({ name, count }) => `<option value="${escapeAttr(name)}">${escapeHtml(name)} (${count})</option>`)
+    .join("")}
+  `;
+  if (options.some((option) => option.name === selectedValue)) select.value = selectedValue;
+}
+
+function getCompanyOptionStats(companies, field) {
+  const totals = new Map();
+  for (const company of companies) {
+    for (const [name, count] of Object.entries(company[field] || {})) {
+      if (count > 0) totals.set(name, (totals.get(name) || 0) + count);
+    }
+  }
+  return [...totals.entries()]
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "ru"));
+}
+
+function getCompanyFilters(elements) {
+  return {
+    search: normalizeForSearch(elements.search?.value || ""),
+    role: elements.role?.value || "",
+    area: elements.area?.value || "",
+    minVacancies: Number(elements.min?.value || 0)
+  };
+}
+
+function filterCompanies(companies, filters) {
+  return companies.filter((company) => {
+    if (filters.search && !normalizeForSearch(company.name).includes(filters.search)) return false;
+    if (filters.role && !hasCount(company.roles, filters.role)) return false;
+    if (filters.area && !hasCount(company.areas, filters.area)) return false;
+    if (filters.minVacancies && company.vacanciesCount < filters.minVacancies) return false;
+    return true;
+  });
+}
+
+function getSortedCompanies(companies) {
+  return [...companies]
+    .map((company) => ({
+      ...company,
+      vacanciesCount: Number(company.vacanciesCount || 0)
+    }))
+    .filter((company) => company.vacanciesCount > 0)
+    .sort((a, b) => b.vacanciesCount - a.vacanciesCount || String(a.name).localeCompare(String(b.name), "ru"));
+}
+
+function hasCount(value, key) {
+  return Number((value || {})[key] || 0) > 0;
 }
 
 function renderCompanyRow(company, maxCount) {
@@ -102,10 +236,10 @@ function renderCompanyRow(company, maxCount) {
           : `<span class="company-logo placeholder">${escapeHtml(initials)}</span>`}
         <span class="company-name">${escapeHtml(company.name || "Компания не указана")}</span>
       </div>
+      <span class="company-count">${count} ${getPlural(count, "вакансия", "вакансии", "вакансий")}</span>
       <div class="company-bar" aria-hidden="true">
         <span style="width: ${width}%"></span>
       </div>
-      <span class="company-count">${count} ${getPlural(count, "вакансия", "вакансии", "вакансий")}</span>
     </article>
   `;
 }
@@ -121,7 +255,7 @@ function buildCompanyTooltip(company) {
     company.name || "Компания не указана",
     `Вакансий: ${company.vacanciesCount || 0}`,
     `Роли: ${roles || "нет данных"}`,
-    `Топ-5 навыков: ${skills || "нет данных"}`,
+    `Топ навыков: ${skills || "нет данных"}`,
     `Регионы: ${areas || "нет данных"}`,
     `Период публикаций: ${first} - ${last}`
   ].join("\n");
@@ -130,6 +264,7 @@ function buildCompanyTooltip(company) {
 function formatCountObject(value, limit = Infinity) {
   return Object.entries(value || {})
     .filter(([, count]) => count > 0)
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ru"))
     .slice(0, limit)
     .map(([name, count]) => `${name}: ${count}`)
     .join(", ");
@@ -142,6 +277,10 @@ function getInitials(value) {
     .filter(Boolean);
   const initials = words.slice(0, 2).map((word) => word[0]).join("");
   return (initials || "??").toUpperCase();
+}
+
+function normalizeForSearch(value) {
+  return String(value || "").trim().toLowerCase();
 }
 
 function escapeHtml(value) {

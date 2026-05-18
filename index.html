@@ -75,11 +75,26 @@
           <div class="panel-heading">
             <div>
               <p class="eyebrow">Спрос компаний</p>
-              <h2>Открытые вакансии по компаниям</h2>
+              <h2>Компании с открытыми вакансиями</h2>
             </div>
             <span class="pill" id="companiesCount">0 компаний</span>
           </div>
           <div class="companies-summary" id="companiesSummary"></div>
+          <div class="company-filters" id="companyFilters" aria-label="Фильтры компаний">
+            <input id="companySearch" type="search" placeholder="Поиск компании" autocomplete="off" />
+            <select id="companyRoleFilter" aria-label="Роль">
+              <option value="">Все роли</option>
+            </select>
+            <select id="companyAreaFilter" aria-label="Регион">
+              <option value="">Все регионы</option>
+            </select>
+            <label class="company-min-filter">
+              <span>Минимум вакансий</span>
+              <input id="companyMinVacancies" type="range" min="0" max="0" value="0" step="1" />
+              <output id="companyMinVacanciesValue" for="companyMinVacancies">0</output>
+            </label>
+            <button class="ghost-button company-filter-reset" id="companyFiltersReset" type="button">Сброс</button>
+          </div>
           <div class="companies-list" id="companiesList"></div>
         </section>
       </section>

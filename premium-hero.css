@@ -71,58 +71,57 @@ a {
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 54px;
+  width: 58px;
   height: 42px;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 12px 18px 12px 18px;
+  border: 1px solid rgba(196, 181, 253, 0.36);
+  border-radius: 13px;
   background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(226, 232, 240, 0.88)),
-    #f8fafc;
+    linear-gradient(135deg, rgba(255, 255, 255, 0.16), transparent 34%),
+    linear-gradient(135deg, #8b5cf6 0%, #6d4aff 48%, #4f2bc7 100%);
   box-shadow:
-    0 14px 34px rgba(255, 255, 255, 0.12),
-    inset 0 0 0 1px rgba(15, 23, 42, 0.08);
-  color: #050816;
-  transform: skewX(-8deg);
+    0 14px 34px rgba(109, 74, 255, 0.34),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  color: white;
 }
 
 .brand-orb::before,
 .brand-orb::after {
   position: absolute;
-  inset: auto auto 0 0;
-  width: 70%;
-  height: 4px;
-  background: linear-gradient(90deg, var(--shell-blue), var(--shell-violet));
   content: "";
 }
 
+.brand-orb::before {
+  inset: 0 auto 0 -18px;
+  width: 34px;
+  background: rgba(5, 8, 22, 0.18);
+  transform: skewX(-18deg);
+}
+
 .brand-orb::after {
-  inset: 0 0 auto auto;
-  width: 38%;
-  background: #050816;
-  opacity: 0.9;
+  right: 7px;
+  bottom: 7px;
+  width: 34px;
+  height: 3px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .brand-emblem {
-  display: grid;
-  justify-items: center;
-  line-height: 0.9;
-  transform: skewX(8deg);
+  position: relative;
+  z-index: 1;
+  display: block;
+  line-height: 1;
+  transform: skewX(-8deg);
 }
 
 .brand-emblem-main {
-  font-size: 1.05rem;
+  display: block;
+  font-size: 1.14rem;
   font-style: italic;
-  font-weight: 950;
+  font-weight: 980;
   letter-spacing: 0;
-}
-
-.brand-emblem-sub {
-  margin-top: 2px;
-  color: rgba(5, 8, 22, 0.72);
-  font-size: 0.32rem;
-  font-weight: 920;
-  letter-spacing: 0;
+  text-shadow: 0 2px 10px rgba(5, 8, 22, 0.28);
 }
 
 .site-nav {

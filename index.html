@@ -5,14 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prepbase MVP</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="skills-stats.css" />
     <link rel="stylesheet" href="serious-theme.css" />
+    <link rel="stylesheet" href="premium-hero.css" />
   </head>
   <body>
-    <main class="app-shell">
-      <header class="topbar">
+    <header class="site-header" aria-label="Главная навигация">
+      <a class="brand-mark" href="#hero" aria-label="PrepBase home">
+        <span class="brand-orb" aria-hidden="true">P</span>
+        <span>PrepBase</span>
+      </a>
+
+      <button class="mobile-menu-button" id="mobileMenuButton" type="button" aria-controls="siteNav" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Открыть меню</span>
+      </button>
+
+      <nav class="site-nav" id="siteNav" aria-label="Product navigation">
+        <a href="#dashboard" data-open-view="knowledge">Roadmap</a>
+        <a href="#skills-intelligence">Skills</a>
+        <a href="#company-demand">Companies</a>
+        <a href="#dashboard" data-open-view="questions">Interview</a>
+        <a href="#analytics-overview">Analytics</a>
+      </nav>
+
+      <a class="site-cta" href="#dashboard">Open Dashboard</a>
+    </header>
+
+    <section class="hero-section" id="hero" aria-labelledby="heroTitle">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="hero-kicker">Data-driven preparation platform</p>
+        <h1 id="heroTitle">Skill Intelligence Platform <span>для системных и бизнес-аналитиков</span></h1>
+        <p class="hero-subtitle">
+          Анализируй рынок вакансий. Строй roadmap навыков. Готовься к интервью на основе реальных данных.
+        </p>
+        <div class="hero-actions" aria-label="Hero actions">
+          <a class="hero-primary" href="#dashboard">Open Dashboard</a>
+          <a class="hero-secondary" href="#dashboard" data-open-view="knowledge">View Roadmap</a>
+        </div>
+        <dl class="hero-metrics" aria-label="Market intelligence metrics">
+          <div class="metric-pill">
+            <dt>Вакансий</dt>
+            <dd id="heroVacanciesMetric">12k+</dd>
+          </div>
+          <div class="metric-pill">
+            <dt>Навыков</dt>
+            <dd id="heroSkillsMetric">320+</dd>
+          </div>
+          <div class="metric-pill">
+            <dt>Компаний</dt>
+            <dd id="heroCompaniesMetric">150+</dd>
+          </div>
+          <div class="metric-pill">
+            <dt>Parsing</dt>
+            <dd>24/7</dd>
+          </div>
+        </dl>
+      </div>
+
+      <aside class="hero-dashboard" aria-label="Preview analytics dashboard">
+        <section class="preview-card market-pulse">
+          <div class="preview-card-heading">
+            <p>Live Market Pulse</p>
+            <span class="live-badge"><span aria-hidden="true"></span>Live</span>
+          </div>
+          <ul class="growth-list" aria-label="Top growing skills">
+            <li><span>Kafka</span><strong>+34%</strong></li>
+            <li><span>BPMN</span><strong>+27%</strong></li>
+            <li><span>REST API</span><strong>+24%</strong></li>
+            <li><span>gRPC</span><strong>+18%</strong></li>
+          </ul>
+        </section>
+
+        <section class="preview-card skill-graph-card">
+          <div class="preview-card-heading">
+            <p>Skill Graph Preview</p>
+            <span>5 nodes</span>
+          </div>
+          <div class="skill-graph" aria-label="SQL to REST API to BPMN to Kafka to UML">
+            <svg viewBox="0 0 420 140" role="img" aria-label="Skill graph connection lines">
+              <path class="graph-line line-a" d="M55 78 C105 18, 140 18, 188 62" />
+              <path class="graph-line line-b" d="M188 62 C230 105, 258 105, 306 62" />
+              <path class="graph-line line-c" d="M306 62 C342 22, 372 40, 386 88" />
+            </svg>
+            <span class="graph-node node-sql">SQL</span>
+            <span class="graph-node node-rest">REST API</span>
+            <span class="graph-node node-bpmn">BPMN</span>
+            <span class="graph-node node-kafka">Kafka</span>
+            <span class="graph-node node-uml">UML</span>
+          </div>
+        </section>
+
+        <section class="preview-card companies-card">
+          <div class="preview-card-heading">
+            <p>Companies Demand</p>
+            <span>Hot roles</span>
+          </div>
+          <div class="preview-bars">
+            <div><span>T-Bank</span><b style="--value: 82%">82%</b></div>
+            <div><span>Sber</span><b style="--value: 76%">76%</b></div>
+            <div><span>Yandex</span><b style="--value: 71%">71%</b></div>
+            <div><span>Ozon</span><b style="--value: 63%">63%</b></div>
+          </div>
+        </section>
+
+        <section class="preview-card gantt-card">
+          <div class="preview-card-heading">
+            <p>Mini Gantt</p>
+            <span>Analytics</span>
+          </div>
+          <div class="mini-gantt">
+            <div><span>SQL</span><b style="--value: 88%"></b></div>
+            <div><span>REST API</span><b style="--value: 78%"></b></div>
+            <div><span>BPMN</span><b style="--value: 68%"></b></div>
+            <div><span>Kafka</span><b style="--value: 54%"></b></div>
+          </div>
+        </section>
+      </aside>
+    </section>
+
+    <main class="app-shell dashboard-shell" id="dashboard">
+      <header class="dashboard-control-panel" id="analytics-overview">
         <div>
-          <p class="eyebrow">MVP базы подготовки</p>
-          <h1>Prepbase</h1>
+          <p class="eyebrow">Workspace</p>
+          <h2>PrepBase Dashboard</h2>
+          <p class="dashboard-lead">Roadmap, база знаний, вопросы и рыночная аналитика в одном статическом frontend.</p>
         </div>
         <div class="topbar-actions">
           <button class="ghost-button" id="exportData" type="button">Экспорт JSON</button>
@@ -157,12 +277,50 @@
         <div class="question-list" id="questionList"></div>
         </section>
       </section>
+
+      <section class="panel skills-panel analytics-panel" id="skills-intelligence">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Market intelligence</p>
+            <h2>Навыки из вакансий</h2>
+          </div>
+          <span class="pill" id="skillsUpdatedAt">Ожидает данные</span>
+        </div>
+        <p class="skills-summary" id="skillsSummary">Статистика появится после успешного запуска парсинга.</p>
+        <div class="skills-list" id="skillsList"></div>
+      </section>
+
+      <section class="panel companies-panel analytics-panel" id="company-demand">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Demand map</p>
+            <h2>Компании с открытыми вакансиями</h2>
+          </div>
+          <span class="pill" id="companiesCount">0 компаний</span>
+        </div>
+        <p class="companies-summary" id="companiesSummary">Статистика по компаниям появится после успешного запуска парсинга.</p>
+        <div class="company-filters" id="companyFilters" aria-label="Фильтры компаний">
+          <input id="companySearch" type="search" placeholder="Поиск по компании" autocomplete="off" />
+          <select id="companyRoleFilter" aria-label="Фильтр по роли"></select>
+          <select id="companyAreaFilter" aria-label="Фильтр по региону"></select>
+          <label class="company-min-filter">
+            Минимум вакансий
+            <output id="companyMinVacanciesValue">0</output>
+            <input id="companyMinVacancies" type="range" min="0" max="0" value="0" />
+          </label>
+          <button class="ghost-button company-filter-reset" id="companyFiltersReset" type="button">Сбросить</button>
+        </div>
+        <div class="companies-list" id="companiesList"></div>
+      </section>
     </main>
 
+    <script src="skills-stats.js"></script>
     <script src="knowledge-tree.js"></script>
     <script src="seed-data.js"></script>
     <script src="questions-extra.js"></script>
     <script src="app.js"></script>
     <script src="knowledge-ui.js"></script>
+    <script src="skills-stats-ui.js"></script>
+    <script src="site-shell.js"></script>
   </body>
 </html>

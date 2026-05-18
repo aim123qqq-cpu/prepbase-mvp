@@ -70,6 +70,17 @@ button:active {
   transform: translate(0);
 }
 
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.42;
+  transform: none;
+}
+
+button:disabled:hover {
+  box-shadow: none;
+  transform: none;
+}
+
 input,
 select,
 textarea {
@@ -355,6 +366,14 @@ h2 {
   grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
 }
 
+.overview-knowledge-panel {
+  min-height: 220px;
+}
+
+.overview-knowledge-panel::before {
+  background: var(--violet);
+}
+
 .overview-card {
   min-height: 184px;
   background:
@@ -380,11 +399,32 @@ h2 {
   grid-template-columns: minmax(280px, 380px) minmax(0, 1fr);
 }
 
+.knowledge-panel-wide {
+  width: 100%;
+}
+
+.knowledge-heading {
+  align-items: flex-start;
+}
+
+.knowledge-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.knowledge-toolbar {
+  display: grid;
+  margin: 18px 0 4px;
+}
+
 .topics-panel,
 .tasks-panel,
 .question-panel,
 .knowledge-panel,
-.skills-panel {
+.skills-panel,
+.overview-knowledge-panel {
   position: relative;
   overflow: hidden;
 }
@@ -393,7 +433,8 @@ h2 {
 .tasks-panel::before,
 .question-panel::before,
 .knowledge-panel::before,
-.skills-panel::before {
+.skills-panel::before,
+.overview-knowledge-panel::before {
   position: absolute;
   inset: 0 0 auto;
   height: 9px;
@@ -586,6 +627,10 @@ h2 {
   display: none !important;
 }
 
+.legacy-topic-compat {
+  display: none !important;
+}
+
 .done .task-title {
   color: var(--muted);
   text-decoration: line-through;
@@ -619,19 +664,19 @@ h2 {
 
 .knowledge-tree {
   display: grid;
-  gap: 10px;
+  gap: 12px;
 }
 
 .knowledge-branch {
   position: relative;
   display: grid;
   gap: 10px;
-  margin-left: calc(var(--depth) * 18px);
+  margin-left: calc(var(--depth) * 20px);
   border: 2px solid var(--line);
   border-left: 8px solid var(--violet);
   border-radius: 8px;
   background: var(--surface);
-  padding: 12px;
+  padding: 14px;
 }
 
 .knowledge-branch.root {
@@ -644,9 +689,9 @@ h2 {
 
 .knowledge-branch.child::before {
   position: absolute;
-  top: 25px;
-  left: -26px;
-  width: 18px;
+  top: 28px;
+  left: -28px;
+  width: 20px;
   border-top: 2px solid var(--line);
   content: "";
 }
@@ -658,7 +703,20 @@ h2 {
   gap: 12px;
 }
 
+.knowledge-toggle {
+  flex: 0 0 34px;
+  width: 34px;
+  min-height: 34px;
+  border-color: var(--ink);
+  background: var(--violet-soft);
+  color: #4f35c7;
+  font-size: 1.05rem;
+  line-height: 1;
+  padding: 0;
+}
+
 .knowledge-branch-copy {
+  flex: 1 1 auto;
   min-width: 0;
 }
 
@@ -667,10 +725,49 @@ h2 {
   gap: 10px;
 }
 
+.knowledge-details {
+  display: grid;
+  gap: 7px;
+  margin: 0 0 0 46px;
+  padding: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.48;
+  list-style: none;
+}
+
+.knowledge-details li {
+  position: relative;
+  padding-left: 18px;
+}
+
+.knowledge-details li::before {
+  position: absolute;
+  top: 0.62em;
+  left: 0;
+  width: 8px;
+  border-top: 2px solid var(--violet);
+  content: "";
+}
+
+.knowledge-move-controls {
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.knowledge-move-controls .small-button {
+  background: var(--surface);
+}
+
 .knowledge-source-row {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
+  margin-left: 46px;
 }
 
 .knowledge-source {
@@ -772,6 +869,11 @@ h2 {
     flex-direction: column;
   }
 
+  .knowledge-actions,
+  .knowledge-move-controls {
+    justify-content: stretch;
+  }
+
   .topbar {
     min-height: auto;
     padding: 20px;
@@ -789,6 +891,11 @@ h2 {
     left: -18px;
     width: 10px;
   }
+
+  .knowledge-details,
+  .knowledge-source-row {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 460px) {
@@ -798,6 +905,10 @@ h2 {
 
   button {
     width: 100%;
+  }
+
+  .knowledge-toggle {
+    width: 34px;
   }
 
   .workflow-button {

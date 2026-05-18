@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prepbase MVP</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="skills-stats.css" />
   </head>
   <body>
     <main class="app-shell">
@@ -51,90 +50,46 @@
         <span id="overviewFocusTitle" hidden>Все темы</span>
         <span id="overviewFocusText" hidden>Фильтр не выбран</span>
 
-        <section class="panel skills-panel">
+        <section class="panel overview-knowledge-panel">
           <div class="panel-heading">
             <div>
-              <p class="eyebrow">Рынок вакансий</p>
-              <h2>Навыки из сайтов вакансий</h2>
+              <p class="eyebrow">Рабочая область</p>
+              <h2>База знаний как основной контур подготовки</h2>
             </div>
-            <div class="skills-actions">
-              <a
-                class="workflow-button"
-                href="https://github.com/aim123qqq-cpu/prepbase-mvp/actions/workflows/update-skills-stats.yml"
-                target="_blank"
-                rel="noreferrer"
-              >Обновить вакансии</a>
-              <span class="pill" id="skillsUpdatedAt">Ожидает парсинг</span>
-            </div>
+            <button class="ghost-button" data-open-view="knowledge" type="button">Открыть дерево</button>
           </div>
-          <div class="skills-summary" id="skillsSummary"></div>
-          <div class="skills-list" id="skillsList"></div>
-        </section>
-
-        <section class="panel companies-panel">
-          <div class="panel-heading">
-            <div>
-              <p class="eyebrow">Спрос компаний</p>
-              <h2>Компании с открытыми вакансиями</h2>
-            </div>
-            <span class="pill" id="companiesCount">0 компаний</span>
-          </div>
-          <div class="companies-summary" id="companiesSummary"></div>
-          <div class="company-filters" id="companyFilters" aria-label="Фильтры компаний">
-            <input id="companySearch" type="search" placeholder="Поиск компании" autocomplete="off" />
-            <select id="companyRoleFilter" aria-label="Роль">
-              <option value="">Все роли</option>
-            </select>
-            <select id="companyAreaFilter" aria-label="Регион">
-              <option value="">Все регионы</option>
-            </select>
-            <label class="company-min-filter">
-              <span>Минимум вакансий</span>
-              <input id="companyMinVacancies" type="range" min="0" max="0" value="0" step="1" />
-              <output id="companyMinVacanciesValue" for="companyMinVacancies">0</output>
-            </label>
-            <button class="ghost-button company-filter-reset" id="companyFiltersReset" type="button">Сброс</button>
-          </div>
-          <div class="companies-list" id="companiesList"></div>
+          <p class="overview-copy">
+            Вакансийные модули временно скрыты до получения токена HH. Сейчас фокус приложения — структурная база знаний:
+            иерархия, контекст, подробности по каждому и быстрый переход к задачам или вопросам.
+          </p>
         </section>
       </section>
 
       <section class="view-section" data-view="knowledge">
-        <div class="knowledge-layout">
-          <aside class="panel topics-panel">
-          <div class="panel-heading">
+        <section class="panel knowledge-panel knowledge-panel-wide">
+          <div class="panel-heading knowledge-heading">
             <div>
-              <p class="eyebrow">База знаний</p>
-              <h2>Темы и контекст</h2>
+              <p class="eyebrow">Иерархия</p>
+              <h2 id="knowledgePanelTitle">База знаний</h2>
+            </div>
+            <div class="knowledge-actions">
+              <button class="ghost-button" id="knowledgeExpandAll" type="button">Раскрыть всё</button>
+              <button class="ghost-button" id="knowledgeToggleText" type="button">Скрыть текст</button>
+              <span class="pill" id="knowledgePanelCount">0 узлов</span>
             </div>
           </div>
-
-          <form class="stacked-form" id="topicForm">
-            <label>
-              Название темы
-              <input id="topicTitle" name="topicTitle" placeholder="Например, SQL" required />
-            </label>
-            <label>
-              Фокус
-              <input id="topicGoal" name="topicGoal" placeholder="Что должно стать понятным" required />
-            </label>
-            <button type="submit">Добавить тему</button>
+          <div class="knowledge-toolbar">
+            <input id="knowledgeSearch" type="search" placeholder="Поиск по дереву знаний" autocomplete="off" />
+          </div>
+          <div class="knowledge-map" id="knowledgeMap"></div>
+        </section>
+        <div class="legacy-topic-compat" aria-hidden="true">
+          <form id="topicForm">
+            <input id="topicTitle" />
+            <input id="topicGoal" />
           </form>
-
-          <div class="topic-filters" id="topicFilters"></div>
-          <div class="topic-list" id="topicList"></div>
-          </aside>
-
-          <section class="panel knowledge-panel">
-            <div class="panel-heading">
-              <div>
-                <p class="eyebrow">Иерархия</p>
-                <h2 id="knowledgePanelTitle">Все темы</h2>
-              </div>
-              <span class="pill" id="knowledgePanelCount">0 тем</span>
-            </div>
-            <div class="knowledge-map" id="knowledgeMap"></div>
-          </section>
+          <div id="topicFilters"></div>
+          <div id="topicList"></div>
         </div>
       </section>
 
@@ -205,8 +160,7 @@
 
     <script src="knowledge-tree.js"></script>
     <script src="seed-data.js"></script>
-    <script src="skills-stats.js"></script>
     <script src="app.js"></script>
-    <script src="skills-stats-ui.js"></script>
+    <script src="knowledge-ui.js"></script>
   </body>
 </html>

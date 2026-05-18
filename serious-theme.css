@@ -1,0 +1,236 @@
+:root {
+  --surface: #f7f7f4;
+  --surface-soft: #eeeeea;
+  --surface-strong: #151515;
+  --ink: #181818;
+  --muted: #62635f;
+  --line: #d7d7cf;
+  --line-strong: #2a2a2a;
+  --accent: #d6ff4a;
+  --accent-strong: #c7f12f;
+  --green: #258a64;
+  --green-soft: #e3f3ea;
+  --blue: #385fdc;
+  --blue-soft: #e8ecfb;
+  --coral: #c85b48;
+  --coral-soft: #f5e5df;
+  --violet: #7451ff;
+  --violet-soft: #ebe7ff;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.16);
+  --shadow-soft: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+button,
+.workflow-button {
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  background: var(--accent);
+  font-weight: 760;
+  box-shadow: none;
+}
+
+button:hover,
+.workflow-button:hover {
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.14);
+  transform: translateY(-1px);
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+input,
+select,
+textarea {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--violet);
+  box-shadow: 0 0 0 3px rgba(116, 81, 255, 0.14);
+}
+
+label,
+.metric-label,
+.eyebrow {
+  font-weight: 760;
+}
+
+h1 {
+  font-size: clamp(2.4rem, 6vw, 5.8rem);
+  line-height: 0.92;
+  text-transform: none;
+}
+
+h2 {
+  line-height: 1.12;
+}
+
+.app-shell {
+  padding: 24px 0 44px;
+}
+
+.topbar {
+  min-height: 148px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.12), transparent 44%),
+    #5e39d7;
+  box-shadow: var(--shadow);
+}
+
+.topbar-actions {
+  max-width: 520px;
+}
+
+.topbar .ghost-button {
+  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.12);
+  color: white;
+}
+
+.topbar .ghost-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.app-nav {
+  gap: 8px;
+}
+
+.nav-tab {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: #272727;
+  color: rgba(255, 255, 255, 0.78);
+  box-shadow: none;
+}
+
+.nav-tab:hover {
+  background: #34303f;
+  color: white;
+  box-shadow: none;
+}
+
+.nav-tab.active,
+.nav-tab.active:hover {
+  border-color: rgba(255, 255, 255, 0.24);
+  background: var(--violet);
+  color: white;
+  box-shadow: 0 12px 26px rgba(116, 81, 255, 0.28);
+  transform: none;
+}
+
+.metric,
+.panel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow-soft);
+}
+
+.metric::before,
+.topics-panel::before,
+.tasks-panel::before,
+.question-panel::before,
+.knowledge-panel::before,
+.skills-panel::before,
+.overview-knowledge-panel::before {
+  height: 4px;
+}
+
+.metric strong {
+  line-height: 1;
+}
+
+.progress-track {
+  height: 10px;
+  border: 1px solid var(--line);
+  background: #ffffff;
+}
+
+.overview-card,
+.accent-card,
+.knowledge-branch.root {
+  background: var(--surface);
+}
+
+.filter-chip,
+.pill,
+.small-button,
+.knowledge-source {
+  border-width: 1px;
+  font-weight: 760;
+}
+
+.filter-chip.active {
+  border-color: var(--violet);
+  background: var(--violet-soft);
+  color: #3e2ba8;
+}
+
+.topic-card,
+.task-card,
+.question-card,
+.knowledge-node,
+.knowledge-branch {
+  border-width: 1px;
+  box-shadow: none;
+}
+
+.topic-card:hover,
+.task-card:hover,
+.question-card:hover,
+.knowledge-node:hover {
+  border-color: var(--violet);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+.topic-card.active,
+.editing,
+.knowledge-node.active {
+  border-color: var(--violet);
+  box-shadow: inset 4px 0 0 var(--violet);
+}
+
+.small-button:hover {
+  border-color: var(--violet);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.knowledge-branch {
+  border-left: 4px solid var(--violet);
+}
+
+.knowledge-branch.root {
+  border-color: var(--line);
+  border-left-color: var(--green);
+}
+
+.knowledge-branch.child::before {
+  border-top-width: 1px;
+}
+
+.knowledge-toggle {
+  border-color: var(--line);
+  background: #ffffff;
+  color: #4f35c7;
+}
+
+.knowledge-details li::before {
+  width: 7px;
+  border-top-width: 1px;
+}
+
+.status {
+  border-width: 1px;
+  font-weight: 760;
+}
+
+.empty-state {
+  border-width: 1px;
+}

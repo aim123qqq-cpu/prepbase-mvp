@@ -71,57 +71,22 @@ a {
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 58px;
-  height: 42px;
+  width: 96px;
+  height: 48px;
   overflow: hidden;
-  border: 1px solid rgba(196, 181, 253, 0.36);
-  border-radius: 13px;
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.16), transparent 34%),
-    linear-gradient(135deg, #8b5cf6 0%, #6d4aff 48%, #4f2bc7 100%);
+  border: 1px solid rgba(129, 140, 248, 0.34);
+  border-radius: 16px;
+  background: #020617;
   box-shadow:
-    0 14px 34px rgba(109, 74, 255, 0.34),
+    0 14px 34px rgba(79, 70, 229, 0.28),
     inset 0 0 0 1px rgba(255, 255, 255, 0.08);
-  color: white;
 }
 
-.brand-orb::before,
-.brand-orb::after {
-  position: absolute;
-  content: "";
-}
-
-.brand-orb::before {
-  inset: 0 auto 0 -18px;
-  width: 34px;
-  background: rgba(5, 8, 22, 0.18);
-  transform: skewX(-18deg);
-}
-
-.brand-orb::after {
-  right: 7px;
-  bottom: 7px;
-  width: 34px;
-  height: 3px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.9);
-}
-
-.brand-emblem {
-  position: relative;
-  z-index: 1;
+.brand-logo-image {
   display: block;
-  line-height: 1;
-  transform: skewX(-8deg);
-}
-
-.brand-emblem-main {
-  display: block;
-  font-size: 1.14rem;
-  font-style: italic;
-  font-weight: 980;
-  letter-spacing: 0;
-  text-shadow: 0 2px 10px rgba(5, 8, 22, 0.28);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .site-nav {

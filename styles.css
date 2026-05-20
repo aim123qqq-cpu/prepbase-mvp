@@ -578,7 +578,7 @@ h2 {
 .tasks-panel,
 .question-panel,
 .knowledge-panel,
-skills-panel,
+.skills-panel,
 .overview-knowledge-panel {
   position: relative;
   overflow: hidden;
@@ -600,7 +600,7 @@ skills-panel,
   background: var(--green);
 }
 
-tasks-panel::before {
+.tasks-panel::before {
   background: var(--blue);
 }
 
@@ -649,7 +649,7 @@ tasks-panel::before {
 
 .filter-chip,
 .pill,
-tag,
+.tag,
 .status {
   border-radius: 999px;
   font-size: 0.8rem;

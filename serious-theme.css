@@ -246,20 +246,6 @@ h2 {
   color: #3e2ba8;
 }
 
-.tag {
-  background: var(--violet-soft);
-  color: #4f35c7;
-}
-
-.skills-panel {
-  position: relative;
-  overflow: hidden;
-}
-
-.tasks-panel::before {
-  background: var(--blue);
-}
-
 .topic-card,
 .task-card,
 .question-card,
@@ -270,7 +256,7 @@ h2 {
 }
 
 .topic-card:hover,
-task-card:hover,
+.task-card:hover,
 .question-card:hover,
 .knowledge-node:hover {
   border-color: var(--violet);

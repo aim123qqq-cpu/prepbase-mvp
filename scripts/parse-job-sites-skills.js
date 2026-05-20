@@ -1,31 +1,31 @@
 const fs = require("node:fs");
 const { setTimeout: delay } = require("node:timers/promises");
 
-const OUT_FILE = "skills-stats.js";
-const HH_API_BASE = "https://api.hh.ru";
-const USER_AGENT = process.env.HH_USER_AGENT || "prepbase-mvp/0.1 (aim123qqq-cpu@users.noreply.github.com)";
-const ACCESS_TOKEN = process.env.HH_ACCESS_TOKEN || "";
-const CLIENT_ID = process.env.HH_CLIENT_ID || "";
-const CLIENT_SECRET = process.env.HH_CLIENT_SECRET || "";
-const SEARCH_QUERIES = splitEnvList(process.env.HH_SEARCH_QUERIES, [
-  "Системный аналитик",
-  "Бизнес-аналитик",
-  "Бизнес аналитик"
-]);
-const SEARCH_AREA = process.env.HH_AREA || "113";
-const SEARCH_FIELDS = splitEnvList(process.env.HH_SEARCH_FIELDS, ["name"]);
-const PER_PAGE = clampNumber(process.env.HH_PER_PAGE, 1, 100, 100);
-const MAX_SEARCH_PAGES_PER_QUERY = clampNumber(process.env.HH_MAX_SEARCH_PAGES_PER_QUERY, 1, 20, 20);
-const MAX_DETAILS = clampNumber(process.env.HH_MAX_DETAILS, 1, 2000, 2000);
+const OUT_FILE = process.env.SKILLS_STATS_OUT_FILE || "skills-stats.js";
+const HH_WEB_BASE = "https://hh.ru";
+const DEFAULT_SEARCH_URL =
+  "https://omsk.hh.ru/search/vacancy?hhtmFrom=main&hhtmFromLabel=vacancy_search_line&search_field=name&search_field=company_name&search_field=description&enable_snippets=true&L_save_area=true&professional_role=10&professional_role=150&professional_role=148";
+
+const SEARCH_URLS = splitEnvList(process.env.HH_SEARCH_URLS || process.env.HH_SEARCH_URL, [DEFAULT_SEARCH_URL]);
+const MAX_SEARCH_PAGES_PER_URL = clampNumber(
+  process.env.HH_MAX_SEARCH_PAGES_PER_URL || process.env.HH_MAX_SEARCH_PAGES_PER_QUERY,
+  1,
+  100,
+  50
+);
+const MAX_DETAILS = clampNumber(process.env.HH_MAX_DETAILS, 1, 5000, 2000);
 const COMPANY_STATS_LIMIT = clampNumber(process.env.COMPANY_STATS_LIMIT, 1, 500, 50);
-const REQUEST_TIMEOUT_MS = clampNumber(process.env.REQUEST_TIMEOUT_MS, 1000, 30000, 12000);
-const REQUEST_DELAY_MS = clampNumber(process.env.REQUEST_DELAY_MS, 0, 5000, 250);
+const REQUEST_TIMEOUT_MS = clampNumber(process.env.REQUEST_TIMEOUT_MS, 1000, 45000, 18000);
+const REQUEST_DELAY_MS = clampNumber(process.env.REQUEST_DELAY_MS, 0, 10000, 1000);
 const DATE_FROM = parseDateValue(process.env.HH_DATE_FROM || process.env.SINCE_DATE);
-let cachedAccessToken = ACCESS_TOKEN;
+const USER_AGENT =
+  process.env.HH_USER_AGENT ||
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36";
 
 const FALLBACK_SKILLS = [
-  ["SQL", /\bSQL\b|PostgreSQL|MySQL|ClickHouse|Greenplum|MSSQL|Oracle/i],
+  ["SQL", /\bSQL\b|PostgreSQL|Postgres|MySQL|ClickHouse|Greenplum|MSSQL|MS SQL|Oracle/i],
   ["PostgreSQL", /PostgreSQL|Postgres/i],
+  ["MS SQL", /\bMS\s?SQL\b|MSSQL/i],
   ["ClickHouse", /ClickHouse/i],
   ["Python", /\bPython\b|pandas|numpy|jupyter/i],
   ["Excel", /\bExcel\b|Google Sheets|таблиц/i],
@@ -43,7 +43,7 @@ const FALLBACK_SKILLS = [
   ["SOAP", /\bSOAP\b/i],
   ["GraphQL", /GraphQL/i],
   ["Swagger/OpenAPI", /Swagger|OpenAPI/i],
-  ["Интеграции", /интеграц|Kafka|RabbitMQ|message broker|шина данных/i],
+  ["Интеграции", /интеграц|Kafka|RabbitMQ|message broker|шина данных|обмен данными/i],
   ["Kafka", /Kafka/i],
   ["RabbitMQ", /RabbitMQ/i],
   ["BPMN", /\bBPMN\b|Camunda/i],
@@ -61,27 +61,17 @@ const FALLBACK_SKILLS = [
 
 async function main() {
   const seenVacancyIds = new Set();
-  const vacancyRoles = new Map();
+  const searchVacancies = new Map();
   const searchStats = [];
   const errors = [];
 
-  for (const query of SEARCH_QUERIES) {
-    for (const searchField of SEARCH_FIELDS) {
-      const stat = createSearchStat(query, searchField);
-
-      try {
-        await collectVacancyIds(query, searchField, seenVacancyIds, vacancyRoles, stat);
-      } catch (error) {
-        stat.errors.push(error.message);
-        errors.push(`${query}: ${error.message}`);
-      }
-
-      searchStats.push(stat);
-    }
+  for (const searchUrl of SEARCH_URLS) {
+    const stat = createSearchStat(searchUrl);
+    await collectSearchVacancies(searchUrl, seenVacancyIds, searchVacancies, stat, errors);
+    searchStats.push(stat);
   }
 
-  const searchPagesFetched = searchStats.reduce((sum, stat) => sum + stat.pagesFetched, 0);
-  if (searchPagesFetched === 0 && errors.length) {
+  if (!seenVacancyIds.size) {
     writeSearchFailureResult(searchStats, errors);
     return;
   }
@@ -94,26 +84,26 @@ async function main() {
   for (const id of seenVacancyIds) {
     if (detailsFetched >= MAX_DETAILS) break;
 
+    const searchFallback = searchVacancies.get(id) || {};
     try {
-      const vacancy = await fetchVacancyDetails(id);
+      const details = await fetchVacancyDetails(id, searchFallback);
       detailsFetched += 1;
 
-      if (!vacancy || vacancy.archived) continue;
-      const publishedAt = parseDateValue(vacancy.published_at || vacancy.created_at);
+      if (details.archived) continue;
+      const publishedAt = parseDateValue(details.publishedAt);
       if (DATE_FROM && publishedAt && publishedAt < DATE_FROM) continue;
 
-      const skills = extractSkills(vacancy);
-      const roles = getVacancyRoles(id, vacancy, vacancyRoles);
-      addCompanyStat(companyTotals, vacancy, skills, roles, publishedAt);
+      const skills = extractSkills(details);
+      const roles = getVacancyRoles(details.title);
+      addCompanyStat(companyTotals, details, skills, roles, publishedAt);
 
-      const sourceUrl = vacancy.alternate_url || `${HH_API_BASE}/vacancies/${id}`;
       vacancies.push({
         id,
-        url: sourceUrl,
-        source: "https://api.hh.ru/",
-        title: vacancy.name,
-        employer: vacancy.employer?.name || null,
-        area: vacancy.area?.name || null,
+        url: details.url || `https://hh.ru/vacancy/${id}`,
+        source: "https://hh.ru/search/vacancy",
+        title: details.title || searchFallback.title || `Вакансия ${id}`,
+        employer: details.employer?.name || searchFallback.employer || null,
+        area: details.area?.name || searchFallback.area || null,
         date: publishedAt ? publishedAt.toISOString() : null,
         roles,
         skills
@@ -122,14 +112,35 @@ async function main() {
       for (const skillName of skills) {
         const skill = getOrCreateSkill(totals, skillName);
         skill.count += 1;
-        skill.sources["https://api.hh.ru/"] = (skill.sources["https://api.hh.ru/"] || 0) + 1;
+        skill.sources["https://hh.ru/"] = (skill.sources["https://hh.ru/"] || 0) + 1;
       }
     } catch (error) {
       errors.push(`vacancy ${id}: ${error.message}`);
+
+      const skills = extractSkills(searchFallback);
+      const roles = getVacancyRoles(searchFallback.title);
+      vacancies.push({
+        id,
+        url: searchFallback.url || `https://hh.ru/vacancy/${id}`,
+        source: "https://hh.ru/search/vacancy",
+        title: searchFallback.title || `Вакансия ${id}`,
+        employer: searchFallback.employer || null,
+        area: searchFallback.area || null,
+        date: null,
+        roles,
+        skills
+      });
+
+      for (const skillName of skills) {
+        const skill = getOrCreateSkill(totals, skillName);
+        skill.count += 1;
+        skill.sources["https://hh.ru/"] = (skill.sources["https://hh.ru/"] || 0) + 1;
+      }
     }
   }
 
   const skills = [...totals.values()]
+    .filter((skill) => skill.count > 0)
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "ru"));
   const allCompanyStats = buildCompanyStats(companyTotals);
   const companyStats = allCompanyStats.slice(0, COMPANY_STATS_LIMIT);
@@ -138,24 +149,24 @@ async function main() {
   const payload = {
     updatedAt: generatedAt,
     since: DATE_FROM ? DATE_FROM.toISOString() : null,
-    parser: "hh.ru public API",
-    api: `${HH_API_BASE}/vacancies`,
-    authMode: getAuthMode(),
-    queries: SEARCH_QUERIES,
-    searchFields: SEARCH_FIELDS,
-    area: SEARCH_AREA,
-    sources: ["https://api.hh.ru/"],
+    parser: "hh.ru public search HTML",
+    api: null,
+    authMode: "public_html",
+    queries: SEARCH_URLS,
+    searchFields: ["name", "company_name", "description"],
+    area: "from-search-url",
+    sources: ["https://hh.ru/"],
     totalSearchResults: searchStats.reduce((sum, stat) => sum + stat.found, 0),
     totalVacancies: vacancies.length,
     detailsFetched,
     sourceStats: [
       {
-        source: "https://api.hh.ru/",
+        source: "https://hh.ru/",
         name: "hh.ru",
-        engine: "public API",
-        authMode: getAuthMode(),
-        searchQueries: SEARCH_QUERIES.length * SEARCH_FIELDS.length,
-        pagesFetched: searchPagesFetched,
+        engine: "public HTML",
+        authMode: "public_html",
+        searchQueries: SEARCH_URLS.length,
+        pagesFetched: searchStats.reduce((sum, stat) => sum + stat.pagesFetched, 0),
         vacancies: vacancies.length,
         errors: unique(errors).slice(0, 20)
       }
@@ -176,121 +187,148 @@ async function main() {
   console.log(`Parsed ${payload.totalVacancies} hh.ru vacancies and ${payload.skills.length} skills.`);
 }
 
-function writeSearchFailureResult(searchStats, errors) {
-  const message = `HH API search failed before collecting vacancies: ${unique(errors).join("; ")}`;
+async function collectSearchVacancies(searchUrl, seenVacancyIds, searchVacancies, stat, errors) {
+  let previousSeenSize = seenVacancyIds.size;
+  let emptyPages = 0;
 
-  if (fs.existsSync(OUT_FILE)) {
-    console.warn(`${message}. Keeping existing ${OUT_FILE}.`);
-    return;
-  }
+  for (let page = 0; page < MAX_SEARCH_PAGES_PER_URL; page += 1) {
+    const url = buildSearchPageUrl(searchUrl, page);
+    let html = "";
 
-  const generatedAt = new Date().toISOString();
-  const payload = {
-    updatedAt: generatedAt,
-    since: DATE_FROM ? DATE_FROM.toISOString() : null,
-    parser: "hh.ru public API",
-    api: `${HH_API_BASE}/vacancies`,
-    authMode: getAuthMode(),
-    parserStatus: "search_failed",
-    queries: SEARCH_QUERIES,
-    searchFields: SEARCH_FIELDS,
-    area: SEARCH_AREA,
-    sources: ["https://api.hh.ru/"],
-    totalSearchResults: searchStats.reduce((sum, stat) => sum + stat.found, 0),
-    totalVacancies: 0,
-    detailsFetched: 0,
-    sourceStats: [
-      {
-        source: "https://api.hh.ru/",
-        name: "hh.ru",
-        engine: "public API",
-        authMode: getAuthMode(),
-        searchQueries: SEARCH_QUERIES.length * SEARCH_FIELDS.length,
-        pagesFetched: 0,
-        vacancies: 0,
-        errors: unique(errors).slice(0, 20)
+    try {
+      const result = await fetchHtml(url);
+      html = result.html;
+      stat.pagesFetched += 1;
+      if (result.status >= 400) {
+        const warning = `page ${page}: HTTP ${result.status}, parsing available HTML`;
+        stat.warnings.push(warning);
+        errors.push(`${url}: ${warning}`);
       }
-    ],
-    searchStats,
-    companyStats: [],
-    companyStatsMeta: {
-      totalCompanies: 0,
-      limit: COMPANY_STATS_LIMIT,
-      generatedAt
-    },
-    skills: [],
-    vacancies: [],
-    errors: unique(errors)
-  };
-
-  fs.writeFileSync(OUT_FILE, `window.PREPBASE_SKILL_STATS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
-  console.warn(message);
-}
-
-async function collectVacancyIds(query, searchField, seenVacancyIds, vacancyRoles, stat) {
-  const roleName = canonicalRoleName(query);
-
-  for (let page = 0; page < MAX_SEARCH_PAGES_PER_QUERY; page += 1) {
-    const data = await fetchJson("/vacancies", {
-      text: query,
-      search_field: searchField,
-      area: SEARCH_AREA,
-      per_page: String(PER_PAGE),
-      page: String(page)
-    });
-
-    stat.pagesFetched += 1;
-    stat.found = Math.max(stat.found, Number(data.found || 0));
-
-    for (const item of data.items || []) {
-      if (!item.id) continue;
-      if (roleName) addVacancyRole(vacancyRoles, item.id, roleName);
-      if (seenVacancyIds.has(item.id)) continue;
-      seenVacancyIds.add(item.id);
-      stat.vacancyIds += 1;
+    } catch (error) {
+      stat.errors.push(`page ${page}: ${error.message}`);
+      errors.push(`${url}: ${error.message}`);
+      break;
     }
 
-    if (page + 1 >= Number(data.pages || 0)) break;
+    const found = extractSearchTotal(html);
+    if (found) stat.found = Math.max(stat.found, found);
+
+    const extracted = extractVacanciesFromSearchHtml(html, url);
+    if (!extracted.length) {
+      const warning = `page ${page}: no vacancy cards or vacancy links found in public HTML`;
+      stat.warnings.push(warning);
+      if (page === 0) errors.push(`${url}: ${warning}`);
+    }
+
+    for (const vacancy of extracted) {
+      if (!vacancy.id) continue;
+      searchVacancies.set(vacancy.id, {
+        ...(searchVacancies.get(vacancy.id) || {}),
+        ...vacancy
+      });
+
+      if (!seenVacancyIds.has(vacancy.id)) {
+        seenVacancyIds.add(vacancy.id);
+        stat.vacancyIds += 1;
+      }
+    }
+
+    if (!extracted.length) emptyPages += 1;
+    if (seenVacancyIds.size === previousSeenSize) emptyPages += 1;
+    previousSeenSize = seenVacancyIds.size;
+
+    if (!hasNextPage(html, page) && page > 0) break;
+    if (emptyPages >= 2) break;
   }
 }
 
-async function fetchVacancyDetails(id) {
-  return fetchJson(`/vacancies/${encodeURIComponent(id)}`);
+async function fetchVacancyDetails(id, fallback = {}) {
+  const url = fallback.url || `https://hh.ru/vacancy/${id}`;
+  const result = await fetchHtml(url);
+  const html = result.html;
+
+  if (!html || !/(vacancy|Вакансия|data-qa)/i.test(html)) {
+    throw new Error(`detail page has no vacancy HTML, HTTP ${result.status}`);
+  }
+
+  const ldJson = parseLdJson(html);
+  const title =
+    extractByDataQa(html, "vacancy-title") ||
+    ldJson.title ||
+    extractMeta(html, "og:title") ||
+    extractTagText(html, "h1") ||
+    fallback.title ||
+    "";
+  const employerName =
+    extractByDataQa(html, "vacancy-company-name") ||
+    deepFindString(ldJson, ["hiringOrganization", "name"]) ||
+    fallback.employer ||
+    "";
+  const areaName =
+    extractByDataQa(html, "vacancy-view-location") ||
+    extractByDataQa(html, "vacancy-view-raw-address") ||
+    deepFindString(ldJson, ["jobLocation", "address", "addressLocality"]) ||
+    fallback.area ||
+    "";
+  const description =
+    extractByDataQa(html, "vacancy-description") ||
+    ldJson.description ||
+    extractMeta(html, "description") ||
+    fallback.description ||
+    "";
+  const keySkills = extractKeySkills(html);
+  const publishedAt =
+    ldJson.datePosted ||
+    extractDateTime(html) ||
+    extractJsonString(html, "published_at") ||
+    extractJsonString(html, "publication_time") ||
+    fallback.publishedAt ||
+    null;
+
+  return {
+    id,
+    url,
+    title: cleanTitle(title),
+    description: stripHtml(description),
+    keySkills,
+    snippet: fallback.snippet || "",
+    archived: /вакансия в архиве|vacancy is archived/i.test(stripHtml(html)),
+    publishedAt,
+    employer: {
+      id: extractEmployerId(html) || fallback.employerId || "",
+      name: normalizeText(employerName),
+      logo_urls: extractLogoUrls(html)
+    },
+    area: {
+      name: normalizeText(areaName)
+    }
+  };
 }
 
-async function fetchJson(path, query = {}) {
+async function fetchHtml(url) {
   await delay(REQUEST_DELAY_MS);
-
-  const url = new URL(path, HH_API_BASE);
-  for (const [key, value] of Object.entries(query)) {
-    if (value !== undefined && value !== null && value !== "") url.searchParams.set(key, value);
-  }
 
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
 
   try {
-    const headers = {
-      "User-Agent": USER_AGENT,
-      "HH-User-Agent": USER_AGENT,
-      Accept: "application/json",
-      "Accept-Language": "ru,en;q=0.8"
-    };
-
-    const accessToken = await getAccessToken();
-    if (accessToken) headers.Authorization = `Bearer ${accessToken}`;
-
     const response = await fetch(url, {
       signal: controller.signal,
-      headers
+      headers: {
+        "User-Agent": USER_AGENT,
+        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "ru-RU,ru;q=0.9,en;q=0.8",
+        "Cache-Control": "no-cache"
+      }
     });
+    const html = await response.text();
 
-    if (!response.ok) {
-      const text = await response.text().catch(() => "");
-      throw new Error(`HTTP ${response.status}${text ? `: ${text.slice(0, 180)}` : ""}`);
+    if (!html) throw new Error(`HTTP ${response.status}: empty response`);
+    if (!response.ok && !hasParsableHtml(html)) {
+      throw new Error(`HTTP ${response.status}: ${stripHtml(html).slice(0, 180)}`);
     }
 
-    return response.json();
+    return { html, status: response.status };
   } catch (error) {
     if (error.name === "AbortError") throw new Error("Request timeout");
     throw error;
@@ -299,89 +337,67 @@ async function fetchJson(path, query = {}) {
   }
 }
 
-async function getAccessToken() {
-  if (cachedAccessToken) return cachedAccessToken;
-  if (!CLIENT_ID || !CLIENT_SECRET) return "";
+function extractVacanciesFromSearchHtml(html, pageUrl) {
+  const vacancies = new Map();
+  const idMatches = [
+    ...html.matchAll(/(?:https?:\/\/(?:[\w.-]+\.)?hh\.ru)?\/vacancy\/(\d+)(?:[/?#][^"'<>]*)?/gi),
+    ...html.matchAll(/data-vacancy-id=["']?(\d{5,})["']?/gi),
+    ...html.matchAll(/["']vacancyId["']\s*:\s*["']?(\d{5,})["']?/gi),
+    ...html.matchAll(/vacancyId["']?\s*[:=]\s*["']?(\d{5,})["']?/gi)
+  ];
 
-  cachedAccessToken = await fetchApplicationToken();
-  return cachedAccessToken;
-}
+  for (const match of idMatches) {
+    const id = String(match[1]);
+    if (!id || vacancies.has(id)) continue;
 
-async function fetchApplicationToken() {
-  await delay(REQUEST_DELAY_MS);
+    const index = Math.max(0, match.index || 0);
+    const context = html.slice(Math.max(0, index - 3500), Math.min(html.length, index + 5500));
+    const href = extractVacancyHref(context, id) || `https://hh.ru/vacancy/${id}`;
+    const title = extractSearchTitle(context, id);
+    const employer = extractSearchEmployer(context);
+    const area = extractSearchArea(context);
+    const snippet = stripHtml(context);
 
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
-  const body = new URLSearchParams({
-    grant_type: "client_credentials",
-    client_id: CLIENT_ID,
-    client_secret: CLIENT_SECRET
-  });
-
-  try {
-    const response = await fetch(new URL("/token", HH_API_BASE), {
-      method: "POST",
-      signal: controller.signal,
-      headers: {
-        "User-Agent": USER_AGENT,
-        "HH-User-Agent": USER_AGENT,
-        Accept: "application/json",
-        "Content-Type": "application/x-www-form-urlencoded"
-      },
-      body
+    vacancies.set(id, {
+      id,
+      url: absolutizeUrl(href, pageUrl),
+      title,
+      employer,
+      area,
+      description: snippet,
+      snippet
     });
-
-    const text = await response.text();
-    let data = {};
-    try {
-      data = text ? JSON.parse(text) : {};
-    } catch {
-      data = {};
-    }
-
-    if (!response.ok) {
-      throw new Error(`HH token request failed: HTTP ${response.status}${text ? `: ${text.slice(0, 180)}` : ""}`);
-    }
-
-    if (!data.access_token) {
-      throw new Error("HH token request failed: access_token is missing in response");
-    }
-
-    return data.access_token;
-  } catch (error) {
-    if (error.name === "AbortError") throw new Error("HH token request timeout");
-    throw error;
-  } finally {
-    clearTimeout(timeout);
   }
+
+  return [...vacancies.values()];
 }
 
 function extractSkills(vacancy) {
   const skills = new Map();
 
-  for (const item of vacancy.key_skills || []) {
-    addSkill(skills, item.name);
+  for (const item of vacancy.keySkills || vacancy.key_skills || []) {
+    addSkill(skills, typeof item === "string" ? item : item?.name);
   }
 
-  const text = stripHtml([
-    vacancy.name,
-    vacancy.description,
-    vacancy.branded_description,
-    vacancy.snippet?.requirement,
-    vacancy.snippet?.responsibility
-  ].filter(Boolean).join(" "));
+  const text = stripHtml(
+    [
+      vacancy.title,
+      vacancy.name,
+      vacancy.description,
+      vacancy.branded_description,
+      vacancy.snippet,
+      vacancy.snippet?.requirement,
+      vacancy.snippet?.responsibility
+    ]
+      .filter(Boolean)
+      .join(" ")
+  );
 
   for (const [name, pattern] of FALLBACK_SKILLS) {
     if (pattern.test(text)) addSkill(skills, name);
   }
 
   return [...skills.values()].sort((a, b) => a.localeCompare(b, "ru"));
-}
-
-function addSkill(map, value) {
-  const name = canonicalSkillName(value);
-  if (!name) return;
-  map.set(name.toLowerCase(), name);
 }
 
 function addCompanyStat(map, vacancy, skills, roles, publishedAt) {
@@ -459,31 +475,19 @@ function getEmployerLogo(employer) {
   return logos.original || logos["240"] || logos["90"] || null;
 }
 
-function getVacancyRoles(id, vacancy, vacancyRoles) {
-  const roles = new Set(vacancyRoles.get(id) || []);
-  const titleRole = canonicalRoleName(vacancy.name);
-  if (titleRole) roles.add(titleRole);
+function getVacancyRoles(value) {
+  const normalized = normalizeText(value).toLowerCase();
+  const roles = new Set();
+  if (/системн|system/.test(normalized)) roles.add("Системный аналитик");
+  if (/бизнес|business/.test(normalized)) roles.add("Бизнес-аналитик");
+  if (!roles.size && /аналитик|analyst/.test(normalized)) roles.add("Системный аналитик");
   return [...roles].sort((a, b) => a.localeCompare(b, "ru"));
 }
 
-function addVacancyRole(map, vacancyId, role) {
-  if (!map.has(vacancyId)) map.set(vacancyId, new Set());
-  map.get(vacancyId).add(role);
-}
-
-function canonicalRoleName(value) {
-  const normalized = normalizeText(value).toLowerCase();
-  if (/системн|system/.test(normalized)) return "Системный аналитик";
-  if (/бизнес|business/.test(normalized)) return "Бизнес-аналитик";
-  return null;
-}
-
-function sortCountObject(value) {
-  return Object.fromEntries(
-    Object.entries(value || {})
-      .filter(([, count]) => count > 0)
-      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ru"))
-  );
+function addSkill(map, value) {
+  const name = canonicalSkillName(value);
+  if (!name) return;
+  map.set(name.toLowerCase(), name);
 }
 
 function getOrCreateSkill(map, name) {
@@ -493,7 +497,7 @@ function getOrCreateSkill(map, name) {
 }
 
 function canonicalSkillName(value) {
-  const normalized = normalizeText(value)
+  const normalized = normalizeText(decodeHtml(value))
     .replace(/^["'«]+|["'»]+$/g, "")
     .replace(/\s*\/\s*/g, "/");
   if (!normalized || normalized.length < 2 || normalized.length > 80) return null;
@@ -531,25 +535,231 @@ function canonicalSkillName(value) {
   return aliases.get(key) || normalized;
 }
 
-function createSearchStat(query, searchField) {
+function buildSearchPageUrl(searchUrl, page) {
+  const url = new URL(searchUrl);
+  url.searchParams.set("page", String(page));
+  if (!url.searchParams.has("items_on_page")) url.searchParams.set("items_on_page", "50");
+  return url.toString();
+}
+
+function hasNextPage(html, page) {
+  const nextPage = page + 1;
+  return (
+    new RegExp(`[?&]page=${nextPage}(?:&|["'<>])`).test(html) ||
+    new RegExp(`data-page=["']${nextPage}["']`).test(html) ||
+    html.includes(`page=${nextPage}`)
+  );
+}
+
+function hasParsableHtml(html) {
+  return /\/vacancy\/\d{5,}|vacancyId|data-vacancy-id|data-qa|Вакансия/i.test(html);
+}
+
+function extractSearchTotal(html) {
+  const text = stripHtml(html);
+  const match =
+    text.match(/найден[аоы]?\s+([\d\s]+)\s+ваканс/i) ||
+    text.match(/([\d\s]+)\s+ваканс(?:ия|ии|ий)/i) ||
+    html.match(/"found"\s*:\s*(\d+)/i);
+  return match ? Number(String(match[1]).replace(/\s+/g, "")) || 0 : 0;
+}
+
+function extractVacancyHref(context, id) {
+  const match =
+    context.match(new RegExp(`href=["']([^"']*/vacancy/${id}[^"']*)["']`, "i")) ||
+    context.match(new RegExp(`(https?://[^"'<>]+/vacancy/${id}[^"'<>]*)`, "i")) ||
+    context.match(new RegExp(`(/vacancy/${id}[^"'<>\\s]*)`, "i"));
+  return match ? decodeHtml(match[1]) : "";
+}
+
+function extractSearchTitle(context, id) {
+  const titleByLink = context.match(
+    new RegExp(`<a[^>]+(?:href=["'][^"']*/vacancy/${id}[^"']*["'][^>]*)>([\\s\\S]{0,800}?)</a>`, "i")
+  );
+  const dataQaTitle = extractByDataQa(context, "serp-item__title") || extractByDataQa(context, "vacancy-serp__vacancy-title");
+  return cleanTitle(dataQaTitle || (titleByLink ? titleByLink[1] : ""));
+}
+
+function extractSearchEmployer(context) {
+  return (
+    extractByDataQa(context, "vacancy-serp__vacancy-employer") ||
+    extractByDataQa(context, "vacancy-serp__vacancy-employer-text") ||
+    extractJsonString(context, "employerName") ||
+    ""
+  );
+}
+
+function extractSearchArea(context) {
+  return (
+    extractByDataQa(context, "vacancy-serp__vacancy-address") ||
+    extractByDataQa(context, "vacancy-serp__vacancy-region") ||
+    extractJsonString(context, "areaName") ||
+    ""
+  );
+}
+
+function extractByDataQa(html, dataQa) {
+  const escaped = escapeRegExp(dataQa);
+  const match = html.match(new RegExp(`<[^>]+data-qa=["']${escaped}["'][^>]*>([\\s\\S]*?)</[^>]+>`, "i"));
+  return match ? stripHtml(match[1]) : "";
+}
+
+function extractTagText(html, tag) {
+  const match = html.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`, "i"));
+  return match ? stripHtml(match[1]) : "";
+}
+
+function extractMeta(html, name) {
+  const propertyPattern = escapeRegExp(name);
+  const match = html.match(
+    new RegExp(`<meta[^>]+(?:property|name)=["']${propertyPattern}["'][^>]+content=["']([^"']*)["'][^>]*>`, "i")
+  );
+  return match ? decodeHtml(match[1]) : "";
+}
+
+function extractDateTime(html) {
+  const match = html.match(/<time[^>]+datetime=["']([^"']+)["']/i);
+  return match ? decodeHtml(match[1]) : "";
+}
+
+function extractJsonString(html, key) {
+  const match = html.match(new RegExp(`["']${escapeRegExp(key)}["']\\s*:\\s*["']([^"']+)["']`, "i"));
+  return match ? decodeJsonString(match[1]) : "";
+}
+
+function extractEmployerId(html) {
+  const match =
+    html.match(/\/employer\/(\d+)/i) ||
+    html.match(/["']employerId["']\s*:\s*["']?(\d+)["']?/i) ||
+    html.match(/["']employer_id["']\s*:\s*["']?(\d+)["']?/i);
+  return match ? String(match[1]) : "";
+}
+
+function extractLogoUrls(html) {
+  const logo =
+    extractJsonString(html, "logoUrl") ||
+    extractJsonString(html, "logo_url") ||
+    extractJsonString(html, "employerLogoUrl") ||
+    "";
+  return logo ? { original: logo } : {};
+}
+
+function extractKeySkills(html) {
+  const skills = new Set();
+  for (const match of html.matchAll(/data-qa=["']bloko-tag__text["'][^>]*>([\s\S]*?)<\/[^>]+>/gi)) {
+    const skill = stripHtml(match[1]);
+    if (skill) skills.add(skill);
+  }
+  for (const match of html.matchAll(/["']keySkills?["']\s*:\s*\[([\s\S]{0,3000}?)\]/gi)) {
+    for (const nameMatch of match[1].matchAll(/["']name["']\s*:\s*["']([^"']+)["']/gi)) {
+      const skill = decodeJsonString(nameMatch[1]);
+      if (skill) skills.add(skill);
+    }
+  }
+  return [...skills];
+}
+
+function parseLdJson(html) {
+  for (const match of html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
+    try {
+      const data = JSON.parse(decodeHtml(match[1]));
+      if (data && /JobPosting/i.test(String(data["@type"] || ""))) return data;
+    } catch {
+      // HH changes markup often; non-JSON LD blocks are ignored.
+    }
+  }
+  return {};
+}
+
+function deepFindString(source, path) {
+  let value = source;
+  for (const key of path) {
+    if (Array.isArray(value)) value = value[0];
+    value = value?.[key];
+  }
+  if (Array.isArray(value)) value = value[0];
+  return typeof value === "string" ? value : "";
+}
+
+function sortCountObject(value) {
+  return Object.fromEntries(
+    Object.entries(value || {})
+      .filter(([, count]) => count > 0)
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ru"))
+  );
+}
+
+function createSearchStat(searchUrl) {
   return {
-    source: "https://api.hh.ru/",
-    name: `hh.ru: ${query}`,
-    query,
-    searchField,
-    area: SEARCH_AREA,
-    engine: "public API",
+    source: "https://hh.ru/",
+    name: "hh.ru public search",
+    query: searchUrl,
+    searchField: "public-search-url",
+    area: new URL(searchUrl).hostname,
+    engine: "public HTML",
     found: 0,
     pagesFetched: 0,
     vacancyIds: 0,
+    warnings: [],
     errors: []
   };
+}
+
+function writeSearchFailureResult(searchStats, errors) {
+  const message = `HH public search failed before collecting vacancies: ${unique(errors).join("; ") || "no vacancies found"}`;
+
+  if (fs.existsSync(OUT_FILE)) {
+    console.warn(`${message}. Keeping existing ${OUT_FILE}.`);
+    return;
+  }
+
+  const generatedAt = new Date().toISOString();
+  const payload = {
+    updatedAt: generatedAt,
+    since: DATE_FROM ? DATE_FROM.toISOString() : null,
+    parser: "hh.ru public search HTML",
+    api: null,
+    authMode: "public_html",
+    parserStatus: "search_failed",
+    queries: SEARCH_URLS,
+    searchFields: ["name", "company_name", "description"],
+    area: "from-search-url",
+    sources: ["https://hh.ru/"],
+    totalSearchResults: 0,
+    totalVacancies: 0,
+    detailsFetched: 0,
+    sourceStats: [
+      {
+        source: "https://hh.ru/",
+        name: "hh.ru",
+        engine: "public HTML",
+        authMode: "public_html",
+        searchQueries: SEARCH_URLS.length,
+        pagesFetched: 0,
+        vacancies: 0,
+        errors: unique(errors).slice(0, 20)
+      }
+    ],
+    searchStats,
+    companyStats: [],
+    companyStatsMeta: {
+      totalCompanies: 0,
+      limit: COMPANY_STATS_LIMIT,
+      generatedAt
+    },
+    skills: [],
+    vacancies: [],
+    errors: unique(errors)
+  };
+
+  fs.writeFileSync(OUT_FILE, `window.PREPBASE_SKILL_STATS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
+  console.warn(message);
 }
 
 function splitEnvList(value, fallback) {
   if (!value) return fallback;
   return value
-    .split(/[|,\n]/)
+    .split(/[|\n]/)
     .map((item) => item.trim())
     .filter(Boolean);
 }
@@ -560,29 +770,69 @@ function clampNumber(value, min, max, fallback) {
   return Math.min(max, Math.max(min, Math.trunc(number)));
 }
 
+function parseDateValue(value) {
+  if (!value) return null;
+  if (value instanceof Date) return Number.isNaN(value.getTime()) ? null : value;
+  const date = new Date(String(value).replace(/(\+\d{2})(\d{2})$/, "$1:$2"));
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
+function cleanTitle(value) {
+  return stripHtml(value)
+    .replace(/\s+вакансия\b.*$/i, "")
+    .replace(/\s+—\s+.*$/i, "")
+    .trim();
+}
+
 function stripHtml(value) {
-  return normalizeText(String(value || "").replace(/<[^>]+>/g, " "));
+  return normalizeText(
+    decodeHtml(String(value || ""))
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+      .replace(/<[^>]+>/g, " ")
+  );
 }
 
 function normalizeText(value) {
   return String(value || "").replace(/\s+/g, " ").trim();
 }
 
+function decodeHtml(value) {
+  return String(value || "")
+    .replace(/&quot;/g, '"')
+    .replace(/&#34;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&#39;/g, "'")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)));
+}
+
+function decodeJsonString(value) {
+  try {
+    return JSON.parse(`"${String(value).replace(/"/g, '\\"')}"`);
+  } catch {
+    return decodeHtml(value);
+  }
+}
+
+function absolutizeUrl(value, base) {
+  try {
+    return new URL(value, base || HH_WEB_BASE).toString();
+  } catch {
+    return value || "";
+  }
+}
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
 function unique(values) {
   return [...new Set(values.filter(Boolean))];
-}
-
-function getAuthMode() {
-  if (ACCESS_TOKEN) return "access_token";
-  if (CLIENT_ID && CLIENT_SECRET) return "client_credentials";
-  return "anonymous";
-}
-
-function parseDateValue(value) {
-  if (!value) return null;
-  if (value instanceof Date) return Number.isNaN(value.getTime()) ? null : value;
-  const date = new Date(String(value).replace(/(\+\d{2})(\d{2})$/, "$1:$2"));
-  return Number.isNaN(date.getTime()) ? null : date;
 }
 
 main().catch((error) => {

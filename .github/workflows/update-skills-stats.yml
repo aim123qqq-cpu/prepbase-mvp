@@ -33,12 +33,11 @@ jobs:
       - name: Parse hh.ru analyst vacancies
         run: npm run parse:skills
         env:
-          HH_SEARCH_QUERIES: "Системный аналитик|Бизнес-аналитик|Бизнес аналитик"
-          HH_AREA: "113"
+          HH_SEARCH_URLS: "https://omsk.hh.ru/search/vacancy?hhtmFrom=main&hhtmFromLabel=vacancy_search_line&search_field=name&search_field=company_name&search_field=description&enable_snippets=true&L_save_area=true&professional_role=10&professional_role=150&professional_role=148"
           HH_USER_AGENT: ${{ vars.HH_USER_AGENT }}
-          HH_ACCESS_TOKEN: ${{ secrets.HH_ACCESS_TOKEN }}
-          HH_CLIENT_ID: ${{ secrets.HH_CLIENT_ID }}
-          HH_CLIENT_SECRET: ${{ secrets.HH_CLIENT_SECRET }}
+          HH_MAX_SEARCH_PAGES_PER_URL: "50"
+          HH_MAX_DETAILS: "2000"
+          REQUEST_DELAY_MS: "1000"
           COMPANY_STATS_LIMIT: "50"
 
       - name: Commit updated stats

@@ -8,11 +8,11 @@
 
   const elements = {
     map: document.querySelector("#knowledgeMap"),
-    count: document.querySelector("#knowledgePanelCount"),
     title: document.querySelector("#knowledgePanelTitle"),
     search: document.querySelector("#knowledgeSearch"),
-    expandAll: document.querySelector("#knowledgeExpandAll"),
-    toggleText: document.querySelector("#knowledgeToggleText"),
+    level: document.querySelector("#knowledgeLevelFilter"),
+    sort: document.querySelector("#knowledgeSort"),
+    sidebarList: document.querySelector("#knowledgeSidebarList"),
     nav: document.querySelector(".app-nav")
   };
 
@@ -90,17 +90,12 @@
   render();
 
   elements.search?.addEventListener("input", render);
-  elements.expandAll?.addEventListener("click", () => {
-    collapsed.clear();
-    render();
-  });
-  elements.toggleText?.addEventListener("click", () => {
-    textHidden = !textHidden;
-    render();
-  });
+  elements.level?.addEventListener("change", render);
+  elements.sort?.addEventListener("change", render);
   elements.nav?.addEventListener("click", () => window.setTimeout(render, 0));
   document.addEventListener("click", handleViewOpen);
   elements.map.addEventListener("click", handleMapClick, true);
+  elements.sidebarList?.addEventListener("click", handleSidebarClick);
 
   function handleViewOpen(event) {
     const trigger = event.target.closest("[data-open-view]");
@@ -140,13 +135,18 @@
     moveRoot(nodeId, direction);
   }
 
+  function handleSidebarClick(event) {
+    const control = event.target.closest("[data-knowledge-focus]");
+    if (!control) return;
+
+    event.preventDefault();
+    focusNode(control.dataset.knowledgeFocus);
+  }
+
   function render() {
     const nodes = getVisibleTree();
-    const count = countNodes(nodes);
-
     if (elements.title) elements.title.textContent = "База знаний";
-    if (elements.count) elements.count.textContent = `${count} ${plural(count, "узел", "узла", "узлов")}`;
-    if (elements.toggleText) elements.toggleText.textContent = textHidden ? "Показать текст" : "Скрыть текст";
+    renderSidebar();
 
     if (!nodes.length) {
       elements.map.innerHTML = `<div class="empty-state">По этому запросу ничего не найдено.</div>`;
@@ -160,10 +160,37 @@
     `;
   }
 
+  function renderSidebar() {
+    if (!elements.sidebarList) return;
+
+    const controls = getControlState();
+    const allNodes = flattenTree(sortTree(withDepth(getOrderedTree())));
+    const visibleItems = controls.isFiltered
+      ? allNodes.filter((node) => matchesControls(node, controls))
+      : allNodes.filter((node) => node.__depth === 0);
+
+    if (!visibleItems.length) {
+      elements.sidebarList.innerHTML = `<div class="knowledge-sidebar-empty">Ничего не найдено</div>`;
+      return;
+    }
+
+    elements.sidebarList.innerHTML = visibleItems
+      .map((node) => {
+        const level = node.__depth + 1;
+        return `
+          <button class="knowledge-sidebar-item" data-knowledge-focus="${escapeHtml(node.id)}" type="button">
+            <span class="knowledge-sidebar-level">${level}</span>
+            <span>${escapeHtml(node.title)}</span>
+          </button>
+        `;
+      })
+      .join("");
+  }
+
   function getVisibleTree() {
-    const ordered = getOrderedTree();
-    const search = (elements.search?.value || "").trim().toLowerCase();
-    return search ? filterTree(ordered, search) : ordered;
+    const ordered = sortTree(withDepth(getOrderedTree()));
+    const controls = getControlState();
+    return controls.isFiltered ? filterTree(ordered, controls) : ordered;
   }
 
   function getOrderedTree() {
@@ -174,29 +201,112 @@
     return [...tree].sort((a, b) => (indexById.get(a.id) || 0) - (indexById.get(b.id) || 0));
   }
 
-  function filterTree(nodes, search) {
+  function getControlState() {
+    const search = (elements.search?.value || "").trim().toLowerCase();
+    const level = elements.level?.value || "all";
+    const sort = elements.sort?.value || "structure";
+    return {
+      search,
+      level,
+      sort,
+      isFiltered: Boolean(search || level !== "all")
+    };
+  }
+
+  function withDepth(nodes, depth = 0, parentId = null) {
+    return nodes.map((node) => ({
+      ...node,
+      __depth: depth,
+      __parentId: parentId,
+      children: withDepth(node.children || [], depth + 1, node.id)
+    }));
+  }
+
+  function sortTree(nodes) {
+    const sort = elements.sort?.value || "structure";
+    const sorted = sort === "structure"
+      ? [...nodes]
+      : [...nodes].sort((a, b) => {
+          const result = String(a.title).localeCompare(String(b.title), "ru");
+          return sort === "az" ? result : -result;
+        });
+
+    return sorted.map((node) => ({
+      ...node,
+      children: sortTree(node.children || [])
+    }));
+  }
+
+  function flattenTree(nodes) {
+    return nodes.flatMap((node) => [node, ...flattenTree(node.children || [])]);
+  }
+
+  function getNodeSearchText(node) {
+    return [node.title, node.summary, ...(node.details || [])]
+      .join(" ")
+      .toLowerCase();
+  }
+
+  function focusNode(nodeId) {
+    if (!nodeId) return;
+
+    getAncestorIds(nodeId).forEach((id) => collapsed.delete(id));
+    collapsed.delete(nodeId);
+    render();
+
+    window.requestAnimationFrame(() => {
+      const target = elements.map.querySelector(`[data-knowledge-node="${cssEscape(nodeId)}"]`);
+      target?.scrollIntoView({ behavior: "smooth", block: "center" });
+      target?.classList.add("knowledge-branch-highlight");
+      window.setTimeout(() => target?.classList.remove("knowledge-branch-highlight"), 900);
+    });
+  }
+
+  function getAncestorIds(nodeId) {
+    const parentById = new Map();
+    flattenTree(withDepth(getOrderedTree())).forEach((node) => {
+      if (node.__parentId) parentById.set(node.id, node.__parentId);
+    });
+
+    const ids = [];
+    let current = parentById.get(nodeId);
+    while (current) {
+      ids.push(current);
+      current = parentById.get(current);
+    }
+    return ids;
+  }
+
+  function filterTree(nodes, controls) {
     return nodes.reduce((result, node) => {
-      const children = filterTree(node.children || [], search);
-      if (matches(node, search)) result.push({ ...node, children: node.children || [] });
+      const children = filterTree(node.children || [], controls);
+      if (matchesControls(node, controls)) result.push({ ...node, children });
       else if (children.length) result.push({ ...node, children });
       return result;
     }, []);
   }
 
-  function matches(node, search) {
-    return [node.title, node.summary, ...(node.details || []), ...(node.children || []).map((child) => child.title)]
-      .join(" ")
-      .toLowerCase()
-      .includes(search);
+  function matchesControls(node, controls) {
+    const depthMatch =
+      controls.level === "all" ||
+      (controls.level === "root" && node.__depth === 0) ||
+      (controls.level === "second" && node.__depth === 1) ||
+      (controls.level === "deep" && node.__depth >= 2);
+    return depthMatch && (!controls.search || matchesSearch(node, controls.search));
+  }
+
+  function matchesSearch(node, search) {
+    return getNodeSearchText(node).includes(search);
   }
 
   function renderBranch(node, depth, rootIndex = 0, rootCount = 1) {
     const children = node.children || [];
     const details = getDetails(node, depth);
     const sourceLinks = renderSources(node.sources);
-    const isSearching = Boolean((elements.search?.value || "").trim());
-    const isCollapsed = !isSearching && collapsed.has(node.id);
+    const controls = getControlState();
+    const isCollapsed = !controls.isFiltered && collapsed.has(node.id);
     const hasBody = Boolean(node.summary || details.length || sourceLinks || children.length);
+    const icon = renderTopicIcon(node);
     const moveControls = depth === 0
       ? `
         <div class="knowledge-move-controls" aria-label="Переместить раздел">
@@ -207,12 +317,15 @@
       : "";
 
     return `
-      <article class="knowledge-branch ${depth === 0 ? "root" : "child"} ${isCollapsed ? "collapsed" : ""}" style="--depth: ${Math.min(depth, 5)}">
+      <article class="knowledge-branch ${depth === 0 ? "root" : "child"} ${isCollapsed ? "collapsed" : ""}" data-knowledge-node="${escapeHtml(node.id)}" style="--depth: ${Math.min(depth, 5)}">
         <div class="knowledge-branch-body">
-          <button class="knowledge-toggle" data-knowledge-toggle="${node.id}" type="button" aria-expanded="${!isCollapsed}" ${hasBody ? "" : "disabled"}>${isCollapsed ? "+" : "-"}</button>
+          <button class="knowledge-toggle" data-knowledge-toggle="${node.id}" type="button" aria-label="${isCollapsed ? "Раскрыть" : "Свернуть"} ${escapeHtml(node.title)}" aria-expanded="${!isCollapsed}" ${hasBody ? "" : "disabled"}>
+            <span class="knowledge-toggle-mark" aria-hidden="true">${isCollapsed ? "+" : "-"}</span>
+          </button>
+          ${icon}
           <div class="knowledge-branch-copy">
             <p class="knowledge-node-title">${escapeHtml(node.title)}</p>
-            ${!textHidden && node.summary ? `<p class="knowledge-node-goal">${escapeHtml(node.summary)}</p>` : ""}
+            ${!isCollapsed && !textHidden && node.summary ? `<p class="knowledge-node-goal">${escapeHtml(node.summary)}</p>` : ""}
           </div>
           ${moveControls}
         </div>
@@ -263,22 +376,52 @@
     render();
   }
 
-  function countNodes(nodes) {
-    return nodes.reduce((count, node) => count + 1 + countNodes(node.children || []), 0);
-  }
-
   function getDefaultCollapsedIds(nodes, depth = 0) {
     return nodes.reduce((ids, node) => {
       const children = node.children || [];
       const hasBody = Boolean(node.summary || (node.details || []).length || (node.sources || []).length || children.length);
 
-      if (hasBody && depth >= 1 && depth <= 2) {
+      if (hasBody) {
         ids.add(node.id);
       }
 
       getDefaultCollapsedIds(children, depth + 1).forEach((id) => ids.add(id));
       return ids;
     }, new Set());
+  }
+
+  function renderTopicIcon(node) {
+    const kind = getIconKind(node);
+    const shapes = {
+      api: `<path d="M8 12h8M6 8h4l2 4 2-4h4M6 16h4l2-4 2 4h4" />`,
+      requirements: `<path d="M8 5h8l3 3v11H8z" /><path d="M16 5v4h4M10 12h7M10 16h6" />`,
+      process: `<path d="M5 7h6v5H5zM14 12h5v5h-5zM11 9h3M9 12v2h5" />`,
+      data: `<path d="M6 7c0-1.1 2.7-2 6-2s6 .9 6 2-2.7 2-6 2-6-.9-6-2z" /><path d="M6 7v10c0 1.1 2.7 2 6 2s6-.9 6-2V7M6 12c0 1.1 2.7 2 6 2s6-.9 6-2" />`,
+      architecture: `<path d="M5 7h5v5H5zM14 7h5v5h-5zM9 16h6M12 12v4M7.5 12v3M16.5 12v3" />`,
+      security: `<path d="M12 4l7 3v5c0 4-2.8 6.8-7 8-4.2-1.2-7-4-7-8V7z" /><path d="M9.5 12.5l1.7 1.7 3.7-4" />`,
+      testing: `<path d="M7 5h10v14H7z" /><path d="M9 10l2 2 4-4M9 16h6" />`,
+      default: `<path d="M12 5v14M5 12h14" /><circle cx="12" cy="12" r="7" />`
+    };
+
+    return `
+      <span class="knowledge-topic-icon knowledge-topic-icon-${kind}" aria-hidden="true">
+        <svg viewBox="0 0 24 24" focusable="false">
+          ${shapes[kind] || shapes.default}
+        </svg>
+      </span>
+    `;
+  }
+
+  function getIconKind(node) {
+    const value = `${node.id || ""} ${node.title || ""}`.toLowerCase();
+    if (/(api|rest|http|интеграц|grpc|soap|webhook|kafka)/.test(value)) return "api";
+    if (/(requirement|требован|user-story|stakeholder)/.test(value)) return "requirements";
+    if (/(process|bpmn|uml|модел|процесс|sequence|activity)/.test(value)) return "process";
+    if (/(sql|data|database|dwh|etl|erd|данн|база|метрик)/.test(value)) return "data";
+    if (/(architect|c4|контур|систем|архитект)/.test(value)) return "architecture";
+    if (/(security|auth|token|oauth|безопас|доступ)/.test(value)) return "security";
+    if (/(test|uat|qa|прием|приём|тест)/.test(value)) return "testing";
+    return "default";
   }
 
   function loadRootOrder() {
@@ -309,5 +452,9 @@
       .replaceAll(">", "&gt;")
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#039;");
+  }
+
+  function cssEscape(value) {
+    return window.CSS?.escape ? window.CSS.escape(value) : String(value).replaceAll('"', '\\"');
   }
 })();

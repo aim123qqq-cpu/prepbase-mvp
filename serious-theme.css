@@ -18,6 +18,7 @@
   --violet-soft: #ebe7ff;
   --shadow: 0 24px 60px rgba(0, 0, 0, 0.16);
   --shadow-soft: 0 12px 28px rgba(0, 0, 0, 0.08);
+  --font-sans: "TT Norms Pro", "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 button,
@@ -25,7 +26,7 @@ button,
   border: 1px solid var(--line-strong);
   border-radius: 6px;
   background: var(--accent);
-  font-weight: 760;
+  font-weight: 640;
   box-shadow: none;
 }
 
@@ -58,16 +59,41 @@ textarea:focus {
 label,
 .metric-label,
 .eyebrow {
-  font-weight: 760;
+  font-weight: 640;
+}
+
+.nav-tab,
+.metric strong,
+.topic-title,
+.task-title,
+.question-title,
+.knowledge-node-title,
+.filter-chip,
+.pill,
+.tag,
+.status {
+  font-weight: 650;
+}
+
+.topic-goal,
+.task-meta,
+.question-answer,
+.empty-state,
+.knowledge-node-goal,
+.knowledge-node-meta,
+.knowledge-details {
+  font-weight: 480;
 }
 
 h1 {
   font-size: clamp(2.4rem, 6vw, 5.8rem);
-  line-height: 0.92;
+  font-weight: 680;
+  line-height: 0.98;
   text-transform: none;
 }
 
 h2 {
+  font-weight: 680;
   line-height: 1.12;
 }
 
@@ -158,18 +184,80 @@ h2 {
   background: var(--surface);
 }
 
+.overview-section-card {
+  border-color: var(--line);
+  background:
+    linear-gradient(145deg, rgba(116, 81, 255, 0.08), transparent 48%),
+    #ffffff;
+  box-shadow: none;
+}
+
+.overview-section-card:hover {
+  border-color: rgba(116, 81, 255, 0.44);
+}
+
+.overview-section-card .ghost-button {
+  border-color: rgba(116, 81, 255, 0.34);
+  background: var(--violet-soft);
+  color: #3e2ba8;
+}
+
+.knowledge-sidebar {
+  border-color: var(--line);
+  background:
+    linear-gradient(145deg, rgba(116, 81, 255, 0.08), transparent 52%),
+    #ffffff;
+  box-shadow: none;
+}
+
+.knowledge-sidebar-item {
+  border-color: rgba(116, 81, 255, 0.18);
+  background: rgba(235, 231, 255, 0.46);
+  box-shadow: none;
+}
+
+.knowledge-sidebar-item:hover {
+  border-color: rgba(116, 81, 255, 0.46);
+  box-shadow: none;
+  transform: none;
+}
+
+.overview-section-icon,
+.knowledge-topic-icon {
+  border-color: rgba(116, 81, 255, 0.36);
+  background:
+    radial-gradient(circle at 30% 18%, rgba(255, 255, 255, 0.86), transparent 24%),
+    linear-gradient(145deg, #8b5cf6, #5b35d5 74%);
+  color: #ffffff;
+  box-shadow: 0 14px 30px rgba(91, 53, 213, 0.18);
+}
+
 .filter-chip,
 .pill,
 .small-button,
 .knowledge-source {
   border-width: 1px;
-  font-weight: 760;
+  font-weight: 640;
 }
 
 .filter-chip.active {
   border-color: var(--violet);
   background: var(--violet-soft);
   color: #3e2ba8;
+}
+
+.tag {
+  background: var(--violet-soft);
+  color: #4f35c7;
+}
+
+.skills-panel {
+  position: relative;
+  overflow: hidden;
+}
+
+.tasks-panel::before {
+  background: var(--blue);
 }
 
 .topic-card,
@@ -182,7 +270,7 @@ h2 {
 }
 
 .topic-card:hover,
-.task-card:hover,
+task-card:hover,
 .question-card:hover,
 .knowledge-node:hover {
   border-color: var(--violet);
@@ -208,7 +296,7 @@ h2 {
 
 .knowledge-branch.root {
   border-color: var(--line);
-  border-left-color: var(--green);
+  border-left-color: var(--violet);
 }
 
 .knowledge-branch.child::before {
@@ -217,7 +305,7 @@ h2 {
 
 .knowledge-toggle {
   border-color: var(--line);
-  background: #ffffff;
+  background: var(--violet-soft);
   color: #4f35c7;
 }
 
@@ -228,7 +316,7 @@ h2 {
 
 .status {
   border-width: 1px;
-  font-weight: 760;
+  font-weight: 640;
 }
 
 .empty-state {

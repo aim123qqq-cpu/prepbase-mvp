@@ -22,6 +22,7 @@
   --warn: #cc4b2c;
   --shadow: 0 18px 0 rgba(16, 17, 20, 0.08);
   --shadow-soft: 0 8px 0 rgba(16, 17, 20, 0.05);
+  --font-sans: "TT Norms Pro", "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 * {
@@ -33,9 +34,9 @@ body {
   min-width: 320px;
   background: #1c1c1c;
   color: var(--ink);
-  font-family:
-    "Helvetica Neue", Arial, "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont,
-    sans-serif;
+  font-family: var(--font-sans);
+  font-feature-settings: "kern" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
 }
 
 button,
@@ -52,7 +53,7 @@ button {
   background: var(--accent);
   color: var(--ink);
   cursor: pointer;
-  font-weight: 800;
+  font-weight: 680;
   padding: 0 16px;
   transition:
     box-shadow 160ms ease,
@@ -112,7 +113,7 @@ label {
   gap: 7px;
   color: var(--muted);
   font-size: 0.9rem;
-  font-weight: 900;
+  font-weight: 650;
 }
 
 h1,
@@ -123,16 +124,16 @@ p {
 
 h1 {
   font-size: clamp(2.8rem, 7vw, 6.8rem);
-  font-weight: 900;
-  line-height: 0.86;
+  font-weight: 720;
+  line-height: 0.96;
   letter-spacing: 0;
   text-transform: uppercase;
 }
 
 h2 {
   font-size: clamp(1.15rem, 1.6vw, 1.55rem);
-  font-weight: 900;
-  line-height: 1.05;
+  font-weight: 720;
+  line-height: 1.12;
   letter-spacing: 0;
 }
 
@@ -180,7 +181,7 @@ h2 {
 .eyebrow {
   color: var(--green);
   font-size: 0.76rem;
-  font-weight: 950;
+  font-weight: 680;
   letter-spacing: 0;
   margin-bottom: 7px;
   text-transform: uppercase;
@@ -367,7 +368,7 @@ h2 {
 }
 
 .overview-knowledge-panel {
-  min-height: 220px;
+  min-height: 260px;
 }
 
 .overview-knowledge-panel::before {
@@ -389,6 +390,73 @@ h2 {
   max-width: 760px;
 }
 
+.overview-section-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.overview-section-card {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 14px;
+  min-height: 238px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(145deg, rgba(123, 69, 255, 0.08), transparent 46%),
+    #ffffff;
+  padding: 16px;
+}
+
+.overview-section-card h3 {
+  margin: 0 0 8px;
+  color: var(--ink);
+  font-size: 1.05rem;
+  font-weight: 680;
+  line-height: 1.16;
+}
+
+.overview-section-card p {
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 480;
+  line-height: 1.52;
+}
+
+.overview-section-card .ghost-button {
+  justify-self: start;
+  min-height: 40px;
+  border-color: rgba(123, 69, 255, 0.34);
+  background: var(--violet-soft);
+  color: #3f2caf;
+}
+
+.overview-section-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border: 1px solid rgba(123, 69, 255, 0.28);
+  border-radius: 14px;
+  background:
+    radial-gradient(circle at 30% 18%, rgba(255, 255, 255, 0.88), transparent 24%),
+    linear-gradient(145deg, #8b5cf6, #5b35d5 72%);
+  color: white;
+  box-shadow: 0 16px 34px rgba(91, 53, 213, 0.22);
+}
+
+.overview-section-icon svg {
+  width: 27px;
+  height: 27px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
 .accent-card {
   background:
     linear-gradient(135deg, rgba(0, 168, 107, 0.14), transparent 46%),
@@ -407,6 +475,13 @@ h2 {
   align-items: flex-start;
 }
 
+.knowledge-workspace {
+  display: grid;
+  grid-template-columns: minmax(240px, 320px) minmax(0, 1fr);
+  gap: 14px;
+  margin-top: 18px;
+}
+
 .knowledge-actions {
   display: flex;
   flex-wrap: wrap;
@@ -419,11 +494,91 @@ h2 {
   margin: 18px 0 4px;
 }
 
+.knowledge-sidebar {
+  align-self: start;
+  display: grid;
+  gap: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(145deg, rgba(123, 69, 255, 0.08), transparent 52%),
+    #ffffff;
+  padding: 14px;
+}
+
+.knowledge-sidebar label {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 650;
+  gap: 7px;
+}
+
+.knowledge-sidebar input,
+.knowledge-sidebar select {
+  min-height: 40px;
+  font-size: 0.92rem;
+}
+
+.knowledge-sidebar-results {
+  display: grid;
+  gap: 7px;
+  max-height: 560px;
+  overflow: auto;
+  padding-right: 2px;
+}
+
+.knowledge-sidebar-item {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  min-height: 38px;
+  border: 1px solid rgba(123, 69, 255, 0.18);
+  border-radius: 7px;
+  background: rgba(238, 231, 255, 0.45);
+  color: var(--ink);
+  font-size: 0.9rem;
+  font-weight: 560;
+  line-height: 1.25;
+  padding: 7px 9px;
+  text-align: left;
+}
+
+.knowledge-sidebar-item:hover {
+  border-color: rgba(123, 69, 255, 0.48);
+  background: var(--violet-soft);
+}
+
+.knowledge-sidebar-level {
+  display: inline-grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  background: var(--violet);
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.knowledge-sidebar-empty {
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 520;
+  padding: 12px;
+}
+
+.knowledge-main {
+  min-width: 0;
+}
+
 .topics-panel,
 .tasks-panel,
 .question-panel,
 .knowledge-panel,
-.skills-panel,
+skills-panel,
 .overview-knowledge-panel {
   position: relative;
   overflow: hidden;
@@ -445,7 +600,7 @@ h2 {
   background: var(--green);
 }
 
-.tasks-panel::before {
+tasks-panel::before {
   background: var(--blue);
 }
 
@@ -494,7 +649,7 @@ h2 {
 
 .filter-chip,
 .pill,
-.tag,
+tag,
 .status {
   border-radius: 999px;
   font-size: 0.8rem;
@@ -681,10 +836,15 @@ h2 {
 
 .knowledge-branch.root {
   border-color: var(--ink);
-  border-left-color: var(--green);
+  border-left-color: var(--violet);
   background:
-    linear-gradient(135deg, rgba(123, 69, 255, 0.08), transparent 42%),
+    linear-gradient(135deg, rgba(123, 69, 255, 0.1), transparent 42%),
     var(--surface);
+}
+
+.knowledge-branch-highlight {
+  border-color: rgba(123, 69, 255, 0.62);
+  box-shadow: 0 0 0 4px rgba(123, 69, 255, 0.14);
 }
 
 .knowledge-branch.child::before {
@@ -713,6 +873,52 @@ h2 {
   font-size: 1.05rem;
   line-height: 1;
   padding: 0;
+}
+
+.knowledge-toggle-mark {
+  display: inline-grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.knowledge-topic-icon {
+  display: inline-grid;
+  flex: 0 0 52px;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border: 1px solid rgba(123, 69, 255, 0.34);
+  border-radius: 16px;
+  background:
+    radial-gradient(circle at 30% 18%, rgba(255, 255, 255, 0.86), transparent 24%),
+    linear-gradient(145deg, #8b5cf6, #5b35d5 74%);
+  color: #ffffff;
+  box-shadow:
+    0 14px 30px rgba(91, 53, 213, 0.18),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.18);
+}
+
+.knowledge-topic-icon svg {
+  width: 27px;
+  height: 27px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.9;
+}
+
+.knowledge-topic-icon-api,
+.knowledge-topic-icon-requirements,
+.knowledge-topic-icon-process,
+.knowledge-topic-icon-data,
+.knowledge-topic-icon-architecture,
+.knowledge-topic-icon-security,
+.knowledge-topic-icon-testing {
+  background:
+    radial-gradient(circle at 30% 18%, rgba(255, 255, 255, 0.86), transparent 24%),
+    linear-gradient(145deg, #9668ff, #5d36d8 74%);
 }
 
 .knowledge-branch-copy {
@@ -835,7 +1041,9 @@ h2 {
   .stats-grid,
   .workspace,
   .overview-grid,
-  .knowledge-layout {
+  .knowledge-layout,
+  .knowledge-workspace,
+  .overview-section-grid {
     grid-template-columns: 1fr;
   }
 
@@ -863,15 +1071,24 @@ h2 {
   .question-heading,
   .task-card,
   .question-top,
-  .knowledge-node-top,
-  .knowledge-branch-body {
+  .knowledge-node-top {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .knowledge-branch-body {
+    display: grid;
+    grid-template-columns: 34px 52px minmax(0, 1fr);
+    align-items: flex-start;
   }
 
   .knowledge-actions,
   .knowledge-move-controls {
     justify-content: stretch;
+  }
+
+  .knowledge-sidebar-results {
+    max-height: 300px;
   }
 
   .topbar {
@@ -896,6 +1113,10 @@ h2 {
   .knowledge-source-row {
     margin-left: 0;
   }
+
+  .knowledge-move-controls {
+    grid-column: 1 / -1;
+  }
 }
 
 @media (max-width: 460px) {
@@ -909,6 +1130,10 @@ h2 {
 
   .knowledge-toggle {
     width: 34px;
+  }
+
+  .overview-section-card .ghost-button {
+    justify-self: stretch;
   }
 
   .workflow-button {

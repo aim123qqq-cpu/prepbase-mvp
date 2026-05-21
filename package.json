@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "parse:skills": "node scripts/parse-job-sites-skills.js"
+    "parse:skills": "node scripts/parse-job-sites-skills.js && node scripts/rebuild-company-stats.js"
   },
   "dependencies": {},
   "devDependencies": {}

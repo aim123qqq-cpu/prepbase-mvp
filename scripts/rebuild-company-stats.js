@@ -69,7 +69,8 @@ function buildCompanyStats(vacancies, knownLogos) {
   for (const vacancy of vacancies) {
     const name = normalizeText(vacancy.employer || "Компания не указана") || "Компания не указана";
     const key = `name:${name.toLowerCase()}`;
-    const stat = getOrCreateCompany(totals, key, name, knownLogos.get(key) || null);
+    const logo = vacancy.employerLogo || vacancy.logo || vacancy.employerLogoUrl || knownLogos.get(key) || null;
+    const stat = getOrCreateCompany(totals, key, name, logo);
     const vacancyId = String(vacancy.id || "");
 
     if (vacancyId && !stat.vacancyIds.includes(vacancyId)) {

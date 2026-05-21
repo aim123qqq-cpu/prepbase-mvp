@@ -78,8 +78,21 @@ button,
 }
 
 .parser-refresh-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  background: linear-gradient(135deg, #7b45ff, #31d6ff);
+  color: white;
+  font-size: 0;
   text-decoration: none;
   white-space: nowrap;
+}
+
+.parser-refresh-link::before {
+  content: "Запустить парсер";
+  font-size: 0.92rem;
 }
 
 .parser-overview-copy,
@@ -180,7 +193,7 @@ button,
 }
 
 .parser-board-grid .eyebrow {
-  color: #8ee8ff;
+  display: none;
 }
 
 .parser-board-grid .pill {

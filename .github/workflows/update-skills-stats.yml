@@ -9,6 +9,8 @@ on:
       - main
     paths:
       - "scripts/parse-job-sites-skills.js"
+      - "scripts/rebuild-company-stats.js"
+      - "package.json"
       - ".github/workflows/update-skills-stats.yml"
 
 permissions:

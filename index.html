@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="serious-theme.css" />
     <link rel="stylesheet" href="premium-hero.css" />
+    <link rel="stylesheet" href="skills-stats.css" />
   </head>
   <body>
     <header class="site-header" aria-label="Главная навигация">
@@ -84,8 +85,8 @@
             </div>
           </div>
           <p class="overview-copy">
-            Сейчас приложение собрано вокруг трех рабочих контуров: база знаний для структуры, вопросы для самопроверки
-            и задачи для движения по плану. Вакансийная аналитика временно скрыта до готового доступа к HH.
+            Сейчас приложение собрано вокруг четырех рабочих контуров: база знаний для структуры, вопросы для самопроверки,
+            задачи для движения по плану и аналитика вакансий, которая показывает спрос по навыкам и компаниям после запуска парсера.
           </p>
           <div class="overview-section-grid" aria-label="Разделы SA HALPER">
             <article class="overview-section-card">
@@ -128,6 +129,85 @@
               <button class="ghost-button" data-open-view="tasks" type="button">Открыть задачи</button>
             </article>
           </div>
+        </section>
+
+        <section class="panel parser-overview-panel" aria-labelledby="parserOverviewTitle">
+          <div class="panel-heading parser-overview-heading">
+            <div>
+              <p class="eyebrow">Рынок вакансий</p>
+              <h2 id="parserOverviewTitle">Аналитика парсера</h2>
+            </div>
+            <a
+              class="ghost-button parser-refresh-link"
+              href="https://github.com/aim123qqq-cpu/prepbase-mvp/actions/workflows/update-skills-stats.yml"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Обновить вручную
+            </a>
+          </div>
+          <p class="parser-overview-copy" id="parserOverviewMeta">
+            Данные подтягиваются из статического файла skills-stats.js и обновляются через GitHub Actions.
+          </p>
+          <div class="parser-stat-grid" aria-label="Сводка парсера вакансий">
+            <article class="parser-stat-card">
+              <span>Вакансии</span>
+              <strong id="parserVacanciesValue">0</strong>
+              <p id="parserVacanciesMeta">Ожидаем успешный сбор</p>
+            </article>
+            <article class="parser-stat-card">
+              <span>Навыки</span>
+              <strong id="parserSkillsValue">0</strong>
+              <p>От частых к редким</p>
+            </article>
+            <article class="parser-stat-card">
+              <span>Компании</span>
+              <strong id="parserCompaniesValue">0</strong>
+              <p>Для demand chart</p>
+            </article>
+            <article class="parser-stat-card parser-stat-card-accent">
+              <span>Статус</span>
+              <strong id="parserStatusValue">Ожидает</strong>
+              <p id="parserStatusMeta">Парсер запускается по расписанию</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="parser-board-grid" aria-label="Борды аналитики вакансий">
+          <section class="panel skills-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Skill demand</p>
+                <h2>Навыки из вакансий</h2>
+              </div>
+              <span class="pill" id="skillsUpdatedAt">Ожидает парсинг</span>
+            </div>
+            <p class="skills-summary" id="skillsSummary"></p>
+            <div class="skills-list" id="skillsList"></div>
+          </section>
+
+          <section class="panel companies-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Company demand</p>
+                <h2>Компании с открытыми вакансиями</h2>
+              </div>
+              <span class="pill" id="companiesCount">0 компаний</span>
+            </div>
+            <p class="companies-summary" id="companiesSummary"></p>
+            <div class="company-filters" id="companyFilters" aria-label="Фильтры компаний">
+              <input id="companySearch" type="search" placeholder="Найти компанию" autocomplete="off" />
+              <select id="companyRoleFilter" aria-label="Фильтр по роли"></select>
+              <select id="companyAreaFilter" aria-label="Фильтр по региону"></select>
+              <label class="company-min-filter">
+                <span>Минимум вакансий</span>
+                <output id="companyMinVacanciesValue" for="companyMinVacancies">0</output>
+                <input id="companyMinVacancies" type="range" min="0" max="0" value="0" />
+              </label>
+              <button class="ghost-button company-filter-reset" id="companyFiltersReset" type="button">Сбросить</button>
+            </div>
+            <div class="companies-list" id="companiesList"></div>
+          </section>
         </section>
       </section>
 
@@ -250,6 +330,8 @@
     <script src="questions-extra.js"></script>
     <script src="app.js"></script>
     <script src="knowledge-ui.js"></script>
+    <script src="skills-stats.js"></script>
+    <script src="skills-stats-ui.js"></script>
     <script src="site-shell.js"></script>
   </body>
 </html>

@@ -6,7 +6,9 @@
   const summary = document.querySelector("#skillsSummary");
   const list = document.querySelector("#skillsList");
   const companyElements = getCompanyElements();
+  const overviewElements = getParserOverviewElements();
 
+  renderParserOverview(stats, skills, companies, overviewElements);
   if (!updatedAt || !summary || !list) return;
 
   renderSkills(stats, skills, updatedAt, summary, list);
@@ -14,6 +16,54 @@
     renderCompanies(stats, companies, companyElements);
   }
 })();
+
+function getParserOverviewElements() {
+  return {
+    meta: document.querySelector("#parserOverviewMeta"),
+    vacancies: document.querySelector("#parserVacanciesValue"),
+    vacanciesMeta: document.querySelector("#parserVacanciesMeta"),
+    skills: document.querySelector("#parserSkillsValue"),
+    companies: document.querySelector("#parserCompaniesValue"),
+    status: document.querySelector("#parserStatusValue"),
+    statusMeta: document.querySelector("#parserStatusMeta")
+  };
+}
+
+function renderParserOverview(stats, skills, companies, elements) {
+  if (!elements.vacancies && !elements.skills && !elements.companies && !elements.status) return;
+
+  const totalVacancies = Number(stats.totalVacancies || 0);
+  const sourcesCount = Array.isArray(stats.sources) ? stats.sources.length : 0;
+  const hasData = totalVacancies > 0 || skills.length > 0 || companies.length > 0;
+  const hasErrors = Object.values(stats.sourceStats || {}).some((source) => source && source.error);
+
+  if (elements.vacancies) elements.vacancies.textContent = formatNumber(totalVacancies);
+  if (elements.skills) elements.skills.textContent = formatNumber(skills.length);
+  if (elements.companies) elements.companies.textContent = formatNumber(companies.length);
+
+  if (elements.vacanciesMeta) {
+    elements.vacanciesMeta.textContent = sourcesCount
+      ? `${sourcesCount} ${getPlural(sourcesCount, "источник", "источника", "источников")}`
+      : "Источник: hh.ru search";
+  }
+
+  if (elements.status) {
+    elements.status.textContent = hasData ? "Есть данные" : hasErrors ? "Проверить" : "Ожидает";
+  }
+
+  if (elements.statusMeta) {
+    elements.statusMeta.textContent = stats.updatedAt
+      ? `Последний запуск: ${formatDate(stats.updatedAt)}`
+      : "Парсер запускается по расписанию";
+  }
+
+  if (elements.meta) {
+    const parserName = stats.parser || "hh.ru public search";
+    elements.meta.textContent = hasData
+      ? `Парсер ${parserName}: собрано ${formatNumber(totalVacancies)} ${getPlural(totalVacancies, "вакансия", "вакансии", "вакансий")}, ${formatNumber(skills.length)} ${getPlural(skills.length, "навык", "навыка", "навыков")} и ${formatNumber(companies.length)} ${getPlural(companies.length, "компания", "компании", "компаний")}.`
+      : `Парсер ${parserName} подключен, но в последнем сохраненном срезе пока нет вакансий. Блок оставлен на главной, чтобы сразу показать данные после успешного запуска.`;
+  }
+}
 
 function renderSkills(stats, skills, updatedAt, summary, list) {
   const maxCount = Math.max(...skills.map((skill) => skill.count), 1);
@@ -302,6 +352,10 @@ function getPlural(count, one, few, many) {
   if (mod10 === 1 && mod100 !== 11) return one;
   if (mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)) return few;
   return many;
+}
+
+function formatNumber(value) {
+  return new Intl.NumberFormat("ru-RU").format(Number(value || 0));
 }
 
 function formatDate(value) {

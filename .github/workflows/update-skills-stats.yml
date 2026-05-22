@@ -39,7 +39,7 @@ jobs:
           HH_USER_AGENT: ${{ vars.HH_USER_AGENT }}
           HH_MAX_SEARCH_PAGES_PER_URL: "50"
           HH_MAX_DETAILS: "2000"
-          REQUEST_DELAY_MS: "1000"
+          REQUEST_DELAY_MS: "50"
           COMPANY_STATS_LIMIT: "500"
 
       - name: Commit updated stats

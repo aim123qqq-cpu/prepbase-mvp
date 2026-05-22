@@ -1,5 +1,5 @@
 window.PREPBASE_SKILL_STATS = {
-  "updatedAt": "2026-05-22T05:57:12.544Z",
+  "updatedAt": "2026-05-22T11:30:38.767Z",
   "since": null,
   "parser": "hh.ru public search HTML",
   "api": null,
@@ -16,9 +16,9 @@ window.PREPBASE_SKILL_STATS = {
   "sources": [
     "https://hh.ru/"
   ],
-  "totalSearchResults": 4841,
-  "totalVacancies": 436,
-  "detailsFetched": 1561,
+  "totalSearchResults": 4805,
+  "totalVacancies": 305,
+  "detailsFetched": 1691,
   "sourceStats": [
     {
       "source": "https://hh.ru/",
@@ -27,28 +27,28 @@ window.PREPBASE_SKILL_STATS = {
       "authMode": "public_html",
       "searchQueries": 1,
       "pagesFetched": 40,
-      "vacancies": 436,
+      "vacancies": 305,
       "errors": [
-        "vacancy 133199955: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 133188773: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 133219435: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 133278463: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 133289396: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 133131396: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 133332106: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 133083756: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 133237198: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 130554252: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 133285299: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 133203821: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 133140921: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 132881426: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 133199740: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 133169592: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 133352697: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 133229941: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 132844402: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-        "vacancy 132810974: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically"
+        "vacancy 133322948: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 133363458: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 131555534: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 132794638: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 132829039: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 132875740: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 133211236: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 132878131: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 131431377: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 131653493: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 132179792: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 132721685: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 133360937: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 133040601: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 133306976: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 132029628: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 132447065: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 132551243: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 132821844: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+        "vacancy 133335513: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically"
       ]
     }
   ],
@@ -60,44 +60,140 @@ window.PREPBASE_SKILL_STATS = {
       "searchField": "public-search-url",
       "area": "omsk.hh.ru",
       "engine": "public HTML",
-      "found": 4841,
+      "found": 4805,
       "pagesFetched": 40,
-      "vacancyIds": 1996,
+      "vacancyIds": 1995,
       "warnings": [],
       "errors": []
     }
   ],
   "companyStats": [
     {
-      "employerId": "name:лига цифровой экономики",
-      "name": "Лига Цифровой Экономики",
-      "logo": null,
-      "vacanciesCount": 3,
+      "employerId": "872178",
+      "name": "ООО ИЦ АЙ-ТЕКО",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/2559134.png",
+      "vacanciesCount": 4,
       "vacancyIds": [
-        "133302889",
-        "133370192",
-        "133372297"
+        "130278073",
+        "132495856",
+        "132598240",
+        "133186533"
       ],
       "roles": {
-        "Системный аналитик": 3,
-        "Бизнес-аналитик": 1
+        "Системный аналитик": 3
       },
       "areas": {},
-      "skills": {},
+      "skills": {
+        "Интеграции": 1,
+        "Метрики": 1,
+        "API": 1,
+        "Python": 1,
+        "SQL": 1,
+        "Swagger/OpenAPI": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:aya group",
-      "name": "AYA Group",
+      "employerId": "4770322",
+      "name": "DCloud",
+      "logo": null,
+      "vacanciesCount": 3,
+      "vacancyIds": [
+        "132584744",
+        "132805468",
+        "132866626"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Английский": 3,
+        "Системный анализ": 2,
+        "BPMN": 2,
+        "SQL": 2,
+        "UML": 2,
+        "Бизнес-анализ": 1,
+        "Интеграции": 1,
+        "Коммуникация": 1,
+        "API": 1,
+        "Excel": 1,
+        "Kafka": 1,
+        "PostgreSQL": 1,
+        "REST API": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "6189",
+      "name": "Bell Integrator",
       "logo": null,
       "vacanciesCount": 2,
       "vacancyIds": [
-        "130840334",
-        "131431377"
+        "132929693",
+        "132932894"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "BPMN": 2,
+        "UML": 2,
+        "Интеграции": 1,
+        "Системный анализ": 1,
+        "SQL": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "3776",
+      "name": "\"МТС\", Работа в IT",
+      "logo": "https://img.hhcdn.ru/employer-logo/7176732.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "132441094"
       ],
       "roles": {
-        "Бизнес-аналитик": 1,
+        "Системный аналитик": 1
+      },
+      "areas": {},
+      "skills": {
+        "Английский": 1,
+        "Системный анализ": 1,
+        "BPMN": 1,
+        "UML": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "52296",
+      "name": "Алютех",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/602580.jpeg",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133362150"
+      ],
+      "roles": {
+        "Системный аналитик": 1
+      },
+      "areas": {},
+      "skills": {
+        "BPMN": 1,
+        "UML": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "53797",
+      "name": "Аналитика",
+      "logo": "https://img.hhcdn.ru/employer-logo/7728367.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "132146886"
+      ],
+      "roles": {
         "Системный аналитик": 1
       },
       "areas": {},
@@ -106,57 +202,16 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:bell integrator",
-      "name": "Bell Integrator",
-      "logo": null,
-      "vacanciesCount": 2,
-      "vacancyIds": [
-        "132934497",
-        "132964226"
-      ],
-      "roles": {
-        "Системный аналитик": 2
-      },
-      "areas": {},
-      "skills": {
-        "API": 1,
-        "BPMN": 1,
-        "REST API": 1,
-        "Swagger/OpenAPI": 1,
-        "UML": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:employcity",
-      "name": "Employcity",
-      "logo": null,
-      "vacanciesCount": 2,
-      "vacancyIds": [
-        "130488318",
-        "133090747"
-      ],
-      "roles": {
-        "Системный аналитик": 2,
-        "Бизнес-аналитик": 1
-      },
-      "areas": {},
-      "skills": {
-        "Системный анализ": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:«почта россии», логистика",
-      "name": "«Почта России», Логистика",
+      "employerId": "name:ангиофарм",
+      "name": "Ангиофарм",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133196042"
+        "132821660"
       ],
-      "roles": {},
+      "roles": {
+        "Бизнес-аналитик": 1
+      },
       "areas": {},
       "skills": {
         "Английский": 1
@@ -165,79 +220,48 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:автономный кластерный фонд астана хаб",
-      "name": "автономный кластерный фонд Астана Хаб",
-      "logo": null,
+      "employerId": "176941",
+      "name": "АО Азиатско-Тихоокеанский Банк",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/7125215.jpeg",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "132535312"
+        "132745743"
       ],
-      "roles": {
-        "Бизнес-аналитик": 1
-      },
-      "areas": {
-        "Астана, проспект Мангилик Ел, С4.6": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:администрация городского округа красногорск московской области",
-      "name": "Администрация Городского Округа Красногорск Московской Области",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "132810974"
-      ],
-      "roles": {
-        "Системный аналитик": 1
-      },
+      "roles": {},
       "areas": {},
       "skills": {
-        "Интеграции": 1,
         "API": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:акрон холдинг",
-      "name": "АКРОН ХОЛДИНГ",
-      "logo": null,
+      "employerId": "1174187",
+      "name": "АО ВНИИ Галургии",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/847125.jpeg",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133307081"
+        "132749642"
       ],
       "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:аналитический центр при правительстве российской федерации",
-      "name": "Аналитический центр при Правительстве Российской Федерации",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "132574772"
-      ],
-      "roles": {
-        "Системный аналитик": 1
+      "areas": {
+        "Пермь, р-н Свердловский": 1
       },
-      "areas": {},
-      "skills": {},
+      "skills": {
+        "Бизнес-анализ": 1,
+        "BPMN": 1,
+        "UML": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ао ааа управление капиталом",
-      "name": "АО ААА УПРАВЛЕНИЕ КАПИТАЛОМ",
-      "logo": null,
+      "employerId": "993723",
+      "name": "АО ВЭД Агент",
+      "logo": "https://img.hhcdn.ru/employer-logo/7229245.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "132780251"
+        "132661595"
       ],
       "roles": {
         "Бизнес-аналитик": 1
@@ -248,62 +272,41 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ао азиатско-тихоокеанский банк",
-      "name": "АО Азиатско-Тихоокеанский Банк",
+      "employerId": "844660",
+      "name": "АО Горно-рудная компания Западная",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133220166"
+        "133135300"
       ],
-      "roles": {
-        "Системный аналитик": 1
+      "roles": {},
+      "areas": {
+        "Иркутск, р-н Октябрьский": 1
       },
-      "areas": {},
-      "skills": {},
+      "skills": {
+        "Интеграции": 1,
+        "Jira": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ао вектор-бест",
-      "name": "АО Вектор-Бест",
-      "logo": null,
+      "employerId": "6488",
+      "name": "АО Зетта Страхование",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/1586919.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "132969151"
+        "133058391"
       ],
       "roles": {},
       "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ао владимирский хлебокомбинат",
-      "name": "АО Владимирский хлебокомбинат",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133004972"
-      ],
-      "roles": {
-        "Системный аналитик": 1
+      "skills": {
+        "BPMN": 1,
+        "Excel": 1,
+        "Git": 1,
+        "Linux": 1,
+        "SQL": 1
       },
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ао гспи",
-      "name": "АО ГСПИ",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "132988623"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -313,7 +316,7 @@ window.PREPBASE_SKILL_STATS = {
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "131506654"
+        "133322459"
       ],
       "roles": {
         "Системный аналитик": 1
@@ -324,52 +327,72 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ао мое вино",
-      "name": "АО МОЕ ВИНО",
+      "employerId": "name:ао нпф втб пенсионный фонд",
+      "name": "АО НПФ ВТБ Пенсионный Фонд",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "131961301"
+        "133008718"
       ],
       "roles": {
-        "Системный аналитик": 1
+        "Бизнес-аналитик": 1
       },
       "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "1575433",
+      "name": "АО Объединенная судостроительная корпорация",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "132542498"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва": 1
+      },
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "2609",
+      "name": "АО ПЕТРУС",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133309619"
+      ],
+      "roles": {},
+      "areas": {
+        "Мытищи, Олимпийский проспект, 46к4": 1
+      },
       "skills": {
-        "Excel": 1
+        "Английский": 1,
+        "Бизнес-анализ": 1,
+        "BPMN": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ао находкинский морской рыбный порт",
-      "name": "АО Находкинский морской рыбный порт",
+      "employerId": "86547",
+      "name": "АО Промышленные инновации",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "132142817"
-      ],
-      "roles": {
-        "Системный аналитик": 1
-      },
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ао окб новатор",
-      "name": "АО ОКБ Новатор",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "132707632"
+        "129923710"
       ],
       "roles": {},
       "areas": {},
       "skills": {
-        "Английский": 1,
-        "Бизнес-анализ": 1
+        "Интеграции": 1,
+        "Коммуникация": 1,
+        "API": 1,
+        "Python": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
@@ -391,29 +414,32 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ао щербинский лифтостроительный завод",
-      "name": "АО Щербинский лифтостроительный завод",
+      "employerId": "2608647",
+      "name": "АО РНПК",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "132631882"
+        "130530136"
       ],
-      "roles": {},
+      "roles": {
+        "Системный аналитик": 1
+      },
       "areas": {},
-      "skills": {},
+      "skills": {
+        "Интеграции": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ао эдс",
-      "name": "АО ЭДС",
+      "employerId": "8642172",
+      "name": "АО РУТ КОД",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133360387"
+        "133393408"
       ],
       "roles": {
-        "Бизнес-аналитик": 1,
         "Системный аналитик": 1
       },
       "areas": {},
@@ -422,122 +448,166 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ао qarmet. сталь",
-      "name": "АО Qarmet. Сталь",
+      "employerId": "137698",
+      "name": "АО Фонд Развития Промышленности, АО",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "132907409"
+        "133322948"
       ],
       "roles": {},
       "areas": {
-        "Караганда, проспект Бухар Жырау, 16": 1
+        "Астана, проспект Туран, 50/1": 1
       },
-      "skills": {},
+      "skills": {
+        "Интеграции": 1,
+        "Системный анализ": 1,
+        "API": 1,
+        "BPMN": 1,
+        "MS SQL": 1,
+        "SQL": 1,
+        "UML": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:барс груп",
-      "name": "БАРС Груп",
-      "logo": null,
+      "employerId": "1833",
+      "name": "БКС Капитал Бизнес и процессы",
+      "logo": "https://img.hhcdn.ru/employer-logo/12242732.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "132464689"
+        "132836603"
       ],
-      "roles": {
-        "Системный аналитик": 1
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Коммуникация": 1,
+        "Excel": 1,
+        "Python": 1,
+        "SQL": 1
       },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "9188",
+      "name": "БФТ-Холдинг",
+      "logo": "https://img.hhcdn.ru/employer-logo/12309213.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "132635580"
+      ],
+      "roles": {},
       "areas": {},
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ббр банк",
-      "name": "ББР Банк",
+      "employerId": "735614",
+      "name": "Веб-Мост",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "132973320"
+        "132794638"
       ],
-      "roles": {
-        "Бизнес-аналитик": 1
-      },
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:бионика",
-      "name": "Бионика",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "131624943"
-      ],
-      "roles": {
-        "Системный аналитик": 1
-      },
+      "roles": {},
       "areas": {},
       "skills": {
         "Интеграции": 1,
-        "Excel": 1
+        "API": 1,
+        "REST API": 1,
+        "SOAP": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:варламов александр валерьевич",
-      "name": "Варламов Александр Валерьевич",
+      "employerId": "1439",
+      "name": "ВСК, САО",
+      "logo": "https://img.hhcdn.ru/employer-logo/7203716.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "132830321"
+      ],
+      "roles": {},
+      "areas": {
+        "Ростов-на-Дону": 1
+      },
+      "skills": {
+        "Коммуникация": 1,
+        "MS SQL": 1,
+        "SQL": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:гау ниац",
+      "name": "ГАУ НИАЦ",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "132849829"
+        "131413153"
       ],
       "roles": {
         "Системный аналитик": 1
       },
-      "areas": {
-        "Москва": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:гбуз бурятский республиканский клинический онкологический диспансер",
-      "name": "ГБУЗ Бурятский республиканский клинический онкологический диспансер",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "132967328"
-      ],
-      "roles": {},
       "areas": {},
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:гбуз цло дзм",
-      "name": "ГБУЗ ЦЛО ДЗМ",
+      "employerId": "name:гбуз рх рмиац",
+      "name": "ГБУЗ РХ РМИАЦ",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "129416754"
+        "133043007"
       ],
       "roles": {
         "Системный аналитик": 1
       },
       "areas": {},
       "skills": {
-        "BI": 1,
-        "Excel": 1,
-        "Power BI": 1,
-        "Python": 1,
         "SQL": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:гк федерация",
+      "name": "ГК Федерация",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "131726968"
+      ],
+      "roles": {
+        "Системный аналитик": 1
+      },
+      "areas": {},
+      "skills": {
+        "Английский": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "2427329",
+      "name": "ГКУ Инфогород",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133267157"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Коммуникация": 1,
+        "Метрики": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
@@ -554,65 +624,37 @@ window.PREPBASE_SKILL_STATS = {
         "Системный аналитик": 1
       },
       "areas": {},
-      "skills": {},
+      "skills": {
+        "Метрики": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:гкуз псковской области медицинский информационно-аналитический центр",
-      "name": "ГКУЗ Псковской Области Медицинский Информационно-Аналитический Центр",
-      "logo": null,
+      "employerId": "2935519",
+      "name": "ГКУ Центр организации дорожного движения Правительства Москвы",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/4240021.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "132974603"
+        "130860928"
       ],
-      "roles": {},
+      "roles": {
+        "Бизнес-аналитик": 1
+      },
       "areas": {
-        "Псков, Кузнецкая улица, 23": 1
+        "Москва": 1
       },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:государственное бюджетное учреждение здравоохранения нижегородской области медицинский информационно-аналитический центр",
-      "name": "Государственное бюджетное учреждение здравоохранения Нижегородской области Медицинский информационно-аналитический центр",
+      "employerId": "name:группа компаний зти",
+      "name": "Группа компаний ЗТИ",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133366920"
-      ],
-      "roles": {
-        "Системный аналитик": 1
-      },
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:группа компаний визард",
-      "name": "Группа Компаний Визард",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "131454493"
-      ],
-      "roles": {
-        "Системный аналитик": 1
-      },
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:дальневосточное межрегиональное управление росприроднадзора",
-      "name": "Дальневосточное межрегиональное управление Росприроднадзора",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133283042"
+        "132812644"
       ],
       "roles": {},
       "areas": {},
@@ -621,119 +663,26 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:доходъ, финансовая группа компаний",
-      "name": "ДОХОДЪ, Финансовая группа компаний",
-      "logo": null,
+      "employerId": "106571",
+      "name": "Группа компаний МЕДСИ",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/2616578.jpeg",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133240269"
+        "133360937"
       ],
-      "roles": {
-        "Бизнес-аналитик": 1
-      },
+      "roles": {},
       "areas": {},
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:зао инженерный центр ядро",
-      "name": "ЗАО Инженерный Центр Ядро",
+      "employerId": "name:делэкспресс",
+      "name": "ДелЭкспресс",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133200179"
-      ],
-      "roles": {
-        "Системный аналитик": 1
-      },
-      "areas": {
-        "Минск, проспект Победителей, 106": 1
-      },
-      "skills": {
-        "Системный анализ": 1,
-        "Excel": 1,
-        "Power BI": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:зао институт телекоммуникаций",
-      "name": "ЗАО Институт телекоммуникаций",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "131986683"
-      ],
-      "roles": {
-        "Системный аналитик": 1
-      },
-      "areas": {},
-      "skills": {
-        "Коммуникация": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:инфотекс интернет траст",
-      "name": "Инфотекс Интернет Траст",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "132745538"
-      ],
-      "roles": {
-        "Бизнес-аналитик": 1
-      },
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:лиан",
-      "name": "ЛИАН",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133352697"
-      ],
-      "roles": {
-        "Системный аналитик": 1
-      },
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:мегаполис ит",
-      "name": "Мегаполис ИТ",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133097014"
-      ],
-      "roles": {
-        "Системный аналитик": 1
-      },
-      "areas": {},
-      "skills": {
-        "Excel": 1,
-        "SQL": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:мираторг, агропромышленный холдинг",
-      "name": "Мираторг, Агропромышленный холдинг",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "132843871"
+        "132486251"
       ],
       "roles": {
         "Бизнес-аналитик": 1
@@ -746,15 +695,76 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:мф тариф",
-      "name": "МФ Тариф",
+      "employerId": "2590000",
+      "name": "ЕДИНЫЙ ЦУПИС",
+      "logo": "https://img.hhcdn.ru/employer-logo/12207623.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "132335875"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Бизнес-анализ": 1,
+        "Коммуникация": 1,
+        "BPMN": 1,
+        "Confluence": 1,
+        "Jira": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "169545",
+      "name": "Ижсинтез-отделочные материалы",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133215745"
+        "132525787"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Бизнес-анализ": 1,
+        "Метрики": 1,
+        "BPMN": 1,
+        "ClickHouse": 1,
+        "MS SQL": 1,
+        "SQL": 1,
+        "UML": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "12578150",
+      "name": "ИП Пьянкова Дарья Николаевна",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133326739"
+      ],
+      "roles": {},
+      "areas": {
+        "Новосибирск": 1
+      },
+      "skills": {
+        "Бизнес-анализ": 1,
+        "Коммуникация": 1,
+        "API": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:иттех",
+      "name": "Иттех",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "132418311"
       ],
       "roles": {
-        "Бизнес-аналитик": 1,
         "Системный аналитик": 1
       },
       "areas": {},
@@ -763,17 +773,146 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:национальный исследовательский томский политехнический университет",
-      "name": "Национальный исследовательский Томский политехнический университет",
+      "employerId": "name:корпорация «проект-техника»",
+      "name": "Корпорация «Проект-техника»",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133198258"
+        "130910436"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Английский": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "3491569",
+      "name": "Криптонит",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133371105"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Коммуникация": 1,
+        "API": 1,
+        "REST API": 1,
+        "Swagger/OpenAPI": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "2733062",
+      "name": "Лига Цифровой Экономики",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/4233417.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "132595617"
       ],
       "roles": {
         "Системный аналитик": 1
       },
       "areas": {},
+      "skills": {
+        "Бизнес-анализ": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "49357",
+      "name": "МАГНИТ, Розничная сеть. Офис",
+      "logo": "https://img.hhcdn.ru/employer-logo/7202688.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "132422189"
+      ],
+      "roles": {
+        "Бизнес-аналитик": 1
+      },
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:международное кадровое агентство",
+      "name": "Международное кадровое агентство",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "132662665"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва": 1
+      },
+      "skills": {
+        "Интеграции": 1,
+        "API": 1,
+        "Kafka": 1,
+        "REST API": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:министерство цифрового развития, связи и массовых коммуникаций российской федерации",
+      "name": "Министерство цифрового развития, связи и массовых коммуникаций Российской Федерации",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133350103"
+      ],
+      "roles": {
+        "Системный аналитик": 1
+      },
+      "areas": {},
+      "skills": {
+        "Коммуникация": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "2492",
+      "name": "Московский Кредитный Банк. Эксперты",
+      "logo": "https://img.hhcdn.ru/employer-logo/7252313.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133302993"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва": 1
+      },
+      "skills": {
+        "Коммуникация": 1,
+        "Python": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "84201",
+      "name": "Национальный исследовательский ядерный университет МИФИ",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133250056"
+      ],
+      "roles": {
+        "Системный аналитик": 1
+      },
+      "areas": {
+        "Москва": 1
+      },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
@@ -797,119 +936,50 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:объединение компаний алмаз",
-      "name": "Объединение компаний Алмаз",
+      "employerId": "12763055",
+      "name": "ООО А-Цифра",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133205337"
-      ],
-      "roles": {
-        "Системный аналитик": 1
-      },
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ооо а-лизинг",
-      "name": "ООО А-Лизинг",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133270534"
+        "132865976"
       ],
       "roles": {},
-      "areas": {},
+      "areas": {
+        "Новосибирск": 1
+      },
       "skills": {
-        "BI": 1,
-        "Python": 1,
-        "SQL": 1
+        "BPMN": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ооо а7-агент",
+      "employerId": "11512406",
       "name": "ООО А7-Агент",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133299039"
+        "133151870"
       ],
       "roles": {
         "Бизнес-аналитик": 1
       },
-      "areas": {},
+      "areas": {
+        "Москва, р-н Дорогомилово": 1
+      },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ооо айди партнёр",
-      "name": "ООО Айди Партнёр",
+      "employerId": "name:ооо авис-софт",
+      "name": "ООО АВИС-Софт",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133082465"
+        "133335513"
       ],
-      "roles": {
-        "Бизнес-аналитик": 1
-      },
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ооо аксилон консалтинг",
-      "name": "ООО Аксилон Консалтинг",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133140276"
-      ],
-      "roles": {
-        "Системный аналитик": 1
-      },
-      "areas": {},
-      "skills": {
-        "Английский": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ооо аллсан интеграция",
-      "name": "ООО Аллсан Интеграция",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "132850264"
-      ],
-      "roles": {
-        "Системный аналитик": 1
-      },
-      "areas": {},
-      "skills": {
-        "Английский": 1,
-        "Интеграции": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ооо арсфин",
-      "name": "ООО АРСфин",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "132425320"
-      ],
-      "roles": {
-        "Бизнес-аналитик": 1
-      },
+      "roles": {},
       "areas": {},
       "skills": {},
       "firstPublishedAt": null,
@@ -917,146 +987,104 @@ window.PREPBASE_SKILL_STATS = {
     }
   ],
   "companyStatsMeta": {
-    "totalCompanies": 115,
+    "totalCompanies": 148,
     "limit": 50,
-    "generatedAt": "2026-05-22T07:20:22.140Z"
+    "generatedAt": "2026-05-22T11:32:17.404Z"
   },
   "skills": [
     {
-      "name": "SQL",
-      "count": 110,
-      "sources": {
-        "https://hh.ru/": 110
-      }
-    },
-    {
-      "name": "BPMN",
-      "count": 108,
-      "sources": {
-        "https://hh.ru/": 108
-      }
-    },
-    {
-      "name": "UML",
-      "count": 105,
-      "sources": {
-        "https://hh.ru/": 105
-      }
-    },
-    {
-      "name": "Системный анализ",
-      "count": 98,
-      "sources": {
-        "https://hh.ru/": 98
-      }
-    },
-    {
       "name": "API",
-      "count": 97,
-      "sources": {
-        "https://hh.ru/": 97
-      }
-    },
-    {
-      "name": "Бизнес-анализ",
-      "count": 96,
-      "sources": {
-        "https://hh.ru/": 96
-      }
-    },
-    {
-      "name": "Интеграции",
-      "count": 96,
-      "sources": {
-        "https://hh.ru/": 96
-      }
-    },
-    {
-      "name": "Excel",
-      "count": 84,
-      "sources": {
-        "https://hh.ru/": 84
-      }
-    },
-    {
-      "name": "Английский",
       "count": 73,
       "sources": {
         "https://hh.ru/": 73
       }
     },
     {
-      "name": "REST API",
+      "name": "BPMN",
+      "count": 68,
+      "sources": {
+        "https://hh.ru/": 68
+      }
+    },
+    {
+      "name": "SQL",
+      "count": 65,
+      "sources": {
+        "https://hh.ru/": 65
+      }
+    },
+    {
+      "name": "Интеграции",
+      "count": 61,
+      "sources": {
+        "https://hh.ru/": 61
+      }
+    },
+    {
+      "name": "Бизнес-анализ",
       "count": 58,
       "sources": {
         "https://hh.ru/": 58
       }
     },
     {
-      "name": "Метрики",
-      "count": 54,
+      "name": "UML",
+      "count": 52,
       "sources": {
-        "https://hh.ru/": 54
+        "https://hh.ru/": 52
+      }
+    },
+    {
+      "name": "Системный анализ",
+      "count": 48,
+      "sources": {
+        "https://hh.ru/": 48
       }
     },
     {
       "name": "Коммуникация",
-      "count": 47,
+      "count": 45,
       "sources": {
-        "https://hh.ru/": 47
+        "https://hh.ru/": 45
       }
     },
     {
-      "name": "BI",
-      "count": 35,
+      "name": "REST API",
+      "count": 41,
       "sources": {
-        "https://hh.ru/": 35
+        "https://hh.ru/": 41
       }
     },
     {
-      "name": "PostgreSQL",
-      "count": 33,
+      "name": "Excel",
+      "count": 40,
       "sources": {
-        "https://hh.ru/": 33
+        "https://hh.ru/": 40
       }
     },
     {
-      "name": "Power BI",
-      "count": 29,
+      "name": "Английский",
+      "count": 38,
       "sources": {
-        "https://hh.ru/": 29
+        "https://hh.ru/": 38
       }
     },
     {
-      "name": "Confluence",
-      "count": 27,
+      "name": "Метрики",
+      "count": 21,
       "sources": {
-        "https://hh.ru/": 27
-      }
-    },
-    {
-      "name": "Agile/Scrum",
-      "count": 22,
-      "sources": {
-        "https://hh.ru/": 22
-      }
-    },
-    {
-      "name": "Jira",
-      "count": 22,
-      "sources": {
-        "https://hh.ru/": 22
-      }
-    },
-    {
-      "name": "MS SQL",
-      "count": 19,
-      "sources": {
-        "https://hh.ru/": 19
+        "https://hh.ru/": 21
       }
     },
     {
       "name": "Kafka",
+      "count": 21,
+      "sources": {
+        "https://hh.ru/": 21
+      }
+    },
+    {
+      "name": "PostgreSQL",
       "count": 17,
       "sources": {
         "https://hh.ru/": 17
@@ -1070,56 +1098,77 @@ window.PREPBASE_SKILL_STATS = {
       }
     },
     {
-      "name": "Swagger/OpenAPI",
-      "count": 12,
-      "sources": {
-        "https://hh.ru/": 12
-      }
-    },
-    {
       "name": "Python",
-      "count": 11,
+      "count": 15,
       "sources": {
-        "https://hh.ru/": 11
+        "https://hh.ru/": 15
       }
     },
     {
-      "name": "Git",
+      "name": "Swagger/OpenAPI",
+      "count": 15,
+      "sources": {
+        "https://hh.ru/": 15
+      }
+    },
+    {
+      "name": "Confluence",
+      "count": 14,
+      "sources": {
+        "https://hh.ru/": 14
+      }
+    },
+    {
+      "name": "Jira",
+      "count": 14,
+      "sources": {
+        "https://hh.ru/": 14
+      }
+    },
+    {
+      "name": "MS SQL",
+      "count": 14,
+      "sources": {
+        "https://hh.ru/": 14
+      }
+    },
+    {
+      "name": "Agile/Scrum",
+      "count": 13,
+      "sources": {
+        "https://hh.ru/": 13
+      }
+    },
+    {
+      "name": "DWH",
+      "count": 10,
+      "sources": {
+        "https://hh.ru/": 10
+      }
+    },
+    {
+      "name": "ETL",
       "count": 8,
       "sources": {
         "https://hh.ru/": 8
       }
     },
     {
-      "name": "Tableau",
-      "count": 8,
-      "sources": {
-        "https://hh.ru/": 8
-      }
-    },
-    {
-      "name": "ТЗ",
+      "name": "ClickHouse",
       "count": 7,
       "sources": {
         "https://hh.ru/": 7
       }
     },
     {
-      "name": "DWH",
-      "count": 6,
+      "name": "BI",
+      "count": 5,
       "sources": {
-        "https://hh.ru/": 6
+        "https://hh.ru/": 5
       }
     },
     {
-      "name": "A/B-тесты",
-      "count": 4,
-      "sources": {
-        "https://hh.ru/": 4
-      }
-    },
-    {
-      "name": "ETL",
+      "name": "Power BI",
       "count": 4,
       "sources": {
         "https://hh.ru/": 4
@@ -1133,3079 +1182,134 @@ window.PREPBASE_SKILL_STATS = {
       }
     },
     {
-      "name": "DataLens",
+      "name": "Linux",
       "count": 3,
       "sources": {
         "https://hh.ru/": 3
+      }
+    },
+    {
+      "name": "ТЗ",
+      "count": 2,
+      "sources": {
+        "https://hh.ru/": 2
+      }
+    },
+    {
+      "name": "Git",
+      "count": 2,
+      "sources": {
+        "https://hh.ru/": 2
+      }
+    },
+    {
+      "name": "Tableau",
+      "count": 2,
+      "sources": {
+        "https://hh.ru/": 2
       }
     }
   ],
   "vacancies": [
     {
-      "id": "133199955",
-      "url": "https://omsk.hh.ru/vacancy/133199955",
+      "id": "133322948",
+      "url": "https://omsk.hh.ru/vacancy/133322948?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133199955",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Метрики",
-        "BPMN",
-        "Excel",
-        "UML"
-      ]
-    },
-    {
-      "id": "133188773",
-      "url": "https://omsk.hh.ru/vacancy/133188773",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133188773",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Метрики",
-        "BPMN",
-        "Excel",
-        "UML"
-      ]
-    },
-    {
-      "id": "133219435",
-      "url": "https://omsk.hh.ru/vacancy/133219435",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133219435",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ"
-      ]
-    },
-    {
-      "id": "133278463",
-      "url": "https://omsk.hh.ru/vacancy/133278463",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133278463",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Kafka",
-        "PostgreSQL",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133289396",
-      "url": "https://omsk.hh.ru/vacancy/133289396",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133289396",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "BI",
-        "Kafka",
-        "PostgreSQL",
-        "Power BI",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133131396",
-      "url": "https://omsk.hh.ru/vacancy/133131396",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133131396",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "BI",
-        "Power BI",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133332106",
-      "url": "https://omsk.hh.ru/vacancy/133332106",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133332106",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ"
-      ]
-    },
-    {
-      "id": "133083756",
-      "url": "https://omsk.hh.ru/vacancy/133083756",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133083756",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133237198",
-      "url": "https://omsk.hh.ru/vacancy/133237198",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133237198",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "130554252",
-      "url": "https://omsk.hh.ru/vacancy/130554252",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 130554252",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133285299",
-      "url": "https://omsk.hh.ru/vacancy/133285299",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133285299",
-      "employer": null,
-      "area": null,
+      "title": "Специалист 1С",
+      "employer": "АО Фонд Развития Промышленности, АО",
+      "area": "Астана, проспект Туран, 50/1",
       "date": null,
       "roles": [],
       "skills": [
         "Интеграции",
         "Системный анализ",
-        "API",
-        "BPMN",
-        "Jira",
-        "Kafka",
-        "PostgreSQL",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133203821",
-      "url": "https://omsk.hh.ru/vacancy/133203821",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133203821",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Системный анализ",
-        "API",
-        "BI",
-        "Jira",
-        "Kafka",
-        "PostgreSQL",
-        "Power BI",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133140921",
-      "url": "https://omsk.hh.ru/vacancy/133140921?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик (Senior fullstack)",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132881426",
-      "url": "https://omsk.hh.ru/vacancy/132881426?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "API",
-        "REST API"
-      ]
-    },
-    {
-      "id": "133199740",
-      "url": "https://omsk.hh.ru/vacancy/133199740?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Fullstack-аналитик",
-      "employer": "ООО Фаст Софт",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "API",
-        "Swagger/OpenAPI"
-      ]
-    },
-    {
-      "id": "133169592",
-      "url": "https://omsk.hh.ru/vacancy/133169592?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик",
-      "employer": "ООО РамСар",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "133352697",
-      "url": "https://omsk.hh.ru/vacancy/133352697?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик (Финтех)",
-      "employer": "ЛИАН",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133229941",
-      "url": "https://omsk.hh.ru/vacancy/133229941?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-ассистент проекта",
-      "employer": "ТОО Топан",
-      "area": "Уральск, улица Ружейникова, 11",
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132844402",
-      "url": "https://omsk.hh.ru/vacancy/132844402?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132810974",
-      "url": "https://omsk.hh.ru/vacancy/132810974?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик отдела по работе с обращениями граждан в Муниципальном центре управления регионом",
-      "employer": "Администрация Городского Округа Красногорск Московской Области",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Интеграции",
-        "API"
-      ]
-    },
-    {
-      "id": "133220166",
-      "url": "https://omsk.hh.ru/vacancy/133220166?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": "АО Азиатско-Тихоокеанский Банк",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133360387",
-      "url": "https://omsk.hh.ru/vacancy/133360387?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный/Бизнес аналитик",
-      "employer": "АО ЭДС",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик",
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133096426",
-      "url": "https://omsk.hh.ru/vacancy/133096426?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133133286",
-      "url": "https://omsk.hh.ru/vacancy/133133286?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик 1С",
-      "employer": "ООО Нижнетагильский завод металлических конструкций",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133255476",
-      "url": "https://omsk.hh.ru/vacancy/133255476?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Релиз-менеджер",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133183968",
-      "url": "https://omsk.hh.ru/vacancy/133183968?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": "ООО МСДис",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133211927",
-      "url": "https://omsk.hh.ru/vacancy/133211927?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик (в ОАЭ)",
-      "employer": "MIRA Search",
-      "area": "Москва, р-н Тверской",
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133267324",
-      "url": "https://omsk.hh.ru/vacancy/133267324?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик (радиолокационные системы)",
-      "employer": "Myrtle",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Бизнес-анализ"
-      ]
-    },
-    {
-      "id": "133082465",
-      "url": "https://omsk.hh.ru/vacancy/133082465?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик",
-      "employer": "ООО Айди Партнёр",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132435593",
-      "url": "https://omsk.hh.ru/vacancy/132435593?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик (Middle)",
-      "employer": "e-legion",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Интеграции",
-        "API"
-      ]
-    },
-    {
-      "id": "132517485",
-      "url": "https://omsk.hh.ru/vacancy/132517485?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Junior-автоматизатор бизнес-процессов (AI + no-code)",
-      "employer": "ООО ЛИДЕР ПЛЮС",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133368707",
-      "url": "https://omsk.hh.ru/vacancy/133368707?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик",
-      "employer": "ООО Спейс Тревел",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132801129",
-      "url": "https://omsk.hh.ru/vacancy/132801129",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132801129",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "Agile/Scrum",
-        "Excel",
-        "Git",
-        "PostgreSQL",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133193933",
-      "url": "https://omsk.hh.ru/vacancy/133193933",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133193933",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Agile/Scrum",
-        "Excel",
-        "Git",
-        "PostgreSQL",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133162577",
-      "url": "https://omsk.hh.ru/vacancy/133162577",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133162577",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "UML"
-      ]
-    },
-    {
-      "id": "132486825",
-      "url": "https://omsk.hh.ru/vacancy/132486825",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132486825",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "BI",
-        "DataLens",
-        "Excel",
-        "Python",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133343245",
-      "url": "https://omsk.hh.ru/vacancy/133343245",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133343245",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики"
-      ]
-    },
-    {
-      "id": "133132082",
-      "url": "https://omsk.hh.ru/vacancy/133132082",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133132082",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "API",
-        "BPMN",
-        "PostgreSQL",
-        "RabbitMQ",
-        "REST API",
-        "SOAP",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133218461",
-      "url": "https://omsk.hh.ru/vacancy/133218461",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133218461",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
         "API",
         "BPMN",
         "MS SQL",
-        "PostgreSQL",
-        "RabbitMQ",
-        "REST API",
-        "SOAP",
         "SQL",
         "UML"
-      ]
-    },
-    {
-      "id": "133366383",
-      "url": "https://omsk.hh.ru/vacancy/133366383",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133366383",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "API",
-        "MS SQL",
-        "PostgreSQL",
-        "REST API",
-        "SOAP",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133005034",
-      "url": "https://omsk.hh.ru/vacancy/133005034",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133005034",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Системный анализ",
-        "BPMN",
-        "Confluence",
-        "Jira",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133193285",
-      "url": "https://omsk.hh.ru/vacancy/133193285",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133193285",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "BPMN",
-        "Confluence",
-        "Jira",
-        "UML"
-      ]
-    },
-    {
-      "id": "133239360",
-      "url": "https://omsk.hh.ru/vacancy/133239360",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133239360",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "Agile/Scrum",
-        "API",
-        "Confluence",
-        "Jira",
-        "REST API",
-        "SOAP",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133084067",
-      "url": "https://omsk.hh.ru/vacancy/133084067",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133084067",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "Agile/Scrum",
-        "API",
-        "BPMN",
-        "Confluence",
-        "Jira",
-        "REST API",
-        "SOAP",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133287473",
-      "url": "https://omsk.hh.ru/vacancy/133287473",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133287473",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "REST API",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133180854",
-      "url": "https://omsk.hh.ru/vacancy/133180854",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133180854",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "Agile/Scrum",
-        "API",
-        "BPMN",
-        "REST API",
-        "SOAP",
-        "SQL"
-      ]
-    },
-    {
-      "id": "132734408",
-      "url": "https://omsk.hh.ru/vacancy/132734408",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132734408",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "API",
-        "Kafka",
-        "PostgreSQL",
-        "REST API",
-        "SQL",
-        "Swagger/OpenAPI"
-      ]
-    },
-    {
-      "id": "133249506",
-      "url": "https://omsk.hh.ru/vacancy/133249506",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133249506",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Коммуникация",
-        "Системный анализ",
-        "API",
-        "Kafka",
-        "PostgreSQL",
-        "REST API",
-        "SQL",
-        "Swagger/OpenAPI"
-      ]
-    },
-    {
-      "id": "133307498",
-      "url": "https://omsk.hh.ru/vacancy/133307498",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133307498",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Коммуникация",
-        "Системный анализ",
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "133341255",
-      "url": "https://omsk.hh.ru/vacancy/133341255",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133341255",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "133296188",
-      "url": "https://omsk.hh.ru/vacancy/133296188",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133296188",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Agile/Scrum",
-        "BPMN",
-        "Confluence"
-      ]
-    },
-    {
-      "id": "133248827",
-      "url": "https://omsk.hh.ru/vacancy/133248827",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133248827",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Коммуникация",
-        "Метрики",
-        "Agile/Scrum",
-        "BPMN",
-        "Confluence"
-      ]
-    },
-    {
-      "id": "133310216",
-      "url": "https://omsk.hh.ru/vacancy/133310216",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133310216",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "Коммуникация"
-      ]
-    },
-    {
-      "id": "133207120",
-      "url": "https://omsk.hh.ru/vacancy/133207120",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133207120",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Интеграции",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133340271",
-      "url": "https://omsk.hh.ru/vacancy/133340271",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133340271",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133196583",
-      "url": "https://omsk.hh.ru/vacancy/133196583",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133196583",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "Системный анализ",
-        "BPMN",
-        "Git",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132424822",
-      "url": "https://omsk.hh.ru/vacancy/132424822",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132424822",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "Системный анализ",
-        "BPMN",
-        "Git",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132840380",
-      "url": "https://omsk.hh.ru/vacancy/132840380",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132840380",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "Системный анализ",
-        "BPMN",
-        "Confluence",
-        "Jira",
-        "UML"
-      ]
-    },
-    {
-      "id": "133222008",
-      "url": "https://omsk.hh.ru/vacancy/133222008",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133222008",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "BPMN",
-        "Confluence",
-        "Jira",
-        "UML"
-      ]
-    },
-    {
-      "id": "133250541",
-      "url": "https://omsk.hh.ru/vacancy/133250541",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133250541",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI",
-        "DWH"
-      ]
-    },
-    {
-      "id": "133307596",
-      "url": "https://omsk.hh.ru/vacancy/133307596",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133307596",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "BI",
-        "DWH",
-        "PostgreSQL",
-        "Python",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133367886",
-      "url": "https://omsk.hh.ru/vacancy/133367886",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133367886",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Системный анализ",
-        "BI",
-        "DWH",
-        "PostgreSQL",
-        "Python",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133256508",
-      "url": "https://omsk.hh.ru/vacancy/133256508?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Full-stack аналитик",
-      "employer": "Altenar",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
       ],
-      "skills": []
+      "employerId": "137698"
     },
     {
-      "id": "132978139",
-      "url": "https://omsk.hh.ru/vacancy/132978139?hhtmFrom=vacancy_search_list",
+      "id": "133363458",
+      "url": "https://omsk.hh.ru/vacancy/133363458?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": "Цезарь Сателлит",
+      "title": "Аналитик по логистике",
+      "employer": "ООО Бумхиминвест",
       "area": null,
       "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133284718",
-      "url": "https://omsk.hh.ru/vacancy/133284718?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Младший бизнес-аналитик (Коммерческий департамент)",
-      "employer": "ТОО Magnum E-commerce Kazakhstan",
-      "area": "Алматы, улица Толе Би, 285",
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
+      "roles": [],
       "skills": [
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "132592073",
-      "url": "https://omsk.hh.ru/vacancy/132592073?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Старший системный аналитик (Руформ Тех)",
-      "employer": "RUTUBE",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "ETL"
-      ]
-    },
-    {
-      "id": "132671195",
-      "url": "https://omsk.hh.ru/vacancy/132671195?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Стажер бизнес-аналитик",
-      "employer": "ТОО Комита Цифровые Технологии",
-      "area": "Алматы, проспект Достык, 38",
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133097014",
-      "url": "https://omsk.hh.ru/vacancy/133097014?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": "Мегаполис ИТ",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
+        "Бизнес-анализ",
+        "Интеграции",
         "Excel",
+        "MS SQL",
         "SQL"
-      ]
+      ],
+      "employerId": "1892821"
     },
     {
-      "id": "133311591",
-      "url": "https://omsk.hh.ru/vacancy/133311591?hhtmFrom=vacancy_search_list",
+      "id": "131555534",
+      "url": "https://omsk.hh.ru/vacancy/131555534",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик по работе с БД и автоматизации бизнес-процессов (ERP/Excel/AI)",
-      "employer": "ООО ВГ Дистрибьютор",
-      "area": "Минск",
+      "title": "Вакансия 131555534",
+      "employer": null,
+      "area": null,
       "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
+      "roles": [],
       "skills": [
+        "Бизнес-анализ",
+        "API",
         "Excel"
       ]
     },
     {
-      "id": "133366920",
-      "url": "https://omsk.hh.ru/vacancy/133366920?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик данных",
-      "employer": "Государственное бюджетное учреждение здравоохранения Нижегородской области Медицинский информационно-аналитический центр",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133149015",
-      "url": "https://omsk.hh.ru/vacancy/133149015?hhtmFrom=vacancy_search_list",
+      "id": "132794638",
+      "url": "https://omsk.hh.ru/vacancy/132794638?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Аналитик",
-      "employer": "BEFL",
-      "area": "Орёл, Октябрьская улица, 68А",
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Excel"
-      ]
-    },
-    {
-      "id": "133259917",
-      "url": "https://omsk.hh.ru/vacancy/133259917?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес/системный аналитик (Fullstack)",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик",
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133237551",
-      "url": "https://omsk.hh.ru/vacancy/133237551?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133361985",
-      "url": "https://omsk.hh.ru/vacancy/133361985?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик Middle/Senior в офис Москвы",
-      "employer": "Leantech AI Lab",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "133235079",
-      "url": "https://omsk.hh.ru/vacancy/133235079?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик",
-      "employer": "Юркас",
-      "area": "Минский район",
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "133340135",
-      "url": "https://omsk.hh.ru/vacancy/133340135?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик 2-ой линии технической поддержки",
-      "employer": "ООО Ртк-Элемент",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "133325203",
-      "url": "https://omsk.hh.ru/vacancy/133325203?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Консультант 1С",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133140276",
-      "url": "https://omsk.hh.ru/vacancy/133140276?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик (Middle+)",
-      "employer": "ООО Аксилон Консалтинг",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "133128424",
-      "url": "https://omsk.hh.ru/vacancy/133128424?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик отдела лицензирования",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Excel"
-      ]
-    },
-    {
-      "id": "132674717",
-      "url": "https://omsk.hh.ru/vacancy/132674717?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Младший системный аналитик",
-      "employer": "ООО Корпоративные Проекты",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133209595",
-      "url": "https://omsk.hh.ru/vacancy/133209595?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Ведущий системный аналитик (Персонализация)",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133287105",
-      "url": "https://omsk.hh.ru/vacancy/133287105?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": "ООО Единая Информационная Система ЖКХ",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133111242",
-      "url": "https://omsk.hh.ru/vacancy/133111242",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133111242",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Метрики",
-        "BPMN"
-      ]
-    },
-    {
-      "id": "132347579",
-      "url": "https://omsk.hh.ru/vacancy/132347579",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132347579",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Системный анализ",
-        "Agile/Scrum",
-        "API",
-        "Jira",
-        "PostgreSQL",
-        "SQL"
-      ]
-    },
-    {
-      "id": "132931785",
-      "url": "https://omsk.hh.ru/vacancy/132931785",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132931785",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции"
-      ]
-    },
-    {
-      "id": "133365021",
-      "url": "https://omsk.hh.ru/vacancy/133365021",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133365021",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "BPMN"
-      ]
-    },
-    {
-      "id": "133194874",
-      "url": "https://omsk.hh.ru/vacancy/133194874",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133194874",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BPMN",
-        "Excel",
-        "MS SQL",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133367853",
-      "url": "https://omsk.hh.ru/vacancy/133367853",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133367853",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "BPMN",
-        "Excel",
-        "MS SQL",
-        "SQL"
-      ]
-    },
-    {
-      "id": "132300659",
-      "url": "https://omsk.hh.ru/vacancy/132300659",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132300659",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции"
-      ]
-    },
-    {
-      "id": "133009490",
-      "url": "https://omsk.hh.ru/vacancy/133009490",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133009490",
-      "employer": null,
+      "employer": "Веб-Мост",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
         "Интеграции",
-        "Метрики",
-        "Excel"
-      ]
-    },
-    {
-      "id": "133062603",
-      "url": "https://omsk.hh.ru/vacancy/133062603",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133062603",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "Excel",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133130633",
-      "url": "https://omsk.hh.ru/vacancy/133130633",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133130633",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel",
-        "Power BI",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133204946",
-      "url": "https://omsk.hh.ru/vacancy/133204946",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133204946",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "Excel",
-        "Power BI"
-      ]
-    },
-    {
-      "id": "133273864",
-      "url": "https://omsk.hh.ru/vacancy/133273864",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133273864",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Метрики",
-        "Системный анализ"
-      ]
-    },
-    {
-      "id": "133292793",
-      "url": "https://omsk.hh.ru/vacancy/133292793",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133292793",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Метрики",
-        "ТЗ",
-        "API",
-        "Kafka",
-        "REST API",
-        "UML"
-      ]
-    },
-    {
-      "id": "132308776",
-      "url": "https://omsk.hh.ru/vacancy/132308776",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132308776",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "Метрики",
-        "API",
-        "Excel",
-        "Kafka",
-        "REST API",
-        "UML"
-      ]
-    },
-    {
-      "id": "133258986",
-      "url": "https://omsk.hh.ru/vacancy/133258986",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133258986",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel"
-      ]
-    },
-    {
-      "id": "133302011",
-      "url": "https://omsk.hh.ru/vacancy/133302011",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133302011",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "API",
-        "PostgreSQL",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133308704",
-      "url": "https://omsk.hh.ru/vacancy/133308704",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133308704",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "API",
-        "PostgreSQL",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133355221",
-      "url": "https://omsk.hh.ru/vacancy/133355221",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133355221",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "Excel"
-      ]
-    },
-    {
-      "id": "132577481",
-      "url": "https://omsk.hh.ru/vacancy/132577481",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132577481",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133338791",
-      "url": "https://omsk.hh.ru/vacancy/133338791",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133338791",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "BPMN",
-        "Confluence",
-        "Jira",
-        "Kafka",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132467745",
-      "url": "https://omsk.hh.ru/vacancy/132467745",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132467745",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Confluence",
-        "Jira",
-        "Kafka"
-      ]
-    },
-    {
-      "id": "128977858",
-      "url": "https://omsk.hh.ru/vacancy/128977858",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 128977858",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции"
-      ]
-    },
-    {
-      "id": "132461524",
-      "url": "https://omsk.hh.ru/vacancy/132461524",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132461524",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133245894",
-      "url": "https://omsk.hh.ru/vacancy/133245894",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133245894",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132434387",
-      "url": "https://omsk.hh.ru/vacancy/132434387",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132434387",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Коммуникация",
-        "Системный анализ",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "130980230",
-      "url": "https://omsk.hh.ru/vacancy/130980230",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 130980230",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "API",
-        "Excel",
-        "Python",
-        "SQL"
-      ]
-    },
-    {
-      "id": "131506654",
-      "url": "https://omsk.hh.ru/vacancy/131506654?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": "АО ИнфоТеКС",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133372297",
-      "url": "https://omsk.hh.ru/vacancy/133372297?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": "Лига Цифровой Экономики",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132425320",
-      "url": "https://omsk.hh.ru/vacancy/132425320?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик",
-      "employer": "ООО АРСфин",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132916782",
-      "url": "https://omsk.hh.ru/vacancy/132916782?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "FULL-stack аналитик",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133303807",
-      "url": "https://omsk.hh.ru/vacancy/133303807?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Ведущий системный аналитик",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133283868",
-      "url": "https://omsk.hh.ru/vacancy/133283868?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик DWH (м. Кутузовская)",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Интеграции",
-        "DWH",
-        "UML"
-      ]
-    },
-    {
-      "id": "133267120",
-      "url": "https://omsk.hh.ru/vacancy/133267120?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": "ООО Лоция",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133370192",
-      "url": "https://omsk.hh.ru/vacancy/133370192?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес- / Системный аналитик (Финтех / AI-аналитика)",
-      "employer": "Лига Цифровой Экономики",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик",
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132983636",
-      "url": "https://omsk.hh.ru/vacancy/132983636",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132983636",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "BPMN",
-        "PostgreSQL",
-        "Python",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133337600",
-      "url": "https://omsk.hh.ru/vacancy/133337600",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133337600",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "BPMN",
-        "PostgreSQL",
-        "Python",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133369047",
-      "url": "https://omsk.hh.ru/vacancy/133369047",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133369047",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "BPMN",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133222885",
-      "url": "https://omsk.hh.ru/vacancy/133222885",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133222885",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BPMN"
-      ]
-    },
-    {
-      "id": "132332271",
-      "url": "https://omsk.hh.ru/vacancy/132332271",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132332271",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BPMN",
-        "Confluence",
-        "Jira"
-      ]
-    },
-    {
-      "id": "133264055",
-      "url": "https://omsk.hh.ru/vacancy/133264055",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133264055",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BPMN",
-        "Confluence",
-        "Jira"
-      ]
-    },
-    {
-      "id": "133149632",
-      "url": "https://omsk.hh.ru/vacancy/133149632",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133149632",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "API",
-        "Confluence",
-        "REST API"
-      ]
-    },
-    {
-      "id": "133203718",
-      "url": "https://omsk.hh.ru/vacancy/133203718",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133203718",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "Confluence",
-        "REST API",
-        "UML"
-      ]
-    },
-    {
-      "id": "133302270",
-      "url": "https://omsk.hh.ru/vacancy/133302270",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133302270",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "Excel",
-        "UML"
-      ]
-    },
-    {
-      "id": "132478478",
-      "url": "https://omsk.hh.ru/vacancy/132478478",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132478478",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Confluence",
-        "Excel",
-        "Jira"
-      ]
-    },
-    {
-      "id": "132484181",
-      "url": "https://omsk.hh.ru/vacancy/132484181",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132484181",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Confluence",
-        "Jira"
-      ]
-    },
-    {
-      "id": "133363485",
-      "url": "https://omsk.hh.ru/vacancy/133363485",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133363485",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BPMN",
-        "Excel"
-      ]
-    },
-    {
-      "id": "132593677",
-      "url": "https://omsk.hh.ru/vacancy/132593677",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132593677",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "BPMN",
-        "Excel"
-      ]
-    },
-    {
-      "id": "133348770",
-      "url": "https://omsk.hh.ru/vacancy/133348770",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133348770",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Метрики",
-        "Excel",
-        "MS SQL",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133368131",
-      "url": "https://omsk.hh.ru/vacancy/133368131",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133368131",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Метрики",
-        "API",
-        "BPMN",
-        "Excel",
-        "MS SQL",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132926834",
-      "url": "https://omsk.hh.ru/vacancy/132926834",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132926834",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "API",
-        "BPMN",
-        "REST API",
-        "UML"
-      ]
-    },
-    {
-      "id": "131869946",
-      "url": "https://omsk.hh.ru/vacancy/131869946",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131869946",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ"
-      ]
-    },
-    {
-      "id": "132524305",
-      "url": "https://omsk.hh.ru/vacancy/132524305",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132524305",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Коммуникация",
-        "Excel"
-      ]
-    },
-    {
-      "id": "132873663",
-      "url": "https://omsk.hh.ru/vacancy/132873663",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132873663",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Системный анализ",
-        "Excel"
-      ]
-    },
-    {
-      "id": "131956748",
-      "url": "https://omsk.hh.ru/vacancy/131956748",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131956748",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Системный анализ"
-      ]
-    },
-    {
-      "id": "132941012",
-      "url": "https://omsk.hh.ru/vacancy/132941012",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132941012",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ"
-      ]
-    },
-    {
-      "id": "133160483",
-      "url": "https://omsk.hh.ru/vacancy/133160483",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133160483",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "API",
-        "Excel",
-        "REST API"
-      ]
-    },
-    {
-      "id": "130578971",
-      "url": "https://omsk.hh.ru/vacancy/130578971",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 130578971",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "Excel",
-        "REST API",
-        "UML"
-      ]
-    },
-    {
-      "id": "133265180",
-      "url": "https://omsk.hh.ru/vacancy/133265180",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133265180",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "Системный анализ",
-        "Agile/Scrum",
-        "BPMN",
-        "Confluence",
-        "PostgreSQL",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133073367",
-      "url": "https://omsk.hh.ru/vacancy/133073367",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133073367",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Метрики",
-        "Системный анализ",
-        "Agile/Scrum",
-        "BPMN",
-        "Confluence",
-        "PostgreSQL",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132298258",
-      "url": "https://omsk.hh.ru/vacancy/132298258",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132298258",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Agile/Scrum",
-        "Confluence",
-        "PostgreSQL",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133214789",
-      "url": "https://omsk.hh.ru/vacancy/133214789",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133214789",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Agile/Scrum",
-        "Confluence",
-        "PostgreSQL",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133113754",
-      "url": "https://omsk.hh.ru/vacancy/133113754",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133113754",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Системный анализ",
-        "Agile/Scrum",
         "API",
         "REST API",
-        "Swagger/OpenAPI"
-      ]
-    },
-    {
-      "id": "133293835",
-      "url": "https://omsk.hh.ru/vacancy/133293835",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133293835",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "ТЗ",
-        "Agile/Scrum",
-        "API",
-        "REST API",
-        "Swagger/OpenAPI"
-      ]
-    },
-    {
-      "id": "133303585",
-      "url": "https://omsk.hh.ru/vacancy/133303585?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Руководитель аналитического центра при проектном офисе акционера",
-      "employer": "BCC INVEST, AO",
-      "area": "Алматы, улица Панфилова, 98",
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133365221",
-      "url": "https://omsk.hh.ru/vacancy/133365221?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Ведущий системный аналитик (BSS/OSS)",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
+        "SOAP"
       ],
-      "skills": []
-    },
-    {
-      "id": "133217276",
-      "url": "https://omsk.hh.ru/vacancy/133217276?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик данных/ экономист-аналитик",
-      "employer": "ООО Маркетспейс",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "133278530",
-      "url": "https://omsk.hh.ru/vacancy/133278530?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик",
-      "employer": "Производственная компания",
-      "area": "Владивосток",
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": [
-        "Метрики"
-      ]
-    },
-    {
-      "id": "133215745",
-      "url": "https://omsk.hh.ru/vacancy/133215745?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик / бизнес-аналитик",
-      "employer": "МФ Тариф",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик",
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133186699",
-      "url": "https://omsk.hh.ru/vacancy/133186699?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Старший системный аналитик (ЕЛК)",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "SQL"
-      ]
-    },
-    {
-      "id": "132747888",
-      "url": "https://omsk.hh.ru/vacancy/132747888?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Старший аналитик",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133283042",
-      "url": "https://omsk.hh.ru/vacancy/133283042?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Главный специалист - эксперт отдела информационно-аналитического обеспечения",
-      "employer": "Дальневосточное межрегиональное управление Росприроднадзора",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133299246",
-      "url": "https://omsk.hh.ru/vacancy/133299246?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Консультант 1С",
-      "employer": "ООО КомпасЛидера",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133292790",
-      "url": "https://omsk.hh.ru/vacancy/133292790?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик (онлайн-банк)",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133322084",
-      "url": "https://omsk.hh.ru/vacancy/133322084?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик данных",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133058081",
-      "url": "https://omsk.hh.ru/vacancy/133058081?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик (Аврора Центр)",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Excel"
-      ]
-    },
-    {
-      "id": "133299039",
-      "url": "https://omsk.hh.ru/vacancy/133299039?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик (ИТ, клиентский блок / CRM)",
-      "employer": "ООО А7-Агент",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132464689",
-      "url": "https://omsk.hh.ru/vacancy/132464689?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик",
-      "employer": "БАРС Груп",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132970240",
-      "url": "https://omsk.hh.ru/vacancy/132970240?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": "Скала^р",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "131431377",
-      "url": "https://omsk.hh.ru/vacancy/131431377?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик (FinTech)",
-      "employer": "AYA Group",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132898481",
-      "url": "https://omsk.hh.ru/vacancy/132898481?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Стажёр-аналитик",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132832069",
-      "url": "https://omsk.hh.ru/vacancy/132832069?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "133337955",
-      "url": "https://omsk.hh.ru/vacancy/133337955?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Ведущий системный аналитик",
-      "employer": "ООО Зооград",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
+      "employerId": "735614"
     },
     {
       "id": "132829039",
-      "url": "https://omsk.hh.ru/vacancy/132829039?hhtmFrom=vacancy_search_list",
+      "url": "https://omsk.hh.ru/vacancy/132829039",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Младший функциональный аналитик",
-      "employer": "ООО Мираполис",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133298011",
-      "url": "https://omsk.hh.ru/vacancy/133298011",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133298011",
+      "title": "Вакансия 132829039",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Английский"
+        "Интеграции",
+        "Системный анализ",
+        "API",
+        "REST API",
+        "SOAP"
       ]
     },
     {
-      "id": "133171097",
-      "url": "https://omsk.hh.ru/vacancy/133171097",
+      "id": "132875740",
+      "url": "https://omsk.hh.ru/vacancy/132875740",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133171097",
+      "title": "Вакансия 132875740",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
         "Коммуникация",
-        "Метрики"
-      ]
-    },
-    {
-      "id": "133173698",
-      "url": "https://omsk.hh.ru/vacancy/133173698",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133173698",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Метрики"
-      ]
-    },
-    {
-      "id": "130253065",
-      "url": "https://omsk.hh.ru/vacancy/130253065",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 130253065",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "API",
-        "BPMN"
-      ]
-    },
-    {
-      "id": "133111244",
-      "url": "https://omsk.hh.ru/vacancy/133111244",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133111244",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Интеграции",
-        "API",
-        "BPMN"
-      ]
-    },
-    {
-      "id": "132485960",
-      "url": "https://omsk.hh.ru/vacancy/132485960",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132485960",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "Метрики",
-        "API",
-        "Excel",
-        "MS SQL",
-        "SQL"
-      ]
-    },
-    {
-      "id": "132582769",
-      "url": "https://omsk.hh.ru/vacancy/132582769",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132582769",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Метрики",
-        "Excel",
-        "MS SQL",
-        "SQL"
-      ]
-    },
-    {
-      "id": "132759441",
-      "url": "https://omsk.hh.ru/vacancy/132759441",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132759441",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Метрики",
-        "Excel",
-        "SQL"
-      ]
-    },
-    {
-      "id": "131766494",
-      "url": "https://omsk.hh.ru/vacancy/131766494",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131766494",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Метрики",
-        "API",
-        "Excel",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133141376",
-      "url": "https://omsk.hh.ru/vacancy/133141376",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133141376",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "Excel",
-        "UML"
-      ]
-    },
-    {
-      "id": "133203113",
-      "url": "https://omsk.hh.ru/vacancy/133203113",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133203113",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Системный анализ",
-        "API",
-        "BI",
-        "BPMN",
-        "DataLens",
-        "Excel",
-        "Power BI",
-        "UML"
-      ]
-    },
-    {
-      "id": "129429915",
-      "url": "https://omsk.hh.ru/vacancy/129429915",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 129429915",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Системный анализ",
-        "API",
-        "BI",
-        "BPMN",
-        "DataLens",
-        "Excel",
-        "Power BI",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133288841",
-      "url": "https://omsk.hh.ru/vacancy/133288841",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133288841",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "Системный анализ",
-        "ТЗ",
-        "Agile/Scrum",
-        "API",
-        "BPMN",
-        "Kafka",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133322948",
-      "url": "https://omsk.hh.ru/vacancy/133322948",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133322948",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "Метрики",
-        "Системный анализ",
-        "ТЗ",
-        "Agile/Scrum",
-        "API",
-        "BPMN",
-        "Kafka",
-        "MS SQL",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132179792",
-      "url": "https://omsk.hh.ru/vacancy/132179792",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132179792",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Метрики",
-        "API",
-        "BPMN",
-        "MS SQL",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132787611",
-      "url": "https://omsk.hh.ru/vacancy/132787611",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132787611",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Системный анализ",
-        "Agile/Scrum",
-        "API",
-        "BPMN",
-        "PostgreSQL",
-        "REST API",
-        "SOAP",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133192034",
-      "url": "https://omsk.hh.ru/vacancy/133192034",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133192034",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Системный анализ",
-        "Agile/Scrum",
-        "API",
-        "BPMN",
-        "Excel",
-        "PostgreSQL",
-        "REST API",
-        "SOAP",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133306976",
-      "url": "https://omsk.hh.ru/vacancy/133306976",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133306976",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "API",
-        "Excel",
-        "REST API"
-      ]
-    },
-    {
-      "id": "132778368",
-      "url": "https://omsk.hh.ru/vacancy/132778368",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132778368",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "Системный анализ",
-        "ТЗ",
-        "API",
-        "Kafka",
-        "REST API",
-        "SOAP",
-        "SQL",
-        "Swagger/OpenAPI",
-        "UML"
-      ]
-    },
-    {
-      "id": "133305763",
-      "url": "https://omsk.hh.ru/vacancy/133305763",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133305763",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "API",
-        "BPMN",
-        "PostgreSQL",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133224504",
-      "url": "https://omsk.hh.ru/vacancy/133224504",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133224504",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "API",
-        "BPMN",
-        "PostgreSQL",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133010919",
-      "url": "https://omsk.hh.ru/vacancy/133010919",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133010919",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "132581804",
-      "url": "https://omsk.hh.ru/vacancy/132581804",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132581804",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Коммуникация",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "ETL",
-        "REST API",
-        "SOAP",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132656449",
-      "url": "https://omsk.hh.ru/vacancy/132656449",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132656449",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Интеграции",
-        "Коммуникация",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "ETL",
-        "REST API",
-        "SOAP",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133050035",
-      "url": "https://omsk.hh.ru/vacancy/133050035",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133050035",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции"
+        "Системный анализ"
       ]
     },
     {
@@ -4218,245 +1322,227 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский"
+        "Коммуникация",
+        "Системный анализ"
       ]
     },
     {
-      "id": "132176290",
-      "url": "https://omsk.hh.ru/vacancy/132176290",
+      "id": "132878131",
+      "url": "https://omsk.hh.ru/vacancy/132878131",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132176290",
+      "title": "Вакансия 132878131",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
-        "Интеграции",
+        "Коммуникация",
+        "Системный анализ",
+        "ТЗ",
+        "API",
+        "BPMN",
+        "Confluence",
+        "Jira",
+        "PostgreSQL",
+        "REST API",
+        "SQL",
+        "Swagger/OpenAPI"
+      ]
+    },
+    {
+      "id": "131431377",
+      "url": "https://omsk.hh.ru/vacancy/131431377",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 131431377",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Системный анализ",
+        "ТЗ",
+        "API",
+        "BPMN",
+        "Confluence",
+        "Jira",
+        "PostgreSQL",
+        "REST API",
+        "SQL",
+        "Swagger/OpenAPI"
+      ]
+    },
+    {
+      "id": "131653493",
+      "url": "https://omsk.hh.ru/vacancy/131653493",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 131653493",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "API",
         "BPMN",
         "UML"
       ]
     },
     {
-      "id": "133138524",
-      "url": "https://omsk.hh.ru/vacancy/133138524",
+      "id": "132179792",
+      "url": "https://omsk.hh.ru/vacancy/132179792?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133138524",
-      "employer": null,
+      "title": "Аналитик информационных систем",
+      "employer": "ООО Центральная Площадь",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
-        "Интеграции",
-        "Коммуникация",
-        "Системный анализ",
+        "Бизнес-анализ",
+        "Метрики",
         "API",
         "BPMN",
         "REST API",
+        "SQL",
         "UML"
-      ]
+      ],
+      "employerId": "12379546"
     },
     {
-      "id": "133304544",
-      "url": "https://omsk.hh.ru/vacancy/133304544",
+      "id": "132721685",
+      "url": "https://omsk.hh.ru/vacancy/132721685",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133304544",
+      "title": "Вакансия 132721685",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
-        "Интеграции",
-        "Коммуникация",
         "Системный анализ",
-        "API",
-        "REST API"
-      ]
-    },
-    {
-      "id": "132580572",
-      "url": "https://omsk.hh.ru/vacancy/132580572",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132580572",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Системный анализ",
-        "DWH",
-        "ETL",
-        "SQL"
-      ]
-    },
-    {
-      "id": "132142817",
-      "url": "https://omsk.hh.ru/vacancy/132142817?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": "АО Находкинский морской рыбный порт",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133302889",
-      "url": "https://omsk.hh.ru/vacancy/133302889?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": "Лига Цифровой Экономики",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132875740",
-      "url": "https://omsk.hh.ru/vacancy/132875740?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Senior/Expert Системный аналитик (ЦФТ)",
-      "employer": "IT_Cube",
-      "area": "Москва",
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Интеграции"
-      ]
-    },
-    {
-      "id": "133205337",
-      "url": "https://omsk.hh.ru/vacancy/133205337?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Консультант-аналитик 1С",
-      "employer": "Объединение компаний Алмаз",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133366514",
-      "url": "https://omsk.hh.ru/vacancy/133366514?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133198258",
-      "url": "https://omsk.hh.ru/vacancy/133198258?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик данных в Управление мониторинга и операционной аналитики",
-      "employer": "Национальный исследовательский Томский политехнический университет",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "131395114",
-      "url": "https://omsk.hh.ru/vacancy/131395114?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": "ООО Мисти Групп",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132964226",
-      "url": "https://omsk.hh.ru/vacancy/132964226?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": "Bell Integrator",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
         "API",
         "BPMN",
         "REST API",
+        "SQL",
         "Swagger/OpenAPI",
         "UML"
       ]
     },
     {
-      "id": "131662180",
-      "url": "https://omsk.hh.ru/vacancy/131662180?hhtmFrom=vacancy_search_list",
+      "id": "133360937",
+      "url": "https://omsk.hh.ru/vacancy/133360937?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик (kubernetes)",
+      "title": "Аналитик С&B",
+      "employer": "Группа компаний МЕДСИ",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "106571",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2616578.jpeg"
+    },
+    {
+      "id": "133040601",
+      "url": "https://omsk.hh.ru/vacancy/133040601",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133040601",
       "employer": null,
       "area": null,
       "date": null,
-      "roles": [
-        "Системный аналитик"
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Интеграции",
+        "BPMN",
+        "UML"
+      ]
+    },
+    {
+      "id": "133306976",
+      "url": "https://omsk.hh.ru/vacancy/133306976?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик",
+      "employer": "ТОО Small, ТМ (Скиф Трейд, ТОО)",
+      "area": "Алматы, проспект Абая, 218/1",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Интеграции",
+        "API",
+        "BPMN",
+        "REST API",
+        "UML"
       ],
+      "employerId": "648250"
+    },
+    {
+      "id": "132029628",
+      "url": "https://omsk.hh.ru/vacancy/132029628",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132029628",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "132447065",
+      "url": "https://omsk.hh.ru/vacancy/132447065",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132447065",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Системный анализ",
+        "API",
+        "Kafka",
+        "REST API"
+      ]
+    },
+    {
+      "id": "132551243",
+      "url": "https://omsk.hh.ru/vacancy/132551243",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132551243",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Системный анализ",
+        "API",
+        "Kafka",
+        "REST API"
+      ]
+    },
+    {
+      "id": "132821844",
+      "url": "https://omsk.hh.ru/vacancy/132821844",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132821844",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
       "skills": [
         "BPMN",
         "UML"
       ]
     },
     {
-      "id": "130840334",
-      "url": "https://omsk.hh.ru/vacancy/130840334?hhtmFrom=vacancy_search_list",
+      "id": "133335513",
+      "url": "https://omsk.hh.ru/vacancy/133335513?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": "AYA Group",
+      "title": "Консультант 1С",
+      "employer": "ООО АВИС-Софт",
       "area": null,
       "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "131555534",
-      "url": "https://omsk.hh.ru/vacancy/131555534?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик",
-      "employer": "ООО Farpost IT",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133182171",
-      "url": "https://omsk.hh.ru/vacancy/133182171?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Менеджер по автоматизации бизнес-процессов",
-      "employer": "ООО Easy Recruit",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
+      "roles": [],
       "skills": []
     },
     {
@@ -4473,45 +1559,734 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "130488318",
-      "url": "https://omsk.hh.ru/vacancy/130488318?hhtmFrom=vacancy_search_list",
+      "id": "132807871",
+      "url": "https://omsk.hh.ru/vacancy/132807871?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес системный аналитик",
-      "employer": "Employcity",
+      "title": "Скаут на лето",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "131726968",
+      "url": "https://omsk.hh.ru/vacancy/131726968?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Маркетолог-аналитик",
+      "employer": "ГК Федерация",
       "area": null,
       "date": null,
       "roles": [
-        "Бизнес-аналитик",
         "Системный аналитик"
       ],
-      "skills": []
+      "skills": [
+        "Английский"
+      ]
     },
     {
-      "id": "133040601",
-      "url": "https://omsk.hh.ru/vacancy/133040601?hhtmFrom=vacancy_search_list",
+      "id": "133039815",
+      "url": "https://omsk.hh.ru/vacancy/133039815?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик",
-      "employer": "EcoFinance",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133143324",
-      "url": "https://omsk.hh.ru/vacancy/133143324?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес аналитик для поддержки и развития программного комплекса",
+      "title": "Бизнес-аналитик (Middle-Senior)",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [
         "Бизнес-аналитик"
       ],
+      "skills": []
+    },
+    {
+      "id": "133316975",
+      "url": "https://omsk.hh.ru/vacancy/133316975?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (Middle)",
+      "employer": "ООО ZORDOC",
+      "area": "Ташкент, проезд Сайрам, 17",
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "133393408",
+      "url": "https://omsk.hh.ru/vacancy/133393408?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик 1С (Аптеки)",
+      "employer": "АО РУТ КОД",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [],
+      "employerId": "8642172"
+    },
+    {
+      "id": "133038199",
+      "url": "https://omsk.hh.ru/vacancy/133038199?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Руководитель организационного развития (по написанию бизнес процессов организации)",
+      "employer": "UTG Group",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "132518816",
+      "url": "https://omsk.hh.ru/vacancy/132518816?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик",
+      "employer": "Paper Planes",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "133266860",
+      "url": "https://omsk.hh.ru/vacancy/133266860?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Консультант 1С",
+      "employer": "IT-Персона",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "12462628"
+    },
+    {
+      "id": "133303585",
+      "url": "https://omsk.hh.ru/vacancy/133303585?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Руководитель аналитического центра при проектном офисе акционера",
+      "employer": "BCC INVEST, AO",
+      "area": "Алматы, улица Панфилова, 98",
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "133182171",
+      "url": "https://omsk.hh.ru/vacancy/133182171?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Менеджер по автоматизации бизнес-процессов",
+      "employer": "ООО Easy Recruit",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": [],
+      "employerId": "540381"
+    },
+    {
+      "id": "132426359",
+      "url": "https://omsk.hh.ru/vacancy/132426359?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Стажер в IT (Аналитик)",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "133148689",
+      "url": "https://omsk.hh.ru/vacancy/133148689?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Консультант 1С",
+      "employer": "Maytoni",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "648880",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7527927.png"
+    },
+    {
+      "id": "133186533",
+      "url": "https://omsk.hh.ru/vacancy/133186533?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик",
+      "employer": "ООО ИЦ АЙ-ТЕКО",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [],
+      "employerId": "872178",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2559134.png"
+    },
+    {
+      "id": "131864981",
+      "url": "https://omsk.hh.ru/vacancy/131864981?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (system analyst)",
+      "employer": "РМС Лаб",
+      "area": "Белгород, р-н Западный",
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [
+        "Системный анализ",
+        "BPMN",
+        "UML"
+      ],
+      "employerId": "9388972"
+    },
+    {
+      "id": "132542498",
+      "url": "https://omsk.hh.ru/vacancy/132542498?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Проектный менеджер",
+      "employer": "АО Объединенная судостроительная корпорация",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "1575433"
+    },
+    {
+      "id": "130530136",
+      "url": "https://omsk.hh.ru/vacancy/130530136?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (Направление интеграция)",
+      "employer": "АО РНПК",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
       "skills": [
         "Интеграции"
+      ],
+      "employerId": "2608647"
+    },
+    {
+      "id": "130840334",
+      "url": "https://omsk.hh.ru/vacancy/130840334?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик",
+      "employer": "AYA Group",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [
+        "Английский"
+      ]
+    },
+    {
+      "id": "133097638",
+      "url": "https://omsk.hh.ru/vacancy/133097638?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [],
+      "employerId": "733",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2627354.jpeg"
+    },
+    {
+      "id": "133206045",
+      "url": "https://omsk.hh.ru/vacancy/133206045?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик",
+      "employer": "ООО ПрофИТ",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация",
+        "Linux"
+      ],
+      "employerId": "584485"
+    },
+    {
+      "id": "133218848",
+      "url": "https://omsk.hh.ru/vacancy/133218848",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133218848",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация",
+        "Excel"
+      ]
+    },
+    {
+      "id": "132479098",
+      "url": "https://omsk.hh.ru/vacancy/132479098",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132479098",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Excel"
+      ]
+    },
+    {
+      "id": "132939706",
+      "url": "https://omsk.hh.ru/vacancy/132939706",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132939706",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ",
+        "Системный анализ",
+        "API",
+        "REST API"
+      ]
+    },
+    {
+      "id": "133301942",
+      "url": "https://omsk.hh.ru/vacancy/133301942",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133301942",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Системный анализ",
+        "API",
+        "Excel",
+        "REST API"
+      ]
+    },
+    {
+      "id": "131624943",
+      "url": "https://omsk.hh.ru/vacancy/131624943",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 131624943",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "Excel"
+      ]
+    },
+    {
+      "id": "132736555",
+      "url": "https://omsk.hh.ru/vacancy/132736555",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132736555",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "133248505",
+      "url": "https://omsk.hh.ru/vacancy/133248505?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес/ Системный аналитик bpmsoft/creatio",
+      "employer": "ФГБУ Федеральный центр анализа и оценки техногенного воздействия",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Коммуникация"
+      ],
+      "employerId": "648985"
+    },
+    {
+      "id": "133309619",
+      "url": "https://omsk.hh.ru/vacancy/133309619?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик (информационные системы)",
+      "employer": "АО ПЕТРУС",
+      "area": "Мытищи, Олимпийский проспект, 46к4",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ",
+        "BPMN"
+      ],
+      "employerId": "2609"
+    },
+    {
+      "id": "132919991",
+      "url": "https://omsk.hh.ru/vacancy/132919991?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (офис, г. Киров)",
+      "employer": "ООО Компания ТрэйдСофт",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Интеграции",
+        "Метрики"
+      ],
+      "employerId": "675435"
+    },
+    {
+      "id": "131662180",
+      "url": "https://omsk.hh.ru/vacancy/131662180",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 131662180",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Интеграции",
+        "Метрики",
+        "Git",
+        "Linux"
+      ]
+    },
+    {
+      "id": "133058391",
+      "url": "https://omsk.hh.ru/vacancy/133058391?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный бизнес-аналитик (немотор)",
+      "employer": "АО Зетта Страхование",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BPMN",
+        "Excel",
+        "Git",
+        "Linux",
+        "SQL"
+      ],
+      "employerId": "6488",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/1586919.png"
+    },
+    {
+      "id": "133179665",
+      "url": "https://omsk.hh.ru/vacancy/133179665",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133179665",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Метрики",
+        "BPMN",
+        "Excel",
+        "SQL"
+      ]
+    },
+    {
+      "id": "133267157",
+      "url": "https://omsk.hh.ru/vacancy/133267157?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик",
+      "employer": "ГКУ Инфогород",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Метрики"
+      ],
+      "employerId": "2427329"
+    },
+    {
+      "id": "133302889",
+      "url": "https://omsk.hh.ru/vacancy/133302889",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133302889",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Коммуникация",
+        "DWH"
+      ]
+    },
+    {
+      "id": "133185705",
+      "url": "https://omsk.hh.ru/vacancy/133185705",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133185705",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ",
+        "DWH"
+      ]
+    },
+    {
+      "id": "133198258",
+      "url": "https://omsk.hh.ru/vacancy/133198258",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133198258",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ",
+        "BI",
+        "Power BI",
+        "Python"
+      ]
+    },
+    {
+      "id": "132777102",
+      "url": "https://omsk.hh.ru/vacancy/132777102",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132777102",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Системный анализ",
+        "Agile/Scrum",
+        "API",
+        "BI",
+        "Kafka",
+        "Power BI",
+        "Python",
+        "RabbitMQ",
+        "REST API",
+        "SQL"
+      ]
+    },
+    {
+      "id": "133158177",
+      "url": "https://omsk.hh.ru/vacancy/133158177",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133158177",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Коммуникация",
+        "Системный анализ",
+        "Agile/Scrum",
+        "API",
+        "Kafka",
+        "RabbitMQ",
+        "REST API",
+        "SQL"
+      ]
+    },
+    {
+      "id": "132805468",
+      "url": "https://omsk.hh.ru/vacancy/132805468?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (Fintech, микросервисы)",
+      "employer": "DCloud",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Коммуникация",
+        "Системный анализ",
+        "BPMN",
+        "SQL",
+        "UML"
+      ],
+      "employerId": "4770322"
+    },
+    {
+      "id": "133355430",
+      "url": "https://omsk.hh.ru/vacancy/133355430",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133355430",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "133059615",
+      "url": "https://omsk.hh.ru/vacancy/133059615",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133059615",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "Kafka",
+        "PostgreSQL",
+        "REST API",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "132584744",
+      "url": "https://omsk.hh.ru/vacancy/132584744?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (REST, Kafka, SQL)",
+      "employer": "DCloud",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Интеграции",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "Kafka",
+        "PostgreSQL",
+        "REST API",
+        "SQL",
+        "UML"
+      ],
+      "employerId": "4770322"
+    },
+    {
+      "id": "133110053",
+      "url": "https://omsk.hh.ru/vacancy/133110053",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133110053",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Интеграции",
+        "Agile/Scrum",
+        "API",
+        "BPMN",
+        "Confluence",
+        "Jira",
+        "Kafka",
+        "REST API",
+        "SOAP",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "132029264",
+      "url": "https://omsk.hh.ru/vacancy/132029264",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132029264",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Agile/Scrum",
+        "API",
+        "BPMN",
+        "Confluence",
+        "Jira",
+        "Kafka",
+        "REST API",
+        "SOAP",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "130180067",
+      "url": "https://omsk.hh.ru/vacancy/130180067?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик",
+      "employer": "Team Value",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "API",
+        "Excel"
+      ],
+      "employerId": "4851712"
+    },
+    {
+      "id": "133298881",
+      "url": "https://omsk.hh.ru/vacancy/133298881",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133298881",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Системный анализ",
+        "API",
+        "Excel"
+      ]
+    },
+    {
+      "id": "133304544",
+      "url": "https://omsk.hh.ru/vacancy/133304544?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "System Analyst",
+      "employer": "ООО Клеркгрупп",
+      "area": "Минск",
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [
+        "Системный анализ"
       ]
     },
     {
@@ -4528,1354 +2303,70 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "133270534",
-      "url": "https://omsk.hh.ru/vacancy/133270534?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Cистемный архитектор решений",
-      "employer": "ООО А-Лизинг",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI",
-        "Python",
-        "SQL"
-      ]
-    },
-    {
-      "id": "131624943",
-      "url": "https://omsk.hh.ru/vacancy/131624943?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик (специалист Excel)",
-      "employer": "Бионика",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Интеграции",
-        "Excel"
-      ]
-    },
-    {
-      "id": "133239484",
-      "url": "https://omsk.hh.ru/vacancy/133239484?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик (GPU/AI решения)",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133100057",
-      "url": "https://omsk.hh.ru/vacancy/133100057",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133100057",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Метрики",
-        "BPMN",
-        "Confluence",
-        "Jira",
-        "UML"
-      ]
-    },
-    {
-      "id": "132140821",
-      "url": "https://omsk.hh.ru/vacancy/132140821",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132140821",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Метрики",
-        "BPMN",
-        "Excel",
-        "UML"
-      ]
-    },
-    {
-      "id": "132232892",
-      "url": "https://omsk.hh.ru/vacancy/132232892",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132232892",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Excel"
-      ]
-    },
-    {
-      "id": "132335105",
-      "url": "https://omsk.hh.ru/vacancy/132335105",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132335105",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133056640",
-      "url": "https://omsk.hh.ru/vacancy/133056640",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133056640",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "PostgreSQL",
-        "SQL"
-      ]
-    },
-    {
-      "id": "130246251",
-      "url": "https://omsk.hh.ru/vacancy/130246251",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 130246251",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "API",
-        "PostgreSQL",
-        "SQL"
-      ]
-    },
-    {
-      "id": "132631252",
-      "url": "https://omsk.hh.ru/vacancy/132631252",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132631252",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "ТЗ",
-        "API",
-        "PostgreSQL",
-        "SQL"
-      ]
-    },
-    {
-      "id": "132891080",
-      "url": "https://omsk.hh.ru/vacancy/132891080",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132891080",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "REST API",
-        "UML"
-      ]
-    },
-    {
-      "id": "133095576",
-      "url": "https://omsk.hh.ru/vacancy/133095576",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133095576",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "Системный анализ",
-        "Agile/Scrum",
-        "API",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133079303",
-      "url": "https://omsk.hh.ru/vacancy/133079303",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133079303",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Системный анализ",
-        "Agile/Scrum",
-        "API",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "129737297",
-      "url": "https://omsk.hh.ru/vacancy/129737297",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 129737297",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "API",
-        "BPMN",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132496041",
-      "url": "https://omsk.hh.ru/vacancy/132496041",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132496041",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "API",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132578614",
-      "url": "https://omsk.hh.ru/vacancy/132578614",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132578614",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132799170",
-      "url": "https://omsk.hh.ru/vacancy/132799170",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132799170",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI",
-        "Excel",
-        "Power BI"
-      ]
-    },
-    {
-      "id": "132825757",
-      "url": "https://omsk.hh.ru/vacancy/132825757",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132825757",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Коммуникация",
-        "BI",
-        "Excel",
-        "Power BI"
-      ]
-    },
-    {
-      "id": "132981885",
-      "url": "https://omsk.hh.ru/vacancy/132981885",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132981885",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Интеграции",
-        "Коммуникация",
-        "BI"
-      ]
-    },
-    {
-      "id": "132103552",
-      "url": "https://omsk.hh.ru/vacancy/132103552",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132103552",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции"
-      ]
-    },
-    {
-      "id": "132533935",
-      "url": "https://omsk.hh.ru/vacancy/132533935",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132533935",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции"
-      ]
-    },
-    {
-      "id": "132696929",
-      "url": "https://omsk.hh.ru/vacancy/132696929",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132696929",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI",
-        "Excel",
-        "Power BI",
-        "Tableau"
-      ]
-    },
-    {
-      "id": "132704351",
-      "url": "https://omsk.hh.ru/vacancy/132704351",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132704351",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "A/B-тесты",
-        "BI",
-        "Excel",
-        "Power BI",
-        "Tableau"
-      ]
-    },
-    {
-      "id": "132022217",
-      "url": "https://omsk.hh.ru/vacancy/132022217",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132022217",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Метрики",
-        "Системный анализ",
-        "A/B-тесты",
-        "API",
-        "Kafka",
-        "RabbitMQ"
-      ]
-    },
-    {
-      "id": "133312892",
-      "url": "https://omsk.hh.ru/vacancy/133312892",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133312892",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "API",
-        "Kafka",
-        "RabbitMQ",
-        "REST API",
-        "SOAP",
-        "SQL"
-      ]
-    },
-    {
-      "id": "132527290",
-      "url": "https://omsk.hh.ru/vacancy/132527290",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132527290",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "Confluence",
-        "Excel",
-        "Jira",
-        "SOAP",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132663073",
-      "url": "https://omsk.hh.ru/vacancy/132663073",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132663073",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Excel"
-      ]
-    },
-    {
-      "id": "132892016",
-      "url": "https://omsk.hh.ru/vacancy/132892016",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132892016",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BI",
-        "Excel",
-        "Power BI"
-      ]
-    },
-    {
-      "id": "133001713",
-      "url": "https://omsk.hh.ru/vacancy/133001713",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133001713",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel"
-      ]
-    },
-    {
-      "id": "133129334",
-      "url": "https://omsk.hh.ru/vacancy/133129334",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133129334",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel"
-      ]
-    },
-    {
-      "id": "131982850",
-      "url": "https://omsk.hh.ru/vacancy/131982850",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131982850",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "MS SQL",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133240269",
-      "url": "https://omsk.hh.ru/vacancy/133240269?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик 1С",
-      "employer": "ДОХОДЪ, Финансовая группа компаний",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132776589",
-      "url": "https://omsk.hh.ru/vacancy/132776589?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Старший консультант/аналитик 1С (регламентированный учет\\ЗУП)",
-      "employer": "ООО БСТ",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "132780251",
-      "url": "https://omsk.hh.ru/vacancy/132780251?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Главный бизнес-аналитик 1С",
-      "employer": "АО ААА УПРАВЛЕНИЕ КАПИТАЛОМ",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132843871",
-      "url": "https://omsk.hh.ru/vacancy/132843871?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик",
-      "employer": "Мираторг, Агропромышленный холдинг",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "133181903",
-      "url": "https://omsk.hh.ru/vacancy/133181903?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Консультант аналитик проектов внедрения (в г. Ижевск)",
-      "employer": "BFG Group",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132535312",
-      "url": "https://omsk.hh.ru/vacancy/132535312?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик",
-      "employer": "автономный кластерный фонд Астана Хаб",
-      "area": "Астана, проспект Мангилик Ел, С4.6",
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132729582",
-      "url": "https://omsk.hh.ru/vacancy/132729582?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133002846",
-      "url": "https://omsk.hh.ru/vacancy/133002846?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик в рознице",
-      "employer": "Розничная Сеть Пилигрим",
-      "area": "Мурманск, Рогозерская улица, 9",
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": [
-        "Excel"
-      ]
-    },
-    {
-      "id": "133185354",
-      "url": "https://omsk.hh.ru/vacancy/133185354?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Дата-аналитик",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133370342",
-      "url": "https://omsk.hh.ru/vacancy/133370342?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Специалист по отчетности",
-      "employer": "ПАО Банк ПСБ, Бизнес и инфраструктура",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132589418",
-      "url": "https://omsk.hh.ru/vacancy/132589418?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Администратор WMS",
-      "employer": "ООО Белла Восток",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132929207",
-      "url": "https://omsk.hh.ru/vacancy/132929207?hhtmFrom=vacancy_search_list",
+      "id": "133250056",
+      "url": "https://omsk.hh.ru/vacancy/133250056?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Аналитик 1С",
-      "employer": "ООО БИТС",
-      "area": "Санкт-Петербург",
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Интеграции"
-      ]
-    },
-    {
-      "id": "132969151",
-      "url": "https://omsk.hh.ru/vacancy/132969151?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Ведущий специалист по сопровождению 1С",
-      "employer": "АО Вектор-Бест",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132974603",
-      "url": "https://omsk.hh.ru/vacancy/132974603?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Медицинский статистик",
-      "employer": "ГКУЗ Псковской Области Медицинский Информационно-Аналитический Центр",
-      "area": "Псков, Кузнецкая улица, 23",
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133008165",
-      "url": "https://omsk.hh.ru/vacancy/133008165?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик",
-      "employer": "ООО ВсеИнструменты.ру",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133307081",
-      "url": "https://omsk.hh.ru/vacancy/133307081?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Руководитель проектов 1С ДО, 1С ERP",
-      "employer": "АКРОН ХОЛДИНГ",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132988740",
-      "url": "https://omsk.hh.ru/vacancy/132988740?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик (Mobile)",
-      "employer": "ЭРКАФАРМ IT",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133100572",
-      "url": "https://omsk.hh.ru/vacancy/133100572?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Руководитель проектов по бизнес-аналитике",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133168722",
-      "url": "https://omsk.hh.ru/vacancy/133168722?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик",
-      "employer": "РАТИМИР",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": [
-        "Английский",
-        "Коммуникация"
-      ]
-    },
-    {
-      "id": "133305255",
-      "url": "https://omsk.hh.ru/vacancy/133305255?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик DWH",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "BPMN",
-        "DWH"
-      ]
-    },
-    {
-      "id": "132592596",
-      "url": "https://omsk.hh.ru/vacancy/132592596",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132592596",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "BI",
-        "BPMN",
-        "Excel",
-        "Power BI",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132774683",
-      "url": "https://omsk.hh.ru/vacancy/132774683",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132774683",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI",
-        "Excel",
-        "Power BI",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133160727",
-      "url": "https://omsk.hh.ru/vacancy/133160727",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133160727",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel"
-      ]
-    },
-    {
-      "id": "131265354",
-      "url": "https://omsk.hh.ru/vacancy/131265354",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131265354",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BPMN",
-        "Excel",
-        "MS SQL",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132629641",
-      "url": "https://omsk.hh.ru/vacancy/132629641",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132629641",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "BPMN",
-        "MS SQL",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133090238",
-      "url": "https://omsk.hh.ru/vacancy/133090238",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133090238",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Метрики",
-        "Системный анализ"
-      ]
-    },
-    {
-      "id": "133150008",
-      "url": "https://omsk.hh.ru/vacancy/133150008",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133150008",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "Excel"
-      ]
-    },
-    {
-      "id": "132585041",
-      "url": "https://omsk.hh.ru/vacancy/132585041",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132585041",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI",
-        "Excel",
-        "Power BI",
-        "Python",
-        "SQL"
-      ]
-    },
-    {
-      "id": "132718652",
-      "url": "https://omsk.hh.ru/vacancy/132718652",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132718652",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133071804",
-      "url": "https://omsk.hh.ru/vacancy/133071804",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133071804",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики"
-      ]
-    },
-    {
-      "id": "132506897",
-      "url": "https://omsk.hh.ru/vacancy/132506897",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132506897",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики"
-      ]
-    },
-    {
-      "id": "132635332",
-      "url": "https://omsk.hh.ru/vacancy/132635332",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132635332",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ"
-      ]
-    },
-    {
-      "id": "132885846",
-      "url": "https://omsk.hh.ru/vacancy/132885846",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132885846",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Метрики",
-        "Системный анализ",
-        "SQL"
-      ]
-    },
-    {
-      "id": "132932493",
-      "url": "https://omsk.hh.ru/vacancy/132932493",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132932493",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "SQL"
-      ]
-    },
-    {
-      "id": "133081830",
-      "url": "https://omsk.hh.ru/vacancy/133081830",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133081830",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel"
-      ]
-    },
-    {
-      "id": "133249781",
-      "url": "https://omsk.hh.ru/vacancy/133249781",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133249781",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Excel"
-      ]
-    },
-    {
-      "id": "133371399",
-      "url": "https://omsk.hh.ru/vacancy/133371399",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133371399",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ"
-      ]
-    },
-    {
-      "id": "131548681",
-      "url": "https://omsk.hh.ru/vacancy/131548681",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131548681",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "API",
-        "REST API"
-      ]
-    },
-    {
-      "id": "132378473",
-      "url": "https://omsk.hh.ru/vacancy/132378473",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132378473",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Коммуникация",
-        "API",
-        "REST API",
-        "UML"
-      ]
-    },
-    {
-      "id": "132865604",
-      "url": "https://omsk.hh.ru/vacancy/132865604",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132865604",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Коммуникация",
-        "Системный анализ",
-        "API",
-        "BI",
-        "REST API",
-        "UML"
-      ]
-    },
-    {
-      "id": "133356769",
-      "url": "https://omsk.hh.ru/vacancy/133356769",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133356769",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Коммуникация",
-        "Системный анализ",
-        "BI"
-      ]
-    },
-    {
-      "id": "133367873",
-      "url": "https://omsk.hh.ru/vacancy/133367873",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133367873",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "133025765",
-      "url": "https://omsk.hh.ru/vacancy/133025765",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133025765",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "133042641",
-      "url": "https://omsk.hh.ru/vacancy/133042641",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133042641",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133205652",
-      "url": "https://omsk.hh.ru/vacancy/133205652",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133205652",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133341609",
-      "url": "https://omsk.hh.ru/vacancy/133341609",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133341609",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133006842",
-      "url": "https://omsk.hh.ru/vacancy/133006842",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133006842",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BI",
-        "Excel",
-        "Power BI",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133212880",
-      "url": "https://omsk.hh.ru/vacancy/133212880",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133212880",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132123179",
-      "url": "https://omsk.hh.ru/vacancy/132123179?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Стажер Консультант 1С",
-      "employer": "Софт-Сервис, Группа Компаний",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133138151",
-      "url": "https://omsk.hh.ru/vacancy/133138151?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик-консультант 1С (УНФ)",
-      "employer": "ООО От и До.Ру",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132423029",
-      "url": "https://omsk.hh.ru/vacancy/132423029?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Стажер, группа рыночных исследований",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132631882",
-      "url": "https://omsk.hh.ru/vacancy/132631882?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Консультант 1С",
-      "employer": "АО Щербинский лифтостроительный завод",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132653814",
-      "url": "https://omsk.hh.ru/vacancy/132653814?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик маркетплейсов",
-      "employer": "ООО Ибис",
+      "employer": "Национальный исследовательский ядерный университет МИФИ",
       "area": "Москва",
       "date": null,
       "roles": [
         "Системный аналитик"
       ],
-      "skills": []
+      "skills": [],
+      "employerId": "84201"
     },
     {
-      "id": "131961301",
-      "url": "https://omsk.hh.ru/vacancy/131961301?hhtmFrom=vacancy_search_list",
+      "id": "132996840",
+      "url": "https://omsk.hh.ru/vacancy/132996840?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Консультант-аналитик 1С",
-      "employer": "АО МОЕ ВИНО",
+      "title": "Бизнес-аналитик в команду CRM для ЮЛ",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [
-        "Системный аналитик"
+        "Бизнес-аналитик"
       ],
-      "skills": [
-        "Excel"
-      ]
+      "skills": [],
+      "employerId": "3443",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2871417.jpeg"
     },
     {
-      "id": "132549801",
-      "url": "https://omsk.hh.ru/vacancy/132549801?hhtmFrom=vacancy_search_list",
+      "id": "127110462",
+      "url": "https://omsk.hh.ru/vacancy/127110462?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Специалист 1С / консультант – аналитик",
-      "employer": "ООО Евро Декор и К",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132850264",
-      "url": "https://omsk.hh.ru/vacancy/132850264?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик 1С",
-      "employer": "ООО Аллсан Интеграция",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Английский",
-        "Интеграции"
-      ]
-    },
-    {
-      "id": "132898918",
-      "url": "https://omsk.hh.ru/vacancy/132898918?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Стажёр (внедрение и техническая поддержка ПО SOLAR, финтех)",
-      "employer": "ООО Солантек",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133090747",
-      "url": "https://omsk.hh.ru/vacancy/133090747?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "System analyst",
-      "employer": "Employcity",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Системный анализ"
-      ]
-    },
-    {
-      "id": "132926995",
-      "url": "https://omsk.hh.ru/vacancy/132926995?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик (финтех)",
+      "title": "Системный аналитик",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [
         "Системный аналитик"
       ],
-      "skills": [
-        "Интеграции",
-        "API"
-      ]
+      "skills": []
     },
     {
-      "id": "133077430",
-      "url": "https://omsk.hh.ru/vacancy/133077430?hhtmFrom=vacancy_search_list",
+      "id": "133208257",
+      "url": "https://omsk.hh.ru/vacancy/133208257?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик",
-      "employer": "ТОО LCP",
-      "area": "Астана, улица Жумекена Нажимеденова, 2",
+      "title": "Ведущий специалист по бизнес-анализу",
+      "employer": "Beeline, ТМ",
+      "area": "Астана, улица Кадыргали Жалайыри, 2",
       "date": null,
       "roles": [
         "Бизнес-аналитик"
       ],
-      "skills": []
-    },
-    {
-      "id": "132549631",
-      "url": "https://omsk.hh.ru/vacancy/132549631?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Senior Системный аналитик",
-      "employer": "Finstar Financial Group",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
       "skills": [
-        "Английский"
-      ]
+        "Бизнес-анализ"
+      ],
+      "employerId": "135317",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3707124.png"
     },
     {
-      "id": "132351085",
-      "url": "https://omsk.hh.ru/vacancy/132351085?hhtmFrom=vacancy_search_list",
+      "id": "133302270",
+      "url": "https://omsk.hh.ru/vacancy/133302270?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Ведущий консультант-аналитик",
-      "employer": "Фонд перспективных исследований",
+      "title": "Аналитик отдела аналитики и организационного проектирования",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [
@@ -5884,521 +2375,67 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "133200179",
-      "url": "https://omsk.hh.ru/vacancy/133200179?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "System Analyst (Requirements and Specification Engineer)",
-      "employer": "ЗАО Инженерный Центр Ядро",
-      "area": "Минск, проспект Победителей, 106",
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Системный анализ",
-        "Excel",
-        "Power BI"
-      ]
-    },
-    {
-      "id": "132934497",
-      "url": "https://omsk.hh.ru/vacancy/132934497?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик (офис Санкт-Петербург)",
-      "employer": "Bell Integrator",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132967328",
-      "url": "https://omsk.hh.ru/vacancy/132967328?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Медицинский статистик",
-      "employer": "ГБУЗ Бурятский республиканский клинический онкологический диспансер",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132973320",
-      "url": "https://omsk.hh.ru/vacancy/132973320?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес/Фуллстэк аналитик",
-      "employer": "ББР Банк",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133197260",
-      "url": "https://omsk.hh.ru/vacancy/133197260?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик 1С (УХ / ERP)",
-      "employer": "getmatch",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132292727",
-      "url": "https://omsk.hh.ru/vacancy/132292727?hhtmFrom=vacancy_search_list",
+      "id": "133118537",
+      "url": "https://omsk.hh.ru/vacancy/133118537?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Аналитик",
-      "employer": null,
+      "employer": "ТОО Lion Fruit",
+      "area": "Алматы",
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [],
+      "employerId": "8940648"
+    },
+    {
+      "id": "132417782",
+      "url": "https://omsk.hh.ru/vacancy/132417782?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Intern in Climate Change and Sustainability Services",
+      "employer": "EY Uzbekistan",
+      "area": "Ташкент, проспект Мустакиллик, 75",
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "133151870",
+      "url": "https://omsk.hh.ru/vacancy/133151870?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик",
+      "employer": "ООО А7-Агент",
+      "area": "Москва, р-н Дорогомилово",
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": [],
+      "employerId": "11512406"
+    },
+    {
+      "id": "132595617",
+      "url": "https://omsk.hh.ru/vacancy/132595617?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (junior)",
+      "employer": "Лига Цифровой Экономики",
       "area": null,
       "date": null,
       "roles": [
         "Системный аналитик"
       ],
-      "skills": []
-    },
-    {
-      "id": "132392909",
-      "url": "https://omsk.hh.ru/vacancy/132392909",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132392909",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Коммуникация",
-        "Метрики"
-      ]
-    },
-    {
-      "id": "132430266",
-      "url": "https://omsk.hh.ru/vacancy/132430266",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132430266",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Коммуникация",
-        "Метрики",
-        "Git"
-      ]
-    },
-    {
-      "id": "132964125",
-      "url": "https://omsk.hh.ru/vacancy/132964125",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132964125",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Коммуникация",
-        "Git"
-      ]
-    },
-    {
-      "id": "131162959",
-      "url": "https://omsk.hh.ru/vacancy/131162959",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131162959",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "API",
-        "Git"
-      ]
-    },
-    {
-      "id": "131816862",
-      "url": "https://omsk.hh.ru/vacancy/131816862",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131816862",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "API"
-      ]
-    },
-    {
-      "id": "132281772",
-      "url": "https://omsk.hh.ru/vacancy/132281772",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132281772",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "API",
-        "BPMN",
-        "Kafka",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132569860",
-      "url": "https://omsk.hh.ru/vacancy/132569860",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132569860",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "API",
-        "BPMN",
-        "Kafka",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132749234",
-      "url": "https://omsk.hh.ru/vacancy/132749234",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132749234",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133311238",
-      "url": "https://omsk.hh.ru/vacancy/133311238",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133311238",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132550523",
-      "url": "https://omsk.hh.ru/vacancy/132550523",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132550523",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции"
-      ]
-    },
-    {
-      "id": "132601695",
-      "url": "https://omsk.hh.ru/vacancy/132601695",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132601695",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "A/B-тесты"
-      ]
-    },
-    {
-      "id": "132898813",
-      "url": "https://omsk.hh.ru/vacancy/132898813",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132898813",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "A/B-тесты",
-        "BI",
-        "BPMN",
-        "Excel",
-        "Power BI",
-        "SQL",
-        "Tableau",
-        "UML"
-      ]
-    },
-    {
-      "id": "133307615",
-      "url": "https://omsk.hh.ru/vacancy/133307615",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133307615",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI",
-        "BPMN",
-        "Excel",
-        "Power BI",
-        "SQL",
-        "Tableau",
-        "UML"
-      ]
-    },
-    {
-      "id": "132529177",
-      "url": "https://omsk.hh.ru/vacancy/132529177",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132529177",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "132686999",
-      "url": "https://omsk.hh.ru/vacancy/132686999",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132686999",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "132912772",
-      "url": "https://omsk.hh.ru/vacancy/132912772",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132912772",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "API",
-        "BPMN",
-        "REST API",
-        "UML"
-      ]
-    },
-    {
-      "id": "132978417",
-      "url": "https://omsk.hh.ru/vacancy/132978417",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132978417",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "API",
-        "BPMN",
-        "REST API",
-        "UML"
-      ]
-    },
-    {
-      "id": "133186482",
-      "url": "https://omsk.hh.ru/vacancy/133186482",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133186482",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
       "skills": [
         "Бизнес-анализ"
-      ]
-    },
-    {
-      "id": "131661908",
-      "url": "https://omsk.hh.ru/vacancy/131661908",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131661908",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "API"
-      ]
-    },
-    {
-      "id": "133296757",
-      "url": "https://omsk.hh.ru/vacancy/133296757",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133296757",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "API"
-      ]
-    },
-    {
-      "id": "132290641",
-      "url": "https://omsk.hh.ru/vacancy/132290641",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132290641",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "133000573",
-      "url": "https://omsk.hh.ru/vacancy/133000573",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133000573",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Коммуникация",
-        "Системный анализ"
-      ]
-    },
-    {
-      "id": "132852451",
-      "url": "https://omsk.hh.ru/vacancy/132852451",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132852451",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132857905",
-      "url": "https://omsk.hh.ru/vacancy/132857905",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132857905",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI",
-        "Excel",
-        "MS SQL",
-        "PostgreSQL",
-        "Power BI",
-        "SQL"
-      ]
-    },
-    {
-      "id": "132907409",
-      "url": "https://omsk.hh.ru/vacancy/132907409?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Менеджер по операционной эффективности",
-      "employer": "АО Qarmet. Сталь",
-      "area": "Караганда, проспект Бухар Жырау, 16",
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133196042",
-      "url": "https://omsk.hh.ru/vacancy/133196042?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Менеджер по анализу и оптимизации процессов",
-      "employer": "«Почта России», Логистика",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "132320614",
-      "url": "https://omsk.hh.ru/vacancy/132320614?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Junior/Middle Data Scientist (Classic ML / LLM)",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132988623",
-      "url": "https://omsk.hh.ru/vacancy/132988623?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Специалист по календарно-сетевому планированию",
-      "employer": "АО ГСПИ",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132483739",
-      "url": "https://omsk.hh.ru/vacancy/132483739?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик 1С: УХ",
-      "employer": "ООО Вератис",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
       ],
-      "skills": [
-        "Английский"
-      ]
+      "employerId": "2733062",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/4233417.png"
     },
     {
-      "id": "126147019",
-      "url": "https://omsk.hh.ru/vacancy/126147019?hhtmFrom=vacancy_search_list",
+      "id": "132858308",
+      "url": "https://omsk.hh.ru/vacancy/132858308?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Системный аналитик",
-      "employer": "Security Vision",
+      "employer": "NKSecure",
       "area": null,
       "date": null,
       "roles": [
@@ -6407,738 +2444,82 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "131514053",
-      "url": "https://omsk.hh.ru/vacancy/131514053?hhtmFrom=vacancy_search_list",
+      "id": "132927028",
+      "url": "https://omsk.hh.ru/vacancy/132927028?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик проектного отдела",
-      "employer": "ФОРА-БАНК, АКБ",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132365566",
-      "url": "https://omsk.hh.ru/vacancy/132365566?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Junior Business Analyst / AI Business Analyst",
-      "employer": "ООО FIN.by / Акцент-Консалт",
-      "area": "Минск, улица Володько, 6",
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Коммуникация",
-        "BI"
-      ]
-    },
-    {
-      "id": "132707632",
-      "url": "https://omsk.hh.ru/vacancy/132707632?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Ведущий инженер (Руководитель группы НСИ)",
-      "employer": "АО ОКБ Новатор",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ"
-      ]
-    },
-    {
-      "id": "132715776",
-      "url": "https://omsk.hh.ru/vacancy/132715776?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик 1С",
-      "employer": "ООО Электроснаб-Кубань",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132625592",
-      "url": "https://omsk.hh.ru/vacancy/132625592?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик ЦФТ",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133284507",
-      "url": "https://omsk.hh.ru/vacancy/133284507?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Эксперт-аналитик",
-      "employer": "ТОО iMAS GROUP",
-      "area": "Астана, улица Достык, 20",
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133062704",
-      "url": "https://omsk.hh.ru/vacancy/133062704?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Ассистент аналитика бизнес-процессов",
-      "employer": "Gridnine",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "130950862",
-      "url": "https://omsk.hh.ru/vacancy/130950862?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "131454493",
-      "url": "https://omsk.hh.ru/vacancy/131454493?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик 1С: ERP",
-      "employer": "Группа Компаний Визард",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "131986683",
-      "url": "https://omsk.hh.ru/vacancy/131986683?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Инженер-аналитик ГИС",
-      "employer": "ЗАО Институт телекоммуникаций",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Коммуникация"
-      ]
-    },
-    {
-      "id": "132783099",
-      "url": "https://omsk.hh.ru/vacancy/132783099?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Главный бизнес-аналитик (платежи)",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133355336",
-      "url": "https://omsk.hh.ru/vacancy/133355336?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Консультант по внедрению Optimacros",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132663272",
-      "url": "https://omsk.hh.ru/vacancy/132663272?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Ведущий аналитик 1С",
-      "employer": "ООО Нитротех",
-      "area": "Кемерово, р-н Центральный",
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "Системный анализ"
-      ]
-    },
-    {
-      "id": "132750595",
-      "url": "https://omsk.hh.ru/vacancy/132750595",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132750595",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "BI",
-        "Confluence",
-        "Jira",
-        "Power BI",
-        "SQL",
-        "Tableau"
-      ]
-    },
-    {
-      "id": "132875916",
-      "url": "https://omsk.hh.ru/vacancy/132875916",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132875916",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Системный анализ",
-        "BI",
-        "Confluence",
-        "Jira",
-        "Power BI",
-        "SQL",
-        "Tableau"
-      ]
-    },
-    {
-      "id": "133101164",
-      "url": "https://omsk.hh.ru/vacancy/133101164",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133101164",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции"
-      ]
-    },
-    {
-      "id": "133176077",
-      "url": "https://omsk.hh.ru/vacancy/133176077",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133176077",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции"
-      ]
-    },
-    {
-      "id": "132730196",
-      "url": "https://omsk.hh.ru/vacancy/132730196",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132730196",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133324242",
-      "url": "https://omsk.hh.ru/vacancy/133324242",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133324242",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "API",
-        "Excel"
-      ]
-    },
-    {
-      "id": "131106571",
-      "url": "https://omsk.hh.ru/vacancy/131106571",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131106571",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Системный анализ",
-        "API",
-        "BI",
-        "BPMN",
-        "Excel",
-        "UML"
-      ]
-    },
-    {
-      "id": "132441972",
-      "url": "https://omsk.hh.ru/vacancy/132441972",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132441972",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "BI",
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "132461761",
-      "url": "https://omsk.hh.ru/vacancy/132461761",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132461761",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel"
-      ]
-    },
-    {
-      "id": "132893028",
-      "url": "https://omsk.hh.ru/vacancy/132893028",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132893028",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "Excel",
-        "MS SQL",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132996197",
-      "url": "https://omsk.hh.ru/vacancy/132996197",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132996197",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "MS SQL",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132385073",
-      "url": "https://omsk.hh.ru/vacancy/132385073",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132385073",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133287544",
-      "url": "https://omsk.hh.ru/vacancy/133287544",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133287544",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Excel"
-      ]
-    },
-    {
-      "id": "133302993",
-      "url": "https://omsk.hh.ru/vacancy/133302993",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133302993",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Python"
-      ]
-    },
-    {
-      "id": "131805083",
-      "url": "https://omsk.hh.ru/vacancy/131805083",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131805083",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Коммуникация",
-        "Excel",
-        "Python"
-      ]
-    },
-    {
-      "id": "132603783",
-      "url": "https://omsk.hh.ru/vacancy/132603783",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132603783",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Коммуникация",
-        "Excel"
-      ]
-    },
-    {
-      "id": "133301467",
-      "url": "https://omsk.hh.ru/vacancy/133301467",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133301467",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация"
-      ]
-    },
-    {
-      "id": "128736711",
-      "url": "https://omsk.hh.ru/vacancy/128736711",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 128736711",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация"
-      ]
-    },
-    {
-      "id": "130500161",
-      "url": "https://omsk.hh.ru/vacancy/130500161",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 130500161",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "API"
-      ]
-    },
-    {
-      "id": "131140181",
-      "url": "https://omsk.hh.ru/vacancy/131140181",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131140181",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "API"
-      ]
-    },
-    {
-      "id": "132548218",
-      "url": "https://omsk.hh.ru/vacancy/132548218",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132548218",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "API",
-        "BPMN",
-        "Confluence",
-        "Jira",
-        "UML"
-      ]
-    },
-    {
-      "id": "132619484",
-      "url": "https://omsk.hh.ru/vacancy/132619484",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132619484",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Метрики",
-        "BI",
-        "BPMN",
-        "Confluence",
-        "Excel",
-        "Jira",
-        "MS SQL",
-        "Power BI",
-        "SQL",
-        "Tableau",
-        "UML"
-      ]
-    },
-    {
-      "id": "132883315",
-      "url": "https://omsk.hh.ru/vacancy/132883315",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132883315",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Метрики",
-        "Системный анализ",
-        "API",
-        "BI",
-        "BPMN",
-        "Excel",
-        "MS SQL",
-        "Power BI",
-        "SQL",
-        "Swagger/OpenAPI",
-        "Tableau",
-        "UML"
-      ]
-    },
-    {
-      "id": "132987146",
-      "url": "https://omsk.hh.ru/vacancy/132987146",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132987146",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "SQL",
-        "Swagger/OpenAPI",
-        "UML"
-      ]
-    },
-    {
-      "id": "131317695",
-      "url": "https://omsk.hh.ru/vacancy/131317695",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131317695",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики"
-      ]
-    },
-    {
-      "id": "132420613",
-      "url": "https://omsk.hh.ru/vacancy/132420613",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132420613",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Системный анализ",
-        "Excel"
-      ]
-    },
-    {
-      "id": "132611351",
-      "url": "https://omsk.hh.ru/vacancy/132611351",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132611351",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133249789",
-      "url": "https://omsk.hh.ru/vacancy/133249789",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133249789",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "133367279",
-      "url": "https://omsk.hh.ru/vacancy/133367279",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133367279",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "132849829",
-      "url": "https://omsk.hh.ru/vacancy/132849829?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Cтажёр системный аналитик",
-      "employer": "Варламов Александр Валерьевич",
+      "title": "Junior Fullstack-аналитик",
+      "employer": "Шарненкова Кристина Вячеславовна",
       "area": "Москва",
       "date": null,
       "roles": [
         "Системный аналитик"
       ],
-      "skills": []
+      "skills": [],
+      "employerId": "11722574"
     },
     {
-      "id": "133091263",
-      "url": "https://omsk.hh.ru/vacancy/133091263?hhtmFrom=vacancy_search_list",
+      "id": "133227231",
+      "url": "https://omsk.hh.ru/vacancy/133227231?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Ведущий бизнес/системный аналитик (офис)",
-      "employer": null,
+      "title": "Бизнес-аналитик (управление запасами)",
+      "employer": "ООО МАГ Девелопмент",
       "area": null,
       "date": null,
       "roles": [
-        "Бизнес-аналитик",
-        "Системный аналитик"
+        "Бизнес-аналитик"
       ],
-      "skills": [
-        "API",
-        "Confluence",
-        "Jira",
-        "REST API",
-        "Swagger/OpenAPI",
-        "UML"
-      ]
-    },
-    {
-      "id": "133348621",
-      "url": "https://omsk.hh.ru/vacancy/133348621?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Консультант 1С",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
       "skills": []
     },
     {
-      "id": "129416754",
-      "url": "https://omsk.hh.ru/vacancy/129416754?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик данных (Excel - PowerPivot, PowerQuery, макросы, SQL, Power BI, Python)",
-      "employer": "ГБУЗ ЦЛО ДЗМ",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": [
-        "BI",
-        "Excel",
-        "Power BI",
-        "Python",
-        "SQL"
-      ]
-    },
-    {
-      "id": "131909157",
-      "url": "https://omsk.hh.ru/vacancy/131909157?hhtmFrom=vacancy_search_list",
+      "id": "132239588",
+      "url": "https://omsk.hh.ru/vacancy/132239588?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Системный аналитик",
-      "employer": null,
+      "employer": "ООО Айтими",
+      "area": "Екатеринбург",
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [
+        "Английский"
+      ],
+      "employerId": "11529939",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7185324.png"
+    },
+    {
+      "id": "133271665",
+      "url": "https://omsk.hh.ru/vacancy/133271665?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Младший аналитик – визуализатор / Дизайнер презентаций",
+      "employer": "ПАО «Газпром нефть»",
       "area": null,
       "date": null,
       "roles": [
         "Системный аналитик"
       ],
       "skills": [
-        "Excel",
-        "SQL"
-      ]
+        "Коммуникация"
+      ],
+      "employerId": "39305",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7413386.png"
     },
     {
-      "id": "132441443",
-      "url": "https://omsk.hh.ru/vacancy/132441443?hhtmFrom=vacancy_search_list",
+      "id": "133306204",
+      "url": "https://omsk.hh.ru/vacancy/133306204?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Специалист по управлению запасами",
-      "employer": null,
-      "area": null,
+      "title": "HR Administrative Intern",
+      "employer": "ООО Delоitte&Touche",
+      "area": "Ташкент, проспект Мустакиллик, 75",
       "date": null,
       "roles": [],
       "skills": []
     },
     {
-      "id": "132483491",
-      "url": "https://omsk.hh.ru/vacancy/132483491?hhtmFrom=vacancy_search_list",
+      "id": "133142451",
+      "url": "https://omsk.hh.ru/vacancy/133142451?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Ведущий бизнес-аналитик в HR",
+      "title": "Бизнес-аналитик (развитие дистрибуции банковских продуктов)",
       "employer": null,
       "area": null,
       "date": null,
@@ -7148,74 +2529,224 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "132600336",
-      "url": "https://omsk.hh.ru/vacancy/132600336?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Middle/Senior Researcher (Центр исследований)",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132676649",
-      "url": "https://omsk.hh.ru/vacancy/132676649?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "132745538",
-      "url": "https://omsk.hh.ru/vacancy/132745538?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-аналитик",
-      "employer": "Инфотекс Интернет Траст",
-      "area": null,
-      "date": null,
-      "roles": [
-        "Бизнес-аналитик"
-      ],
-      "skills": []
-    },
-    {
-      "id": "133004972",
-      "url": "https://omsk.hh.ru/vacancy/133004972?hhtmFrom=vacancy_search_list",
+      "id": "133362150",
+      "url": "https://omsk.hh.ru/vacancy/133362150?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Аналитик отдела продаж",
-      "employer": "АО Владимирский хлебокомбинат",
+      "employer": "Алютех",
       "area": null,
       "date": null,
       "roles": [
         "Системный аналитик"
       ],
-      "skills": []
+      "skills": [
+        "BPMN",
+        "UML"
+      ],
+      "employerId": "52296",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/602580.jpeg"
     },
     {
-      "id": "133214037",
-      "url": "https://omsk.hh.ru/vacancy/133214037?hhtmFrom=vacancy_search_list",
+      "id": "130295361",
+      "url": "https://omsk.hh.ru/vacancy/130295361?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик 1С",
+      "title": "Аналитик",
+      "employer": "ООО ИСЕРВ",
+      "area": "Чебоксары, улица Б.С. Маркова, 12Б",
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [
+        "Excel"
+      ],
+      "employerId": "861271"
+    },
+    {
+      "id": "129739595",
+      "url": "https://omsk.hh.ru/vacancy/129739595",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 129739595",
       "employer": null,
       "area": null,
       "date": null,
-      "roles": [
-        "Системный аналитик"
-      ],
-      "skills": []
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация",
+        "Метрики",
+        "API",
+        "BPMN",
+        "SQL",
+        "UML"
+      ]
     },
     {
-      "id": "132574772",
-      "url": "https://omsk.hh.ru/vacancy/132574772?hhtmFrom=vacancy_search_list",
+      "id": "132547175",
+      "url": "https://omsk.hh.ru/vacancy/132547175?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик (железнодорожный транспорт)",
-      "employer": "Аналитический центр при Правительстве Российской Федерации",
+      "title": "Junior Fullstack-аналитик",
+      "employer": "ООО Исток",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация",
+        "Метрики",
+        "API",
+        "REST API",
+        "SQL",
+        "Swagger/OpenAPI"
+      ],
+      "employerId": "12161776"
+    },
+    {
+      "id": "132573044",
+      "url": "https://omsk.hh.ru/vacancy/132573044",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132573044",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Коммуникация",
+        "API",
+        "REST API",
+        "Swagger/OpenAPI"
+      ]
+    },
+    {
+      "id": "132424244",
+      "url": "https://omsk.hh.ru/vacancy/132424244?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик",
+      "employer": "ООО ИТС",
+      "area": "Тюмень, р-н Калининский",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "REST API",
+        "UML"
+      ],
+      "employerId": "2510287"
+    },
+    {
+      "id": "133152429",
+      "url": "https://omsk.hh.ru/vacancy/133152429",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133152429",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Системный анализ",
+        "BPMN",
+        "Excel",
+        "UML"
+      ]
+    },
+    {
+      "id": "132866626",
+      "url": "https://omsk.hh.ru/vacancy/132866626?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес аналитик",
+      "employer": "DCloud",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ",
+        "Excel"
+      ],
+      "employerId": "4770322"
+    },
+    {
+      "id": "133019502",
+      "url": "https://omsk.hh.ru/vacancy/133019502",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133019502",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "133146063",
+      "url": "https://omsk.hh.ru/vacancy/133146063",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133146063",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Коммуникация",
+        "Excel"
+      ]
+    },
+    {
+      "id": "131472681",
+      "url": "https://omsk.hh.ru/vacancy/131472681",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 131472681",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel"
+      ]
+    },
+    {
+      "id": "133309148",
+      "url": "https://omsk.hh.ru/vacancy/133309148",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133309148",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BPMN",
+        "SQL"
+      ]
+    },
+    {
+      "id": "133322084",
+      "url": "https://omsk.hh.ru/vacancy/133322084",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133322084",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BPMN",
+        "Excel",
+        "SQL"
+      ]
+    },
+    {
+      "id": "131413153",
+      "url": "https://omsk.hh.ru/vacancy/131413153?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик по ценообразованию (строительство)",
+      "employer": "ГАУ НИАЦ",
       "area": null,
       "date": null,
       "roles": [
@@ -7224,38 +2755,40 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "132883777",
-      "url": "https://omsk.hh.ru/vacancy/132883777?hhtmFrom=vacancy_search_list",
+      "id": "132971312",
+      "url": "https://omsk.hh.ru/vacancy/132971312?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Ведущий аналитик по товарному запасу",
-      "employer": null,
-      "area": null,
+      "title": "Системный администратор-аналитик",
+      "employer": "ТОО Пекарня №5 KZ",
+      "area": "Павлодар",
       "date": null,
       "roles": [
         "Системный аналитик"
       ],
-      "skills": []
+      "skills": [],
+      "employerId": "12747181"
     },
     {
-      "id": "132978922",
-      "url": "https://omsk.hh.ru/vacancy/132978922?hhtmFrom=vacancy_search_list",
+      "id": "132760574",
+      "url": "https://omsk.hh.ru/vacancy/132760574?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Бизнес-системный аналитик (IT) | Стажер",
-      "employer": null,
-      "area": null,
+      "title": "Senior аналитик бизнес- и системных требований",
+      "employer": "Рекрутер",
+      "area": "Москва",
       "date": null,
       "roles": [
         "Бизнес-аналитик",
         "Системный аналитик"
       ],
-      "skills": []
+      "skills": [],
+      "employerId": "1320896"
     },
     {
-      "id": "133102868",
-      "url": "https://omsk.hh.ru/vacancy/133102868?hhtmFrom=vacancy_search_list",
+      "id": "133237541",
+      "url": "https://omsk.hh.ru/vacancy/133237541?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Системный аналитик (Middle/Senior)",
-      "employer": "ООО ИЦ АЙ-ТЕКО",
+      "title": "Стажер маркетолог-аналитик",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [
@@ -7264,27 +2797,507 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "133251565",
-      "url": "https://omsk.hh.ru/vacancy/133251565?hhtmFrom=vacancy_search_list",
+      "id": "133303609",
+      "url": "https://omsk.hh.ru/vacancy/133303609",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Специалист по анализу рынка",
-      "employer": "ТОО Carlsberg Kazakhstan",
+      "title": "Вакансия 133303609",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "133160729",
+      "url": "https://omsk.hh.ru/vacancy/133160729",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133160729",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "133191022",
+      "url": "https://omsk.hh.ru/vacancy/133191022?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Главный аналитик – Real‑Time",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "API",
+        "REST API",
+        "Swagger/OpenAPI"
+      ],
+      "employerId": "80",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3096625.png"
+    },
+    {
+      "id": "133371105",
+      "url": "https://omsk.hh.ru/vacancy/133371105?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Менеджер ITSM (ITIL CDS)",
+      "employer": "Криптонит",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "API",
+        "REST API",
+        "Swagger/OpenAPI"
+      ],
+      "employerId": "3491569"
+    },
+    {
+      "id": "133120064",
+      "url": "https://omsk.hh.ru/vacancy/133120064",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133120064",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "ETL"
+      ]
+    },
+    {
+      "id": "133186631",
+      "url": "https://omsk.hh.ru/vacancy/133186631",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133186631",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "ETL",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "129612155",
+      "url": "https://omsk.hh.ru/vacancy/129612155",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 129612155",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Коммуникация",
+        "Метрики",
+        "API",
+        "ETL",
+        "Kafka",
+        "PostgreSQL",
+        "REST API",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "132503236",
+      "url": "https://omsk.hh.ru/vacancy/132503236",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132503236",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Коммуникация",
+        "Метрики",
+        "API",
+        "ETL",
+        "Kafka",
+        "MS SQL",
+        "PostgreSQL",
+        "Python",
+        "REST API",
+        "SQL",
+        "Tableau"
+      ]
+    },
+    {
+      "id": "132918314",
+      "url": "https://omsk.hh.ru/vacancy/132918314?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Ведущий системный аналитик",
+      "employer": "KODE",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Интеграции",
+        "Системный анализ",
+        "Agile/Scrum",
+        "API",
+        "BPMN",
+        "Jira",
+        "MS SQL",
+        "PostgreSQL",
+        "Python",
+        "SOAP",
+        "SQL",
+        "Tableau"
+      ],
+      "employerId": "1407093"
+    },
+    {
+      "id": "132932508",
+      "url": "https://omsk.hh.ru/vacancy/132932508",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132932508",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Интеграции",
+        "Системный анализ",
+        "Agile/Scrum",
+        "API",
+        "BPMN",
+        "Jira",
+        "SOAP",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "132749642",
+      "url": "https://omsk.hh.ru/vacancy/132749642?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Инженер по описанию и моделированию бизнес-процессов (группа СМК)",
+      "employer": "АО ВНИИ Галургии",
+      "area": "Пермь, р-н Свердловский",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "BPMN",
+        "UML"
+      ],
+      "employerId": "1174187",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/847125.jpeg"
+    },
+    {
+      "id": "132840943",
+      "url": "https://omsk.hh.ru/vacancy/132840943?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик продаж",
+      "employer": "ООО Неотерика Рус",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BPMN",
+        "Excel"
+      ],
+      "employerId": "4537377"
+    },
+    {
+      "id": "132955102",
+      "url": "https://omsk.hh.ru/vacancy/132955102",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132955102",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "API",
+        "BPMN",
+        "Excel",
+        "REST API",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "131955315",
+      "url": "https://omsk.hh.ru/vacancy/131955315?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Консультант 1С",
+      "employer": "СОЮЗМУЛЬТФИЛЬМ",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "API",
+        "BPMN",
+        "REST API",
+        "SQL",
+        "UML"
+      ],
+      "employerId": "962026"
+    },
+    {
+      "id": "133187511",
+      "url": "https://omsk.hh.ru/vacancy/133187511",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133187511",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Метрики",
+        "Excel"
+      ]
+    },
+    {
+      "id": "133235257",
+      "url": "https://omsk.hh.ru/vacancy/133235257",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133235257",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики",
+        "BPMN"
+      ]
+    },
+    {
+      "id": "132052104",
+      "url": "https://omsk.hh.ru/vacancy/132052104?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик 1С",
+      "employer": "ТОО INVITRO (ТОО ИНВИТРО-Казахстан)",
+      "area": "Алматы",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BPMN"
+      ],
+      "employerId": "599429"
+    },
+    {
+      "id": "132435675",
+      "url": "https://omsk.hh.ru/vacancy/132435675",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132435675",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "132917225",
+      "url": "https://omsk.hh.ru/vacancy/132917225?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (AI bot team)",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация",
+        "BPMN",
+        "Confluence",
+        "Jira",
+        "PostgreSQL",
+        "SQL",
+        "UML"
+      ],
+      "employerId": "4394",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6395486.png"
+    },
+    {
+      "id": "133344389",
+      "url": "https://omsk.hh.ru/vacancy/133344389?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Начальник отдела по анализу и оптимизации процессов",
+      "employer": "ООО Кубань Кредит, КБ",
+      "area": "Краснодар, р-н Центральный",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "BPMN",
+        "Confluence",
+        "Jira",
+        "PostgreSQL",
+        "SQL",
+        "UML"
+      ],
+      "employerId": "200524",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7176516.png"
+    },
+    {
+      "id": "132395875",
+      "url": "https://omsk.hh.ru/vacancy/132395875",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132395875",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Интеграции"
+      ]
+    },
+    {
+      "id": "132623223",
+      "url": "https://omsk.hh.ru/vacancy/132623223",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132623223",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции"
+      ]
+    },
+    {
+      "id": "133161738",
+      "url": "https://omsk.hh.ru/vacancy/133161738",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133161738",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "API",
+        "Swagger/OpenAPI"
+      ]
+    },
+    {
+      "id": "133354998",
+      "url": "https://omsk.hh.ru/vacancy/133354998",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133354998",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "DWH",
+        "Swagger/OpenAPI"
+      ]
+    },
+    {
+      "id": "133358758",
+      "url": "https://omsk.hh.ru/vacancy/133358758?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик DWH в команду ЕХД 2.0",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "DWH",
+        "SQL"
+      ],
+      "employerId": "3443",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2871417.jpeg"
+    },
+    {
+      "id": "133371235",
+      "url": "https://omsk.hh.ru/vacancy/133371235",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133371235",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "124694728",
+      "url": "https://omsk.hh.ru/vacancy/124694728",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 124694728",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "BPMN"
+      ]
+    },
+    {
+      "id": "132876695",
+      "url": "https://omsk.hh.ru/vacancy/132876695",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132876695",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "API",
+        "BPMN",
+        "SQL"
+      ]
+    },
+    {
+      "id": "133130827",
+      "url": "https://omsk.hh.ru/vacancy/133130827?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик бизнес систем",
+      "employer": "AIR ASTANA, АО",
       "area": "Алматы",
       "date": null,
       "roles": [],
       "skills": [
         "Интеграции",
         "API",
-        "REST API",
-        "UML"
+        "BPMN",
+        "SQL"
+      ],
+      "employerId": "31453"
+    },
+    {
+      "id": "133339990",
+      "url": "https://omsk.hh.ru/vacancy/133339990",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133339990",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "API"
       ]
     },
     {
-      "id": "132389786",
-      "url": "https://omsk.hh.ru/vacancy/132389786?hhtmFrom=vacancy_search_list",
+      "id": "129320754",
+      "url": "https://omsk.hh.ru/vacancy/129320754?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Аналитик данных (Культура и Туризм)",
-      "employer": "ГКУ Инфогород",
+      "title": "Стажер/Аналитик 1С",
+      "employer": "ООО Гензис",
       "area": null,
       "date": null,
       "roles": [
@@ -7293,11 +3306,141 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "133071973",
-      "url": "https://omsk.hh.ru/vacancy/133071973?hhtmFrom=vacancy_search_list",
+      "id": "132914159",
+      "url": "https://omsk.hh.ru/vacancy/132914159?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Специалист по улучшению бизнес-поцессов",
-      "employer": "ООО Фортуна Плюс",
+      "title": "Бизнес-аналитик",
+      "employer": "ООО ЦТР НЕКСТ",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": [],
+      "employerId": "5875196"
+    },
+    {
+      "id": "132988181",
+      "url": "https://omsk.hh.ru/vacancy/132988181?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик",
+      "employer": "ООО Ростелеком Информационные Технологии",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": [
+        "Английский"
+      ]
+    },
+    {
+      "id": "131401806",
+      "url": "https://omsk.hh.ru/vacancy/131401806?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Ведущий системный аналитик",
+      "employer": "DIGITAL FUTURE SYSTEMS",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "132017153",
+      "url": "https://omsk.hh.ru/vacancy/132017153?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Fullstack аналитик",
+      "employer": "Hi, Rockits!",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [
+        "Английский"
+      ]
+    },
+    {
+      "id": "132418311",
+      "url": "https://omsk.hh.ru/vacancy/132418311?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик",
+      "employer": "Иттех",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "132896195",
+      "url": "https://omsk.hh.ru/vacancy/132896195?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик",
+      "employer": "ООО Леон",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": [],
+      "employerId": "2437802"
+    },
+    {
+      "id": "132146886",
+      "url": "https://omsk.hh.ru/vacancy/132146886?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик",
+      "employer": "Аналитика",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [],
+      "employerId": "53797",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7728367.png"
+    },
+    {
+      "id": "133203945",
+      "url": "https://omsk.hh.ru/vacancy/133203945?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик 1С",
+      "employer": "Фабрика Доктор Губер",
+      "area": "Санкт-Петербург",
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [
+        "Английский"
+      ],
+      "employerId": "10707594"
+    },
+    {
+      "id": "133249008",
+      "url": "https://omsk.hh.ru/vacancy/133249008?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик 1C",
+      "employer": "Lindaily",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [],
+      "employerId": "725039",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5960234.png"
+    },
+    {
+      "id": "133290947",
+      "url": "https://omsk.hh.ru/vacancy/133290947?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик 1С",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [
@@ -7306,18 +3449,1270 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "133098290",
-      "url": "https://omsk.hh.ru/vacancy/133098290?hhtmFrom=vacancy_search_list",
+      "id": "131860711",
+      "url": "https://omsk.hh.ru/vacancy/131860711?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Senior / Lead System Analyst",
-      "employer": "ООО TRYNEXIS",
-      "area": "Тбилиси",
+      "title": "Бизнес-аналитик /Business Analyst",
+      "employer": "OFFPRICE",
+      "area": "Москва",
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ"
+      ],
+      "employerId": "2452849",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/4280221.png"
+    },
+    {
+      "id": "131720745",
+      "url": "https://omsk.hh.ru/vacancy/131720745?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик",
+      "employer": "ООО Лоция",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [],
+      "employerId": "5860936"
+    },
+    {
+      "id": "132441094",
+      "url": "https://omsk.hh.ru/vacancy/132441094?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Middle Дата аналитик в Защитник [Big Data, МТС Веб Сервисы]",
+      "employer": "\"МТС\", Работа в IT",
+      "area": null,
       "date": null,
       "roles": [
         "Системный аналитик"
       ],
       "skills": [
+        "Английский",
+        "Системный анализ",
+        "BPMN",
+        "UML"
+      ],
+      "employerId": "3776",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7176732.png"
+    },
+    {
+      "id": "132495856",
+      "url": "https://omsk.hh.ru/vacancy/132495856?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный Аналитик (Банк)",
+      "employer": "ООО ИЦ АЙ-ТЕКО",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [
+        "Python",
+        "SQL"
+      ],
+      "employerId": "872178",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2559134.png"
+    },
+    {
+      "id": "132662665",
+      "url": "https://omsk.hh.ru/vacancy/132662665?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Менеджер по планированию WFM",
+      "employer": "Международное кадровое агентство",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "API",
+        "Kafka",
+        "REST API"
+      ]
+    },
+    {
+      "id": "131858402",
+      "url": "https://omsk.hh.ru/vacancy/131858402?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (Высоконагруженные системы, AI-проекты) Новосибирск",
+      "employer": "ООО СофтМолл",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "133364363",
+      "url": "https://omsk.hh.ru/vacancy/133364363?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Marketing Analyst в партнерскую программу",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "133105149",
+      "url": "https://omsk.hh.ru/vacancy/133105149?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Консультант (SAP, Галактика)",
+      "employer": "ООО РСХБ-Интех",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Python"
+      ],
+      "employerId": "3131901",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7274221.png"
+    },
+    {
+      "id": "131617823",
+      "url": "https://omsk.hh.ru/vacancy/131617823?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик",
+      "employer": "ООО Транснефть-Технологии",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [],
+      "employerId": "2163044",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5703885.png"
+    },
+    {
+      "id": "132580573",
+      "url": "https://omsk.hh.ru/vacancy/132580573",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132580573",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Интеграции",
+        "API",
+        "Kafka",
+        "PostgreSQL",
+        "REST API",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "132399839",
+      "url": "https://omsk.hh.ru/vacancy/132399839",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132399839",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Excel"
+      ]
+    },
+    {
+      "id": "132983652",
+      "url": "https://omsk.hh.ru/vacancy/132983652",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132983652",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
         "Системный анализ"
+      ]
+    },
+    {
+      "id": "132405073",
+      "url": "https://omsk.hh.ru/vacancy/132405073",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132405073",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BPMN",
+        "Confluence",
+        "Jira",
+        "UML"
+      ]
+    },
+    {
+      "id": "132929758",
+      "url": "https://omsk.hh.ru/vacancy/132929758",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132929758",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Системный анализ",
+        "BPMN",
+        "Confluence",
+        "Jira",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "133198192",
+      "url": "https://omsk.hh.ru/vacancy/133198192",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133198192",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ",
+        "Jira"
+      ]
+    },
+    {
+      "id": "133370037",
+      "url": "https://omsk.hh.ru/vacancy/133370037",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133370037",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "133287869",
+      "url": "https://omsk.hh.ru/vacancy/133287869?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Помощник менеджера по Wildberries",
+      "employer": "Mentor Solution",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "5647923"
+    },
+    {
+      "id": "133333073",
+      "url": "https://omsk.hh.ru/vacancy/133333073",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133333073",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "DWH"
+      ]
+    },
+    {
+      "id": "132839421",
+      "url": "https://omsk.hh.ru/vacancy/132839421",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132839421",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "DWH"
+      ]
+    },
+    {
+      "id": "132991594",
+      "url": "https://omsk.hh.ru/vacancy/132991594",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132991594",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "DWH"
+      ]
+    },
+    {
+      "id": "131083621",
+      "url": "https://omsk.hh.ru/vacancy/131083621",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 131083621",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "API"
+      ]
+    },
+    {
+      "id": "133326739",
+      "url": "https://omsk.hh.ru/vacancy/133326739?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик 1С (Middle- / Внедренец)",
+      "employer": "ИП Пьянкова Дарья Николаевна",
+      "area": "Новосибирск",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация",
+        "API"
+      ],
+      "employerId": "12578150"
+    },
+    {
+      "id": "133105587",
+      "url": "https://omsk.hh.ru/vacancy/133105587",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133105587",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "132678508",
+      "url": "https://omsk.hh.ru/vacancy/132678508?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (Банковский проект)",
+      "employer": "Volna.tech",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "BPMN",
+        "PostgreSQL",
+        "REST API",
+        "SOAP",
+        "SQL",
+        "Swagger/OpenAPI"
+      ],
+      "employerId": "5382804"
+    },
+    {
+      "id": "129264032",
+      "url": "https://omsk.hh.ru/vacancy/129264032",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 129264032",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация",
+        "API",
+        "BPMN",
+        "PostgreSQL",
+        "REST API",
+        "SOAP",
+        "SQL",
+        "Swagger/OpenAPI"
+      ]
+    },
+    {
+      "id": "132599110",
+      "url": "https://omsk.hh.ru/vacancy/132599110",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132599110",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация",
+        "BPMN",
+        "UML"
+      ]
+    },
+    {
+      "id": "133232777",
+      "url": "https://omsk.hh.ru/vacancy/133232777",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133232777",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация",
+        "BPMN",
+        "UML"
+      ]
+    },
+    {
+      "id": "133199184",
+      "url": "https://omsk.hh.ru/vacancy/133199184?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик в отдел анализа эффективности стратегических инициатив",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики",
+        "ETL",
+        "SQL"
+      ],
+      "employerId": "4181",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2369889.png"
+    },
+    {
+      "id": "133235265",
+      "url": "https://omsk.hh.ru/vacancy/133235265",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133235265",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Метрики",
+        "ETL",
+        "SQL"
+      ]
+    },
+    {
+      "id": "133261681",
+      "url": "https://omsk.hh.ru/vacancy/133261681",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133261681",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ",
+        "ClickHouse",
+        "MS SQL",
+        "PostgreSQL",
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "id": "133309109",
+      "url": "https://omsk.hh.ru/vacancy/133309109",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133309109",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ",
+        "ClickHouse",
+        "MS SQL",
+        "PostgreSQL",
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "id": "132335875",
+      "url": "https://omsk.hh.ru/vacancy/132335875?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик",
+      "employer": "ЕДИНЫЙ ЦУПИС",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация",
+        "BPMN",
+        "Confluence",
+        "Jira"
+      ],
+      "employerId": "2590000",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/12207623.png"
+    },
+    {
+      "id": "132613665",
+      "url": "https://omsk.hh.ru/vacancy/132613665?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Junior координатор проектов (ВТБ Привилегия)",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel"
+      ],
+      "employerId": "4181",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2369889.png"
+    },
+    {
+      "id": "133166229",
+      "url": "https://omsk.hh.ru/vacancy/133166229",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133166229",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "Excel"
+      ]
+    },
+    {
+      "id": "115529176",
+      "url": "https://omsk.hh.ru/vacancy/115529176",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 115529176",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "API",
+        "BPMN",
+        "UML"
+      ]
+    },
+    {
+      "id": "131708877",
+      "url": "https://omsk.hh.ru/vacancy/131708877",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 131708877",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Интеграции",
+        "API",
+        "BPMN",
+        "UML"
+      ]
+    },
+    {
+      "id": "132836603",
+      "url": "https://omsk.hh.ru/vacancy/132836603?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Младший риск-менеджер по структурным продуктам",
+      "employer": "БКС Капитал Бизнес и процессы",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Excel",
+        "Python",
+        "SQL"
+      ],
+      "employerId": "1833",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/12242732.png"
+    },
+    {
+      "id": "133030813",
+      "url": "https://omsk.hh.ru/vacancy/133030813",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133030813",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "133143236",
+      "url": "https://omsk.hh.ru/vacancy/133143236?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Head of Data",
+      "employer": "ТОО Alem Agro Holding (АлемАгро Холдинг)",
+      "area": "Алматы",
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "133232112",
+      "url": "https://omsk.hh.ru/vacancy/133232112?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик",
+      "employer": "ЧК NextGen Commerce Ltd.",
+      "area": "Алматы",
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": [
+        "DWH"
+      ]
+    },
+    {
+      "id": "130910436",
+      "url": "https://omsk.hh.ru/vacancy/130910436?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Специалист 1С (Документооборот)",
+      "employer": "Корпорация «Проект-техника»",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ]
+    },
+    {
+      "id": "132134810",
+      "url": "https://omsk.hh.ru/vacancy/132134810?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик / Старший аналитик DWH",
+      "employer": "ООО GlowByte",
+      "area": "Москва",
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [
+        "Английский",
+        "DWH"
+      ],
+      "employerId": "64474"
+    },
+    {
+      "id": "132593899",
+      "url": "https://omsk.hh.ru/vacancy/132593899?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Менеджер проектов развития бизнеса (сельское хозяйство)",
+      "employer": "Arctic Invest",
+      "area": "Москва, р-н Можайский",
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": [
+        "SQL"
+      ],
+      "employerId": "10077278"
+    },
+    {
+      "id": "133312529",
+      "url": "https://omsk.hh.ru/vacancy/133312529?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик-исследователь (Desk Research / AI-native)",
+      "employer": "ООО Спектр",
+      "area": "Москва",
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [
+        "Английский"
+      ],
+      "employerId": "3875156"
+    },
+    {
+      "id": "133372754",
+      "url": "https://omsk.hh.ru/vacancy/133372754?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Менеджер клиентского опыта, Ozon Банк",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "132550405",
+      "url": "https://omsk.hh.ru/vacancy/132550405?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "132768541",
+      "url": "https://omsk.hh.ru/vacancy/132768541?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Специалист 1С",
+      "employer": "ООО Восток",
+      "area": "Хабаровск, р-н Железнодорожный",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "10442160"
+    },
+    {
+      "id": "133210447",
+      "url": "https://omsk.hh.ru/vacancy/133210447?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик",
+      "employer": "Onescreen (ИП Попович Дмитрий Сергеевич)",
+      "area": "Москва",
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": [],
+      "employerId": "9631842"
+    },
+    {
+      "id": "131867157",
+      "url": "https://omsk.hh.ru/vacancy/131867157?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик",
+      "employer": "Ригла",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "132486251",
+      "url": "https://omsk.hh.ru/vacancy/132486251?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик",
+      "employer": "ДелЭкспресс",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": [
+        "Английский"
+      ]
+    },
+    {
+      "id": "132298289",
+      "url": "https://omsk.hh.ru/vacancy/132298289?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик",
+      "employer": "ПАО КБ Уральский банк реконструкции и развития (УБРиР)",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "133185518",
+      "url": "https://omsk.hh.ru/vacancy/133185518?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Руководитель отдела аналитики в сфере строительства",
+      "employer": "ООО Промышленное Строительство",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "132839432",
+      "url": "https://omsk.hh.ru/vacancy/132839432?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик данных (Управление поддержки продаж и обслуживания)",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "133308277",
+      "url": "https://omsk.hh.ru/vacancy/133308277?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Ведущий WEB аналитик",
+      "employer": "СК Ренессанс Жизнь",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [],
+      "employerId": "17675",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3373773.png"
+    },
+    {
+      "id": "132821660",
+      "url": "https://omsk.hh.ru/vacancy/132821660?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Младший бизнес-аналитик",
+      "employer": "Ангиофарм",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": [
+        "Английский"
+      ]
+    },
+    {
+      "id": "133084710",
+      "url": "https://omsk.hh.ru/vacancy/133084710?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Стажер-специалист 1С",
+      "employer": "Changellenge",
+      "area": "Санкт-Петербург",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ],
+      "employerId": "1304253"
+    },
+    {
+      "id": "133305326",
+      "url": "https://omsk.hh.ru/vacancy/133305326?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Business/System Analyst (Брянск) Middle/Senior",
+      "employer": "Employcity",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик",
+        "Системный аналитик"
+      ],
+      "skills": [
+        "Системный анализ"
+      ]
+    },
+    {
+      "id": "133322459",
+      "url": "https://omsk.hh.ru/vacancy/133322459?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Ведущий системный аналитик (Информационная безопасность)",
+      "employer": "АО ИнфоТеКС",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "132827045",
+      "url": "https://omsk.hh.ru/vacancy/132827045",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132827045",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Интеграции",
+        "Системный анализ",
+        "Excel",
+        "SQL"
+      ]
+    },
+    {
+      "id": "132877530",
+      "url": "https://omsk.hh.ru/vacancy/132877530",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132877530",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Интеграции",
+        "Коммуникация",
+        "API",
+        "Kafka",
+        "REST API",
+        "SOAP",
+        "SQL"
+      ]
+    },
+    {
+      "id": "132566468",
+      "url": "https://omsk.hh.ru/vacancy/132566468",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132566468",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BPMN",
+        "UML"
+      ]
+    },
+    {
+      "id": "131435171",
+      "url": "https://omsk.hh.ru/vacancy/131435171",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 131435171",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ",
+        "API"
+      ]
+    },
+    {
+      "id": "132250277",
+      "url": "https://omsk.hh.ru/vacancy/132250277?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик // Контент-менеджер",
+      "employer": "Brandquad",
+      "area": "Волгоград, р-н Краснооктябрьский",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ",
+        "API",
+        "Excel"
+      ],
+      "employerId": "2131829"
+    },
+    {
+      "id": "132779537",
+      "url": "https://omsk.hh.ru/vacancy/132779537",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132779537",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ",
+        "Confluence",
+        "Excel",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "132972429",
+      "url": "https://omsk.hh.ru/vacancy/132972429",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132972429",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ",
+        "Confluence",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "133054820",
+      "url": "https://omsk.hh.ru/vacancy/133054820?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-ассистент CEO (с навыками автоматизации) - Операционный менеджер",
+      "employer": "Market Tops",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel"
+      ],
+      "employerId": "11546064"
+    },
+    {
+      "id": "132451398",
+      "url": "https://omsk.hh.ru/vacancy/132451398?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Ведущий системный аналитик (BSS)",
+      "employer": "Bercut",
+      "area": "Санкт-Петербург",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Системный анализ",
+        "Excel"
+      ],
+      "employerId": "11600",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3645656.png"
+    },
+    {
+      "id": "132892939",
+      "url": "https://omsk.hh.ru/vacancy/132892939?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Главный специалист/Системный аналитик по интеграциям (ID 412)",
+      "employer": "ООО Газпром ЦПС",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Системный анализ",
+        "Agile/Scrum",
+        "API",
+        "REST API",
+        "SOAP",
+        "Swagger/OpenAPI"
+      ],
+      "employerId": "5778059"
+    },
+    {
+      "id": "104491865",
+      "url": "https://omsk.hh.ru/vacancy/104491865",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 104491865",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Agile/Scrum",
+        "API",
+        "BPMN",
+        "ClickHouse",
+        "MS SQL",
+        "REST API",
+        "SOAP",
+        "SQL",
+        "Swagger/OpenAPI",
+        "UML"
+      ]
+    },
+    {
+      "id": "132525787",
+      "url": "https://omsk.hh.ru/vacancy/132525787?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Консультант-аналитик по 1С",
+      "employer": "Ижсинтез-отделочные материалы",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Метрики",
+        "BPMN",
+        "ClickHouse",
+        "MS SQL",
+        "SQL",
+        "UML"
+      ],
+      "employerId": "169545"
+    },
+    {
+      "id": "132598240",
+      "url": "https://omsk.hh.ru/vacancy/132598240?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Senior Системный аналитик (ВымпелКом)",
+      "employer": "ООО ИЦ АЙ-ТЕКО",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Метрики",
+        "API",
+        "Swagger/OpenAPI"
+      ],
+      "employerId": "872178",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2559134.png"
+    },
+    {
+      "id": "132650998",
+      "url": "https://omsk.hh.ru/vacancy/132650998",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132650998",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "API",
+        "Swagger/OpenAPI"
+      ]
+    },
+    {
+      "id": "132709878",
+      "url": "https://omsk.hh.ru/vacancy/132709878",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132709878",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Метрики",
+        "Системный анализ",
+        "API",
+        "MS SQL",
+        "SQL"
+      ]
+    },
+    {
+      "id": "132934583",
+      "url": "https://omsk.hh.ru/vacancy/132934583?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик 1С (регучёт)",
+      "employer": "ООО Компьютерные Технологии",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ],
+      "employerId": "2797127"
+    },
+    {
+      "id": "133046463",
+      "url": "https://omsk.hh.ru/vacancy/133046463?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (FinTech)",
+      "employer": "ООО Microyol",
+      "area": "Ташкент, улица Буюк Ипак Йули, 173",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Интеграции",
+        "Jira"
+      ],
+      "employerId": "9098254"
+    },
+    {
+      "id": "133135300",
+      "url": "https://omsk.hh.ru/vacancy/133135300?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Консультант-аналитик 1С Документооборот",
+      "employer": "АО Горно-рудная компания Западная",
+      "area": "Иркутск, р-н Октябрьский",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Jira"
+      ],
+      "employerId": "844660"
+    },
+    {
+      "id": "133167405",
+      "url": "https://omsk.hh.ru/vacancy/133167405",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133167405",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ"
+      ]
+    },
+    {
+      "id": "133176192",
+      "url": "https://omsk.hh.ru/vacancy/133176192",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133176192",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ"
+      ]
+    },
+    {
+      "id": "131041431",
+      "url": "https://omsk.hh.ru/vacancy/131041431?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Редактор текстов для обучения нейросетей (GigaChat)",
+      "employer": "Сбер. IT",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API"
+      ],
+      "employerId": "3529",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
+    },
+    {
+      "id": "132612851",
+      "url": "https://omsk.hh.ru/vacancy/132612851?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик",
+      "employer": "UserGate",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции"
+      ],
+      "employerId": "113649"
+    },
+    {
+      "id": "133130645",
+      "url": "https://omsk.hh.ru/vacancy/133130645?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик отдела продаж",
+      "employer": "ООО ИНСИТИ",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Excel"
+      ],
+      "employerId": "1445049"
+    },
+    {
+      "id": "133150211",
+      "url": "https://omsk.hh.ru/vacancy/133150211",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133150211",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel"
       ]
     },
     {
@@ -7330,383 +4725,549 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
+        "Коммуникация",
+        "API",
+        "BPMN",
+        "REST API",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "132851003",
+      "url": "https://omsk.hh.ru/vacancy/132851003",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132851003",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "BPMN",
+        "UML"
+      ]
+    },
+    {
+      "id": "128778201",
+      "url": "https://omsk.hh.ru/vacancy/128778201?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик (цифровизация в области устойчивого развития)",
+      "employer": "Технологии Доверия, Технологические услуги",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "BPMN",
+        "UML"
+      ],
+      "employerId": "1201",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/12277544.png"
+    },
+    {
+      "id": "131464984",
+      "url": "https://omsk.hh.ru/vacancy/131464984",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 131464984",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "API"
+      ]
+    },
+    {
+      "id": "131766102",
+      "url": "https://omsk.hh.ru/vacancy/131766102",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 131766102",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ",
+        "Интеграции",
+        "API"
+      ]
+    },
+    {
+      "id": "132387853",
+      "url": "https://omsk.hh.ru/vacancy/132387853",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132387853",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ",
         "Интеграции",
         "Коммуникация",
         "Системный анализ",
-        "Agile/Scrum",
         "API",
         "BPMN",
-        "Git",
+        "Kafka",
+        "PostgreSQL",
+        "RabbitMQ",
+        "REST API",
+        "SOAP",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "132418625",
+      "url": "https://omsk.hh.ru/vacancy/132418625",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132418625",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Коммуникация",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "Kafka",
         "MS SQL",
+        "PostgreSQL",
+        "RabbitMQ",
         "REST API",
+        "SOAP",
         "SQL",
         "UML"
       ]
     },
     {
-      "id": "132379701",
-      "url": "https://omsk.hh.ru/vacancy/132379701",
+      "id": "132929080",
+      "url": "https://omsk.hh.ru/vacancy/132929080?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132379701",
+      "title": "Системный Аналитик (мобильное приложение)",
       "employer": null,
       "area": null,
       "date": null,
-      "roles": [],
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "133063617",
+      "url": "https://omsk.hh.ru/vacancy/133063617?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-ассистент / Операционный координатор (AI-инструменты)",
+      "employer": "Студия дизайна интерьера Mossify",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
       "skills": [
-        "Интеграции",
-        "Коммуникация",
-        "API",
-        "BPMN",
-        "REST API",
-        "SQL",
-        "UML"
+        "Agile/Scrum"
       ]
     },
     {
-      "id": "132450149",
-      "url": "https://omsk.hh.ru/vacancy/132450149",
+      "id": "133113577",
+      "url": "https://omsk.hh.ru/vacancy/133113577?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132450149",
+      "title": "Специалист по работе с договорами услуг (договорник)",
+      "employer": "ООО РН-Ванкор",
+      "area": "Красноярск, р-н Советский",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "73652",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5827294.png"
+    },
+    {
+      "id": "131501713",
+      "url": "https://omsk.hh.ru/vacancy/131501713?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Ведущий системный аналитик",
       "employer": null,
       "area": null,
       "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции"
-      ]
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
     },
     {
-      "id": "132781235",
-      "url": "https://omsk.hh.ru/vacancy/132781235",
+      "id": "131603224",
+      "url": "https://omsk.hh.ru/vacancy/131603224?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132781235",
+      "title": "Системный аналитик",
+      "employer": "Fix Price. IT",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [
+        "BPMN"
+      ],
+      "employerId": "196621",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7487539.png"
+    },
+    {
+      "id": "131795048",
+      "url": "https://omsk.hh.ru/vacancy/131795048?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Ведущий fullstack-аналитик",
       "employer": null,
       "area": null,
       "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BPMN",
-        "UML"
-      ]
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
     },
     {
-      "id": "132854069",
-      "url": "https://omsk.hh.ru/vacancy/132854069",
+      "id": "132533303",
+      "url": "https://omsk.hh.ru/vacancy/132533303?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132854069",
+      "title": "Ведущий системный аналитик (CBSS)",
       "employer": null,
       "area": null,
       "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "REST API",
-        "SOAP",
-        "UML"
-      ]
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
     },
     {
-      "id": "132930614",
-      "url": "https://omsk.hh.ru/vacancy/132930614",
+      "id": "132570505",
+      "url": "https://omsk.hh.ru/vacancy/132570505?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132930614",
+      "title": "Руководитель направления оптимизации бизнес-процессов",
       "employer": null,
       "area": null,
       "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "Excel",
-        "REST API",
-        "SOAP",
-        "UML"
-      ]
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": []
     },
     {
-      "id": "133151356",
-      "url": "https://omsk.hh.ru/vacancy/133151356",
+      "id": "132865976",
+      "url": "https://omsk.hh.ru/vacancy/132865976?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133151356",
-      "employer": null,
-      "area": null,
+      "title": "Консультант по внедрению 1C:ЗУП",
+      "employer": "ООО А-Цифра",
+      "area": "Новосибирск",
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Excel",
-        "Power BI"
-      ]
+        "BPMN"
+      ],
+      "employerId": "12763055"
     },
     {
-      "id": "133210470",
-      "url": "https://omsk.hh.ru/vacancy/133210470",
+      "id": "133012525",
+      "url": "https://omsk.hh.ru/vacancy/133012525?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133210470",
+      "title": "Системный аналитик ЦФТ",
       "employer": null,
       "area": null,
       "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Power BI"
-      ]
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
     },
     {
-      "id": "130860928",
-      "url": "https://omsk.hh.ru/vacancy/130860928",
+      "id": "133053231",
+      "url": "https://omsk.hh.ru/vacancy/133053231?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 130860928",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции"
-      ]
-    },
-    {
-      "id": "133377576",
-      "url": "https://omsk.hh.ru/vacancy/133377576",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133377576",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ"
-      ]
-    },
-    {
-      "id": "132876010",
-      "url": "https://omsk.hh.ru/vacancy/132876010",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132876010",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Коммуникация",
-        "Системный анализ",
-        "API",
-        "REST API"
-      ]
-    },
-    {
-      "id": "132934583",
-      "url": "https://omsk.hh.ru/vacancy/132934583",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132934583",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI"
-      ]
-    },
-    {
-      "id": "133126065",
-      "url": "https://omsk.hh.ru/vacancy/133126065",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133126065",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133133524",
-      "url": "https://omsk.hh.ru/vacancy/133133524",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133133524",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "SQL"
-      ]
-    },
-    {
-      "id": "133373702",
-      "url": "https://omsk.hh.ru/vacancy/133373702",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133373702",
-      "employer": null,
+      "title": "Специалист по технической поддержке внутренней системы 1С: ЗУП и ERP",
+      "employer": "ООО ИндаСофт",
       "area": null,
       "date": null,
       "roles": [],
       "skills": []
     },
     {
-      "id": "131963160",
-      "url": "https://omsk.hh.ru/vacancy/131963160",
+      "id": "133305593",
+      "url": "https://omsk.hh.ru/vacancy/133305593?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131963160",
+      "title": "Ведущий аналитик 1С (оперативный учет)",
+      "employer": "ООО Альтео Софт",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "130860928",
+      "url": "https://omsk.hh.ru/vacancy/130860928?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик",
+      "employer": "ГКУ Центр организации дорожного движения Правительства Москвы",
+      "area": "Москва",
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": [],
+      "employerId": "2935519",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/4240021.png"
+    },
+    {
+      "id": "131806244",
+      "url": "https://omsk.hh.ru/vacancy/131806244?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик данных (В2В Sales)",
       "employer": null,
       "area": null,
       "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ"
-      ]
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
     },
     {
-      "id": "132631123",
-      "url": "https://omsk.hh.ru/vacancy/132631123",
+      "id": "132193051",
+      "url": "https://omsk.hh.ru/vacancy/132193051?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132631123",
+      "title": "Фуллстек аналитик (Астра Консалтинг)",
       "employer": null,
       "area": null,
       "date": null,
-      "roles": [],
+      "roles": [
+        "Системный аналитик"
+      ],
       "skills": [
-        "Системный анализ"
+        "Excel",
+        "SQL"
       ]
     },
     {
-      "id": "133312050",
-      "url": "https://omsk.hh.ru/vacancy/133312050",
+      "id": "132632914",
+      "url": "https://omsk.hh.ru/vacancy/132632914?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133312050",
+      "title": "Аналитик 1С",
       "employer": null,
       "area": null,
       "date": null,
-      "roles": [],
+      "roles": [
+        "Системный аналитик"
+      ],
       "skills": [
-        "Коммуникация"
+        "Confluence",
+        "UML"
       ]
     },
     {
-      "id": "129736646",
-      "url": "https://omsk.hh.ru/vacancy/129736646",
+      "id": "132812644",
+      "url": "https://omsk.hh.ru/vacancy/132812644?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 129736646",
+      "title": "Руководитель сопровождения 1С",
+      "employer": "Группа компаний ЗТИ",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "133388509",
+      "url": "https://omsk.hh.ru/vacancy/133388509?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик в кластер DevOps",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "133399043",
+      "url": "https://omsk.hh.ru/vacancy/133399043?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (BPMCore)",
+      "employer": "СберЛизинг",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [
+        "Английский"
+      ]
+    },
+    {
+      "id": "132854208",
+      "url": "https://omsk.hh.ru/vacancy/132854208?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Менеджер по эффективности проектов",
+      "employer": "SteadyControl",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "2168135",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/12240780.png"
+    },
+    {
+      "id": "131084288",
+      "url": "https://omsk.hh.ru/vacancy/131084288",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 131084288",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
         "Коммуникация",
-        "Метрики",
+        "Agile/Scrum",
         "API",
         "BPMN",
-        "PostgreSQL",
-        "SOAP",
-        "SQL",
+        "REST API",
         "UML"
       ]
     },
     {
-      "id": "132598240",
-      "url": "https://omsk.hh.ru/vacancy/132598240",
+      "id": "132577097",
+      "url": "https://omsk.hh.ru/vacancy/132577097",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132598240",
+      "title": "Вакансия 132577097",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
         "Интеграции",
-        "Коммуникация",
-        "Метрики",
+        "Agile/Scrum",
         "API",
         "BPMN",
+        "Kafka",
+        "REST API",
         "SOAP",
-        "Swagger/OpenAPI",
         "UML"
       ]
     },
     {
-      "id": "132930772",
-      "url": "https://omsk.hh.ru/vacancy/132930772",
+      "id": "132581561",
+      "url": "https://omsk.hh.ru/vacancy/132581561",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132930772",
+      "title": "Вакансия 132581561",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
         "Интеграции",
-        "Системный анализ",
+        "API",
+        "Excel",
+        "Kafka",
+        "REST API",
+        "SOAP"
+      ]
+    },
+    {
+      "id": "132610125",
+      "url": "https://omsk.hh.ru/vacancy/132610125",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132610125",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "BI",
+        "Excel",
+        "Power BI",
+        "SQL"
+      ]
+    },
+    {
+      "id": "133244993",
+      "url": "https://omsk.hh.ru/vacancy/133244993",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133244993",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "BI",
+        "ClickHouse",
+        "ETL",
+        "Excel",
+        "Kafka",
+        "MS SQL",
+        "Power BI",
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "id": "133356546",
+      "url": "https://omsk.hh.ru/vacancy/133356546",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133356546",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "ClickHouse",
+        "ETL",
+        "Kafka",
+        "MS SQL",
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "id": "132450149",
+      "url": "https://omsk.hh.ru/vacancy/132450149?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Руководитель направления автоматизации бизнес-процессов",
+      "employer": "CSI (Кристалл Сервис Интеграция)",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции"
+      ],
+      "employerId": "10160",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/1911459.png"
+    },
+    {
+      "id": "132533478",
+      "url": "https://omsk.hh.ru/vacancy/132533478?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (Цифровые Агенты)",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Метрики",
+        "Agile/Scrum",
         "API",
         "BPMN",
-        "PostgreSQL",
+        "Kafka",
         "REST API",
-        "SQL",
-        "Swagger/OpenAPI",
-        "UML"
-      ]
-    },
-    {
-      "id": "133047174",
-      "url": "https://omsk.hh.ru/vacancy/133047174",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133047174",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "Системный анализ",
-        "ТЗ",
-        "API",
-        "BPMN",
-        "PostgreSQL",
-        "REST API",
+        "SOAP",
         "SQL",
         "UML"
-      ]
-    },
-    {
-      "id": "131754189",
-      "url": "https://omsk.hh.ru/vacancy/131754189",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131754189",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Метрики"
-      ]
-    },
-    {
-      "id": "131779598",
-      "url": "https://omsk.hh.ru/vacancy/131779598",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 131779598",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Метрики",
-        "BPMN"
       ]
     },
     {
@@ -7719,67 +5280,178 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Бизнес-анализ",
+        "Интеграции",
         "Метрики",
-        "BPMN"
-      ]
-    },
-    {
-      "id": "132790454",
-      "url": "https://omsk.hh.ru/vacancy/132790454",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132790454",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Excel",
-        "SQL"
-      ]
-    },
-    {
-      "id": "132929080",
-      "url": "https://omsk.hh.ru/vacancy/132929080",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132929080",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Коммуникация",
-        "Системный анализ",
         "Agile/Scrum",
+        "API",
         "BPMN",
-        "Excel",
+        "Kafka",
+        "REST API",
+        "SOAP",
         "SQL",
         "UML"
       ]
     },
     {
-      "id": "133094403",
-      "url": "https://omsk.hh.ru/vacancy/133094403",
+      "id": "132584673",
+      "url": "https://omsk.hh.ru/vacancy/132584673",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133094403",
+      "title": "Вакансия 132584673",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
+        "Excel"
+      ]
+    },
+    {
+      "id": "132672548",
+      "url": "https://omsk.hh.ru/vacancy/132672548",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132672548",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Excel"
+      ]
+    },
+    {
+      "id": "132736707",
+      "url": "https://omsk.hh.ru/vacancy/132736707?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (Центр экспертизы и развития разработчиков)",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BPMN",
+        "Confluence"
+      ],
+      "employerId": "4394",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6395486.png"
+    },
+    {
+      "id": "132791896",
+      "url": "https://omsk.hh.ru/vacancy/132791896",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132791896",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BPMN",
+        "Confluence",
+        "Excel"
+      ]
+    },
+    {
+      "id": "133084358",
+      "url": "https://omsk.hh.ru/vacancy/133084358?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Старший консультант 1С",
+      "employer": "SKL Group",
+      "area": "Санкт-Петербург",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Системный анализ",
+        "Excel"
+      ],
+      "employerId": "79142",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3707524.jpeg"
+    },
+    {
+      "id": "130099699",
+      "url": "https://omsk.hh.ru/vacancy/130099699",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 130099699",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Системный анализ"
+      ]
+    },
+    {
+      "id": "132635580",
+      "url": "https://omsk.hh.ru/vacancy/132635580?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Ведущий системный аналитик",
+      "employer": "БФТ-Холдинг",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "9188",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/12309213.png"
+    },
+    {
+      "id": "132830321",
+      "url": "https://omsk.hh.ru/vacancy/132830321?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Главный аналитик",
+      "employer": "ВСК, САО",
+      "area": "Ростов-на-Дону",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "MS SQL",
+        "SQL"
+      ],
+      "employerId": "1439",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7203716.png"
+    },
+    {
+      "id": "131963160",
+      "url": "https://omsk.hh.ru/vacancy/131963160?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик 1С:ТОИР",
+      "employer": "ICL Soft",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Системный анализ",
+        "MS SQL",
+        "SQL"
+      ],
+      "employerId": "10647164",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6508802.jpeg"
+    },
+    {
+      "id": "132929693",
+      "url": "https://omsk.hh.ru/vacancy/132929693?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный Аналитик (импортзамещение)",
+      "employer": "Bell Integrator",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
         "Системный анализ",
         "BPMN",
         "SQL",
         "UML"
-      ]
+      ],
+      "employerId": "6189"
     },
     {
-      "id": "132066071",
-      "url": "https://omsk.hh.ru/vacancy/132066071",
+      "id": "133096652",
+      "url": "https://omsk.hh.ru/vacancy/133096652",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132066071",
+      "title": "Вакансия 133096652",
       "employer": null,
       "area": null,
       "date": null,
@@ -7787,507 +5459,802 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "132854208",
-      "url": "https://omsk.hh.ru/vacancy/132854208",
+      "id": "128994252",
+      "url": "https://omsk.hh.ru/vacancy/128994252?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132854208",
+      "title": "Бизнес / Системный аналитик (офис)",
+      "employer": "Sintec Group",
+      "area": "деревня Румянцево",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики"
+      ],
+      "employerId": "33725"
+    },
+    {
+      "id": "131754189",
+      "url": "https://omsk.hh.ru/vacancy/131754189?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик (системный + бизнес) ИИ",
+      "employer": "Правительство Московской области",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики"
+      ],
+      "employerId": "1575814",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/1586003.jpeg"
+    },
+    {
+      "id": "132171017",
+      "url": "https://omsk.hh.ru/vacancy/132171017",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132171017",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [],
+      "skills": [
+        "Бизнес-анализ"
+      ]
+    },
+    {
+      "id": "132528702",
+      "url": "https://omsk.hh.ru/vacancy/132528702",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132528702",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ"
+      ]
+    },
+    {
+      "id": "132851982",
+      "url": "https://omsk.hh.ru/vacancy/132851982",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132851982",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ]
+    },
+    {
+      "id": "132932894",
+      "url": "https://omsk.hh.ru/vacancy/132932894?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (Цифровой рубль)",
+      "employer": "Bell Integrator",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BPMN",
+        "UML"
+      ],
+      "employerId": "6189"
+    },
+    {
+      "id": "133050565",
+      "url": "https://omsk.hh.ru/vacancy/133050565",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133050565",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "BPMN",
+        "UML"
+      ]
+    },
+    {
+      "id": "133073481",
+      "url": "https://omsk.hh.ru/vacancy/133073481",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133073481",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "BPMN"
+      ]
+    },
+    {
+      "id": "133302993",
+      "url": "https://omsk.hh.ru/vacancy/133302993?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик по макроэкономике",
+      "employer": "Московский Кредитный Банк. Эксперты",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Python"
+      ],
+      "employerId": "2492",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7252313.png"
+    },
+    {
+      "id": "129923710",
+      "url": "https://omsk.hh.ru/vacancy/129923710?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик бизнес-процессов RPA",
+      "employer": "АО Промышленные инновации",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Коммуникация",
+        "API",
+        "Python"
+      ],
+      "employerId": "86547"
+    },
+    {
+      "id": "130278073",
+      "url": "https://omsk.hh.ru/vacancy/130278073?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик (ПСБ)",
+      "employer": "ООО ИЦ АЙ-ТЕКО",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [],
+      "employerId": "872178",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2559134.png"
+    },
+    {
+      "id": "131712596",
+      "url": "https://omsk.hh.ru/vacancy/131712596?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Дежурный по автохозяйству",
+      "employer": "Сотранс, группа компаний",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "132422189",
+      "url": "https://omsk.hh.ru/vacancy/132422189?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик бизнес-процессов",
+      "employer": "МАГНИТ, Розничная сеть. Офис",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": [],
+      "employerId": "49357",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7202688.png"
+    },
+    {
+      "id": "132677046",
+      "url": "https://omsk.hh.ru/vacancy/132677046?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик 1С (регламентированный учет ERP, БП)",
+      "employer": "HROM",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "131115020",
+      "url": "https://omsk.hh.ru/vacancy/131115020?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик Senior",
+      "employer": "ООО Сателл ИТ",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "132424636",
+      "url": "https://omsk.hh.ru/vacancy/132424636?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Специалист по МИС (qMS, ЕМИАС)",
+      "employer": "СПб ГБУЗ Елизаветинская больница",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ"
+      ]
+    },
+    {
+      "id": "132661595",
+      "url": "https://omsk.hh.ru/vacancy/132661595?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик",
+      "employer": "АО ВЭД Агент",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": [],
+      "employerId": "993723",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7229245.png"
+    },
+    {
+      "id": "132678863",
+      "url": "https://omsk.hh.ru/vacancy/132678863?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик",
+      "employer": "the_covert",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "132737168",
+      "url": "https://omsk.hh.ru/vacancy/132737168?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный Аналитик (Middle/Senior)",
+      "employer": "ООО ИЦ АЙ-ТЕКО",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "132748921",
+      "url": "https://omsk.hh.ru/vacancy/132748921?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Бизнес-аналитик",
+      "employer": "ООО Лоджистик Форс ДВ",
+      "area": "Владивосток, улица Лазо, 6Б",
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": [
+        "Английский"
+      ],
+      "employerId": "3321639"
+    },
+    {
+      "id": "133389411",
+      "url": "https://omsk.hh.ru/vacancy/133389411?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик по учёту рабочего времени",
+      "employer": "ООО АЛМАЗ",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [],
+      "employerId": "2888486"
+    },
+    {
+      "id": "131952385",
+      "url": "https://omsk.hh.ru/vacancy/131952385?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Старший аналитик информационных систем",
+      "employer": "Ренессанс cтрахование, Группа",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [
+        "Excel"
+      ],
+      "employerId": "490"
+    },
+    {
+      "id": "133350103",
+      "url": "https://omsk.hh.ru/vacancy/133350103?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик проекта (государственная информационная система)",
+      "employer": "Министерство цифрового развития, связи и массовых коммуникаций Российской Федерации",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
       "skills": [
         "Коммуникация"
       ]
     },
     {
-      "id": "132384420",
-      "url": "https://omsk.hh.ru/vacancy/132384420",
+      "id": "132610878",
+      "url": "https://omsk.hh.ru/vacancy/132610878?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132384420",
+      "title": "Системный аналитик",
+      "employer": "Sunshine Group",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "132790454",
+      "url": "https://omsk.hh.ru/vacancy/132790454?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Ведущий эксперт (отдел аналитики и автоматизации процессов взыскания)",
       "employer": null,
       "area": null,
       "date": null,
-      "roles": [],
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "132978713",
+      "url": "https://omsk.hh.ru/vacancy/132978713?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Системный аналитик",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
       "skills": [
-        "Бизнес-анализ",
-        "Коммуникация",
-        "Системный анализ"
+        "Excel",
+        "SQL"
       ]
     },
     {
-      "id": "132418545",
-      "url": "https://omsk.hh.ru/vacancy/132418545",
+      "id": "133043007",
+      "url": "https://omsk.hh.ru/vacancy/133043007?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 132418545",
-      "employer": null,
+      "title": "Системный аналитик",
+      "employer": "ГБУЗ РХ РМИАЦ",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [
+        "SQL"
+      ]
+    },
+    {
+      "id": "132620139",
+      "url": "https://omsk.hh.ru/vacancy/132620139?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Менеджер маркетплейсов (OZON)",
+      "employer": "ООО Паритет",
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "Excel",
-        "Power BI"
-      ]
+      "skills": [],
+      "employerId": "9523000"
     },
     {
       "id": "133008718",
-      "url": "https://omsk.hh.ru/vacancy/133008718",
+      "url": "https://omsk.hh.ru/vacancy/133008718?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 133008718",
+      "title": "Бизнес-аналитик",
+      "employer": "АО НПФ ВТБ Пенсионный Фонд",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Бизнес-аналитик"
+      ],
+      "skills": []
+    },
+    {
+      "id": "132389786",
+      "url": "https://omsk.hh.ru/vacancy/132389786?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Аналитик данных (Культура и Туризм)",
+      "employer": "ГКУ Инфогород",
+      "area": null,
+      "date": null,
+      "roles": [
+        "Системный аналитик"
+      ],
+      "skills": [
+        "Метрики"
+      ]
+    },
+    {
+      "id": "132541586",
+      "url": "https://omsk.hh.ru/vacancy/132541586",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 132541586",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Метрики",
-        "Excel",
-        "Power BI"
+        "ClickHouse",
+        "DWH",
+        "PostgreSQL",
+        "SQL"
+      ]
+    },
+    {
+      "id": "132745743",
+      "url": "https://omsk.hh.ru/vacancy/132745743?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Руководитель направления/бизнес-аналитик",
+      "employer": "АО Азиатско-Тихоокеанский Банк",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API"
+      ],
+      "employerId": "176941",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/7125215.jpeg"
+    },
+    {
+      "id": "133213279",
+      "url": "https://omsk.hh.ru/vacancy/133213279",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 133213279",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "Python"
+      ]
+    },
+    {
+      "id": "130919313",
+      "url": "https://omsk.hh.ru/vacancy/130919313",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Вакансия 130919313",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "BI",
+        "Python"
       ]
     }
   ],
   "errors": [
-    "vacancy 133199955: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133188773: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133219435: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133278463: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133289396: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133131396: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133332106: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133083756: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133237198: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 130554252: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133285299: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133203821: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133140921: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132881426: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133199740: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133169592: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133352697: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133229941: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132844402: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132810974: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133220166: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133360387: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133096426: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133133286: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133255476: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133183968: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133211927: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133267324: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133082465: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132435593: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132517485: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133368707: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132801129: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133193933: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133162577: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132486825: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133343245: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133132082: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133218461: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133366383: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133005034: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133193285: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133239360: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133084067: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133287473: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133180854: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132734408: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133249506: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133307498: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133341255: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133296188: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133248827: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133310216: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133207120: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133340271: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133196583: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132424822: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132840380: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133222008: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133250541: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133307596: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133367886: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133256508: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132978139: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133284718: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132592073: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132671195: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133097014: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133311591: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133366920: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133149015: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133259917: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133237551: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133361985: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133235079: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133340135: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133325203: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133140276: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133128424: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132674717: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133209595: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133287105: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133111242: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132347579: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132931785: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133365021: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133194874: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133367853: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132300659: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133009490: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133062603: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133130633: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133204946: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133273864: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133292793: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132308776: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133258986: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133302011: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133308704: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133355221: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132577481: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133338791: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132467745: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 128977858: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132461524: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133245894: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132434387: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 130980230: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131506654: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133372297: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132425320: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132916782: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133303807: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133283868: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133267120: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133370192: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132983636: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133337600: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133369047: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133222885: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132332271: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133264055: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133149632: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133203718: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133302270: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132478478: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132484181: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133363485: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132593677: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133348770: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133368131: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132926834: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131869946: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132524305: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132873663: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131956748: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132941012: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133160483: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 130578971: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133265180: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133073367: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132298258: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133214789: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133113754: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133293835: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133303585: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133365221: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133217276: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133278530: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133215745: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133186699: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132747888: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133283042: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133299246: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133292790: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133322084: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133058081: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133299039: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132464689: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132970240: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131431377: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132898481: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132832069: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133337955: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132829039: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133298011: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133171097: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133173698: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 130253065: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133111244: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132485960: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132582769: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132759441: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131766494: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133141376: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133203113: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 129429915: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133288841: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
     "vacancy 133322948: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132179792: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132787611: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133192034: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133306976: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132778368: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133305763: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133224504: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133010919: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132581804: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132656449: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133050035: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133211236: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132176290: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133138524: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133304544: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132580572: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132142817: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133302889: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132875740: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133205337: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133366514: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133198258: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131395114: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132964226: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131662180: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 130840334: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133363458: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
     "vacancy 131555534: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133182171: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131390857: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 130488318: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132794638: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132829039: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132875740: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133211236: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132878131: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131431377: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131653493: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132179792: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132721685: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133360937: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
     "vacancy 133040601: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133143324: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133188098: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133270534: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133306976: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132029628: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132447065: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132551243: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132821844: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133335513: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131390857: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132807871: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131726968: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133039815: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133316975: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133393408: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133038199: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132518816: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133266860: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133303585: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133182171: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132426359: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133148689: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133186533: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131864981: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132542498: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 130530136: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 130840334: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133097638: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133206045: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133218848: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132479098: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132939706: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133301942: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
     "vacancy 131624943: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133100057: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132140821: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132232892: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132335105: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133056640: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 130246251: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132631252: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132891080: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133095576: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133079303: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 129737297: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132496041: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132578614: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132799170: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132825757: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132981885: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132103552: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132533935: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132696929: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132704351: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132022217: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133312892: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132527290: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132663073: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132892016: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133001713: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133129334: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131982850: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133240269: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132776589: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132780251: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132843871: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133181903: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132535312: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132729582: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133002846: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133185354: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133370342: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132589418: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132929207: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132969151: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132974603: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133008165: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133307081: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132988740: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133100572: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133168722: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133305255: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132592596: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132774683: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133160727: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131265354: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132629641: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133090238: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133150008: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132585041: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132718652: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133071804: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132506897: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132635332: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132885846: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132932493: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133081830: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133249781: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133371399: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131548681: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132378473: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132865604: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133356769: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133367873: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133025765: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133042641: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133205652: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133341609: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133006842: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133212880: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132123179: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133138151: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132423029: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132631882: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132653814: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131961301: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132549801: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132850264: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132898918: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133090747: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132926995: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133077430: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132549631: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132351085: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133200179: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132934497: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132967328: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132973320: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133197260: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132292727: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132392909: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132430266: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132964125: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131162959: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131816862: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132281772: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132569860: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132749234: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133311238: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132550523: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132601695: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132898813: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133307615: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132529177: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132686999: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132912772: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132978417: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133186482: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131661908: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133296757: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132290641: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133000573: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132852451: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132857905: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132907409: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133196042: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132320614: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132988623: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132483739: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 126147019: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131514053: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132365566: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132707632: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132715776: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132625592: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133284507: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133062704: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 130950862: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131454493: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131986683: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132783099: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133355336: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132663272: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132750595: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132875916: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133101164: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133176077: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132730196: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133324242: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131106571: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132441972: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132461761: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132893028: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132996197: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132385073: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133287544: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133302993: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131805083: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132603783: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133301467: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 128736711: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 130500161: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131140181: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132548218: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132619484: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132883315: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132987146: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131317695: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132420613: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132611351: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133249789: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133367279: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132849829: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133091263: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133348621: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 129416754: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131909157: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132441443: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132483491: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132600336: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132676649: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132745538: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133004972: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133214037: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132574772: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132883777: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132978922: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133102868: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133251565: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132389786: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133071973: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133098290: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131927110: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132379701: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132450149: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132781235: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132854069: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132930614: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133151356: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133210470: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 130860928: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133377576: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132876010: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132934583: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133126065: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133133524: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133373702: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131963160: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132631123: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133312050: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 129736646: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132736555: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133248505: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133309619: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132919991: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131662180: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133058391: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133179665: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133267157: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133302889: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133185705: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133198258: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132777102: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133158177: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132805468: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133355430: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133059615: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132584744: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133110053: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132029264: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 130180067: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133298881: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133304544: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133188098: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133250056: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132996840: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 127110462: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133208257: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133302270: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133118537: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132417782: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133151870: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132595617: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132858308: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132927028: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133227231: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132239588: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133271665: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133306204: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133142451: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133362150: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 130295361: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 129739595: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132547175: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132573044: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132424244: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133152429: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132866626: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133019502: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133146063: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131472681: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133309148: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133322084: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131413153: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132971312: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132760574: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133237541: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133303609: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133160729: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133191022: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133371105: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133120064: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133186631: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 129612155: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132503236: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132918314: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132932508: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132749642: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132840943: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132955102: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131955315: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133187511: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133235257: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132052104: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132435675: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132917225: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133344389: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132395875: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132623223: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133161738: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133354998: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133358758: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133371235: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 124694728: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132876695: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133130827: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133339990: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 129320754: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132914159: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132988181: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131401806: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132017153: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132418311: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132896195: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132146886: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133203945: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133249008: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133290947: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131860711: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131720745: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132441094: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132495856: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132662665: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131858402: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133364363: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133105149: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131617823: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132580573: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132399839: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132983652: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132405073: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132929758: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133198192: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133370037: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133287869: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133333073: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132839421: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132991594: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131083621: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133326739: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133105587: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132678508: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 129264032: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132599110: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133232777: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133199184: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133235265: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133261681: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133309109: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132335875: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132613665: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133166229: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 115529176: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131708877: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132836603: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133030813: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133143236: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133232112: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 130910436: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132134810: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132593899: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133312529: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133372754: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132550405: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132768541: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133210447: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131867157: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132486251: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132298289: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133185518: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132839432: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133308277: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132821660: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133084710: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133305326: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133322459: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132827045: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132566468: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131435171: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132250277: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132779537: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132972429: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133054820: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132451398: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132892939: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 104491865: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132525787: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
     "vacancy 132598240: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132930772: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133047174: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131754189: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 131779598: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132576308: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132790454: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132650998: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132709878: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132934583: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133046463: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133135300: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133167405: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133176192: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131041431: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132612851: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133130645: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133150211: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131927110: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132851003: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 128778201: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131464984: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131766102: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132387853: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132418625: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
     "vacancy 132929080: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133094403: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132066071: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133063617: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133113577: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131501713: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131603224: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131795048: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132533303: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132570505: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132865976: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133012525: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133053231: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133305593: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 130860928: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131806244: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132193051: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132632914: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132812644: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133388509: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133399043: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
     "vacancy 132854208: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132384420: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 132418545: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
-    "vacancy 133008718: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically"
+    "vacancy 131084288: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132577097: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132581561: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132610125: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133244993: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133356546: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132450149: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132533478: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132576308: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132584673: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132672548: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132736707: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132791896: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133084358: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 130099699: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132635580: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132830321: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131963160: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132929693: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133096652: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 128994252: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131754189: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132171017: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132528702: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132851982: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132932894: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133050565: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133073481: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133302993: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 129923710: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 130278073: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131712596: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132422189: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132677046: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131115020: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132424636: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132661595: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132678863: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132737168: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132748921: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133389411: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 131952385: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133350103: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132610878: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132790454: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132978713: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133043007: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132620139: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133008718: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132389786: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132541586: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 132745743: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 133213279: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically",
+    "vacancy 130919313: HTTP 403: DDoS-Guard Checking your browser before accessing Please wait a few seconds. Once this check is complete, the website will open automatically"
   ],
   "parserPostprocess": {
     "name": "rebuild-company-stats",
-    "generatedAt": "2026-05-22T07:20:22.140Z",
+    "generatedAt": "2026-05-22T11:32:17.404Z",
     "source": "vacancies + hh search html",
-    "enrichedVacancies": 0,
-    "skippedUnknownCompanies": 316
+    "enrichedVacancies": 778,
+    "skippedUnknownCompanies": 151
   }
 };

@@ -2,9 +2,19 @@
   const header = document.querySelector(".site-header");
   const menuButton = document.querySelector("#mobileMenuButton");
 
+  attachDashboardBoardStyles();
   setupMobileMenu();
   setupSmoothNavigation();
   setupViewButtons();
+
+  function attachDashboardBoardStyles() {
+    if (document.querySelector("link[href='dashboard-boards.css']")) return;
+
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "dashboard-boards.css";
+    document.head.append(link);
+  }
 
   function setupMobileMenu() {
     if (!header || !menuButton) return;

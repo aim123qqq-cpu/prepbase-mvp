@@ -2,18 +2,32 @@
   const header = document.querySelector(".site-header");
   const menuButton = document.querySelector("#mobileMenuButton");
 
-  attachDashboardBoardStyles();
+  attachDashboardAssets();
   setupMobileMenu();
   setupSmoothNavigation();
   setupViewButtons();
 
-  function attachDashboardBoardStyles() {
-    if (document.querySelector("link[href='dashboard-boards.css']")) return;
+  function attachDashboardAssets() {
+    attachStylesheet("dashboard-boards.css");
+    attachStylesheet("parser-refresh-ui.css");
+    attachScript("parser-refresh-ui.js");
+  }
 
-    const link = document.createElement("link");
-    link.rel = "stylesheet";
-    link.href = "dashboard-boards.css";
-    document.head.append(link);
+  function attachStylesheet(href) {
+    if (document.querySelector(`link[href='${href}']`)) return;
+
+    const stylesheet = document.createElement("link");
+    stylesheet.rel = "stylesheet";
+    stylesheet.href = href;
+    document.head.append(stylesheet);
+  }
+
+  function attachScript(src) {
+    if (document.querySelector(`script[src='${src}']`)) return;
+
+    const script = document.createElement("script");
+    script.src = src;
+    document.body.append(script);
   }
 
   function setupMobileMenu() {

@@ -3,7 +3,12 @@
   const tree = Array.isArray(window.PREPBASE_KNOWLEDGE_TREE) ? window.PREPBASE_KNOWLEDGE_TREE : [];
   const sources = window.PREPBASE_KNOWLEDGE_SOURCES || {};
   const collapsed = getDefaultCollapsedIds(tree);
+  const filterCollapsed = new Set();
   let rootOrder = loadRootOrder();
+  let filterSignature = "";
+
+  window.PREPBASE_KNOWLEDGE_NATIVE_FILTER_FIX = true;
+  ensureResetButton();
 
   const elements = {
     map: document.querySelector("#knowledgeMap"),
@@ -11,6 +16,7 @@
     search: document.querySelector("#knowledgeSearch"),
     level: document.querySelector("#knowledgeLevelFilter"),
     sort: document.querySelector("#knowledgeSort"),
+    reset: document.querySelector("#knowledgeFilterReset"),
     sidebarList: document.querySelector("#knowledgeSidebarList"),
     nav: document.querySelector(".app-nav")
   };
@@ -21,10 +27,12 @@
   elements.search?.addEventListener("input", render);
   elements.level?.addEventListener("change", render);
   elements.sort?.addEventListener("change", render);
+  elements.reset?.addEventListener("click", resetFilters);
   elements.nav?.addEventListener("click", () => window.setTimeout(render, 0));
   elements.map.addEventListener("click", handleMapClick, true);
   elements.sidebarList?.addEventListener("click", handleSidebarClick);
   document.addEventListener("click", handleViewOpen);
+  window.PREPBASE_FOCUS_KNOWLEDGE_NODE = openAndFocusNode;
 
   function handleViewOpen(event) {
     const trigger = event.target.closest("[data-open-view]");
@@ -45,14 +53,23 @@
   function handleMapClick(event) {
     const toggle = event.target.closest("[data-knowledge-toggle]");
     const move = event.target.closest("[data-knowledge-move]");
+    const header = event.target.closest("[data-knowledge-header]");
+
+    if (!toggle && !move && header && !event.target.closest("a, button, input, select, textarea")) {
+      event.preventDefault();
+      event.stopPropagation();
+      toggleCollapsed(header.dataset.knowledgeHeader);
+      render();
+      return;
+    }
+
     if (!toggle && !move) return;
 
     event.preventDefault();
     event.stopPropagation();
 
     if (toggle) {
-      const id = toggle.dataset.knowledgeToggle;
-      collapsed.has(id) ? collapsed.delete(id) : collapsed.add(id);
+      toggleCollapsed(toggle.dataset.knowledgeToggle);
       render();
       return;
     }
@@ -69,6 +86,7 @@
   }
 
   function render() {
+    syncFilterState();
     if (elements.title) elements.title.textContent = "База знаний";
     renderSidebar();
 
@@ -126,6 +144,30 @@
     return { search, level, sort, isFiltered: Boolean(search || level !== "all") };
   }
 
+  function syncFilterState() {
+    const controls = getControlState();
+    const nextSignature = `${controls.search}|${controls.level}`;
+    if (nextSignature !== filterSignature) {
+      filterCollapsed.clear();
+      filterSignature = nextSignature;
+    }
+
+    if (elements.reset) {
+      const canReset = controls.isFiltered || controls.sort !== "structure";
+      elements.reset.disabled = !canReset;
+      elements.reset.classList.toggle("is-muted", !canReset);
+    }
+  }
+
+  function resetFilters() {
+    if (elements.search) elements.search.value = "";
+    if (elements.level) elements.level.value = "all";
+    if (elements.sort) elements.sort.value = "structure";
+    filterCollapsed.clear();
+    filterSignature = "";
+    render();
+  }
+
   function withDepth(nodes, depth = 0, parentId = null) {
     return nodes.map((node) => ({
       ...node,
@@ -175,7 +217,7 @@
     const children = node.children || [];
     const details = Array.isArray(node.details) ? node.details : [];
     const sourceLinks = renderSources(node.sources);
-    const isCollapsed = !controls.isFiltered && collapsed.has(node.id);
+    const isCollapsed = controls.isFiltered ? filterCollapsed.has(node.id) : collapsed.has(node.id);
     const hasBody = Boolean(node.summary || details.length || sourceLinks || children.length);
     const moveControls = depth === 0 ? `
       <div class="knowledge-move-controls" aria-label="Переместить раздел">
@@ -186,7 +228,7 @@
 
     return `
       <article class="knowledge-branch ${depth === 0 ? "root" : "child"} ${isCollapsed ? "collapsed" : ""}" data-knowledge-node="${escapeHtml(node.id)}" style="--depth: ${Math.min(depth, 5)}">
-        <div class="knowledge-branch-body">
+        <div class="knowledge-branch-body" data-knowledge-header="${escapeHtml(node.id)}">
           <button class="knowledge-toggle" data-knowledge-toggle="${escapeHtml(node.id)}" type="button" aria-label="${isCollapsed ? "Раскрыть" : "Свернуть"} ${escapeHtml(node.title)}" aria-expanded="${!isCollapsed}" ${hasBody ? "" : "disabled"}>
             <span class="knowledge-toggle-mark" aria-hidden="true">${isCollapsed ? "+" : "-"}</span>
           </button>
@@ -228,18 +270,33 @@
 
   function getIconKind(node) {
     const value = `${node.id || ""} ${node.title || ""}`.toLowerCase();
-    if (/api|rest|http|grpc|soap|webhook|kafka|integration|broker/.test(value)) return "api";
-    if (/requirement|story|stakeholder|elicitation/.test(value)) return "requirements";
-    if (/process|bpmn|uml|diagram|journey|workflow/.test(value)) return "process";
-    if (/sql|data|database|metrics|erd|analytics/.test(value)) return "data";
-    if (/architecture|system|distributed|reliability|nfr/.test(value)) return "architecture";
-    if (/security|auth|oauth|jwt|pii|audit/.test(value)) return "security";
+    if (/api|rest|http|grpc|soap|webhook|kafka|integration|broker|интеграц/.test(value)) return "api";
+    if (/requirement|story|stakeholder|elicitation|требован/.test(value)) return "requirements";
+    if (/process|bpmn|uml|diagram|journey|workflow|процесс|модел/.test(value)) return "process";
+    if (/sql|data|database|metrics|erd|analytics|данн/.test(value)) return "data";
+    if (/architecture|system|distributed|reliability|nfr|архитект|систем/.test(value)) return "architecture";
+    if (/security|auth|oauth|jwt|pii|audit|безопас/.test(value)) return "security";
     return "default";
+  }
+
+  function openAndFocusNode(nodeId) {
+    openKnowledgeView();
+    window.setTimeout(() => focusNode(nodeId), 0);
+  }
+
+  function openKnowledgeView() {
+    document.querySelectorAll("[data-view]").forEach((section) => {
+      section.classList.toggle("active", section.dataset.view === "knowledge");
+    });
+    document.querySelectorAll("[data-view-target]").forEach((tab) => {
+      tab.classList.toggle("active", tab.dataset.viewTarget === "knowledge");
+    });
   }
 
   function focusNode(nodeId) {
     getAncestorIds(nodeId).forEach((id) => collapsed.delete(id));
     collapsed.delete(nodeId);
+    filterCollapsed.clear();
     render();
     window.requestAnimationFrame(() => {
       const target = elements.map.querySelector(`[data-knowledge-node="${cssEscape(nodeId)}"]`);
@@ -275,9 +332,43 @@
     render();
   }
 
+  function toggleCollapsed(nodeId) {
+    if (!nodeId) return;
+    const controls = getControlState();
+    const targetSet = controls.isFiltered ? filterCollapsed : collapsed;
+    targetSet.has(nodeId) ? targetSet.delete(nodeId) : targetSet.add(nodeId);
+  }
+
+  function ensureResetButton() {
+    if (!document.querySelector("#knowledgeFilterReset")) {
+      const sidebar = document.querySelector(".knowledge-sidebar");
+      const results = document.querySelector("#knowledgeSidebarList");
+      if (sidebar && results) {
+        const button = document.createElement("button");
+        button.className = "ghost-button knowledge-filter-reset";
+        button.id = "knowledgeFilterReset";
+        button.type = "button";
+        button.textContent = "Сбросить фильтры";
+        sidebar.insertBefore(button, results);
+      }
+    }
+
+    if (document.querySelector("#knowledgeFilterResetStyle")) return;
+    const style = document.createElement("style");
+    style.id = "knowledgeFilterResetStyle";
+    style.textContent = `
+      .knowledge-filter-reset{min-height:40px;border-color:rgba(123,69,255,.28);background:rgba(238,231,255,.62);color:#4f35c7}
+      .knowledge-filter-reset:not(:disabled):hover{background:var(--violet);color:#fff}
+      .knowledge-filter-reset:disabled,.knowledge-filter-reset.is-muted{cursor:not-allowed;opacity:.48}
+      .knowledge-branch-body{cursor:pointer}
+    `;
+    document.head.append(style);
+  }
+
   function getDefaultCollapsedIds(nodes, depth = 0) {
     return nodes.reduce((ids, node) => {
-      if (depth > 0 && (node.children || []).length) ids.add(node.id);
+      const hasBody = Boolean(node.summary || (node.details || []).length || (node.sources || []).length || (node.children || []).length);
+      if (depth > 0 && hasBody) ids.add(node.id);
       getDefaultCollapsedIds(node.children || [], depth + 1).forEach((id) => ids.add(id));
       return ids;
     }, new Set());

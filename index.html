@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="serious-theme.css" />
     <link rel="stylesheet" href="premium-hero.css" />
     <link rel="stylesheet" href="skills-stats.css?v=20260525-boardfix" />
+    <link rel="stylesheet" href="match-ui.css" />
   </head>
   <body>
     <header class="site-header" aria-label="Главная навигация">
       <a class="brand-mark" href="#dashboard" aria-label="AnalystKit dashboard">
         <span class="brand-orb" aria-hidden="true">
-          <img class="brand-logo-image" src="assets/sah-logo-v3.jpg" alt="" />
+          <img class="brand-logo-image" src="assets/analystkit-logo.svg" alt="" />
         </span>
         <span>AnalystKit</span>
       </a>
@@ -28,6 +29,7 @@
       <nav class="site-nav" id="siteNav" aria-label="Разделы AnalystKit">
         <a href="#dashboard" data-open-view="overview">Обзор</a>
         <a href="#dashboard" data-open-view="knowledge">База знаний</a>
+        <a href="#dashboard" data-open-view="match">Матч</a>
         <a href="#dashboard" data-open-view="tasks">Задачи</a>
         <a href="#dashboard" data-open-view="questions">Вопросы</a>
       </nav>
@@ -51,6 +53,7 @@
       <nav class="app-nav" aria-label="Разделы приложения">
         <button class="nav-tab active" data-view-target="overview" type="button">Обзор</button>
         <button class="nav-tab" data-view-target="knowledge" type="button">База знаний</button>
+        <button class="nav-tab" data-view-target="match" type="button">Матч</button>
         <button class="nav-tab" data-view-target="tasks" type="button">Задачи</button>
         <button class="nav-tab" data-view-target="questions" type="button">Вопросы</button>
       </nav>
@@ -128,6 +131,19 @@
               </div>
               <button class="ghost-button" data-open-view="tasks" type="button">Открыть задачи</button>
             </article>
+            <article class="overview-section-card">
+              <span class="overview-section-icon overview-section-icon-match" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false">
+                  <path d="M8 7h8M7 12h10M9 17h6" />
+                  <path d="M5 5h14v14H5z" />
+                </svg>
+              </span>
+              <div>
+                <h3>Матч</h3>
+                <p>Сравнение вакансии и резюме: процент совместимости, совпавшие требования и пробелы с переходом в БЗ.</p>
+              </div>
+              <button class="ghost-button" data-open-view="match" type="button">Открыть матч</button>
+            </article>
           </div>
         </section>
 
@@ -204,6 +220,75 @@
             </div>
             <div class="companies-list" id="companiesList"></div>
           </section>
+        </section>
+      </section>
+
+      <section class="view-section" data-view="match">
+        <section class="panel match-panel" aria-labelledby="matchPanelTitle">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Совместимость</p>
+              <h2 id="matchPanelTitle">Матч вакансии и резюме</h2>
+            </div>
+            <span class="pill">Skill gap</span>
+          </div>
+
+          <div class="match-grid">
+            <form class="match-form" id="matchForm">
+              <div class="match-input-row">
+                <label>
+                  Ссылка на вакансию
+                  <input id="matchVacancyUrl" type="url" placeholder="https://..." autocomplete="off" />
+                </label>
+                <label>
+                  Ссылка на резюме
+                  <input id="matchResumeUrl" type="url" placeholder="https://..." autocomplete="off" />
+                </label>
+              </div>
+              <label>
+                Описание вакансии
+                <textarea id="matchVacancyText" rows="7" placeholder="Ключевые требования, стек, задачи"></textarea>
+              </label>
+              <label>
+                Резюме
+                <textarea id="matchResumeText" rows="7" placeholder="Опыт, навыки, проекты"></textarea>
+              </label>
+              <label>
+                Файл резюме
+                <input id="matchResumeFile" type="file" accept=".txt,.md,.rtf,.json" />
+              </label>
+              <div class="match-actions">
+                <button type="submit">Сравнить</button>
+                <button class="ghost-button" id="matchReset" type="button">Очистить</button>
+              </div>
+            </form>
+
+            <div class="match-result" aria-live="polite">
+              <article class="match-score-card">
+                <div class="match-score-top">
+                  <div>
+                    <span class="match-score-label">Совместимость</span>
+                    <strong class="match-score-value" id="matchScore">0%</strong>
+                  </div>
+                  <div class="match-score-ring" id="matchScoreRing" aria-hidden="true">
+                    <span>AK</span>
+                  </div>
+                </div>
+                <p class="match-summary" id="matchSummary">Добавьте описание вакансии и резюме, чтобы увидеть совместимость.</p>
+              </article>
+
+              <div class="match-columns">
+                <article class="match-list-card">
+                  <h3>Совпало</h3>
+                  <div class="match-chip-list" id="matchMatchedSkills"></div>
+                </article>
+                <article class="match-list-card">
+                  <h3>Не хватает</h3>
+                  <div class="match-chip-list" id="matchMissingSkills"></div>
+                </article>
+              </div>
+            </div>
+          </div>
         </section>
       </section>
 
@@ -333,5 +418,6 @@
     <script src="skills-stats-ui.js"></script>
     <script src="knowledge-skill-links.js"></script>
     <script src="site-shell.js"></script>
+    <script src="match-ui.js"></script>
   </body>
 </html>

@@ -1,6 +1,6 @@
-# SA HALPER Android APK
+# AnalystKit Android APK
 
-The APK is built with Capacitor as an Android WebView shell over the live SA HALPER web app.
+The APK is built with Capacitor as an Android WebView shell over the live AnalystKit web app.
 
 ## Live Updates
 
@@ -50,7 +50,7 @@ The generated `android/` folder is intentionally not stored in the repository du
 When the custom domain is ready, update `server.url` in `capacitor.config.json`, for example:
 
 ```json
-"url": "https://sahalper.ru/"
+"url": "https://analystkit.ru/"
 ```
 
 After changing the URL, rebuild the APK once. Future website and data updates will again arrive without rebuilding the APK.

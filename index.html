@@ -1,9 +1,9 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SA HALPER</title>
+    <title>AnalystKit</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="serious-theme.css" />
     <link rel="stylesheet" href="premium-hero.css" />
@@ -11,11 +11,11 @@
   </head>
   <body>
     <header class="site-header" aria-label="Главная навигация">
-      <a class="brand-mark" href="#dashboard" aria-label="SA HALPER dashboard">
+      <a class="brand-mark" href="#dashboard" aria-label="AnalystKit dashboard">
         <span class="brand-orb" aria-hidden="true">
           <img class="brand-logo-image" src="assets/sah-logo-v3.jpg" alt="" />
         </span>
-        <span>SA HALPER</span>
+        <span>AnalystKit</span>
       </a>
 
       <button class="mobile-menu-button" id="mobileMenuButton" type="button" aria-controls="siteNav" aria-expanded="false">
@@ -25,7 +25,7 @@
         <span class="sr-only">Открыть меню</span>
       </button>
 
-      <nav class="site-nav" id="siteNav" aria-label="Разделы SA HALPER">
+      <nav class="site-nav" id="siteNav" aria-label="Разделы AnalystKit">
         <a href="#dashboard" data-open-view="overview">Обзор</a>
         <a href="#dashboard" data-open-view="knowledge">База знаний</a>
         <a href="#dashboard" data-open-view="tasks">Задачи</a>
@@ -37,7 +37,7 @@
       <header class="dashboard-control-panel" id="analytics-overview">
         <div>
           <p class="eyebrow">Workspace</p>
-          <h1>SA HALPER</h1>
+          <h1>AnalystKit</h1>
           <p class="dashboard-lead">Рабочая база системного аналитика: знания, вопросы и задачи подготовки без лишнего шума.</p>
         </div>
         <div class="topbar-actions" aria-hidden="true" hidden>
@@ -88,7 +88,7 @@
             Сейчас приложение собрано вокруг четырех рабочих контуров: база знаний для структуры, вопросы для самопроверки,
             задачи для движения по плану и аналитика вакансий, которая показывает спрос по навыкам и компаниям после запуска парсера.
           </p>
-          <div class="overview-section-grid" aria-label="Разделы SA HALPER">
+          <div class="overview-section-grid" aria-label="Разделы AnalystKit">
             <article class="overview-section-card">
               <span class="overview-section-icon overview-section-icon-knowledge" aria-hidden="true">
                 <svg viewBox="0 0 24 24" focusable="false">
@@ -137,17 +137,13 @@
               <p class="eyebrow">Рынок вакансий</p>
               <h2 id="parserOverviewTitle">Аналитика парсера</h2>
             </div>
-            <a
-              class="ghost-button parser-refresh-link"
-              href="https://github.com/aim123qqq-cpu/prepbase-mvp/actions/workflows/update-skills-stats.yml"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Обновить вручную
-            </a>
+            <button class="ghost-button parser-refresh-link parser-refresh-button" id="parserRefreshButton" type="button" aria-live="polite">
+              <span class="parser-refresh-spinner" aria-hidden="true"></span>
+              <span class="parser-refresh-label">Обновить данные</span>
+            </button>
           </div>
           <p class="parser-overview-copy" id="parserOverviewMeta">
-            Данные подтягиваются из статического файла skills-stats.js и обновляются через GitHub Actions.
+            Последний сохраненный срез рынка вакансий. Данные обновляются автоматически по расписанию и после ручного запуска.
           </p>
           <div class="parser-stat-grid" aria-label="Сводка парсера вакансий">
             <article class="parser-stat-card">
@@ -243,6 +239,7 @@
                   <option value="za">Я-А</option>
                 </select>
               </label>
+              <button class="ghost-button knowledge-filter-reset" id="knowledgeFilterReset" type="button">Сбросить фильтры</button>
               <div class="knowledge-sidebar-results" id="knowledgeSidebarList" aria-label="Темы базы знаний"></div>
             </aside>
             <div class="knowledge-main">
@@ -271,7 +268,7 @@
           </div>
 
           <form class="task-form" id="taskForm">
-            <input id="taskTitle" name="taskTitle" placeholder="Новая задача по подготовке" required />
+            <input id="taskTitle" name="taskTitle" placeholder="Новая задача подготовки" required />
             <select id="taskTopic" name="taskTopic" aria-label="Тема задачи"></select>
             <select id="taskPriority" name="taskPriority" aria-label="Приоритет">
               <option value="Высокий">Высокий</option>
@@ -326,6 +323,7 @@
     </main>
 
     <script src="knowledge-tree.js"></script>
+    <script src="knowledge-localization.js"></script>
     <script src="knowledge-enrichment.js"></script>
     <script src="seed-data.js"></script>
     <script src="questions-extra.js"></script>
@@ -333,6 +331,7 @@
     <script src="knowledge-ui.js"></script>
     <script src="skills-stats.js"></script>
     <script src="skills-stats-ui.js"></script>
+    <script src="knowledge-skill-links.js"></script>
     <script src="site-shell.js"></script>
   </body>
 </html>

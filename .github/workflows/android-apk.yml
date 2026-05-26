@@ -10,6 +10,7 @@ on:
       - "capacitor.config.json"
       - "package.json"
       - "package-lock.json"
+      - "scripts/apply-android-branding.mjs"
       - ".github/workflows/android-apk.yml"
 
 jobs:
@@ -39,6 +40,9 @@ jobs:
 
       - name: Sync Capacitor Android
         run: npx cap sync android
+
+      - name: Apply AnalystKit branding
+        run: node scripts/apply-android-branding.mjs
 
       - name: Patch generated Android template
         shell: bash

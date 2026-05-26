@@ -1,0 +1,17 @@
+{
+  "appId": "ru.sahalper.app",
+  "appName": "SA HALPER",
+  "webDir": "www",
+  "server": {
+    "url": "https://aim123qqq-cpu.github.io/prepbase-mvp/",
+    "cleartext": false,
+    "allowNavigation": [
+      "aim123qqq-cpu.github.io"
+    ]
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": null
+    }
+  }
+}

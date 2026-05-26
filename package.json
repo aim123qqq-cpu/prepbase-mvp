@@ -3,8 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "api:dev": "node apps/api/server.js",
+    "android:sync": "cap sync android",
+    "android:build:debug": "cd android && gradlew.bat assembleDebug",
+    "db:migrate": "node scripts/migrate-db.mjs",
+    "db:seed:knowledge": "node scripts/seed-knowledge-db.mjs",
+    "db:up": "docker-compose up -d postgres",
+    "db:down": "docker-compose down",
+    "db:reset": "docker-compose down -v && docker-compose up -d postgres",
     "parse:skills": "node scripts/parse-job-sites-skills.js && node scripts/rebuild-company-stats.js"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "@capacitor/android": "^8.3.4",
+    "@capacitor/core": "^8.3.4",
+    "pg": "^8.21.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.3.4"
+  }
 }

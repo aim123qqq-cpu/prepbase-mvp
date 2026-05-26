@@ -4,7 +4,7 @@ import { hasDatabaseUrl } from './db.js';
 import { getKnowledgeNodes } from './knowledge-repository.js';
 
 const service = {
-  name: 'sa-halper-api',
+  name: 'analystkit-api',
   version: '0.1.0',
 };
 
@@ -33,7 +33,7 @@ function sendNotFound(response) {
 
 function getMeta() {
   return {
-    appName: 'SA HALPER',
+    appName: 'AnalystKit',
     apiVersion: 'v1',
     service,
     features: {

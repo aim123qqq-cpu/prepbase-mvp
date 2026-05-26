@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "api:dev": "node apps/api/server.js",
+    "android:brand": "node scripts/apply-android-branding.mjs",
     "android:sync": "cap sync android",
     "android:build:debug": "cd android && gradlew.bat assembleDebug",
     "db:migrate": "node scripts/migrate-db.mjs",

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">AnalystKit mark</title>
+  <defs>
+    <linearGradient id="mark-gradient" x1="12" y1="18" x2="84" y2="78" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#25efff"/>
+      <stop offset="0.5" stop-color="#4b78ff"/>
+      <stop offset="1" stop-color="#d84cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="24" fill="#05070f"/>
+  <path d="M13 76 39 19c2-4 5-7 9-7s7 3 9 7l26 57H67l-6-14H35l-6 14H13Zm27-28h16l-8-20-8 20Z" fill="url(#mark-gradient)"/>
+  <path d="M61 48 82 25H64L44 48l21 24h19L61 48Z" fill="url(#mark-gradient)"/>
+  <path d="M37 56h22l5 12H32l5-12Z" fill="#070b14" opacity="0.82"/>
+</svg>

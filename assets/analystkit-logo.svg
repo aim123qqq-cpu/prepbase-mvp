@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-labelledby="title">
+  <title id="title">AnalystKit</title>
+  <defs>
+    <linearGradient id="ak-gradient" x1="76" y1="42" x2="244" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#28f1ff"/>
+      <stop offset="0.48" stop-color="#4078ff"/>
+      <stop offset="1" stop-color="#d84cff"/>
+    </linearGradient>
+    <filter id="ak-glow" x="-30%" y="-45%" width="160%" height="190%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.16 0 0 0 0 0.64 0 0 0 0 1 0 0 0 0.65 0" result="blueGlow"/>
+      <feMerge>
+        <feMergeNode in="blueGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="320" height="160" rx="30" fill="#05070f"/>
+  <path d="M66 121 115 41c3-5 7-8 13-8s10 3 13 8l49 80h-31l-10-18h-42l-10 18H66Zm53-43h18l-9-17-9 17Z" fill="url(#ak-gradient)" filter="url(#ak-glow)"/>
+  <path d="M180 80 235 40h39l-57 40 60 40h-42l-55-40Z" fill="url(#ak-gradient)" filter="url(#ak-glow)" opacity="0.98"/>
+  <path d="M106 91h44l9 18H97l9-18Z" fill="#071022" opacity="0.78"/>
+</svg>

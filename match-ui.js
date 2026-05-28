@@ -9,6 +9,10 @@
     summary: document.querySelector("#matchSummary"),
     matched: document.querySelector("#matchMatchedSkills"),
     missing: document.querySelector("#matchMissingSkills"),
+    insightVacancy: document.querySelector("#matchInsightVacancy"),
+    insightMatched: document.querySelector("#matchInsightMatched"),
+    insightMissing: document.querySelector("#matchInsightMissing"),
+    nextSteps: document.querySelector("#matchNextSteps"),
     reset: document.querySelector("#matchReset")
   };
 
@@ -120,6 +124,45 @@
       const scoreContent = scoreTop.firstElementChild;
       scoreTop.replaceWith(...(scoreContent ? [...scoreContent.children] : []));
     }
+
+    const scoreCard = panel.querySelector(".match-score-card");
+    if (scoreCard && !panel.querySelector("#matchInsightGrid")) {
+      const grid = document.createElement("div");
+      grid.className = "match-insight-grid";
+      grid.id = "matchInsightGrid";
+      grid.innerHTML = `
+        <article class="match-insight">
+          <span>Требования</span>
+          <strong id="matchInsightVacancy">0</strong>
+          <p>найдено в вакансии</p>
+        </article>
+        <article class="match-insight">
+          <span>Закрыто</span>
+          <strong id="matchInsightMatched">0</strong>
+          <p>подтверждено резюме</p>
+        </article>
+        <article class="match-insight">
+          <span>Пробелы</span>
+          <strong id="matchInsightMissing">0</strong>
+          <p>в фокус подготовки</p>
+        </article>
+      `;
+      scoreCard.insertAdjacentElement("afterend", grid);
+    }
+
+    const columns = panel.querySelector(".match-columns");
+    if (columns && !panel.querySelector("#matchNextSteps")) {
+      const focus = document.createElement("article");
+      focus.className = "match-focus-card";
+      focus.innerHTML = `
+        <div class="match-focus-heading">
+          <h3>Фокус подготовки</h3>
+          <span>приоритеты</span>
+        </div>
+        <div class="match-focus-list" id="matchNextSteps"></div>
+      `;
+      columns.insertAdjacentElement("afterend", focus);
+    }
   }
 
   function removeInputLabel(selector) {
@@ -158,6 +201,7 @@
 
   elements.missing.addEventListener("click", handleKnowledgeClick);
   elements.matched.addEventListener("click", handleKnowledgeClick);
+  elements.nextSteps?.addEventListener("click", handleKnowledgeClick);
 
   function findSkills(text) {
     const normalized = normalize(text);
@@ -168,8 +212,12 @@
   function renderResult(result) {
     elements.score.textContent = `${result.score}%`;
     elements.summary.textContent = getSummary(result);
+    elements.insightVacancy && (elements.insightVacancy.textContent = result.vacancySkills.length);
+    elements.insightMatched && (elements.insightMatched.textContent = result.matched.length);
+    elements.insightMissing && (elements.insightMissing.textContent = result.missing.length);
     elements.matched.innerHTML = renderSkills(result.matched, "is-hit") || `<span class="match-empty">Совпадения появятся после проверки.</span>`;
     elements.missing.innerHTML = renderSkills(result.missing, "") || `<span class="match-empty">Критичных пробелов пока не найдено.</span>`;
+    if (elements.nextSteps) elements.nextSteps.innerHTML = renderNextSteps(result);
   }
 
   function renderSkills(items, className) {
@@ -186,9 +234,59 @@
     if (!vacancySkills.length) {
       return "Добавьте текст вакансии и резюме, чтобы увидеть совместимость.";
     }
-    if (score >= 80) return `Сильное совпадение: закрыто ${matched.length} из ${vacancySkills.length} ключевых требований.`;
-    if (score >= 50) return `Средняя совместимость: закрыто ${matched.length} из ${vacancySkills.length}, стоит добрать ${missing.length} тем.`;
-    return `Низкая совместимость: закрыто ${matched.length} из ${vacancySkills.length}, основные пробелы вынесены ниже.`;
+    if (score >= 80) return `Сильное совпадение: закрыто ${matched.length} из ${vacancySkills.length} ключевых требований. Можно идти в отклик и усилить резюме примерами проектов.`;
+    if (score >= 50) return `Рабочая совместимость: закрыто ${matched.length} из ${vacancySkills.length}. Ниже вынесены темы, которые сильнее всего поднимут шанс на интервью.`;
+    return `Совместимость пока слабая: закрыто ${matched.length} из ${vacancySkills.length}. Сначала закройте базовые пробелы из блока фокуса.`;
+  }
+
+  function renderNextSteps({ vacancySkills, missing }) {
+    if (!vacancySkills.length) {
+      return `<p class="match-empty">После проверки здесь появится короткий план добора навыков под конкретную вакансию.</p>`;
+    }
+    if (!missing.length) {
+      return `<p class="match-empty">Основные требования закрыты. Следующий шаг — добавить в резюме измеримые результаты, контекст проекта и роль в принятии решений.</p>`;
+    }
+
+    return missing
+      .slice(0, 4)
+      .map((item, index) => `
+        <button class="match-focus-item" type="button" data-knowledge-target="${escapeHtml(item.targetId)}">
+          <span>${index + 1}</span>
+          <strong>${escapeHtml(item.name)}</strong>
+          <small>${escapeHtml(getFocusHint(item.name))}</small>
+        </button>
+      `)
+      .join("");
+  }
+
+  function getFocusHint(name) {
+    const hints = {
+      "SQL": "подготовьте JOIN, агрегации, индексы и разбор медленных запросов",
+      "REST API": "проверьте методы, статусы, ошибки, пагинацию и контракт",
+      "OpenAPI / Swagger": "умейте читать и проектировать контракт API",
+      "HTTP": "освежите методы, заголовки, статусы и клиент-серверную модель",
+      "BPMN": "повторите события, шлюзы, дорожки и декомпозицию процесса",
+      "UML": "сфокусируйтесь на sequence/activity диаграммах и сценариях",
+      "Kafka": "разберите topics, partitions, consumer groups и delivery guarantees",
+      "RabbitMQ": "проверьте очереди, exchange, routing key и retry/DLQ",
+      "GraphQL": "сравните с REST, разберите schema, query, mutation",
+      "gRPC": "подготовьте protobuf, contract-first и отличие от REST",
+      "SOAP": "повторите WSDL, XML, envelope и enterprise-интеграции",
+      "Интеграции": "соберите картину синхронных и асинхронных взаимодействий",
+      "Требования": "проверьте сбор, детализацию, критерии приемки и трассировку",
+      "User Story": "подготовьте формат, INVEST и критерии приемки",
+      "Use Case": "разберите основной, альтернативные и ошибочные сценарии",
+      "CJM": "свяжите путь клиента с болью, метриками и требованиями",
+      "Agile / Scrum": "освежите backlog, refinement, DoR/DoD и приоритизацию",
+      "Jira": "покажите опыт ведения backlog и связей задач",
+      "Confluence": "подготовьте примеры структурированной документации",
+      "ERD": "повторите сущности, связи, кардинальности и нормализацию",
+      "OAuth / OIDC": "разберите flows, scopes, tokens и роли участников",
+      "JWT": "проверьте структуру токена, claims, expiration и риски",
+      "RBAC / ABAC": "умейте объяснить модель прав и матрицу доступов",
+      "API Gateway": "свяжите gateway с routing, auth, rate limits и observability"
+    };
+    return hints[name] || "откройте тему в базе знаний и закройте базовые ожидания интервью";
   }
 
   function handleKnowledgeClick(event) {

@@ -1,5 +1,5 @@
 window.PREPBASE_SKILL_STATS = {
-  "updatedAt": "2026-07-03T17:39:19.641Z",
+  "updatedAt": "2026-07-03T19:28:01.012Z",
   "since": null,
   "parser": "hh.ru public search HTML",
   "api": null,
@@ -16,9 +16,9 @@ window.PREPBASE_SKILL_STATS = {
   "sources": [
     "https://hh.ru/"
   ],
-  "totalSearchResults": 4393,
-  "totalVacancies": 625,
-  "detailsFetched": 1991,
+  "totalSearchResults": 4388,
+  "totalVacancies": 586,
+  "detailsFetched": 1992,
   "sourceStats": [
     {
       "source": "https://hh.ru/",
@@ -27,10 +27,8 @@ window.PREPBASE_SKILL_STATS = {
       "authMode": "public_html",
       "searchQueries": 1,
       "pagesFetched": 40,
-      "vacancies": 625,
-      "errors": [
-        "vacancy 130556054: HTTP 502: Error 502 502 - Bad Gateway . That’s an error. Looks like we have got an invalid response from the upstream server. That’s all we know."
-      ]
+      "vacancies": 586,
+      "errors": []
     }
   ],
   "searchStats": [
@@ -41,7 +39,7 @@ window.PREPBASE_SKILL_STATS = {
       "searchField": "public-search-url",
       "area": "omsk.hh.ru",
       "engine": "public HTML",
-      "found": 4393,
+      "found": 4388,
       "pagesFetched": 40,
       "vacancyIds": 1992,
       "warnings": [],
@@ -53,51 +51,50 @@ window.PREPBASE_SKILL_STATS = {
       "employerId": "3529",
       "name": "Сбер. IT",
       "logo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg",
-      "vacanciesCount": 8,
+      "vacanciesCount": 9,
       "vacancyIds": [
-        "133466545",
-        "133943390",
-        "134250628",
-        "134344352",
-        "134500150",
+        "132591254",
+        "134361168",
+        "134530302",
         "134614886",
-        "134697699",
-        "134746505"
+        "134687650",
+        "134713700",
+        "134719764",
+        "134817785",
+        "134835565"
       ],
       "roles": {},
       "areas": {},
       "skills": {
-        "Бизнес-анализ": 2,
-        "Интеграции": 1,
-        "API": 1,
-        "Confluence": 1,
+        "Метрики": 2,
+        "Бизнес-анализ": 1,
+        "Коммуникация": 1,
+        "BI": 1,
+        "BPMN": 1,
         "Excel": 1,
-        "Jira": 1
+        "Power BI": 1,
+        "Python": 1,
+        "SQL": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "895945",
-      "name": "Правительство Москвы",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/596592.png",
-      "vacanciesCount": 4,
+      "employerId": "58320",
+      "name": "АО Россельхозбанк, Головной офис",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/6775787.png",
+      "vacanciesCount": 3,
       "vacancyIds": [
-        "134231851",
-        "134252738",
-        "134380272",
-        "134541533"
+        "132206388",
+        "133949745",
+        "134800402"
       ],
       "roles": {},
-      "areas": {},
+      "areas": {
+        "Москва": 1
+      },
       "skills": {
-        "Английский": 1,
         "BPMN": 1,
-        "Confluence": 1,
-        "ETL": 1,
-        "Jira": 1,
-        "Python": 1,
-        "SQL": 1,
         "UML": 1
       },
       "firstPublishedAt": null,
@@ -109,8 +106,8 @@ window.PREPBASE_SKILL_STATS = {
       "logo": "https://img.hhcdn.ru/employer-logo-round/3165213.png",
       "vacanciesCount": 3,
       "vacancyIds": [
-        "132175943",
-        "134264913",
+        "133370342",
+        "134518099",
         "134779081"
       ],
       "roles": {},
@@ -118,88 +115,60 @@ window.PREPBASE_SKILL_STATS = {
         "Москва": 2
       },
       "skills": {
-        "Английский": 1,
-        "BPMN": 1,
-        "Excel": 1,
-        "UML": 1
+        "Английский": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:аналитика",
-      "name": "Аналитика",
+      "employerId": "637743",
+      "name": "Агентство КИТ Консалт",
       "logo": null,
       "vacanciesCount": 2,
       "vacancyIds": [
-        "132146886",
-        "132167788"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2427329",
-      "name": "ГКУ Инфогород",
-      "logo": null,
-      "vacanciesCount": 2,
-      "vacancyIds": [
-        "134026878",
-        "134227719"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "4880",
-      "name": "Детский мир. ДМ-тех",
-      "logo": "https://img.hhcdn.ru/employer-logo/7253169.png",
-      "vacanciesCount": 2,
-      "vacancyIds": [
-        "133469818",
-        "134229119"
+        "134155435",
+        "134762358"
       ],
       "roles": {},
       "areas": {
-        "Москва": 2
+        "Москва": 1
       },
       "skills": {
-        "SQL": 1
+        "Английский": 1,
+        "API": 1,
+        "REST API": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "2733062",
-      "name": "Лига Цифровой Экономики",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/4233417.png",
-      "vacanciesCount": 2,
-      "vacancyIds": [
-        "131749697",
-        "134543767"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "DWH": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "907345",
-      "name": "ЛУКОЙЛ",
+      "employerId": "25917",
+      "name": "АО Нурбанк",
       "logo": null,
       "vacanciesCount": 2,
       "vacancyIds": [
-        "132867398",
-        "134600979"
+        "134559710",
+        "134804832"
+      ],
+      "roles": {},
+      "areas": {
+        "Алматы": 2
+      },
+      "skills": {
+        "Английский": 1,
+        "Бизнес-анализ": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "4768936",
+      "name": "ЛИАН",
+      "logo": null,
+      "vacanciesCount": 2,
+      "vacancyIds": [
+        "134567436",
+        "134613639"
       ],
       "roles": {},
       "areas": {
@@ -207,7 +176,82 @@ window.PREPBASE_SKILL_STATS = {
         "Москва, р-н Тверской": 1
       },
       "skills": {
+        "Английский": 2,
+        "Системный анализ": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "49357",
+      "name": "МАГНИТ, Розничная сеть. Магазины продуктов",
+      "logo": "https://img.hhcdn.ru/employer-logo/7202688.png",
+      "vacanciesCount": 2,
+      "vacancyIds": [
+        "133348770",
+        "134470221"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
         "Бизнес-анализ": 1,
+        "Метрики": 1,
+        "Excel": 1,
+        "MS SQL": 1,
+        "SQL": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "3177",
+      "name": "Первый Бит",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/2982497.png",
+      "vacanciesCount": 2,
+      "vacancyIds": [
+        "133968327",
+        "134614370"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "833660",
+      "name": "Пермский пороховой завод, ФКП",
+      "logo": null,
+      "vacanciesCount": 2,
+      "vacancyIds": [
+        "134731716",
+        "134731739"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Бизнес-анализ": 1,
+        "Agile/Scrum": 1,
+        "Confluence": 1,
+        "PostgreSQL": 1,
+        "SQL": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "728292",
+      "name": "СПб ГКУ Санкт-Петербургский информационно-аналитический центр",
+      "logo": null,
+      "vacanciesCount": 2,
+      "vacancyIds": [
+        "134648243",
+        "134649224"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Системный анализ": 1,
         "BPMN": 1,
         "UML": 1
       },
@@ -215,13 +259,13 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "2523",
-      "name": "М.Видео-Эльдорадо. ИТ",
-      "logo": "https://img.hhcdn.ru/employer-logo/7823963.png",
+      "employerId": "78638",
+      "name": "Т-Банк. ИТ. Аналитика",
+      "logo": "https://img.hhcdn.ru/employer-logo/7240373.png",
       "vacanciesCount": 2,
       "vacancyIds": [
-        "134225233",
-        "134504771"
+        "132745294",
+        "134842968"
       ],
       "roles": {},
       "areas": {},
@@ -230,222 +274,15 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "10553941",
-      "name": "ООО Платформа Трим",
-      "logo": null,
-      "vacanciesCount": 2,
-      "vacancyIds": [
-        "134825792",
-        "134842405"
-      ],
-      "roles": {},
-      "areas": {
-        "Москва": 1,
-        "Новосибирск": 1
-      },
-      "skills": {
-        "API": 2,
-        "Коммуникация": 1,
-        "Метрики": 1,
-        "BI": 1,
-        "Excel": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "3452582",
-      "name": "ООО ТехАргос",
-      "logo": null,
-      "vacanciesCount": 2,
-      "vacancyIds": [
-        "133813685",
-        "134584370"
-      ],
-      "roles": {},
-      "areas": {
-        "Москва": 2
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "1942330",
-      "name": "Пятёрочка. Офисные сотрудники",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/7101935.png",
-      "vacanciesCount": 2,
-      "vacancyIds": [
-        "132114984",
-        "133499826"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Английский": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "47858",
-      "name": "Центральный банк Российской Федерации (Банк России)",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/5846330.png",
-      "vacanciesCount": 2,
-      "vacancyIds": [
-        "132968942",
-        "134601815"
-      ],
-      "roles": {},
-      "areas": {
-        "Москва": 1,
-        "Томск, р-н Кировский": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "6093775",
-      "name": "Aston",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6574070.jpeg",
-      "vacanciesCount": 2,
-      "vacancyIds": [
-        "134301135",
-        "134754484"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Английский": 2,
-        "Бизнес-анализ": 1,
-        "Системный анализ": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "6189",
-      "name": "Bell Integrator",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6739103.jpeg",
-      "vacanciesCount": 2,
-      "vacancyIds": [
-        "132932582",
-        "134761804"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2488771",
-      "name": "Directum",
-      "logo": "https://img.hhcdn.ru/employer-logo/7165196.png",
-      "vacanciesCount": 2,
-      "vacancyIds": [
-        "132993262",
-        "134821225"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Английский": 2,
-        "Коммуникация": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "819979",
-      "name": "SkillStaff",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6665975.png",
-      "vacanciesCount": 2,
-      "vacancyIds": [
-        "134025023",
-        "134766729"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "SQL": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "681672",
-      "name": "USETECH",
-      "logo": null,
-      "vacanciesCount": 2,
-      "vacancyIds": [
-        "134181753",
-        "134769348"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Английский": 1,
-        "Метрики": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "3776",
-      "name": "\"МТС\", Аналитика",
-      "logo": "https://img.hhcdn.ru/employer-logo/7176732.png",
+      "employerId": "10422",
+      "name": "«Роза Хутор» IT",
+      "logo": "https://img.hhcdn.ru/employer-logo/7184792.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134170305"
+        "134844159"
       ],
       "roles": {},
       "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "12917",
-      "name": "«Останкинский мясоперерабатывающий холдинг», Производство",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/3837220.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134445324"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2235",
-      "name": "1С-Архитектор бизнеса",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6080058.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134108300"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "748956",
-      "name": "5 элемент",
-      "logo": "https://img.hhcdn.ru/employer-logo/7176768.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134803197"
-      ],
-      "roles": {},
-      "areas": {
-        "Минск": 1
-      },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
@@ -465,36 +302,34 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:администрация городского округа самара",
-      "name": "Администрация городского округа Самара",
+      "employerId": "208189",
+      "name": "АКРОН ХОЛДИНГ",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134816940"
+        "134779604"
       ],
       "roles": {},
-      "areas": {},
-      "skills": {},
+      "areas": {
+        "Москва": 1
+      },
+      "skills": {
+        "Английский": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "582476",
-      "name": "Альтерра, ТГ",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6521266.png",
+      "employerId": "2147",
+      "name": "Актив",
+      "logo": "https://img.hhcdn.ru/employer-logo/7185532.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134589237"
+        "133827348"
       ],
       "roles": {},
       "areas": {},
-      "skills": {
-        "Метрики": 1,
-        "Системный анализ": 1,
-        "BPMN": 1,
-        "Excel": 1,
-        "UML": 1
-      },
+      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -504,114 +339,57 @@ window.PREPBASE_SKILL_STATS = {
       "logo": "https://img.hhcdn.ru/employer-logo/7728367.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134758870"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ангиофарм",
-      "name": "Ангиофарм",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133943835"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "4433736",
-      "name": "АНУ ВО Агентство Мониторинга и Социологических Исследований",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134603855"
-      ],
-      "roles": {},
-      "areas": {
-        "Вологда, Козлёнская улица, 33": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2377577",
-      "name": "АО ВАЗСИСТЕМ",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134569530"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "84355",
-      "name": "АО ВТБ Лизинг",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/2978357.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134833866"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "6867",
-      "name": "АО Группа Илим",
-      "logo": "https://img.hhcdn.ru/employer-logo/12229736.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134837800"
-      ],
-      "roles": {},
-      "areas": {
-        "Санкт-Петербург": 1
-      },
-      "skills": {
-        "Английский": 1,
-        "Бизнес-анализ": 1,
-        "Excel": 1,
-        "Tableau": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "703742",
-      "name": "АО Группа компаний ВЛП",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134693074"
+        "134176509"
       ],
       "roles": {},
       "areas": {},
       "skills": {
-        "Интеграции": 1,
-        "Системный анализ": 1,
-        "API": 1,
-        "BPMN": 1,
-        "Kafka": 1,
-        "PostgreSQL": 1,
-        "REST API": 1,
-        "SQL": 1,
-        "UML": 1
+        "Excel": 1
       },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:ао «freedom bank kazakhstan»",
+      "name": "АО «Freedom Bank Kazakhstan»",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "130884085"
+      ],
+      "roles": {},
+      "areas": {
+        "Алматы": 1
+      },
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "176941",
+      "name": "АО Азиатско-Тихоокеанский Банк",
+      "logo": "https://img.hhcdn.ru/employer-logo/12331401.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134584533"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:ао бийское производственное объединение сибприбормаш",
+      "name": "АО Бийское Производственное Объединение Сибприбормаш",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133855808"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -632,16 +410,33 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "10051541",
-      "name": "АО ИТ-Элемент29",
-      "logo": "https://img.hhcdn.ru/employer-logo/7193692.png",
+      "employerId": "name:ао интрак",
+      "name": "АО ИНТРАК",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133259917"
+        "134080578"
       ],
       "roles": {},
       "areas": {},
       "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "603989",
+      "name": "АО Коммерческий банк «Хлынов»",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/5498093.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134782227"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Бизнес-анализ": 1,
+        "Коммуникация": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -655,38 +450,68 @@ window.PREPBASE_SKILL_STATS = {
       ],
       "roles": {},
       "areas": {
-        "Москва": 1
+        "Владивосток, Океанский проспект, 17": 1
       },
       "skills": {
-        "BI": 1,
-        "Excel": 1,
-        "Power BI": 1,
-        "SQL": 1,
-        "Tableau": 1
+        "Коммуникация": 1,
+        "Excel": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "25917",
-      "name": "АО Нурбанк",
+      "employerId": "12034",
+      "name": "АО МТТ (MTC Exolve)",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/6882775.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134431185"
+      ],
+      "roles": {},
+      "areas": {
+        "Санкт-Петербург": 1
+      },
+      "skills": {
+        "Коммуникация": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "23817",
+      "name": "АО Народный банк Казахстана",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134559710"
+        "133956774"
       ],
       "roles": {},
       "areas": {
         "Алматы": 1
       },
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "555745",
+      "name": "АО Опытный завод Нефтехим",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134592153"
+      ],
+      "roles": {},
+      "areas": {},
       "skills": {
-        "Английский": 1
+        "PostgreSQL": 1,
+        "SQL": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "11857545",
+      "employerId": "name:ао ппк",
       "name": "АО ППК",
       "logo": null,
       "vacanciesCount": 1,
@@ -702,44 +527,21 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ао реалист банк",
-      "name": "АО РЕАЛИСТ БАНК",
-      "logo": null,
+      "employerId": "816969",
+      "name": "АО Россети Цифра",
+      "logo": "https://img.hhcdn.ru/employer-logo/7366132.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134672756"
+        "134753929"
       ],
       "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ао россельхозбанк, без опыта",
-      "name": "АО Россельхозбанк, Без опыта",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133949745"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ао россельхозбанк, филиалы и отделения",
-      "name": "АО Россельхозбанк, Филиалы и отделения",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "130051289"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
+      "areas": {
+        "Москва": 1
+      },
+      "skills": {
+        "MS SQL": 1,
+        "SQL": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -753,80 +555,46 @@ window.PREPBASE_SKILL_STATS = {
       ],
       "roles": {},
       "areas": {},
-      "skills": {
-        "Бизнес-анализ": 1,
-        "BPMN": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "8642172",
-      "name": "АО РУТ КОД",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "132580741"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Системный анализ": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "11434977",
-      "name": "АО СИ ЭС Групп",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "124694728"
-      ],
-      "roles": {},
-      "areas": {},
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "5848352",
-      "name": "АО СО INSON",
-      "logo": null,
+      "employerId": "10435763",
+      "name": "АО Система Безопасных Коммуникаций",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/6847731.jpeg",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134816463"
+        "134452999"
       ],
       "roles": {},
-      "areas": {
-        "Ташкент, улица Зульфияханум, 12": 1
-      },
+      "areas": {},
       "skills": {
-        "Английский": 1,
-        "Бизнес-анализ": 1,
-        "Системный анализ": 1,
-        "API": 1,
-        "BPMN": 1,
-        "SQL": 1,
-        "UML": 1
+        "Коммуникация": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "3971962",
-      "name": "АО СПВБ",
+      "employerId": "11234421",
+      "name": "АО Смартиндустрия",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133665985"
+        "134662106"
       ],
       "roles": {},
       "areas": {
-        "Москва": 1
+        "Москва, р-н Замоскворечье": 1
       },
-      "skills": {},
+      "skills": {
+        "Метрики": 1,
+        "BI": 1,
+        "DataLens": 1,
+        "PostgreSQL": 1,
+        "Python": 1,
+        "SQL": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -840,138 +608,10 @@ window.PREPBASE_SKILL_STATS = {
       ],
       "roles": {},
       "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ао специализированный застройщик домостроительный комбинат",
-      "name": "АО СПЕЦИАЛИЗИРОВАННЫЙ ЗАСТРОЙЩИК ДОМОСТРОИТЕЛЬНЫЙ КОМБИНАТ",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134334932"
-      ],
-      "roles": {},
-      "areas": {},
       "skills": {
-        "API": 1,
-        "REST API": 1
+        "BPMN": 1,
+        "UML": 1
       },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "230159",
-      "name": "АО ТаймВэб",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134379901"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "723820",
-      "name": "АО Тульский молочный комбинат",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134804898"
-      ],
-      "roles": {},
-      "areas": {
-        "Тула, р-н Центральный": 1
-      },
-      "skills": {
-        "Английский": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2959390",
-      "name": "АО Фрейт Вилладж Девелопмент",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134474249"
-      ],
-      "roles": {},
-      "areas": {
-        "Боровский район": 1
-      },
-      "skills": {
-        "Интеграции": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ао холдинговая компания элинар",
-      "name": "АО Холдинговая компания Элинар",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134500156"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "SQL": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "546608",
-      "name": "АО Центр электронных финансов",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133950721"
-      ],
-      "roles": {},
-      "areas": {
-        "Астана, улица Чингиза Айтматова, 52": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "12559062",
-      "name": "АО Цифровой семейный офис",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134609359"
-      ],
-      "roles": {},
-      "areas": {
-        "Москва": 1
-      },
-      "skills": {
-        "BPMN": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "3024465",
-      "name": "АО Щербинский лифтостроительный завод",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "132631882"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -992,77 +632,86 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ао asterium",
-      "name": "АО ASTERIUM",
-      "logo": null,
+      "employerId": "146547",
+      "name": "АО Alatau City Bank",
+      "logo": "https://img.hhcdn.ru/employer-logo/7346910.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134840112"
+        "134451365"
       ],
       "roles": {},
       "areas": {
-        "Ташкент, улица Саида Барака, 12А": 1
+        "Алматы": 1
+      },
+      "skills": {
+        "Английский": 1,
+        "Бизнес-анализ": 1,
+        "API": 1,
+        "BPMN": 1,
+        "UML": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "9730310",
+      "name": "АО Hayot Bank",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134829302"
+      ],
+      "roles": {},
+      "areas": {
+        "Ташкент, улица Паркент, 120/2": 1
       },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "912251",
-      "name": "Банк Прио-Внешторгбанк",
+      "employerId": "11871906",
+      "name": "АО TAYANCH MIKROMOLIYA BANKI",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "86184131"
+        "133996588"
       ],
       "roles": {},
-      "areas": {},
+      "areas": {
+        "Ташкент, улица Мукими, 178А": 1
+      },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:банк русский стандарт",
+      "employerId": "586",
       "name": "Банк Русский Стандарт",
-      "logo": null,
+      "logo": "https://img.hhcdn.ru/employer-logo/12336441.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134279654"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "9251203",
-      "name": "БПМСОФТ",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134332952"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "625332",
-      "name": "БУРГЕР КИНГ РОССИЯ",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6664907.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134219936"
+        "134363188"
       ],
       "roles": {},
       "areas": {},
       "skills": {
-        "BI": 1,
-        "Excel": 1
+        "Интеграции": 1
       },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:ббр банк",
+      "name": "ББР Банк",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134697562"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -1076,17 +725,19 @@ window.PREPBASE_SKILL_STATS = {
       ],
       "roles": {},
       "areas": {},
-      "skills": {},
+      "skills": {
+        "Метрики": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "1705975",
-      "name": "Витта компани, аптеки Диалог",
-      "logo": null,
+      "employerId": "5266429",
+      "name": "БЮРО 1440",
+      "logo": "https://img.hhcdn.ru/employer-logo/7174340.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134276495"
+        "134090020"
       ],
       "roles": {},
       "areas": {},
@@ -1095,32 +746,56 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "339",
-      "name": "Восток-Сервис",
-      "logo": "https://img.hhcdn.ru/employer-logo/9744719.png",
+      "employerId": "name:веб ай ти",
+      "name": "ВЕБ АЙ ТИ",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134185137"
+        "134807597"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "3809754",
+      "name": "ВТБ Факторинг",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134672803"
       ],
       "roles": {},
       "areas": {
         "Москва": 1
       },
-      "skills": {
-        "Бизнес-анализ": 1,
-        "Коммуникация": 1,
-        "BPMN": 1
-      },
+      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "1323852",
-      "name": "ГБУ Информационно-Консультационный Центр Департамента Культуры Города Москвы",
+      "employerId": "3388",
+      "name": "Газпромбанк. Общий банк",
+      "logo": "https://img.hhcdn.ru/employer-logo/12349841.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134703884"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "8653593",
+      "name": "ГБУЗ РХ РМИАЦ",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134739840"
+        "134140775"
       ],
       "roles": {},
       "areas": {},
@@ -1143,44 +818,118 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "12039773",
-      "name": "ГКУЗ МИАЦ",
-      "logo": null,
+      "employerId": "829326",
+      "name": "ГК Фармасинтез",
+      "logo": "https://img.hhcdn.ru/employer-logo/12328465.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134527408"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "247689",
-      "name": "Группа ВИС",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/3745048.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134746978"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "811902",
-      "name": "Группа Компаний Автоимпорт",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/7120999.jpeg",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133030028"
+        "134678224"
       ],
       "roles": {},
       "areas": {
-        "Рязань, р-н Советский": 1
+        "городской округ Калуга, индустриальный парк Росва, 36": 1
+      },
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "20839",
+      "name": "ГК Черноголовка",
+      "logo": "https://img.hhcdn.ru/employer-logo/7567267.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134720157"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Интеграции": 1,
+        "Excel": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "4005237",
+      "name": "ГКУ города Москвы Московский центр развития социальных технологий",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133640868"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Excel": 1,
+        "Python": 1,
+        "SQL": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "2427329",
+      "name": "ГКУ Инфогород",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134302828"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Бизнес-анализ": 1,
+        "BPMN": 1,
+        "UML": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:гку инфогород",
+      "name": "ГКУ Инфогород",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134026878"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "679",
+      "name": "Группа компаний Аэроклуб",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133724924"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва": 1
+      },
+      "skills": {
+        "Метрики": 1,
+        "Excel": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "4341",
+      "name": "Группа компаний КАНТ",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134146931"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва": 1
       },
       "skills": {
         "Английский": 1
@@ -1189,16 +938,18 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "5060211",
-      "name": "Группа компаний Астра",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/7394493.jpeg",
+      "employerId": "name:группа компаний рбе (rbe group)",
+      "name": "Группа компаний РБЕ (RBE Group)",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134557621"
+        "134695478"
       ],
       "roles": {},
       "areas": {},
-      "skills": {},
+      "skills": {
+        "SQL": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -1212,88 +963,104 @@ window.PREPBASE_SKILL_STATS = {
       ],
       "roles": {},
       "areas": {},
-      "skills": {
-        "Английский": 1,
-        "Power BI": 1,
-        "SQL": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:группа rbi",
-      "name": "Группа RBI",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133834771"
-      ],
-      "roles": {},
-      "areas": {},
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:диалог регионы",
-      "name": "Диалог Регионы",
-      "logo": null,
+      "employerId": "29413",
+      "name": "Деловые Линии. Офис",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/7013943.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134648987"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "1810433",
-      "name": "ЗАО Интернет-магазин Евроопт",
-      "logo": "https://img.hhcdn.ru/employer-logo/7277241.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134706678"
+        "132787488"
       ],
       "roles": {},
       "areas": {
         "Минск": 1
       },
+      "skills": {
+        "Бизнес-анализ": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "5367559",
+      "name": "ДПО Корпоративный Университет Правительства Нижегородской Области (КУПНО)",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134004833"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Excel": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "1302718",
+      "name": "ЖБИ2-ИНВЕСТ",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134542352"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Agile/Scrum": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "1231316",
+      "name": "ЗАО Институт телекоммуникаций",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "131986683"
+      ],
+      "roles": {},
+      "areas": {
+        "Санкт-Петербург": 1
+      },
+      "skills": {
+        "Коммуникация": 1,
+        "BPMN": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "104281",
+      "name": "Интерсофт",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134821854"
+      ],
+      "roles": {},
+      "areas": {},
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:зао уайт бёрд",
-      "name": "ЗАО Уайт Бёрд",
+      "employerId": "12889231",
+      "name": "ИП Бузаев Павел Сергеевич",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134341859"
+        "134810618"
       ],
       "roles": {},
       "areas": {
-        "Минск, улица Свердлова, 11": 1
-      },
-      "skills": {
-        "Интеграции": 1,
-        "API": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "10428060",
-      "name": "ИП Беляева Анастасия Александровна",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134355315"
-      ],
-      "roles": {},
-      "areas": {
-        "Москва, р-н Дорогомилово": 1
+        "Брянск": 1
       },
       "skills": {},
       "firstPublishedAt": null,
@@ -1316,56 +1083,69 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "11996099",
-      "name": "ИП Paradise",
+      "employerId": "12023081",
+      "name": "ИП Саидов Алишер Ринатович",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134246280"
+        "134059594"
       ],
       "roles": {},
       "areas": {
-        "Астана, проспект Кабанбай Батыра, 17": 1
+        "Ташкент": 1
+      },
+      "skills": {
+        "Бизнес-анализ": 1,
+        "Системный анализ": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "11987869",
+      "name": "ИП Таланова Анастасия Игоревна",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134487144"
+      ],
+      "roles": {},
+      "areas": {
+        "Пермь": 1
       },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "5866454",
-      "name": "Кейтеринбург",
-      "logo": "https://img.hhcdn.ru/employer-logo/7175532.png",
+      "employerId": "3907147",
+      "name": "ИП Ульянов Константин Юрьевич",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134065081"
+        "133943678"
       ],
       "roles": {},
       "areas": {},
-      "skills": {
-        "BI": 1,
-        "ClickHouse": 1,
-        "Excel": 1,
-        "PostgreSQL": 1,
-        "Python": 1,
-        "SQL": 1
-      },
+      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "9207485",
-      "name": "Кировское областное государственное казенное учреждение Центр занятости населения города Кирова",
+      "employerId": "name:ип sulu home",
+      "name": "ИП Sulu Home",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134738913"
+        "134257989"
       ],
       "roles": {},
       "areas": {
-        "Киров, р-н Октябрьский": 1
+        "Алматы, улица Москвина, 13": 1
       },
       "skills": {
-        "Интеграции": 1
+        "BI": 1,
+        "Excel": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
@@ -1379,89 +1159,267 @@ window.PREPBASE_SKILL_STATS = {
         "134424018"
       ],
       "roles": {},
+      "areas": {
+        "Москва": 1
+      },
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "735216",
+      "name": "Компания Апогей",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "132255834"
+      ],
+      "roles": {},
       "areas": {},
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "12312458",
-      "name": "Контроль Москвы",
+      "employerId": "3464728",
+      "name": "КОФЕФЕСТ",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134677527"
+        "134542804"
       ],
       "roles": {},
       "areas": {
-        "Москва": 1
+        "Москва, р-н Нагорный": 1
       },
       "skills": {
-        "Коммуникация": 1,
-        "Excel": 1,
+        "Английский": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "1947",
+      "name": "КРЕДИТ ЕВРОПА БАНК",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/382088.jpeg",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134536571"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва, р-н Мещанский": 1
+      },
+      "skills": {
+        "Английский": 1,
         "SQL": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "2730772",
-      "name": "Лучи",
+      "employerId": "name:крупный девелопер",
+      "name": "Крупный девелопер",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134809262"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "6382",
-      "name": "Медиалогия",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "132855212"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "15307",
-      "name": "Международный концерн ДорХан",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133469673"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "17275",
-      "name": "Мираторг, Агропромышленный холдинг",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134597081"
+        "134806372"
       ],
       "roles": {},
       "areas": {
-        "Мценский район, Особая экономическая зона промышленно-производственного типа Орёл": 1
+        "Москва": 1
+      },
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "2406247",
+      "name": "ЛУКОЙЛ",
+      "logo": "https://img.hhcdn.ru/brand-snippet-pictures/04688.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134600979"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва": 1
+      },
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "30637",
+      "name": "ЛЭтуаль Логистический центр",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134694756"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:маяк",
+      "name": "Маяк",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "132595884"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "SQL": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "57045",
+      "name": "Мегаполис",
+      "logo": "https://img.hhcdn.ru/employer-logo/7405549.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134014089"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва": 1
       },
       "skills": {
         "Английский": 1,
+        "Метрики": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:международный многопрофильный холдинг (морская логистика)",
+      "name": "Международный многопрофильный холдинг (морская логистика)",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134177571"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва": 1
+      },
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:международный холдинг",
+      "name": "Международный холдинг",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134654126"
+      ],
+      "roles": {},
+      "areas": {
+        "Турция": 1
+      },
+      "skills": {
+        "Бизнес-анализ": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "2764641",
+      "name": "Министерство Инвестиционного Развития Смоленской Области",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134298794"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "4496",
+      "name": "МТС Банк. Начало Карьеры",
+      "logo": "https://img.hhcdn.ru/employer-logo/12302932.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133777708"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "11314266",
+      "name": "МФО CreditNOVA",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134832431"
+      ],
+      "roles": {},
+      "areas": {
+        "Алматы": 1
+      },
+      "skills": {
         "Excel": 1
       },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "872053",
+      "name": "МХ групп",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134770106"
+      ],
+      "roles": {},
+      "areas": {
+        "Владивосток, улица Вострецова, 36Б": 1
+      },
+      "skills": {
+        "Бизнес-анализ": 1,
+        "Интеграции": 1,
+        "Метрики": 1,
+        "Системный анализ": 1,
+        "API": 1,
+        "Confluence": 1,
+        "Jira": 1,
+        "Kafka": 1,
+        "MS SQL": 1,
+        "PostgreSQL": 1,
+        "RabbitMQ": 1,
+        "REST API": 1,
+        "SOAP": 1,
+        "SQL": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "9139584",
+      "name": "НАЙМАКС",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134277275"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -1480,149 +1438,57 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "3057598",
-      "name": "Нек. орг. ЧПОУ ЦИО Нефтегаз",
+      "employerId": "name:новартис фарма",
+      "name": "Новартис Фарма",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134716828"
+        "134398116"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "893621",
+      "name": "ОАО Паритетбанк",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/5777309.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134579312"
       ],
       "roles": {},
       "areas": {
-        "Москва": 1
+        "Минск": 1
       },
       "skills": {
-        "Английский": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "6107283",
-      "name": "ОАО Агентство цифровой трансформации",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134748310"
-      ],
-      "roles": {},
-      "areas": {
-        "Минск, улица Клары Цеткин, 24": 1
-      },
-      "skills": {
-        "Коммуникация": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "1040474",
-      "name": "ОБУ Информационно-технический центр",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133891445"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "65617",
-      "name": "Озон Фармацевтика",
-      "logo": "https://img.hhcdn.ru/employer-logo/7163848.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134554606"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "10327600",
-      "name": "ОМ Софт",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134269622"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "172",
-      "name": "ООО 1C-Рарус",
-      "logo": "https://img.hhcdn.ru/employer-logo/7206688.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134611088"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "11274196",
-      "name": "ООО 85 Тех",
-      "logo": "https://img.hhcdn.ru/employer-logo/12287928.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133962998"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Метрики": 1,
+        "Бизнес-анализ": 1,
+        "Системный анализ": 1,
         "API": 1,
         "BPMN": 1,
         "REST API": 1,
-        "SOAP": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "3054781",
-      "name": "ООО АБП",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134095823"
-      ],
-      "roles": {},
-      "areas": {
-        "Москва": 1
-      },
-      "skills": {
-        "BPMN": 1,
+        "SQL": 1,
         "UML": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "11278091",
-      "name": "ООО Абсолют авто",
+      "employerId": "12363292",
+      "name": "ООО А7-ТЕХНОЛОГИИ",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134211389"
+        "134023802"
       ],
       "roles": {},
-      "areas": {
-        "Челябинск, р-н Тракторозаводский": 1
+      "areas": {},
+      "skills": {
+        "Excel": 1,
+        "Power BI": 1
       },
-      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -1636,19 +1502,7 @@ window.PREPBASE_SKILL_STATS = {
       ],
       "roles": {},
       "areas": {},
-      "skills": {
-        "Английский": 1,
-        "Бизнес-анализ": 1,
-        "Интеграции": 1,
-        "Системный анализ": 1,
-        "Agile/Scrum": 1,
-        "API": 1,
-        "BPMN": 1,
-        "Excel": 1,
-        "Jira": 1,
-        "SOAP": 1,
-        "SQL": 1
-      },
+      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -1664,18 +1518,12 @@ window.PREPBASE_SKILL_STATS = {
       "areas": {
         "Москва": 1
       },
-      "skills": {
-        "Бизнес-анализ": 1,
-        "Коммуникация": 1,
-        "Системный анализ": 1,
-        "BPMN": 1,
-        "DWH": 1
-      },
+      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "11649030",
+      "employerId": "name:ооо автоллион",
       "name": "ООО Автоллион",
       "logo": null,
       "vacanciesCount": 1,
@@ -1691,19 +1539,30 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "11529939",
-      "name": "ООО Айтими",
-      "logo": "https://img.hhcdn.ru/employer-logo/7185324.png",
+      "employerId": "2643307",
+      "name": "ООО Агроальянс МТ",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "132239588"
+        "134806138"
       ],
       "roles": {},
       "areas": {},
-      "skills": {
-        "Бизнес-анализ": 1,
-        "Excel": 1
-      },
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "2367969",
+      "name": "ООО Адакта",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134028685"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -1717,9 +1576,24 @@ window.PREPBASE_SKILL_STATS = {
       ],
       "roles": {},
       "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "22212",
+      "name": "ООО Акульчев",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134145311"
+      ],
+      "roles": {},
+      "areas": {
+        "деревня Румянцево": 1
+      },
       "skills": {
-        "Коммуникация": 1,
-        "BPMN": 1
+        "Английский": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
@@ -1739,36 +1613,38 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "10867765",
-      "name": "ООО Альфа-Мобайл",
+      "employerId": "11569886",
+      "name": "ООО Альянс Регион",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134806063"
+        "133856792"
       ],
       "roles": {},
       "areas": {
         "Москва": 1
       },
-      "skills": {
-        "Английский": 1
-      },
+      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "4523645",
-      "name": "ООО Амариста",
+      "employerId": "1470260",
+      "name": "ООО АМТ Страхование",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134745877"
+        "134011170"
       ],
       "roles": {},
-      "areas": {
-        "Минск": 1
+      "areas": {},
+      "skills": {
+        "Бизнес-анализ": 1,
+        "Метрики": 1,
+        "Agile/Scrum": 1,
+        "Excel": 1,
+        "Python": 1
       },
-      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -1784,41 +1660,53 @@ window.PREPBASE_SKILL_STATS = {
       "areas": {
         "Москва": 1
       },
-      "skills": {
-        "Коммуникация": 1,
-        "DWH": 1,
-        "SQL": 1
-      },
+      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "9450859",
-      "name": "ООО АФЛТ-Системс",
-      "logo": "https://img.hhcdn.ru/employer-logo/7186168.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134705170"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Английский": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "5579774",
-      "name": "ООО БПК",
+      "employerId": "11171782",
+      "name": "ООО АЭРО - ХИТ",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134156291"
+        "133986402"
       ],
       "roles": {},
       "areas": {},
       "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "14809",
+      "name": "ООО Бизнес Технологии",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134217073"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "1391634",
+      "name": "ООО Брайт Солюшенз",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134228916"
+      ],
+      "roles": {},
+      "areas": {
+        "Минск": 1
+      },
+      "skills": {
+        "Метрики": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -1832,17 +1720,20 @@ window.PREPBASE_SKILL_STATS = {
       ],
       "roles": {},
       "areas": {},
-      "skills": {},
+      "skills": {
+        "BPMN": 1,
+        "UML": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "72126",
-      "name": "ООО ВЕРТИКАЛЬ",
+      "employerId": "4923615",
+      "name": "ООО Вайбс",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134678725"
+        "134003544"
       ],
       "roles": {},
       "areas": {},
@@ -1851,12 +1742,12 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "2208439",
-      "name": "ООО Гензис",
+      "employerId": "566686",
+      "name": "ООО Волжская Судоходная Компания",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134279840"
+        "132852451"
       ],
       "roles": {},
       "areas": {},
@@ -1865,55 +1756,103 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ооо гк альянс",
-      "name": "ООО ГК Альянс",
+      "employerId": "735321",
+      "name": "ООО Гипер",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134842937"
+        "134832434"
       ],
       "roles": {},
       "areas": {},
       "skills": {
-        "Английский": 1
+        "Excel": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "1094856",
-      "name": "ООО Главбух",
+      "employerId": "5518950",
+      "name": "ООО Градум",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/6552362.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134757360"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "2659408",
+      "name": "ООО Гранд-Стар",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134175575"
+        "134714522"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "BI": 1,
+        "DWH": 1,
+        "ETL": 1,
+        "Python": 1,
+        "SQL": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "4946247",
+      "name": "ООО Группа Астон",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134650068"
       ],
       "roles": {},
       "areas": {
-        "Минск": 1
+        "Москва": 1
       },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "5532476",
-      "name": "ООО Глобал АйТи",
+      "employerId": "name:ооо гсп центр",
+      "name": "ООО ГСП ЦЕНТР",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134789372"
+        "134497167"
       ],
       "roles": {},
-      "areas": {
-        "Санкт-Петербург, р-н Приморский": 1
+      "areas": {},
+      "skills": {
+        "Бизнес-анализ": 1
       },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "95903",
+      "name": "ООО Дёке Трейд Маркетинг",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/5983274.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134754209"
+      ],
+      "roles": {},
+      "areas": {},
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ооо джак автомобиль",
+      "employerId": "5050567",
       "name": "ООО ДЖАК АВТОМОБИЛЬ",
       "logo": null,
       "vacanciesCount": 1,
@@ -1927,19 +1866,19 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "8936150",
-      "name": "ООО ДэвТим-Групп",
-      "logo": null,
+      "employerId": "2630371",
+      "name": "ООО Дженерал лизинг",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/6250039.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134176275"
+        "134569029"
       ],
       "roles": {},
       "areas": {
-        "Москва": 1
+        "Минск, улица Тимирязева, 72": 1
       },
       "skills": {
-        "Бизнес-анализ": 1
+        "BI": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
@@ -1959,39 +1898,65 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "753017",
-      "name": "ООО Евроторг",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6639098.jpeg",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "128467396"
-      ],
-      "roles": {},
-      "areas": {
-        "Минск": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "4837413",
-      "name": "ООО ЕВРОФОРД",
+      "employerId": "12833132",
+      "name": "ООО Ёхор Иркутск",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133874942"
+        "134041382"
       ],
       "roles": {},
       "areas": {
-        "Минск, улица Автомобилистов, 4": 1
+        "Москва": 1
       },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ооо исток",
+      "employerId": "1457854",
+      "name": "ООО Займиго МКК",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134166298"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "3676",
+      "name": "ООО Инжиниринговый холдинг «эВ-групп»",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134606354"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:ооо интер рао - цифровые решения",
+      "name": "ООО Интер РАО - Цифровые решения",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134437944"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "12161776",
       "name": "ООО Исток",
       "logo": null,
       "vacanciesCount": 1,
@@ -1999,8 +1964,28 @@ window.PREPBASE_SKILL_STATS = {
         "134658165"
       ],
       "roles": {},
-      "areas": {},
+      "areas": {
+        "Москва": 1
+      },
       "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "4348791",
+      "name": "ООО ИТС",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134269258"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва, р-н Даниловский": 1
+      },
+      "skills": {
+        "DWH": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -2010,15 +1995,13 @@ window.PREPBASE_SKILL_STATS = {
       "logo": "https://img.hhcdn.ru/employer-logo-round/2559134.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "132929340"
+        "134261328"
       ],
       "roles": {},
-      "areas": {},
-      "skills": {
-        "Английский": 1,
-        "BPMN": 1,
-        "SQL": 1
+      "areas": {
+        "Москва": 1
       },
+      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -2028,7 +2011,7 @@ window.PREPBASE_SKILL_STATS = {
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133665865"
+        "132929340"
       ],
       "roles": {},
       "areas": {},
@@ -2037,7 +2020,42 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "969031",
+      "employerId": "5289311",
+      "name": "ООО Йуми",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134678243"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва": 1
+      },
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "9822729",
+      "name": "ООО Капстрой",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134540439"
+      ],
+      "roles": {},
+      "areas": {
+        "Набережные Челны, улица Нариманова, 56": 1
+      },
+      "skills": {
+        "Английский": 1,
+        "Python": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:ооо кари",
       "name": "ООО КАРИ",
       "logo": null,
       "vacanciesCount": 1,
@@ -2045,81 +2063,22 @@ window.PREPBASE_SKILL_STATS = {
         "134774757"
       ],
       "roles": {},
-      "areas": {
-        "Москва": 1
-      },
-      "skills": {
-        "Метрики": 1,
-        "BI": 1,
-        "BPMN": 1,
-        "Excel": 1,
-        "Power BI": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "954660",
-      "name": "ООО Компания ИнфоТек",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134753017"
-      ],
-      "roles": {},
       "areas": {},
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "4328663",
-      "name": "ООО Конфитрейд",
+      "employerId": "3961061",
+      "name": "ООО КонсалтикаПлюс",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134709700"
+        "134738839"
       ],
       "roles": {},
       "areas": {},
       "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "12856656",
-      "name": "ООО Корпрешения",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134210862"
-      ],
-      "roles": {},
-      "areas": {
-        "Москва": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "228718",
-      "name": "ООО Крезол",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134308136"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Английский": 1,
-        "Коммуникация": 1,
-        "BI": 1,
-        "Excel": 1,
-        "Power BI": 1,
-        "Tableau": 1
-      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -2138,44 +2097,77 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ооо ктс-проект",
-      "name": "ООО КТС-ПРОЕКТ",
+      "employerId": "name:ооо кью лид",
+      "name": "ООО Кью Лид",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134487272"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2437802",
-      "name": "ООО Леон",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134121546"
+        "134018096"
       ],
       "roles": {},
       "areas": {},
       "skills": {
         "Английский": 1,
-        "Python": 1,
-        "SQL": 1
+        "Бизнес-анализ": 1,
+        "BI": 1,
+        "Excel": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "972833",
-      "name": "ООО Логистические операции МОЛКОМ",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6681499.png",
+      "employerId": "1738813",
+      "name": "ООО Логинет РУс",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "132124816"
+        "134844128"
+      ],
+      "roles": {},
+      "areas": {
+        "Санкт-Петербург, р-н Московский": 1
+      },
+      "skills": {
+        "Интеграции": 1,
+        "Коммуникация": 1,
+        "API": 1,
+        "BPMN": 1,
+        "PostgreSQL": 1,
+        "REST API": 1,
+        "SQL": 1,
+        "Swagger/OpenAPI": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "5860936",
+      "name": "ООО Лоция",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133292793"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Интеграции": 1,
+        "ТЗ": 1,
+        "API": 1,
+        "Kafka": 1,
+        "REST API": 1,
+        "UML": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "1631253",
+      "name": "ООО М13",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134439795"
       ],
       "roles": {},
       "areas": {},
@@ -2200,62 +2192,53 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "12711499",
-      "name": "ООО Маркетплейс",
+      "employerId": "2563058",
+      "name": "ООО Максилект",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134811689"
+        "134253289"
       ],
       "roles": {},
       "areas": {
         "Москва": 1
+      },
+      "skills": {
+        "Интеграции": 1,
+        "Системный анализ": 1,
+        "API": 1,
+        "BPMN": 1,
+        "REST API": 1,
+        "SOAP": 1,
+        "SQL": 1,
+        "UML": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "5903956",
+      "name": "ООО МОБИ Недвижимость",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134222056"
+      ],
+      "roles": {},
+      "areas": {
+        "Калининград, р-н Ленинградский": 1
       },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "9066533",
-      "name": "ООО Медиа Ком",
+      "employerId": "name:ооо мостовик",
+      "name": "ООО Мостовик",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134153403"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Excel": 1,
-        "Power BI": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ооо миллениум",
-      "name": "ООО Миллениум",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134383127"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Английский": 1,
-        "Коммуникация": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "667710",
-      "name": "ООО МКК Срочноденьги",
-      "logo": "https://img.hhcdn.ru/employer-logo/7181156.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134713329"
+        "134716634"
       ],
       "roles": {},
       "areas": {},
@@ -2264,49 +2247,53 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "2846",
-      "name": "ООО МЯСНОЙ ДОМ БОРОДИНА",
+      "employerId": "name:ооо нетрика медицина",
+      "name": "ООО Нетрика Медицина",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134212259"
+        "130899107"
       ],
       "roles": {},
       "areas": {},
       "skills": {
-        "Excel": 1
+        "Интеграции": 1,
+        "SQL": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "1665487",
-      "name": "ООО НижСтенд",
+      "employerId": "12857148",
+      "name": "ООО Нисат",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134702208"
+        "134745418"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Интеграции": 1,
+        "API": 1,
+        "Linux": 1,
+        "SOAP": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "12684043",
+      "name": "ООО Новабев Инфо Тех",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134563157"
       ],
       "roles": {},
       "areas": {
-        "Москва": 1
+        "Москва, Якиманская набережная": 1
       },
-      "skills": {
-        "Английский": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "4358932",
-      "name": "ООО НМТ",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134548015"
-      ],
-      "roles": {},
-      "areas": {},
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
@@ -2326,33 +2313,12 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "44877",
-      "name": "ООО Объединенные кондитеры",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/1868275.jpeg",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133856625"
-      ],
-      "roles": {},
-      "areas": {
-        "Москва": 1
-      },
-      "skills": {
-        "Английский": 1,
-        "API": 1,
-        "REST API": 1,
-        "SQL": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
       "employerId": "2950286",
       "name": "ООО ОДуо",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134044125"
+        "134043484"
       ],
       "roles": {},
       "areas": {},
@@ -2361,116 +2327,16 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "2139406",
-      "name": "ООО Ойком",
+      "employerId": "1707753",
+      "name": "ООО Пойзон Дроп",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "130292698"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "1626185",
-      "name": "ООО Партнер",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134061390"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ооо платежное решение",
-      "name": "ООО Платежное Решение",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133666146"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2276466",
-      "name": "ООО ПП «Южуралкомсервис»",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134689068"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ооо промингредиентс",
-      "name": "ООО ПромИнгредиентс",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134808952"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Английский": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2887078",
-      "name": "ООО Простые решения",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133646085"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "1668887",
-      "name": "ООО ПРОФ-ИТ ГРУПП",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134264865"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "1737185",
-      "name": "ООО ПСК Геодор",
-      "logo": "https://img.hhcdn.ru/employer-logo/7392033.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134539419"
+        "134586013"
       ],
       "roles": {},
       "areas": {
-        "Энгельс, проспект Химиков, 1с17": 1
+        "Москва": 1
       },
       "skills": {
         "Английский": 1
@@ -2479,34 +2345,12 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "1423833",
-      "name": "ООО ПСК ФАРМА",
+      "employerId": "name:ооо принтэкс",
+      "name": "ООО ПринтЭкс",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134438887"
-      ],
-      "roles": {},
-      "areas": {
-        "Дубна, улица Программистов": 1
-      },
-      "skills": {
-        "Английский": 1,
-        "Метрики": 1,
-        "Системный анализ": 1,
-        "Python": 1,
-        "SQL": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ооо рг-девелопмент",
-      "name": "ООО РГ-Девелопмент",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133967667"
+        "134278336"
       ],
       "roles": {},
       "areas": {},
@@ -2515,12 +2359,12 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "3131901",
-      "name": "ООО РСХБ-Интех",
-      "logo": "https://img.hhcdn.ru/employer-logo/7274221.png",
+      "employerId": "12449170",
+      "name": "ООО Пульс Инноваций",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134607374"
+        "134314603"
       ],
       "roles": {},
       "areas": {
@@ -2531,61 +2375,126 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ооо рсхб-интех",
-      "name": "ООО РСХБ-Интех",
+      "employerId": "3144945",
+      "name": "ООО Ростелеком Информационные Технологии",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133996692"
+        "134312025"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва": 1
+      },
+      "skills": {
+        "Английский": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:ооо сбер2b",
+      "name": "ООО Сбер2B",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133308704"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "46587",
+      "name": "ООО Сима-ленд",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134102189"
+      ],
+      "roles": {},
+      "areas": {
+        "Екатеринбург, р-н Чкаловский": 1
+      },
+      "skills": {
+        "Английский": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "994567",
+      "name": "ООО Служба Технического Надзора",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134061818"
+      ],
+      "roles": {},
+      "areas": {
+        "Казань, р-н Вахитовский": 1
+      },
+      "skills": {
+        "Английский": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "5390761",
+      "name": "ООО Совкомбанк Технологии",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/6860627.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134835126"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:ооо софарма рус",
+      "name": "ООО Софарма Рус",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134789091"
       ],
       "roles": {},
       "areas": {},
       "skills": {
-        "Английский": 1,
         "Excel": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "3513136",
-      "name": "ООО Сбер2B",
+      "employerId": "name:ооо спектр",
+      "name": "ООО СПЕКТР",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133003252"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ооо сджей глобал",
-      "name": "ООО Сджей Глобал",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133874938"
+        "134654312"
       ],
       "roles": {},
       "areas": {},
       "skills": {
-        "Английский": 1,
-        "BPMN": 1,
-        "UML": 1
+        "BI": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "3102126",
-      "name": "ООО Севентек",
-      "logo": "https://img.hhcdn.ru/employer-logo/7167916.png",
+      "employerId": "10540780",
+      "name": "ООО Сэнсэй",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133852218"
+        "134139065"
       ],
       "roles": {},
       "areas": {},
@@ -2594,59 +2503,17 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "2679520",
-      "name": "ООО Сервисный центр Транстелематика",
-      "logo": null,
+      "employerId": "1534187",
+      "name": "ООО СюйГун Ру",
+      "logo": "https://img.hhcdn.ru/employer-logo/7189464.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134782444"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "3112915",
-      "name": "ООО Синтегро консалтинг",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134305970"
+        "134790872"
       ],
       "roles": {},
       "areas": {
         "Москва": 1
       },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "3700352",
-      "name": "ООО СК «Росгосстрах Жизнь»",
-      "logo": "https://img.hhcdn.ru/employer-logo/7396889.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134605339"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ооо совкомбанк лизинг",
-      "name": "ООО Совкомбанк Лизинг",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134105400"
-      ],
-      "roles": {},
-      "areas": {},
       "skills": {
         "Английский": 1
       },
@@ -2654,17 +2521,15 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "3897145",
-      "name": "ООО Софтнетикс",
+      "employerId": "name:ооо та липпе рус",
+      "name": "ООО ТА Липпе Рус",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134121996"
+        "134834340"
       ],
       "roles": {},
-      "areas": {
-        "Минск": 1
-      },
+      "areas": {},
       "skills": {
         "Английский": 1,
         "Интеграции": 1
@@ -2673,68 +2538,16 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ооо страховая компания сбербанк страхование",
-      "name": "ООО Страховая компания Сбербанк страхование",
+      "employerId": "name:ооо тритон-электроникс",
+      "name": "ООО Тритон-ЭлектроникС",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134826916"
+        "131401658"
       ],
       "roles": {},
       "areas": {},
       "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "3113622",
-      "name": "ООО ТП Инжиниринг",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134543948"
-      ],
-      "roles": {},
-      "areas": {
-        "Волгоград, р-н Красноармейский": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "12867985",
-      "name": "ООО Ттс 16",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134534499"
-      ],
-      "roles": {},
-      "areas": {
-        "Тетюши, улица Горького, 56Р": 1
-      },
-      "skills": {
-        "Метрики": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2225338",
-      "name": "ООО УАЗ",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134174613"
-      ],
-      "roles": {},
-      "areas": {
-        "Химки": 1
-      },
-      "skills": {
-        "Английский": 1
-      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -2749,20 +2562,22 @@ window.PREPBASE_SKILL_STATS = {
       "roles": {},
       "areas": {},
       "skills": {
-        "Интеграции": 1,
+        "Бизнес-анализ": 1,
         "Метрики": 1,
-        "Системный анализ": 1
+        "BPMN": 1,
+        "SQL": 1,
+        "UML": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "10911209",
-      "name": "ООО Умные Решения",
+      "employerId": "name:ооо фодев",
+      "name": "ООО Фодев",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134026851"
+        "134681160"
       ],
       "roles": {},
       "areas": {},
@@ -2771,148 +2586,145 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:ооо фирма кин",
-      "name": "ООО Фирма КиН",
+      "employerId": "name:ооо форвард",
+      "name": "ООО Форвард",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134404725"
+        "134165726"
       ],
       "roles": {},
-      "areas": {},
+      "areas": {
+        "Новосибирск": 1
+      },
+      "skills": {
+        "API": 1,
+        "REST API": 1,
+        "Swagger/OpenAPI": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "9621382",
+      "name": "ООО Элимери Групп",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134021677"
+      ],
+      "roles": {},
+      "areas": {
+        "Рязань, р-н Октябрьский": 1
+      },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "5934159",
-      "name": "ООО Флит Лизинг",
+      "employerId": "name:ооо colvir software solutions",
+      "name": "ООО Colvir Software Solutions",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134499497"
+        "134025175"
       ],
       "roles": {},
       "areas": {
         "Москва": 1
       },
       "skills": {
-        "API": 1
+        "Системный анализ": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "2700114",
-      "name": "ООО Эдвансд",
+      "employerId": "name:ооо fin.by / акцент-консалт",
+      "name": "ООО FIN.by / Акцент-Консалт",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134753818"
+        "134071149"
       ],
       "roles": {},
-      "areas": {},
+      "areas": {
+        "Минск, улица Володько, 6": 1
+      },
+      "skills": {
+        "Английский": 1,
+        "Бизнес-анализ": 1,
+        "Коммуникация": 1,
+        "BI": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "64474",
+      "name": "ООО GlowByte",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134159216"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва": 1
+      },
+      "skills": {
+        "Английский": 1,
+        "DWH": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "14475",
+      "name": "ООО MYRIAD RUS",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133915277"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва, р-н Тверской": 1
+      },
+      "skills": {
+        "Английский": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "11253439",
+      "name": "ООО SAYONAR",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134711143"
+      ],
+      "roles": {},
+      "areas": {
+        "Ташкент, улица Чорбог, 42": 1
+      },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "2211503",
-      "name": "ООО Discover invest",
-      "logo": null,
+      "employerId": "135455",
+      "name": "Оптиком, компания",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/4080796.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133635415"
-      ],
-      "roles": {},
-      "areas": {
-        "Ташкент, улица Сеульская, 16A": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "3033254",
-      "name": "ООО Green White Solutions",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134751729"
-      ],
-      "roles": {},
-      "areas": {
-        "Ташкент, Шайхантахурский район, массив Бешагач, 22": 1
-      },
-      "skills": {
-        "Бизнес-анализ": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2140160",
-      "name": "ООО Maxmoll",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134788505"
+        "134677907"
       ],
       "roles": {},
       "areas": {},
       "skills": {
-        "SQL": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ооо waveaccess",
-      "name": "ООО WaveAccess",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134506358"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "9319884",
-      "name": "ООО ZORDOC",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134653376"
-      ],
-      "roles": {},
-      "areas": {
-        "Ташкент, Мирзо-Улугбекский район, улица Сайрам, 21": 1
-      },
-      "skills": {
-        "SQL": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2457065",
-      "name": "ОсОО РУСТЭЛЬ",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133954593"
-      ],
-      "roles": {},
-      "areas": {
-        "Бишкек, улица Тимура Фрунзе, 2": 1
-      },
-      "skills": {
-        "Excel": 1,
-        "SQL": 1
+        "BI": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
@@ -2932,30 +2744,34 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "542758",
-      "name": "ПАО ЛЭСК",
-      "logo": null,
+      "employerId": "4073",
+      "name": "ПАО Т Плюс",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/7242525.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133949884"
+        "134539727"
       ],
       "roles": {},
       "areas": {
-        "Липецк, р-н Октябрьский": 1
+        "Екатеринбург, р-н Кировский": 1
       },
       "skills": {
-        "SQL": 1
+        "Интеграции": 1,
+        "API": 1,
+        "Kafka": 1,
+        "REST API": 1,
+        "Swagger/OpenAPI": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "19833",
-      "name": "ПАО Россети Центр. Молодые специалисты",
+      "employerId": "4099206",
+      "name": "Первая Форма",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134781929"
+        "134501504"
       ],
       "roles": {},
       "areas": {},
@@ -2964,46 +2780,12 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "7944",
-      "name": "ПАО Совкомбанк. Центральный офис.",
-      "logo": "https://img.hhcdn.ru/employer-logo/7236733.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134703803"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "BPMN": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "1368152",
-      "name": "ПАО ТАНТК им.Г.М. Бериева",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134469817"
-      ],
-      "roles": {},
-      "areas": {
-        "Таганрог, площадь Авиаторов, 1": 1
-      },
-      "skills": {
-        "Английский": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "3177",
+      "employerId": "name:первый бит",
       "name": "Первый Бит",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/2982497.png",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134359692"
+        "132015923"
       ],
       "roles": {},
       "areas": {},
@@ -3012,16 +2794,32 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "2366627",
-      "name": "Первый ОФД",
+      "employerId": "737268",
+      "name": "ПИКАССО",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134434932"
+        "134615045"
       ],
       "roles": {},
       "areas": {
-        "Москва": 1
+        "Санкт-Петербург": 1
+      },
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "620650",
+      "name": "Промышленная компания BRUMEX",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134771804"
+      ],
+      "roles": {},
+      "areas": {
+        "Самара": 1
       },
       "skills": {
         "Английский": 1
@@ -3030,12 +2828,12 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "18870",
-      "name": "Полилог, КГ",
+      "employerId": "1942330",
+      "name": "Пятёрочка. Офисные сотрудники",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134674453"
+        "134342988"
       ],
       "roles": {},
       "areas": {},
@@ -3044,62 +2842,19 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "1575814",
-      "name": "Правительство Московской области",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/1586003.jpeg",
+      "employerId": "5676487",
+      "name": "Работа в офисе",
+      "logo": "https://img.hhcdn.ru/employer-logo/7728243.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134219371"
+        "134025037"
       ],
       "roles": {},
       "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "599786",
-      "name": "Радуга, ТОО (Компания Raduga KDR)",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134736119"
-      ],
-      "roles": {},
-      "areas": {
-        "Караганда, Пригородная улица, 7/2": 1
+      "skills": {
+        "Английский": 1,
+        "Excel": 1
       },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "5349502",
-      "name": "РГП на ПХВ Инженерно-технический центр Управления Делами Президента Республики Казахстан",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134478731"
-      ],
-      "roles": {},
-      "areas": {
-        "Нур-Султан (Астана), проспект Мангилик Ел, 8": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:росгосстрах",
-      "name": "Росгосстрах",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134005696"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -3118,42 +2873,30 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "55307",
-      "name": "Рубеж, Группа компаний",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/3991424.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133889808"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "728292",
-      "name": "СПб ГКУ Санкт-Петербургский информационно-аналитический центр",
+      "employerId": "9089161",
+      "name": "Ситуационно-Информационный Центр Министерства Транспорта Российской Федерации",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134648243"
+        "133222885"
       ],
       "roles": {},
-      "areas": {},
+      "areas": {
+        "Москва, р-н Тверской": 1
+      },
       "skills": {
-        "Системный анализ": 1
+        "BPMN": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "78638",
-      "name": "Т-Банк. ИТ. Аналитика",
-      "logo": "https://img.hhcdn.ru/employer-logo/7240373.png",
+      "employerId": "95539",
+      "name": "Союзспецодежда",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/4019740.jpeg",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134181537"
+        "134210618"
       ],
       "roles": {},
       "areas": {},
@@ -3162,12 +2905,12 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "4649269",
-      "name": "Т1 Иннотех",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6959835.png",
+      "employerId": "name:сталепромышленная компания",
+      "name": "Сталепромышленная компания",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134843811"
+        "134034771"
       ],
       "roles": {},
       "areas": {},
@@ -3178,84 +2921,202 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "835603",
-      "name": "ТОО Витайм",
+      "employerId": "5301308",
+      "name": "Старик Хинкалыч",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133943343"
+        "133780210"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "743014",
+      "name": "Стоквелл",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134107773"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Бизнес-анализ": 1,
+        "Excel": 1,
+        "SQL": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "4162557",
+      "name": "Страна Девелопмент",
+      "logo": "https://img.hhcdn.ru/employer-logo/7476087.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134654956"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "4357116",
+      "name": "Студия автоматизации и найма Антона Ольховского",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133934673"
       ],
       "roles": {},
       "areas": {
-        "Костанай, улица Генерала Арыстанбекова, 3/9": 1
+        "Санкт-Петербург": 1
+      },
+      "skills": {
+        "Английский": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "3792849",
+      "name": "Счетная палата Российской Федерации",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134053254"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва": 1
       },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "5489435",
-      "name": "ТОО Микрофинансовая организация ФРИДОМ ФИНАНС Кредит",
+      "employerId": "1376",
+      "name": "Технорос",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134077623"
+        "133950281"
       ],
       "roles": {},
       "areas": {
-        "Алматы, проспект Сакена Сейфуллина, 502": 1
+        "Санкт-Петербург": 1
       },
       "skills": {
-        "Метрики": 1
+        "API": 1,
+        "BPMN": 1,
+        "REST API": 1,
+        "SQL": 1,
+        "UML": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "111304",
-      "name": "ТОО Мобайл Телеком-Сервис (Объединенная Компания Tele2/Altel) | IT",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6209450.png",
+      "employerId": "722245",
+      "name": "ТИК | Группа компаний (ООО НПП ТИК)",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134556948"
+        "133867484"
       ],
       "roles": {},
-      "areas": {
-        "Алматы": 1
-      },
+      "areas": {},
       "skills": {
-        "Excel": 1
+        "Интеграции": 1,
+        "Системный анализ": 1,
+        "API": 1,
+        "MS SQL": 1,
+        "SQL": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:тоо фирма траяна",
-      "name": "ТОО Фирма Траяна",
+      "employerId": "1281576",
+      "name": "ТЛЦ",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134262580"
+        "134619745"
       ],
       "roles": {},
-      "areas": {
-        "Караганда, Заводская улица, 19/2": 1
-      },
+      "areas": {},
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "9801819",
-      "name": "ТОО EUROVIT (ЕВРОВИТ)",
+      "employerId": "25870",
+      "name": "ТОО Apple City Corps",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134064700"
+        "134211471"
       ],
       "roles": {},
       "areas": {
-        "Алматы, проспект Аль-Фараби, 95": 1
+        "Алматы, улица Кабдолова, 1/13": 1
+      },
+      "skills": {
+        "Бизнес-анализ": 1,
+        "Интеграции": 1,
+        "Коммуникация": 1,
+        "Agile/Scrum": 1,
+        "API": 1,
+        "BI": 1,
+        "BPMN": 1,
+        "Confluence": 1,
+        "Excel": 1,
+        "Jira": 1,
+        "Kafka": 1,
+        "REST API": 1,
+        "SOAP": 1,
+        "SQL": 1,
+        "UML": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:тоо epam kazakhstan (эпам казахстан),тоо",
+      "name": "ТОО Epam Kazakhstan (Эпам Казахстан),ТОО",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134737237"
+      ],
+      "roles": {},
+      "areas": {
+        "Алматы, проспект Жибек Жолы, 135/10А": 1
+      },
+      "skills": {
+        "Бизнес-анализ": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "10694438",
+      "name": "ТОО Haval Motor Kazakhstan",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134646116"
+      ],
+      "roles": {},
+      "areas": {
+        "Алматы, проспект Аль-Фараби, 116/1 F1A": 1
       },
       "skills": {},
       "firstPublishedAt": null,
@@ -3278,47 +3139,62 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "12679552",
-      "name": "ТОО Saltanat Strategic & Development Group",
+      "employerId": "2122877",
+      "name": "ТОО Networks Energy",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134080130"
+        "134445891"
       ],
       "roles": {},
       "areas": {
-        "Астана, микрорайон Самал, 12": 1
+        "Астана, проспект Рахимжана Кошкарбаева, 1/4": 1
+      },
+      "skills": {
+        "Коммуникация": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "5795799",
+      "name": "ТОО Samal Software",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133912142"
+      ],
+      "roles": {},
+      "areas": {
+        "Астана, проспект Кабанбай батыра, 11/5": 1
       },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:тоо sapa digital communications",
-      "name": "ТОО Sapa Digital Communications",
-      "logo": null,
+      "employerId": "85027",
+      "name": "Торговый Дом Стройтерминал",
+      "logo": "https://img.hhcdn.ru/employer-logo/12320121.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134177294"
+        "133348523"
       ],
       "roles": {},
-      "areas": {
-        "Алматы": 1
-      },
+      "areas": {},
       "skills": {
-        "Бизнес-анализ": 1,
-        "Системный анализ": 1
+        "Метрики": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "81793",
-      "name": "Топлайн",
+      "employerId": "name:тэйсти кофе",
+      "name": "Тэйсти Кофе",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133651192"
+        "133350637"
       ],
       "roles": {},
       "areas": {},
@@ -3327,149 +3203,30 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "242884",
-      "name": "Торговая Группа Союз",
+      "employerId": "5094839",
+      "name": "УФНС России по Воронежской области",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133978486"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Английский": 1,
-        "Коммуникация": 1,
-        "Excel": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "9111934",
-      "name": "ТРТ",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134382441"
+        "134542720"
       ],
       "roles": {},
       "areas": {
-        "Тбилиси": 1
+        "Воронеж, р-н Центральный": 1
       },
       "skills": {
-        "Английский": 1,
-        "Бизнес-анализ": 1
+        "Английский": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "5325",
-      "name": "Туту",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6048634.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134412240"
-      ],
-      "roles": {},
-      "areas": {
-        "Москва": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "1795976",
-      "name": "Университет ИТМО",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/5654817.jpeg",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134482077"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "706735",
-      "name": "УНИСТРОЙ",
-      "logo": "https://img.hhcdn.ru/employer-logo/12335637.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134838493"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "71218",
-      "name": "Управление Роскомнадзора по Республике Татарстан (Татарстан)",
+      "employerId": "name:фгбу национальный медицинский исследовательский центр онкологии имени н.н. петрова министерства здравоохранения российской федерации",
+      "name": "ФГБУ Национальный Медицинский Исследовательский Центр Онкологии Имени Н.Н. Петрова Министерства Здравоохранения Российской Федерации",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134699608"
-      ],
-      "roles": {},
-      "areas": {
-        "Казань": 1
-      },
-      "skills": {
-        "Бизнес-анализ": 1,
-        "Коммуникация": 1,
-        "Метрики": 1,
-        "Системный анализ": 1,
-        "Excel": 1,
-        "Python": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:управление судебного департамента в ханты-мансийском автономном округе - югре",
-      "name": "Управление Судебного департамента в Ханты-Мансийском автономном округе - Югре",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134424700"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Бизнес-анализ": 1,
-        "Системный анализ": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "4560468",
-      "name": "ФГБУ ГМЦ РОССТАТА",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133922221"
-      ],
-      "roles": {},
-      "areas": {
-        "Москва": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2353109",
-      "name": "Холдинг Афанасий",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134565196"
+        "133994425"
       ],
       "roles": {},
       "areas": {},
@@ -3492,12 +3249,33 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "2222",
-      "name": "ЦЕМРОС",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/5859838.png",
+      "employerId": "9613936",
+      "name": "Центр Информационных технологий Роскадастр-Инфотех Филиал Роскадастр",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133059357"
+        "134225346"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Бизнес-анализ": 1,
+        "Системный анализ": 1,
+        "API": 1,
+        "BPMN": 1,
+        "REST API": 1,
+        "UML": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:центральный банк российской федерации (банк россии)",
+      "name": "Центральный банк Российской Федерации (Банк России)",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134601815"
       ],
       "roles": {},
       "areas": {},
@@ -3506,49 +3284,76 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "786514",
-      "name": "Центр информационных технологий Мингорисполкома",
-      "logo": null,
+      "employerId": "47858",
+      "name": "Центральный банк Российской Федерации (Банк России)",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/5846330.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134723860"
+        "134605992"
       ],
       "roles": {},
       "areas": {
-        "Минск": 1
+        "Екатеринбург, р-н Ленинский": 1
       },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "3156389",
-      "name": "Честный знак.рф",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6818739.png",
+      "employerId": "11660779",
+      "name": "Цифровой аудит",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134518213"
+        "134767946"
       ],
       "roles": {},
-      "areas": {},
+      "areas": {
+        "Москва": 1
+      },
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "600722",
-      "name": "Эм Си Арт",
+      "employerId": "11722574",
+      "name": "Шарненкова Кристина Вячеславовна",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134004806"
+        "134009512"
       ],
       "roles": {},
       "areas": {
-        "Санкт-Петербург": 1
+        "Москва": 1
       },
       "skills": {
-        "Английский": 1
+        "Интеграции": 1,
+        "API": 1,
+        "REST API": 1,
+        "SQL": 1,
+        "Swagger/OpenAPI": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "17688",
+      "name": "ЭЛЕКТРОННЫЕ ОФИСНЫЕ СИСТЕМЫ",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134758009"
+      ],
+      "roles": {},
+      "areas": {
+        "Уфа, р-н Октябрьский": 1
+      },
+      "skills": {
+        "Системный анализ": 1,
+        "API": 1,
+        "BPMN": 1,
+        "UML": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
@@ -3568,63 +3373,15 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "31453",
-      "name": "AIR ASTANA, АО",
-      "logo": "https://img.hhcdn.ru/employer-logo/7339070.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134774161"
-      ],
-      "roles": {},
-      "areas": {
-        "Алматы, Алмалинский район, улица Жамбыла, 106": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2592107",
-      "name": "AliExpress",
+      "employerId": "3835816",
+      "name": "Юмнико",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134205358"
+        "134489276"
       ],
       "roles": {},
       "areas": {},
-      "skills": {
-        "Коммуникация": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "1947314",
-      "name": "ANCOR",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134600634"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:andersen",
-      "name": "Andersen",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134750767"
-      ],
-      "roles": {},
-      "areas": {
-        "Тбилиси": 1
-      },
       "skills": {
         "Системный анализ": 1
       },
@@ -3632,17 +3389,79 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "851604",
-      "name": "Andersen",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/4243145.png",
+      "employerId": "5271532",
+      "name": "A-hiring",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134069284"
+        "134244316"
       ],
       "roles": {},
       "areas": {
-        "Алматы": 1
+        "Москва": 1
       },
+      "skills": {
+        "Английский": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "13789",
+      "name": "Abbott Laboratories",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134760135"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва": 1
+      },
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "976061",
+      "name": "Altenar",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "128772268"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:altenar",
+      "name": "Altenar",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133373088"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Английский": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "10607",
+      "name": "ATI.SU",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/3379106.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134313077"
+      ],
+      "roles": {},
+      "areas": {},
       "skills": {
         "Бизнес-анализ": 1
       },
@@ -3650,100 +3469,17 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "69655",
-      "name": "Articul",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134834720"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:ati.su",
-      "name": "ATI.SU",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134313077"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "1022259",
-      "name": "BFG Group",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134716884"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Английский": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:bi consult",
-      "name": "BI Consult",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134754862"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "BI": 1,
-        "DWH": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "51119",
+      "employerId": "name:bonduelle",
       "name": "Bonduelle",
-      "logo": "https://img.hhcdn.ru/employer-logo/7727631.png",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
         "133477161"
       ],
       "roles": {},
-      "areas": {
-        "Москва": 1
-      },
+      "areas": {},
       "skills": {
         "Английский": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2825",
-      "name": "Capital Group",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/3166325.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134831049"
-      ],
-      "roles": {},
-      "areas": {
-        "Москва": 1
-      },
-      "skills": {
-        "Английский": 1,
-        "BPMN": 1,
-        "UML": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
@@ -3754,7 +3490,7 @@ window.PREPBASE_SKILL_STATS = {
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134725796"
+        "134618418"
       ],
       "roles": {},
       "areas": {
@@ -3765,12 +3501,12 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "5100",
-      "name": "Cotton Club (Коттон Клаб)",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6696015.jpeg",
+      "employerId": "name:coding team",
+      "name": "Coding Team",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134580274"
+        "134546716"
       ],
       "roles": {},
       "areas": {},
@@ -3779,69 +3515,16 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "4770322",
-      "name": "DCloud",
-      "logo": null,
+      "employerId": "10160",
+      "name": "CSI (Кристалл Сервис Интеграция)",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/1911459.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134089208"
+        "134656560"
       ],
       "roles": {},
       "areas": {},
       "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "3305831",
-      "name": "DDX Fitness",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "132638970"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "4237606",
-      "name": "Devhunt",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "133915945"
-      ],
-      "roles": {},
-      "areas": {
-        "Москва": 1
-      },
-      "skills": {
-        "Английский": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "9311920",
-      "name": "DNS Технологии",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134169065"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Английский": 1,
-        "Бизнес-анализ": 1,
-        "Системный анализ": 1,
-        "BPMN": 1,
-        "Confluence": 1,
-        "Excel": 1
-      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -3851,34 +3534,11 @@ window.PREPBASE_SKILL_STATS = {
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133372697"
+        "134452678"
       ],
       "roles": {},
-      "areas": {
-        "Москва": 1
-      },
-      "skills": {
-        "Английский": 1,
-        "Системный анализ": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "name:formattwo",
-      "name": "FormatTwo",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134275366"
-      ],
-      "roles": {},
-      "areas": {
-        "Москва": 1
-      },
-      "skills": {
-        "Excel": 1
-      },
+      "areas": {},
+      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -3888,18 +3548,24 @@ window.PREPBASE_SKILL_STATS = {
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134387103"
+        "133878328"
       ],
       "roles": {},
       "areas": {},
-      "skills": {},
+      "skills": {
+        "Интеграции": 1,
+        "API": 1,
+        "BPMN": 1,
+        "REST API": 1,
+        "SQL": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "9677399",
+      "employerId": "name:glorytech",
       "name": "GloryTech",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6946215.jpeg",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
         "133862966"
@@ -3907,87 +3573,22 @@ window.PREPBASE_SKILL_STATS = {
       "roles": {},
       "areas": {},
       "skills": {
-        "Интеграции": 1,
-        "Системный анализ": 1,
-        "Agile/Scrum": 1,
-        "API": 1,
-        "BPMN": 1,
-        "Kafka": 1,
-        "REST API": 1,
-        "SOAP": 1,
-        "SQL": 1,
-        "Swagger/OpenAPI": 1,
-        "UML": 1
+        "Системный анализ": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "63198",
-      "name": "Gridnine",
+      "employerId": "10119554",
+      "name": "Iconicompany",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134783898"
+        "134702427"
       ],
       "roles": {},
-      "areas": {
-        "Москва": 1
-      },
+      "areas": {},
       "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2756",
-      "name": "IBC Real Estate",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134231645"
-      ],
-      "roles": {},
-      "areas": {
-        "Москва": 1
-      },
-      "skills": {
-        "Excel": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "139",
-      "name": "IBS",
-      "logo": "https://img.hhcdn.ru/employer-logo/12330093.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134703693"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Английский": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "10647164",
-      "name": "ICL Soft",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6508802.jpeg",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134835936"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "API": 1,
-        "BPMN": 1,
-        "Excel": 1,
-        "Power BI": 1
-      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -3998,6 +3599,36 @@ window.PREPBASE_SKILL_STATS = {
       "vacanciesCount": 1,
       "vacancyIds": [
         "134620982"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "1573351",
+      "name": "iFuture",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134676622"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Системный анализ": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "1554",
+      "name": "Infosuite",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134714880"
       ],
       "roles": {},
       "areas": {},
@@ -4020,12 +3651,67 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "2768",
-      "name": "Johnson & Johnson",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/2923689.jpeg",
+      "employerId": "25880",
+      "name": "Kaspi.kz",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134603391"
+        "134642909"
+      ],
+      "roles": {},
+      "areas": {
+        "Алматы": 1
+      },
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "201",
+      "name": "Kept, Технологическая практика",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/5929646.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134214218"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "4010751",
+      "name": "KVINT",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134053037"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "A/B-тесты": 1,
+        "API": 1,
+        "BI": 1,
+        "BPMN": 1,
+        "DWH": 1,
+        "Excel": 1,
+        "Power BI": 1,
+        "REST API": 1,
+        "SOAP": 1,
+        "Tableau": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "19848",
+      "name": "Makita",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "133558619"
       ],
       "roles": {},
       "areas": {
@@ -4036,108 +3722,149 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "748455",
-      "name": "MEGATOP",
-      "logo": "https://img.hhcdn.ru/employer-logo/7315518.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134795890"
-      ],
-      "roles": {},
-      "areas": {
-        "Минск": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "1012223",
-      "name": "MODERN",
+      "employerId": "name:maree",
+      "name": "MAREE",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134495409"
+        "133669445"
       ],
       "roles": {},
-      "areas": {
-        "Махачкала, улица Азизова, 35Г": 1
-      },
+      "areas": {},
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "2452849",
+      "employerId": "2314605",
+      "name": "MIXIT",
+      "logo": "https://img.hhcdn.ru/employer-logo/7451619.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134496848"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Интеграции": 1,
+        "API": 1,
+        "BPMN": 1,
+        "RabbitMQ": 1,
+        "REST API": 1,
+        "UML": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "4801531",
+      "name": "Nedra Digital",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/5971634.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134219308"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "name:offprice",
       "name": "OFFPRICE",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/4280221.png",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
         "133906140"
       ],
       "roles": {},
-      "areas": {
-        "Москва": 1
-      },
+      "areas": {},
       "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "6528",
-      "name": "Okkam",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/5673277.png",
+      "employerId": "4471137",
+      "name": "OmniMed",
+      "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133720080"
+        "134534681"
       ],
       "roles": {},
       "areas": {},
-      "skills": {
-        "Коммуникация": 1,
-        "Метрики": 1,
-        "API": 1,
-        "Swagger/OpenAPI": 1
-      },
+      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "1272817",
-      "name": "Paper Planes",
+      "employerId": "7733",
+      "name": "OPEN group",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/2902677.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134271166"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "4139440",
+      "name": "OSMINOG Project",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134808719"
+        "133289986"
       ],
       "roles": {},
       "areas": {},
       "skills": {
         "Бизнес-анализ": 1,
         "Системный анализ": 1,
-        "API": 1,
-        "BI": 1,
-        "Excel": 1,
-        "Power BI": 1,
-        "Python": 1
+        "Agile/Scrum": 1,
+        "Confluence": 1,
+        "Jira": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:production it",
-      "name": "Production IT",
+      "employerId": "26624",
+      "name": "Positive Technologies",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134535098"
+        "133786763"
       ],
       "roles": {},
-      "areas": {
-        "Москва": 1
-      },
+      "areas": {},
       "skills": {
-        "BPMN": 1
+        "Системный анализ": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "4614421",
+      "name": "RedLab",
+      "logo": "https://img.hhcdn.ru/employer-logo/7237941.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134159511"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Метрики": 1,
+        "Системный анализ": 1,
+        "API": 1,
+        "BPMN": 1,
+        "REST API": 1,
+        "UML": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
@@ -4148,29 +3875,11 @@ window.PREPBASE_SKILL_STATS = {
       "logo": "https://img.hhcdn.ru/employer-logo/12249384.png",
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133839647"
+        "134584363"
       ],
       "roles": {},
       "areas": {},
-      "skills": {
-        "Jira": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "2406247",
-      "name": "Selecty",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134683973"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "Бизнес-анализ": 1
-      },
+      "skills": {},
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -4189,12 +3898,81 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "1208766",
-      "name": "SMS Aero",
+      "employerId": "11314563",
+      "name": "SENSU",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/6870927.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134697882"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "33725",
+      "name": "Sintec Group",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134564202"
+        "134733200"
+      ],
+      "roles": {},
+      "areas": {
+        "Обнинск, Киевское шоссе, 59": 1
+      },
+      "skills": {
+        "Метрики": 1,
+        "BI": 1,
+        "Excel": 1,
+        "Python": 1,
+        "SQL": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "819979",
+      "name": "SkillStaff",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/6665975.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134766729"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "10609766",
+      "name": "Sol Lab",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134768016"
+      ],
+      "roles": {},
+      "areas": {
+        "Москва": 1
+      },
+      "skills": {
+        "Английский": 1,
+        "Jira": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "2770726",
+      "name": "Spectr",
+      "logo": null,
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "134430597"
       ],
       "roles": {},
       "areas": {},
@@ -4219,12 +3997,26 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
-      "employerId": "1588798",
-      "name": "StormWall™",
+      "employerId": "4173972",
+      "name": "The ACT",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134776199"
+        "132992319"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {},
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
+      "employerId": "5588",
+      "name": "TKV Group",
+      "logo": "https://img.hhcdn.ru/employer-logo-round/6522158.png",
+      "vacanciesCount": 1,
+      "vacancyIds": [
+        "132544926"
       ],
       "roles": {},
       "areas": {},
@@ -4245,54 +4037,25 @@ window.PREPBASE_SKILL_STATS = {
         "Москва": 1
       },
       "skills": {
-        "Английский": 1
+        "Бизнес-анализ": 1,
+        "Метрики": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "12047797",
-      "name": "Trussardi",
+      "employerId": "name:vedexx",
+      "name": "Vedexx",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "134019743"
-      ],
-      "roles": {},
-      "areas": {
-        "Москва": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "9173883",
-      "name": "UZUM TECHNOLOGIES. Офис и коммерция",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/5682065.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134800224"
-      ],
-      "roles": {},
-      "areas": {
-        "Ташкент, улица Кичик Бешагач, 132А": 1
-      },
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "15478",
-      "name": "VK",
-      "logo": "https://img.hhcdn.ru/employer-logo-round/6808731.png",
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134273727"
+        "131621716"
       ],
       "roles": {},
       "areas": {},
-      "skills": {},
+      "skills": {
+        "Excel": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
@@ -4306,187 +4069,189 @@ window.PREPBASE_SKILL_STATS = {
       ],
       "roles": {},
       "areas": {},
-      "skills": {},
+      "skills": {
+        "Интеграции": 1,
+        "API": 1,
+        "Kafka": 1,
+        "PostgreSQL": 1,
+        "REST API": 1,
+        "SQL": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     },
     {
-      "employerId": "name:vygon consulting",
-      "name": "VYGON Consulting",
+      "employerId": "5174849",
+      "name": "Wanted",
       "logo": null,
       "vacanciesCount": 1,
       "vacancyIds": [
-        "133867389"
+        "134494348"
       ],
       "roles": {},
-      "areas": {},
-      "skills": {},
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "649521",
-      "name": "wintergreen",
-      "logo": null,
-      "vacanciesCount": 1,
-      "vacancyIds": [
-        "134274732"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {},
+      "areas": {
+        "Москва": 1
+      },
+      "skills": {
+        "Английский": 1,
+        "Бизнес-анализ": 1,
+        "Agile/Scrum": 1,
+        "Excel": 1,
+        "Python": 1,
+        "SQL": 1
+      },
       "firstPublishedAt": null,
       "lastPublishedAt": null
     }
   ],
   "companyStatsMeta": {
-    "totalCompanies": 263,
+    "totalCompanies": 244,
     "limit": 500,
-    "generatedAt": "2026-07-03T17:40:13.109Z"
+    "generatedAt": "2026-07-03T19:28:52.339Z"
   },
   "skills": [
     {
       "name": "SQL",
-      "count": 140,
+      "count": 138,
       "sources": {
-        "https://hh.ru/": 140
-      }
-    },
-    {
-      "name": "Английский",
-      "count": 139,
-      "sources": {
-        "https://hh.ru/": 139
+        "https://hh.ru/": 138
       }
     },
     {
       "name": "BPMN",
-      "count": 134,
+      "count": 113,
       "sources": {
-        "https://hh.ru/": 134
-      }
-    },
-    {
-      "name": "Excel",
-      "count": 112,
-      "sources": {
-        "https://hh.ru/": 112
+        "https://hh.ru/": 113
       }
     },
     {
       "name": "Бизнес-анализ",
-      "count": 110,
+      "count": 109,
       "sources": {
-        "https://hh.ru/": 110
+        "https://hh.ru/": 109
       }
     },
     {
       "name": "API",
-      "count": 105,
+      "count": 109,
       "sources": {
-        "https://hh.ru/": 105
+        "https://hh.ru/": 109
       }
     },
     {
       "name": "Системный анализ",
-      "count": 104,
+      "count": 93,
       "sources": {
-        "https://hh.ru/": 104
+        "https://hh.ru/": 93
+      }
+    },
+    {
+      "name": "Английский",
+      "count": 88,
+      "sources": {
+        "https://hh.ru/": 88
       }
     },
     {
       "name": "UML",
-      "count": 85,
+      "count": 87,
       "sources": {
-        "https://hh.ru/": 85
+        "https://hh.ru/": 87
       }
     },
     {
-      "name": "Интеграции",
-      "count": 78,
+      "name": "Excel",
+      "count": 74,
       "sources": {
-        "https://hh.ru/": 78
-      }
-    },
-    {
-      "name": "Метрики",
-      "count": 65,
-      "sources": {
-        "https://hh.ru/": 65
-      }
-    },
-    {
-      "name": "Коммуникация",
-      "count": 63,
-      "sources": {
-        "https://hh.ru/": 63
+        "https://hh.ru/": 74
       }
     },
     {
       "name": "REST API",
-      "count": 62,
+      "count": 69,
       "sources": {
-        "https://hh.ru/": 62
+        "https://hh.ru/": 69
+      }
+    },
+    {
+      "name": "Интеграции",
+      "count": 61,
+      "sources": {
+        "https://hh.ru/": 61
+      }
+    },
+    {
+      "name": "Коммуникация",
+      "count": 58,
+      "sources": {
+        "https://hh.ru/": 58
+      }
+    },
+    {
+      "name": "Метрики",
+      "count": 58,
+      "sources": {
+        "https://hh.ru/": 58
       }
     },
     {
       "name": "BI",
-      "count": 42,
+      "count": 38,
       "sources": {
-        "https://hh.ru/": 42
-      }
-    },
-    {
-      "name": "Power BI",
-      "count": 34,
-      "sources": {
-        "https://hh.ru/": 34
-      }
-    },
-    {
-      "name": "Python",
-      "count": 31,
-      "sources": {
-        "https://hh.ru/": 31
-      }
-    },
-    {
-      "name": "SOAP",
-      "count": 29,
-      "sources": {
-        "https://hh.ru/": 29
-      }
-    },
-    {
-      "name": "Jira",
-      "count": 27,
-      "sources": {
-        "https://hh.ru/": 27
-      }
-    },
-    {
-      "name": "Confluence",
-      "count": 24,
-      "sources": {
-        "https://hh.ru/": 24
-      }
-    },
-    {
-      "name": "Kafka",
-      "count": 22,
-      "sources": {
-        "https://hh.ru/": 22
-      }
-    },
-    {
-      "name": "Agile/Scrum",
-      "count": 16,
-      "sources": {
-        "https://hh.ru/": 16
+        "https://hh.ru/": 38
       }
     },
     {
       "name": "PostgreSQL",
+      "count": 28,
+      "sources": {
+        "https://hh.ru/": 28
+      }
+    },
+    {
+      "name": "SOAP",
+      "count": 28,
+      "sources": {
+        "https://hh.ru/": 28
+      }
+    },
+    {
+      "name": "Jira",
+      "count": 25,
+      "sources": {
+        "https://hh.ru/": 25
+      }
+    },
+    {
+      "name": "Python",
+      "count": 25,
+      "sources": {
+        "https://hh.ru/": 25
+      }
+    },
+    {
+      "name": "Confluence",
+      "count": 23,
+      "sources": {
+        "https://hh.ru/": 23
+      }
+    },
+    {
+      "name": "Power BI",
+      "count": 23,
+      "sources": {
+        "https://hh.ru/": 23
+      }
+    },
+    {
+      "name": "Agile/Scrum",
+      "count": 17,
+      "sources": {
+        "https://hh.ru/": 17
+      }
+    },
+    {
+      "name": "MS SQL",
       "count": 16,
       "sources": {
         "https://hh.ru/": 16
@@ -4494,37 +4259,30 @@ window.PREPBASE_SKILL_STATS = {
     },
     {
       "name": "Swagger/OpenAPI",
-      "count": 11,
+      "count": 16,
       "sources": {
-        "https://hh.ru/": 11
+        "https://hh.ru/": 16
+      }
+    },
+    {
+      "name": "Kafka",
+      "count": 14,
+      "sources": {
+        "https://hh.ru/": 14
       }
     },
     {
       "name": "DWH",
-      "count": 10,
+      "count": 12,
       "sources": {
-        "https://hh.ru/": 10
+        "https://hh.ru/": 12
       }
     },
     {
-      "name": "MS SQL",
-      "count": 8,
+      "name": "Git",
+      "count": 7,
       "sources": {
-        "https://hh.ru/": 8
-      }
-    },
-    {
-      "name": "Tableau",
-      "count": 8,
-      "sources": {
-        "https://hh.ru/": 8
-      }
-    },
-    {
-      "name": "ClickHouse",
-      "count": 6,
-      "sources": {
-        "https://hh.ru/": 6
+        "https://hh.ru/": 7
       }
     },
     {
@@ -4535,42 +4293,56 @@ window.PREPBASE_SKILL_STATS = {
       }
     },
     {
-      "name": "ТЗ",
-      "count": 4,
+      "name": "Tableau",
+      "count": 6,
       "sources": {
-        "https://hh.ru/": 4
+        "https://hh.ru/": 6
       }
     },
     {
       "name": "RabbitMQ",
+      "count": 5,
+      "sources": {
+        "https://hh.ru/": 5
+      }
+    },
+    {
+      "name": "A/B-тесты",
       "count": 4,
       "sources": {
         "https://hh.ru/": 4
       }
     },
     {
-      "name": "Git",
+      "name": "Linux",
       "count": 3,
       "sources": {
         "https://hh.ru/": 3
       }
     },
     {
-      "name": "DataLens",
+      "name": "ClickHouse",
       "count": 2,
       "sources": {
         "https://hh.ru/": 2
       }
     },
     {
-      "name": "A/B-тесты",
+      "name": "GraphQL",
+      "count": 2,
+      "sources": {
+        "https://hh.ru/": 2
+      }
+    },
+    {
+      "name": "ТЗ",
       "count": 1,
       "sources": {
         "https://hh.ru/": 1
       }
     },
     {
-      "name": "GraphQL",
+      "name": "DataLens",
       "count": 1,
       "sources": {
         "https://hh.ru/": 1
@@ -4579,8 +4351,8 @@ window.PREPBASE_SKILL_STATS = {
   ],
   "vacancies": [
     {
-      "id": "134143275",
-      "url": "https://omsk.hh.ru/vacancy/134143275",
+      "id": "134748472",
+      "url": "https://omsk.hh.ru/vacancy/134748472",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -4588,13 +4360,58 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
+        "Бизнес-анализ",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134824603",
+      "url": "https://omsk.hh.ru/vacancy/134824603",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ",
+        "BI",
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134438896",
+      "url": "https://omsk.hh.ru/vacancy/134438896",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ",
+        "BI",
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134812515",
+      "url": "https://omsk.hh.ru/vacancy/134812515",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
         "Интеграции",
         "Системный анализ",
         "API",
         "BPMN",
-        "DWH",
         "Kafka",
-        "REST API",
         "SQL",
         "UML"
       ]
@@ -4609,32 +4426,14 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
+        "Английский",
         "Интеграции",
         "Системный анализ",
         "API",
         "BPMN",
-        "DWH",
         "Kafka",
-        "REST API",
         "SQL",
         "UML"
-      ]
-    },
-    {
-      "id": "134258862",
-      "url": "https://omsk.hh.ru/vacancy/134258862",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "Системный анализ",
-        "BPMN",
-        "Excel"
       ]
     },
     {
@@ -4648,26 +4447,6 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Интеграции",
-        "API",
-        "BPMN",
-        "Excel",
-        "PostgreSQL",
-        "REST API",
-        "SQL",
-        "Swagger/OpenAPI"
-      ]
-    },
-    {
-      "id": "134438896",
-      "url": "https://omsk.hh.ru/vacancy/134438896",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
         "Системный анализ",
         "API",
         "BPMN",
@@ -4675,6 +4454,41 @@ window.PREPBASE_SKILL_STATS = {
         "REST API",
         "SQL",
         "Swagger/OpenAPI"
+      ]
+    },
+    {
+      "id": "134844128",
+      "url": "https://omsk.hh.ru/vacancy/134844128?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Логинет РУс",
+      "area": "Санкт-Петербург, р-н Московский",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Коммуникация",
+        "API",
+        "BPMN",
+        "PostgreSQL",
+        "REST API",
+        "SQL",
+        "Swagger/OpenAPI"
+      ],
+      "employerId": "1738813"
+    },
+    {
+      "id": "134607015",
+      "url": "https://omsk.hh.ru/vacancy/134607015",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация"
       ]
     },
     {
@@ -4688,6 +4502,7 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Бизнес-анализ",
+        "Коммуникация",
         "Метрики",
         "Системный анализ",
         "BI",
@@ -4698,8 +4513,8 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134607015",
-      "url": "https://omsk.hh.ru/vacancy/134607015",
+      "id": "134143275",
+      "url": "https://omsk.hh.ru/vacancy/134143275",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -4709,14 +4524,19 @@ window.PREPBASE_SKILL_STATS = {
       "skills": [
         "Бизнес-анализ",
         "Интеграции",
-        "Коммуникация",
         "Метрики",
         "Системный анализ",
+        "API",
         "BI",
         "BPMN",
         "Confluence",
+        "DWH",
         "Jira",
-        "Power BI"
+        "Kafka",
+        "Power BI",
+        "REST API",
+        "SQL",
+        "UML"
       ]
     },
     {
@@ -4729,35 +4549,15 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Коммуникация",
-        "Agile/Scrum",
-        "API",
-        "BPMN",
-        "MS SQL",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "134756481",
-      "url": "https://omsk.hh.ru/vacancy/134756481",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
         "Интеграции",
         "Системный анализ",
         "Agile/Scrum",
         "API",
         "BPMN",
-        "ClickHouse",
+        "DWH",
+        "Kafka",
         "MS SQL",
+        "REST API",
         "SQL",
         "UML"
       ]
@@ -4773,13 +4573,12 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Бизнес-анализ",
-        "Метрики",
         "Системный анализ"
       ]
     },
     {
-      "id": "134826122",
-      "url": "https://omsk.hh.ru/vacancy/134826122",
+      "id": "134756481",
+      "url": "https://omsk.hh.ru/vacancy/134756481",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -4788,8 +4587,9 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Бизнес-анализ",
-        "Метрики",
-        "Системный анализ"
+        "Системный анализ",
+        "ClickHouse",
+        "SQL"
       ]
     },
     {
@@ -4802,7 +4602,11 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский"
+        "Английский",
+        "Бизнес-анализ",
+        "Системный анализ",
+        "ClickHouse",
+        "SQL"
       ]
     },
     {
@@ -4820,8 +4624,8 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134539727",
-      "url": "https://omsk.hh.ru/vacancy/134539727",
+      "id": "134826122",
+      "url": "https://omsk.hh.ru/vacancy/134826122",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -4829,28 +4633,21 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
+        "Метрики",
         "BPMN",
         "SQL"
       ]
     },
     {
-      "id": "134253289",
-      "url": "https://omsk.hh.ru/vacancy/134253289",
+      "id": "134506358",
+      "url": "https://omsk.hh.ru/vacancy/134506358",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [
-        "Интеграции",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
+      "skills": []
     },
     {
       "id": "134479081",
@@ -4870,6 +4667,27 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
+      "id": "134253289",
+      "url": "https://omsk.hh.ru/vacancy/134253289?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Максилект",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "REST API",
+        "SOAP",
+        "SQL",
+        "UML"
+      ],
+      "employerId": "2563058"
+    },
+    {
       "id": "133862966",
       "url": "https://omsk.hh.ru/vacancy/133862966?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
@@ -4879,60 +4697,41 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Интеграции",
-        "Системный анализ",
-        "Agile/Scrum",
-        "API",
-        "BPMN",
-        "Kafka",
-        "REST API",
-        "SOAP",
-        "SQL",
-        "Swagger/OpenAPI",
-        "UML"
-      ],
-      "employerId": "9677399",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6946215.jpeg"
-    },
-    {
-      "id": "134489276",
-      "url": "https://omsk.hh.ru/vacancy/134489276",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Системный анализ",
-        "Agile/Scrum",
-        "API",
-        "BPMN",
-        "Kafka",
-        "REST API",
-        "SQL",
-        "Swagger/OpenAPI",
-        "UML"
+        "Системный анализ"
       ]
     },
     {
-      "id": "134614886",
-      "url": "https://omsk.hh.ru/vacancy/134614886?hhtmFrom=vacancy_search_list",
+      "id": "134539727",
+      "url": "https://omsk.hh.ru/vacancy/134539727?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Сбер. IT",
+      "employer": "ПАО Т Плюс",
+      "area": "Екатеринбург, р-н Кировский",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "API",
+        "Kafka",
+        "REST API",
+        "Swagger/OpenAPI"
+      ],
+      "employerId": "4073",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/7242525.png"
+    },
+    {
+      "id": "134489276",
+      "url": "https://omsk.hh.ru/vacancy/134489276?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Юмнико",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Бизнес-анализ",
-        "Confluence",
-        "Excel",
-        "Jira"
+        "Системный анализ"
       ],
-      "employerId": "3529",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
+      "employerId": "3835816"
     },
     {
       "id": "134815932",
@@ -4943,24 +4742,22 @@ window.PREPBASE_SKILL_STATS = {
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [
-        "Английский",
-        "Power BI",
-        "SQL"
-      ],
+      "skills": [],
       "employerId": "1485682",
       "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3935200.jpeg"
     },
     {
-      "id": "134506358",
-      "url": "https://omsk.hh.ru/vacancy/134506358?hhtmFrom=vacancy_search_list",
+      "id": "134614886",
+      "url": "https://omsk.hh.ru/vacancy/134614886?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО WaveAccess",
+      "employer": "Сбер. IT",
       "area": null,
       "date": null,
       "roles": [],
-      "skills": []
+      "skills": [],
+      "employerId": "3529",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
     },
     {
       "id": "134658165",
@@ -4968,10 +4765,11 @@ window.PREPBASE_SKILL_STATS = {
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": "ООО Исток",
-      "area": null,
+      "area": "Москва",
       "date": null,
       "roles": [],
-      "skills": []
+      "skills": [],
+      "employerId": "12161776"
     },
     {
       "id": "134424018",
@@ -4979,35 +4777,11 @@ window.PREPBASE_SKILL_STATS = {
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": "Клируэй Текнолоджис",
-      "area": null,
+      "area": "Москва",
       "date": null,
       "roles": [],
       "skills": [],
       "employerId": "1137609"
-    },
-    {
-      "id": "134249348",
-      "url": "https://omsk.hh.ru/vacancy/134249348?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО В Кадре",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "10094968"
-    },
-    {
-      "id": "134089208",
-      "url": "https://omsk.hh.ru/vacancy/134089208?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "DCloud",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "4770322"
     },
     {
       "id": "134663944",
@@ -5034,35 +4808,19 @@ window.PREPBASE_SKILL_STATS = {
       "employerId": "9703218"
     },
     {
-      "id": "134831049",
-      "url": "https://omsk.hh.ru/vacancy/134831049?hhtmFrom=vacancy_search_list",
+      "id": "134249348",
+      "url": "https://omsk.hh.ru/vacancy/134249348?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Capital Group",
-      "area": "Москва",
+      "employer": "ООО В Кадре",
+      "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
         "BPMN",
         "UML"
       ],
-      "employerId": "2825",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3166325.png"
-    },
-    {
-      "id": "134474249",
-      "url": "https://omsk.hh.ru/vacancy/134474249?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО Фрейт Вилладж Девелопмент",
-      "area": "Боровский район",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции"
-      ],
-      "employerId": "2959390"
+      "employerId": "10094968"
     },
     {
       "id": "134620982",
@@ -5077,21 +4835,8 @@ window.PREPBASE_SKILL_STATS = {
       "employerId": "4483461"
     },
     {
-      "id": "134803197",
-      "url": "https://omsk.hh.ru/vacancy/134803197?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "5 элемент",
-      "area": "Минск",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "748956",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7176768.png"
-    },
-    {
-      "id": "134766235",
-      "url": "https://omsk.hh.ru/vacancy/134766235?hhtmFrom=vacancy_search_list",
+      "id": "134629294",
+      "url": "https://omsk.hh.ru/vacancy/134629294",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -5099,53 +4844,40 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Бизнес-анализ"
-      ],
-      "employerId": "8620",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/4087312.jpeg"
+        "Бизнес-анализ",
+        "Системный анализ",
+        "BI",
+        "Power BI",
+        "SQL"
+      ]
     },
     {
-      "id": "134806063",
-      "url": "https://omsk.hh.ru/vacancy/134806063?hhtmFrom=vacancy_search_list",
+      "id": "133815408",
+      "url": "https://omsk.hh.ru/vacancy/133815408?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Альфа-Мобайл",
-      "area": "Москва",
+      "employer": null,
+      "area": null,
       "date": null,
       "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "10867765"
+      "skills": []
     },
     {
-      "id": "132855212",
-      "url": "https://omsk.hh.ru/vacancy/132855212?hhtmFrom=vacancy_search_list",
+      "id": "134214218",
+      "url": "https://omsk.hh.ru/vacancy/134214218?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Медиалогия",
+      "employer": "Kept, Технологическая практика",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "6382"
+      "employerId": "201",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5929646.png"
     },
     {
-      "id": "134838493",
-      "url": "https://omsk.hh.ru/vacancy/134838493?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "УНИСТРОЙ",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "706735",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/12335637.png"
-    },
-    {
-      "id": "134643127",
-      "url": "https://omsk.hh.ru/vacancy/134643127",
+      "id": "134785475",
+      "url": "https://omsk.hh.ru/vacancy/134785475",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -5156,9 +4888,23 @@ window.PREPBASE_SKILL_STATS = {
         "Системный анализ",
         "API",
         "BPMN",
-        "Jira",
         "REST API",
-        "SQL",
+        "SOAP",
+        "UML"
+      ]
+    },
+    {
+      "id": "134799400",
+      "url": "https://omsk.hh.ru/vacancy/134799400",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики",
+        "BPMN",
         "UML"
       ]
     },
@@ -5193,8 +4939,8 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134785475",
-      "url": "https://omsk.hh.ru/vacancy/134785475",
+      "id": "134841287",
+      "url": "https://omsk.hh.ru/vacancy/134841287",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -5205,56 +4951,6 @@ window.PREPBASE_SKILL_STATS = {
         "Бизнес-анализ",
         "BPMN",
         "Excel"
-      ]
-    },
-    {
-      "id": "134844102",
-      "url": "https://omsk.hh.ru/vacancy/134844102",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "134680388",
-      "url": "https://omsk.hh.ru/vacancy/134680388",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "134742107",
-      "url": "https://omsk.hh.ru/vacancy/134742107",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Коммуникация",
-        "BPMN",
-        "Excel",
-        "SQL",
-        "UML"
       ]
     },
     {
@@ -5278,8 +4974,8 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134569046",
-      "url": "https://omsk.hh.ru/vacancy/134569046",
+      "id": "134680388",
+      "url": "https://omsk.hh.ru/vacancy/134680388",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -5289,11 +4985,7 @@ window.PREPBASE_SKILL_STATS = {
       "skills": [
         "Системный анализ",
         "API",
-        "BI",
         "BPMN",
-        "Excel",
-        "Power BI",
-        "Python",
         "REST API",
         "SOAP",
         "SQL",
@@ -5301,8 +4993,8 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134587008",
-      "url": "https://omsk.hh.ru/vacancy/134587008",
+      "id": "134764504",
+      "url": "https://omsk.hh.ru/vacancy/134764504",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -5312,59 +5004,15 @@ window.PREPBASE_SKILL_STATS = {
       "skills": [
         "Метрики",
         "Системный анализ",
+        "BPMN",
         "Excel",
-        "SQL"
+        "SQL",
+        "UML"
       ]
     },
     {
-      "id": "134524488",
-      "url": "https://omsk.hh.ru/vacancy/134524488",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134724028",
-      "url": "https://omsk.hh.ru/vacancy/134724028",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Метрики",
-        "Python",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134714730",
-      "url": "https://omsk.hh.ru/vacancy/134714730",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Excel",
-        "Python",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134696213",
-      "url": "https://omsk.hh.ru/vacancy/134696213",
+      "id": "133142069",
+      "url": "https://omsk.hh.ru/vacancy/133142069",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -5377,38 +5025,6 @@ window.PREPBASE_SKILL_STATS = {
         "REST API",
         "SOAP"
       ]
-    },
-    {
-      "id": "134737479",
-      "url": "https://omsk.hh.ru/vacancy/134737479",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ",
-        "API",
-        "Jira",
-        "REST API",
-        "SOAP"
-      ]
-    },
-    {
-      "id": "133839647",
-      "url": "https://omsk.hh.ru/vacancy/133839647?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "S7 Group",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Jira"
-      ],
-      "employerId": "766468",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/12249384.png"
     },
     {
       "id": "134220881",
@@ -5422,8 +5038,8 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134447293",
-      "url": "https://omsk.hh.ru/vacancy/134447293",
+      "id": "134432885",
+      "url": "https://omsk.hh.ru/vacancy/134432885",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -5431,43 +5047,36 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
+        "Английский",
+        "Бизнес-анализ",
         "Интеграции",
+        "Системный анализ",
+        "MS SQL",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134009249",
+      "url": "https://omsk.hh.ru/vacancy/134009249",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
         "API",
         "BPMN",
-        "Kafka",
-        "REST API",
+        "Jira",
+        "PostgreSQL",
         "SQL",
         "UML"
       ]
     },
     {
-      "id": "133891663",
-      "url": "https://omsk.hh.ru/vacancy/133891663",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel"
-      ]
-    },
-    {
-      "id": "134834720",
-      "url": "https://omsk.hh.ru/vacancy/134834720?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Articul",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "69655"
-    },
-    {
-      "id": "134707981",
-      "url": "https://omsk.hh.ru/vacancy/134707981?hhtmFrom=vacancy_search_list",
+      "id": "134668234",
+      "url": "https://omsk.hh.ru/vacancy/134668234",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -5477,51 +5086,8 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134156291",
-      "url": "https://omsk.hh.ru/vacancy/134156291?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО БПК",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "5579774"
-    },
-    {
-      "id": "134776199",
-      "url": "https://omsk.hh.ru/vacancy/134776199?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "StormWall™",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "1588798"
-    },
-    {
-      "id": "133962998",
-      "url": "https://omsk.hh.ru/vacancy/133962998?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО 85 Тех",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "API",
-        "BPMN",
-        "REST API",
-        "SOAP"
-      ],
-      "employerId": "11274196",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/12287928.png"
-    },
-    {
-      "id": "134613703",
-      "url": "https://omsk.hh.ru/vacancy/134613703",
+      "id": "134766549",
+      "url": "https://omsk.hh.ru/vacancy/134766549",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -5529,8 +5095,53 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "SQL",
-        "UML"
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "134798171",
+      "url": "https://omsk.hh.ru/vacancy/134798171",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "134228074",
+      "url": "https://omsk.hh.ru/vacancy/134228074",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Коммуникация",
+        "BPMN",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134659520",
+      "url": "https://omsk.hh.ru/vacancy/134659520",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ",
+        "Коммуникация",
+        "BPMN",
+        "SQL"
       ]
     },
     {
@@ -5543,16 +5154,46 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "BPMN"
+        "Бизнес-анализ",
+        "Excel"
       ]
     },
     {
-      "id": "134770106",
-      "url": "https://omsk.hh.ru/vacancy/134770106",
+      "id": "134739315",
+      "url": "https://omsk.hh.ru/vacancy/134739315",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
       "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "UML"
+      ]
+    },
+    {
+      "id": "134758224",
+      "url": "https://omsk.hh.ru/vacancy/134758224",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "134770106",
+      "url": "https://omsk.hh.ru/vacancy/134770106?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "МХ групп",
+      "area": "Владивосток, улица Вострецова, 36Б",
       "date": null,
       "roles": [],
       "skills": [
@@ -5570,90 +5211,84 @@ window.PREPBASE_SKILL_STATS = {
         "REST API",
         "SOAP",
         "SQL"
-      ]
+      ],
+      "employerId": "872053"
     },
     {
-      "id": "134494348",
-      "url": "https://omsk.hh.ru/vacancy/134494348",
+      "id": "134753929",
+      "url": "https://omsk.hh.ru/vacancy/134753929?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
+      "employer": "АО Россети Цифра",
+      "area": "Москва",
       "date": null,
       "roles": [],
       "skills": [
-        "Бизнес-анализ",
-        "Метрики",
-        "Системный анализ",
-        "Agile/Scrum",
-        "API",
         "MS SQL",
         "SQL"
-      ]
+      ],
+      "employerId": "816969",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7366132.png"
     },
     {
       "id": "133640868",
-      "url": "https://omsk.hh.ru/vacancy/133640868",
+      "url": "https://omsk.hh.ru/vacancy/133640868?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "ГКУ города Москвы Московский центр развития социальных технологий",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Интеграции",
-        "API",
         "Excel",
-        "Kafka",
-        "PostgreSQL",
         "Python",
-        "RabbitMQ",
-        "REST API",
-        "SOAP",
         "SQL"
-      ]
+      ],
+      "employerId": "4005237"
+    },
+    {
+      "id": "134494348",
+      "url": "https://omsk.hh.ru/vacancy/134494348?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Wanted",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ",
+        "Agile/Scrum",
+        "Excel",
+        "Python",
+        "SQL"
+      ],
+      "employerId": "5174849"
     },
     {
       "id": "134501504",
-      "url": "https://omsk.hh.ru/vacancy/134501504",
+      "url": "https://omsk.hh.ru/vacancy/134501504?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Excel",
-        "Python",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134687650",
-      "url": "https://omsk.hh.ru/vacancy/134687650",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация"
-      ]
-    },
-    {
-      "id": "134738652",
-      "url": "https://omsk.hh.ru/vacancy/134738652?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ПАО КБ Уральский банк реконструкции и развития (УБРиР)",
+      "employer": "Первая Форма",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "953",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5556441.png"
+      "employerId": "4099206"
+    },
+    {
+      "id": "134687650",
+      "url": "https://omsk.hh.ru/vacancy/134687650?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Сбер. IT",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "3529",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
     },
     {
       "id": "134648243",
@@ -5670,6 +5305,31 @@ window.PREPBASE_SKILL_STATS = {
       "employerId": "728292"
     },
     {
+      "id": "134738652",
+      "url": "https://omsk.hh.ru/vacancy/134738652?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ПАО КБ Уральский банк реконструкции и развития (УБРиР)",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "953",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5556441.png"
+    },
+    {
+      "id": "134799529",
+      "url": "https://omsk.hh.ru/vacancy/134799529?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ITQuick",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "2639497"
+    },
+    {
       "id": "134651424",
       "url": "https://omsk.hh.ru/vacancy/134651424?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
@@ -5679,18 +5339,6 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": []
-    },
-    {
-      "id": "134809262",
-      "url": "https://omsk.hh.ru/vacancy/134809262?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Лучи",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "2730772"
     },
     {
       "id": "134785429",
@@ -5706,60 +5354,6 @@ window.PREPBASE_SKILL_STATS = {
       "employerLogo": "https://img.hhcdn.ru/employer-logo/7732027.png"
     },
     {
-      "id": "134227719",
-      "url": "https://omsk.hh.ru/vacancy/134227719?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ГКУ Инфогород",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "2427329"
-    },
-    {
-      "id": "134454483",
-      "url": "https://omsk.hh.ru/vacancy/134454483?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО АКСИОМ",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "BPMN"
-      ],
-      "employerId": "3570402"
-    },
-    {
-      "id": "134843811",
-      "url": "https://omsk.hh.ru/vacancy/134843811?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Т1 Иннотех",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "4649269",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6959835.png"
-    },
-    {
-      "id": "134701060",
-      "url": "https://omsk.hh.ru/vacancy/134701060?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО ППК",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "11857545"
-    },
-    {
       "id": "134257368",
       "url": "https://omsk.hh.ru/vacancy/134257368?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
@@ -5772,29 +5366,52 @@ window.PREPBASE_SKILL_STATS = {
       "employerId": "10000774"
     },
     {
-      "id": "134733809",
-      "url": "https://omsk.hh.ru/vacancy/134733809?hhtmFrom=vacancy_search_list",
+      "id": "134044906",
+      "url": "https://omsk.hh.ru/vacancy/134044906?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
+      "employer": "ООО Аренза-Про",
+      "area": "Москва",
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "1740",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/12253868.png"
+      "employerId": "1961508"
     },
     {
-      "id": "134799529",
-      "url": "https://omsk.hh.ru/vacancy/134799529?hhtmFrom=vacancy_search_list",
+      "id": "134454483",
+      "url": "https://omsk.hh.ru/vacancy/134454483?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ITQuick",
+      "employer": "ООО АКСИОМ",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "2639497"
+      "employerId": "3570402"
+    },
+    {
+      "id": "134697882",
+      "url": "https://omsk.hh.ru/vacancy/134697882?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "SENSU",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "11314563",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6870927.png"
+    },
+    {
+      "id": "134701060",
+      "url": "https://omsk.hh.ru/vacancy/134701060?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "АО ППК",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": []
     },
     {
       "id": "134264679",
@@ -5806,47 +5423,11 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
         "Бизнес-анализ",
         "Системный анализ",
-        "API",
-        "BPMN",
         "DWH",
-        "MS SQL",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "134044906",
-      "url": "https://omsk.hh.ru/vacancy/134044906?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Аренза-Про",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "DWH",
+        "Excel",
         "SQL"
-      ],
-      "employerId": "1961508"
-    },
-    {
-      "id": "134796639",
-      "url": "https://omsk.hh.ru/vacancy/134796639",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Метрики",
-        "Системный анализ"
       ]
     },
     {
@@ -5861,6 +5442,20 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
+      "id": "134579252",
+      "url": "https://omsk.hh.ru/vacancy/134579252",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ"
+      ]
+    },
+    {
       "id": "134829827",
       "url": "https://omsk.hh.ru/vacancy/134829827",
       "source": "https://hh.ru/search/vacancy",
@@ -5870,12 +5465,14 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
+        "Английский",
+        "Бизнес-анализ",
         "API"
       ]
     },
     {
-      "id": "134702508",
-      "url": "https://omsk.hh.ru/vacancy/134702508",
+      "id": "134088067",
+      "url": "https://omsk.hh.ru/vacancy/134088067",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -5883,94 +5480,29 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Системный анализ",
-        "API",
-        "REST API",
-        "SOAP"
-      ]
-    },
-    {
-      "id": "134817374",
-      "url": "https://omsk.hh.ru/vacancy/134817374",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "API",
-        "REST API",
-        "SOAP"
-      ]
-    },
-    {
-      "id": "134655589",
-      "url": "https://omsk.hh.ru/vacancy/134655589",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Метрики",
-        "Excel"
-      ]
-    },
-    {
-      "id": "134754413",
-      "url": "https://omsk.hh.ru/vacancy/134754413",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ"
-      ]
-    },
-    {
-      "id": "133961711",
-      "url": "https://omsk.hh.ru/vacancy/133961711",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134682462",
-      "url": "https://omsk.hh.ru/vacancy/134682462",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "SQL"
-      ]
-    },
-    {
-      "id": "134751729",
-      "url": "https://omsk.hh.ru/vacancy/134751729?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Green White Solutions",
-      "area": "Ташкент, Шайхантахурский район, массив Бешагач, 22",
-      "date": null,
-      "roles": [],
-      "skills": [
+        "Английский",
         "Бизнес-анализ"
-      ],
-      "employerId": "3033254"
+      ]
+    },
+    {
+      "id": "134454999",
+      "url": "https://omsk.hh.ru/vacancy/134454999",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Интеграции",
+        "API",
+        "BPMN",
+        "PostgreSQL",
+        "REST API",
+        "SQL",
+        "UML"
+      ]
     },
     {
       "id": "134178769",
@@ -5983,38 +5515,9 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Английский",
+        "Бизнес-анализ",
         "Excel",
         "SQL"
-      ]
-    },
-    {
-      "id": "134763809",
-      "url": "https://omsk.hh.ru/vacancy/134763809",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Системный анализ",
-        "API",
-        "Excel",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134822842",
-      "url": "https://omsk.hh.ru/vacancy/134822842",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики"
       ]
     },
     {
@@ -6034,8 +5537,8 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134293727",
-      "url": "https://omsk.hh.ru/vacancy/134293727",
+      "id": "134573047",
+      "url": "https://omsk.hh.ru/vacancy/134573047",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -6043,12 +5546,17 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Excel"
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "DWH",
+        "PostgreSQL",
+        "SQL"
       ]
     },
     {
-      "id": "133844086",
-      "url": "https://omsk.hh.ru/vacancy/133844086",
+      "id": "134752088",
+      "url": "https://omsk.hh.ru/vacancy/134752088",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -6056,21 +5564,11 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Excel"
-      ]
-    },
-    {
-      "id": "134786967",
-      "url": "https://omsk.hh.ru/vacancy/134786967",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "Excel",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "DWH",
+        "PostgreSQL",
         "SQL"
       ]
     },
@@ -6084,12 +5582,13 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Коммуникация"
+        "Коммуникация",
+        "Excel"
       ]
     },
     {
-      "id": "133915277",
-      "url": "https://omsk.hh.ru/vacancy/133915277",
+      "id": "134026851",
+      "url": "https://omsk.hh.ru/vacancy/134026851",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -6097,53 +5596,27 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
-        "Коммуникация",
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "133844086",
+      "url": "https://omsk.hh.ru/vacancy/133844086",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
         "Excel",
         "Python",
         "SQL"
       ]
     },
     {
-      "id": "134654126",
-      "url": "https://omsk.hh.ru/vacancy/134654126",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Коммуникация",
-        "BI",
-        "BPMN",
-        "Excel",
-        "Power BI"
-      ]
-    },
-    {
-      "id": "134774757",
-      "url": "https://omsk.hh.ru/vacancy/134774757?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО КАРИ",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "BI",
-        "BPMN",
-        "Excel",
-        "Power BI"
-      ],
-      "employerId": "969031"
-    },
-    {
-      "id": "134242731",
-      "url": "https://omsk.hh.ru/vacancy/134242731",
+      "id": "134841275",
+      "url": "https://omsk.hh.ru/vacancy/134841275",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -6152,6 +5625,7 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Бизнес-анализ",
+        "Системный анализ",
         "Excel",
         "SQL"
       ]
@@ -6168,62 +5642,16 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134005696",
-      "url": "https://omsk.hh.ru/vacancy/134005696?hhtmFrom=vacancy_search_list",
+      "id": "134649771",
+      "url": "https://omsk.hh.ru/vacancy/134649771?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Росгосстрах",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134026851",
-      "url": "https://omsk.hh.ru/vacancy/134026851?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Умные Решения",
+      "employer": "ООО Алькона",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "10911209"
-    },
-    {
-      "id": "134757752",
-      "url": "https://omsk.hh.ru/vacancy/134757752?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134761804",
-      "url": "https://omsk.hh.ru/vacancy/134761804?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Bell Integrator",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "6189",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6739103.jpeg"
-    },
-    {
-      "id": "134484210",
-      "url": "https://omsk.hh.ru/vacancy/134484210?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
+      "employerId": "3971454"
     },
     {
       "id": "134539517",
@@ -6238,196 +5666,180 @@ window.PREPBASE_SKILL_STATS = {
       "employerId": "6096024"
     },
     {
-      "id": "134738913",
-      "url": "https://omsk.hh.ru/vacancy/134738913?hhtmFrom=vacancy_search_list",
+      "id": "134654126",
+      "url": "https://omsk.hh.ru/vacancy/134654126?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Кировское областное государственное казенное учреждение Центр занятости населения города Кирова",
-      "area": "Киров, р-н Октябрьский",
+      "employer": "Международный холдинг",
+      "area": "Турция",
       "date": null,
       "roles": [],
       "skills": [
-        "Интеграции"
-      ],
-      "employerId": "9207485"
+        "Бизнес-анализ"
+      ]
     },
     {
-      "id": "134674453",
-      "url": "https://omsk.hh.ru/vacancy/134674453?hhtmFrom=vacancy_search_list",
+      "id": "133915277",
+      "url": "https://omsk.hh.ru/vacancy/133915277?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Полилог, КГ",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "18870"
-    },
-    {
-      "id": "134736119",
-      "url": "https://omsk.hh.ru/vacancy/134736119?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Радуга, ТОО (Компания Raduga KDR)",
-      "area": "Караганда, Пригородная улица, 7/2",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "599786"
-    },
-    {
-      "id": "133466545",
-      "url": "https://omsk.hh.ru/vacancy/133466545?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Сбер для экспертов",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "3529",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
-    },
-    {
-      "id": "134649771",
-      "url": "https://omsk.hh.ru/vacancy/134649771?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Алькона",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "3971454"
-    },
-    {
-      "id": "134589237",
-      "url": "https://omsk.hh.ru/vacancy/134589237?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Альтерра, ТГ",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "Системный анализ",
-        "BPMN",
-        "Excel",
-        "UML"
-      ],
-      "employerId": "582476",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6521266.png"
-    },
-    {
-      "id": "134121546",
-      "url": "https://omsk.hh.ru/vacancy/134121546?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Леон",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Python",
-        "SQL"
-      ],
-      "employerId": "2437802"
-    },
-    {
-      "id": "134753818",
-      "url": "https://omsk.hh.ru/vacancy/134753818?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Эдвансд",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "2700114"
-    },
-    {
-      "id": "133922221",
-      "url": "https://omsk.hh.ru/vacancy/133922221?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ФГБУ ГМЦ РОССТАТА",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "4560468"
-    },
-    {
-      "id": "133915945",
-      "url": "https://omsk.hh.ru/vacancy/133915945?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Devhunt",
-      "area": "Москва",
+      "employer": "ООО MYRIAD RUS",
+      "area": "Москва, р-н Тверской",
       "date": null,
       "roles": [],
       "skills": [
         "Английский"
       ],
-      "employerId": "4237606"
+      "employerId": "14475"
     },
     {
-      "id": "134739840",
-      "url": "https://omsk.hh.ru/vacancy/134739840?hhtmFrom=vacancy_search_list",
+      "id": "134774757",
+      "url": "https://omsk.hh.ru/vacancy/134774757?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ГБУ Информационно-Консультационный Центр Департамента Культуры Города Москвы",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "1323852"
-    },
-    {
-      "id": "134412240",
-      "url": "https://omsk.hh.ru/vacancy/134412240?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Туту",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "5325",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6048634.png"
-    },
-    {
-      "id": "133867389",
-      "url": "https://omsk.hh.ru/vacancy/133867389?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "VYGON Consulting",
+      "employer": "ООО КАРИ",
       "area": null,
       "date": null,
       "roles": [],
       "skills": []
     },
     {
-      "id": "133978486",
-      "url": "https://omsk.hh.ru/vacancy/133978486?hhtmFrom=vacancy_search_list",
+      "id": "134452678",
+      "url": "https://omsk.hh.ru/vacancy/134452678?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Торговая Группа Союз",
+      "employer": "Finstar Financial Group",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "180028"
+    },
+    {
+      "id": "134800402",
+      "url": "https://omsk.hh.ru/vacancy/134800402?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "АО Россельхозбанк, Головной офис",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "58320",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6775787.png"
+    },
+    {
+      "id": "134146931",
+      "url": "https://omsk.hh.ru/vacancy/134146931?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Группа компаний КАНТ",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ],
+      "employerId": "4341"
+    },
+    {
+      "id": "134654956",
+      "url": "https://omsk.hh.ru/vacancy/134654956?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Страна Девелопмент",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "4162557",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7476087.png"
+    },
+    {
+      "id": "134676622",
+      "url": "https://omsk.hh.ru/vacancy/134676622?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "iFuture",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
-        "Коммуникация",
-        "Excel"
+        "Системный анализ"
       ],
-      "employerId": "242884"
+      "employerId": "1573351"
     },
     {
-      "id": "134602239",
-      "url": "https://omsk.hh.ru/vacancy/134602239",
+      "id": "134159216",
+      "url": "https://omsk.hh.ru/vacancy/134159216?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО GlowByte",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "DWH"
+      ],
+      "employerId": "64474"
+    },
+    {
+      "id": "134589237",
+      "url": "https://omsk.hh.ru/vacancy/134589237?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134372422",
+      "url": "https://omsk.hh.ru/vacancy/134372422",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "134412240",
+      "url": "https://omsk.hh.ru/vacancy/134412240",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Системный анализ"
+      ]
+    },
+    {
+      "id": "133978486",
+      "url": "https://omsk.hh.ru/vacancy/133978486",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Системный анализ"
+      ]
+    },
+    {
+      "id": "134156971",
+      "url": "https://omsk.hh.ru/vacancy/134156971",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -6438,59 +5850,32 @@ window.PREPBASE_SKILL_STATS = {
         "Бизнес-анализ",
         "Интеграции",
         "Системный анализ",
+        "Agile/Scrum",
         "API",
         "BPMN",
         "Confluence",
-        "GraphQL",
         "Jira",
+        "REST API",
+        "SOAP",
+        "UML"
+      ]
+    },
+    {
+      "id": "134797640",
+      "url": "https://omsk.hh.ru/vacancy/134797640",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "BPMN",
+        "PostgreSQL",
         "REST API",
         "SQL",
         "UML"
-      ]
-    },
-    {
-      "id": "134681499",
-      "url": "https://omsk.hh.ru/vacancy/134681499",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BPMN",
-        "Confluence",
-        "Jira",
-        "UML"
-      ]
-    },
-    {
-      "id": "134695906",
-      "url": "https://omsk.hh.ru/vacancy/134695906",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BPMN"
-      ]
-    },
-    {
-      "id": "134699230",
-      "url": "https://omsk.hh.ru/vacancy/134699230",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI",
-        "Python",
-        "SQL"
       ]
     },
     {
@@ -6503,65 +5888,13 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
+        "Английский",
+        "Коммуникация",
+        "Метрики",
         "API",
         "BI",
         "Excel",
-        "Power BI",
-        "Python",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134835936",
-      "url": "https://omsk.hh.ru/vacancy/134835936?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ICL Soft",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "API",
-        "BPMN",
-        "Excel",
         "Power BI"
-      ],
-      "employerId": "10647164",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6508802.jpeg"
-    },
-    {
-      "id": "134156971",
-      "url": "https://omsk.hh.ru/vacancy/134156971",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Метрики",
-        "Системный анализ",
-        "Agile/Scrum",
-        "API",
-        "BPMN",
-        "Jira",
-        "REST API",
-        "SOAP",
-        "UML"
-      ]
-    },
-    {
-      "id": "134738877",
-      "url": "https://omsk.hh.ru/vacancy/134738877",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики"
       ]
     },
     {
@@ -6581,57 +5914,6 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134808719",
-      "url": "https://omsk.hh.ru/vacancy/134808719?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Paper Planes",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "API",
-        "BI",
-        "Excel",
-        "Power BI",
-        "Python"
-      ],
-      "employerId": "1272817"
-    },
-    {
-      "id": "134598123",
-      "url": "https://omsk.hh.ru/vacancy/134598123",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI",
-        "Excel",
-        "Power BI"
-      ]
-    },
-    {
-      "id": "134714880",
-      "url": "https://omsk.hh.ru/vacancy/134714880",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "BPMN"
-      ]
-    },
-    {
       "id": "134113347",
       "url": "https://omsk.hh.ru/vacancy/134113347",
       "source": "https://hh.ru/search/vacancy",
@@ -6642,47 +5924,17 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Бизнес-анализ",
-        "Интеграции",
         "Системный анализ",
-        "Agile/Scrum",
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "134470318",
-      "url": "https://omsk.hh.ru/vacancy/134470318",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
         "Agile/Scrum",
         "API",
         "BPMN",
+        "Python",
         "UML"
       ]
     },
     {
-      "id": "134757322",
-      "url": "https://omsk.hh.ru/vacancy/134757322",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "API"
-      ]
-    },
-    {
-      "id": "134662537",
-      "url": "https://omsk.hh.ru/vacancy/134662537",
+      "id": "134596677",
+      "url": "https://omsk.hh.ru/vacancy/134596677",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -6692,23 +5944,13 @@ window.PREPBASE_SKILL_STATS = {
       "skills": [
         "Бизнес-анализ",
         "Системный анализ",
+        "Agile/Scrum",
         "BI",
+        "BPMN",
         "ETL",
         "Excel",
-        "Power BI"
-      ]
-    },
-    {
-      "id": "134752944",
-      "url": "https://omsk.hh.ru/vacancy/134752944",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ"
+        "Power BI",
+        "UML"
       ]
     },
     {
@@ -6721,13 +5963,28 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Бизнес-анализ",
         "API",
         "Confluence",
         "Jira",
         "REST API",
         "UML"
       ]
+    },
+    {
+      "id": "134782227",
+      "url": "https://omsk.hh.ru/vacancy/134782227?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "АО Коммерческий банк «Хлынов»",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация"
+      ],
+      "employerId": "603989",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5498093.png"
     },
     {
       "id": "134682152",
@@ -6739,18 +5996,16 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
+        "Английский",
+        "Бизнес-анализ",
         "Интеграции",
         "Системный анализ",
-        "API",
-        "Confluence",
-        "Jira",
-        "REST API",
-        "UML"
+        "API"
       ]
     },
     {
-      "id": "134697712",
-      "url": "https://omsk.hh.ru/vacancy/134697712",
+      "id": "134823327",
+      "url": "https://omsk.hh.ru/vacancy/134823327?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -6759,40 +6014,17 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Английский",
-        "Бизнес-анализ",
-        "BI",
-        "Excel",
-        "Power BI",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134159364",
-      "url": "https://omsk.hh.ru/vacancy/134159364",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BI",
-        "Excel",
-        "Power BI",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134177571",
-      "url": "https://omsk.hh.ru/vacancy/134177571",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
+        "Интеграции",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "GraphQL",
+        "REST API",
+        "SQL",
+        "UML"
+      ],
+      "employerId": "468",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7161336.png"
     },
     {
       "id": "134657458",
@@ -6803,14 +6035,30 @@ window.PREPBASE_SKILL_STATS = {
       "area": "Москва",
       "date": null,
       "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Коммуникация",
-        "Системный анализ",
-        "BPMN",
-        "DWH"
-      ],
+      "skills": [],
       "employerId": "3075114"
+    },
+    {
+      "id": "134177571",
+      "url": "https://omsk.hh.ru/vacancy/134177571?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Международный многопрофильный холдинг (морская логистика)",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134181249",
+      "url": "https://omsk.hh.ru/vacancy/134181249?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
     },
     {
       "id": "134341450",
@@ -6827,192 +6075,232 @@ window.PREPBASE_SKILL_STATS = {
       "employerId": "11672943"
     },
     {
-      "id": "134788505",
-      "url": "https://omsk.hh.ru/vacancy/134788505?hhtmFrom=vacancy_search_list",
+      "id": "134269258",
+      "url": "https://omsk.hh.ru/vacancy/134269258?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Maxmoll",
-      "area": null,
+      "employer": "ООО ИТС",
+      "area": "Москва, р-н Даниловский",
       "date": null,
       "roles": [],
       "skills": [
-        "SQL"
+        "DWH"
       ],
-      "employerId": "2140160"
+      "employerId": "4348791"
     },
     {
-      "id": "134518213",
-      "url": "https://omsk.hh.ru/vacancy/134518213?hhtmFrom=vacancy_search_list",
+      "id": "134646116",
+      "url": "https://omsk.hh.ru/vacancy/134646116?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Честный знак.рф",
+      "employer": "ТОО Haval Motor Kazakhstan",
+      "area": "Алматы, проспект Аль-Фараби, 116/1 F1A",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "10694438"
+    },
+    {
+      "id": "134714880",
+      "url": "https://omsk.hh.ru/vacancy/134714880?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Infosuite",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "3156389",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6818739.png"
+      "employerId": "1554"
     },
     {
-      "id": "134713329",
-      "url": "https://omsk.hh.ru/vacancy/134713329?hhtmFrom=vacancy_search_list",
+      "id": "134834340",
+      "url": "https://omsk.hh.ru/vacancy/134834340?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО МКК Срочноденьги",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "667710",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7181156.png"
-    },
-    {
-      "id": "134500156",
-      "url": "https://omsk.hh.ru/vacancy/134500156?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО Холдинговая компания Элинар",
+      "employer": "ООО ТА Липпе Рус",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "SQL"
+        "Английский",
+        "Интеграции"
       ]
     },
     {
-      "id": "134176275",
-      "url": "https://omsk.hh.ru/vacancy/134176275?hhtmFrom=vacancy_search_list",
+      "id": "134542720",
+      "url": "https://omsk.hh.ru/vacancy/134542720?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО ДэвТим-Групп",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ"
-      ],
-      "employerId": "8936150"
-    },
-    {
-      "id": "134821225",
-      "url": "https://omsk.hh.ru/vacancy/134821225?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Directum",
-      "area": null,
+      "employer": "УФНС России по Воронежской области",
+      "area": "Воронеж, р-н Центральный",
       "date": null,
       "roles": [],
       "skills": [
         "Английский"
       ],
-      "employerId": "2488771",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7165196.png"
+      "employerId": "5094839"
     },
     {
-      "id": "134705170",
-      "url": "https://omsk.hh.ru/vacancy/134705170?hhtmFrom=vacancy_search_list",
+      "id": "134584363",
+      "url": "https://omsk.hh.ru/vacancy/134584363?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО АФЛТ-Системс",
+      "employer": "S7 Group",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "766468",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/12249384.png"
+    },
+    {
+      "id": "134703490",
+      "url": "https://omsk.hh.ru/vacancy/134703490?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
         "Английский"
-      ],
-      "employerId": "9450859",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7186168.png"
+      ]
     },
     {
-      "id": "134355315",
-      "url": "https://omsk.hh.ru/vacancy/134355315?hhtmFrom=vacancy_search_list",
+      "id": "134715574",
+      "url": "https://omsk.hh.ru/vacancy/134715574?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ИП Беляева Анастасия Александровна",
-      "area": "Москва, р-н Дорогомилово",
+      "employer": null,
+      "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "10428060"
+      "skills": []
     },
     {
-      "id": "134753017",
-      "url": "https://omsk.hh.ru/vacancy/134753017?hhtmFrom=vacancy_search_list",
+      "id": "134701136",
+      "url": "https://omsk.hh.ru/vacancy/134701136?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Компания ИнфоТек",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134835126",
+      "url": "https://omsk.hh.ru/vacancy/134835126?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Совкомбанк Технологии",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "954660"
+      "employerId": "5390761",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6860627.png"
     },
     {
-      "id": "134783898",
-      "url": "https://omsk.hh.ru/vacancy/134783898?hhtmFrom=vacancy_search_list",
+      "id": "132745294",
+      "url": "https://omsk.hh.ru/vacancy/132745294?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Gridnine",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "63198"
-    },
-    {
-      "id": "134746505",
-      "url": "https://omsk.hh.ru/vacancy/134746505?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Сбер. IT",
+      "employer": "Т-Банк. ИТ. Аналитика",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "3529",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
+      "employerId": "78638",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7240373.png"
     },
     {
-      "id": "133950721",
-      "url": "https://omsk.hh.ru/vacancy/133950721?hhtmFrom=vacancy_search_list",
+      "id": "134398116",
+      "url": "https://omsk.hh.ru/vacancy/134398116?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "АО Центр электронных финансов",
-      "area": "Астана, улица Чингиза Айтматова, 52",
+      "employer": "Новартис Фарма",
+      "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "546608"
+      "skills": []
     },
     {
-      "id": "134800224",
-      "url": "https://omsk.hh.ru/vacancy/134800224?hhtmFrom=vacancy_search_list",
+      "id": "133489125",
+      "url": "https://omsk.hh.ru/vacancy/133489125",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "UZUM TECHNOLOGIES. Офис и коммерция",
-      "area": "Ташкент, улица Кичик Бешагач, 132А",
+      "employer": null,
+      "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "9173883",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5682065.png"
+      "skills": []
     },
     {
-      "id": "134275366",
-      "url": "https://omsk.hh.ru/vacancy/134275366?hhtmFrom=vacancy_search_list",
+      "id": "134009512",
+      "url": "https://omsk.hh.ru/vacancy/134009512?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "FormatTwo",
+      "employer": "Шарненкова Кристина Вячеславовна",
       "area": "Москва",
       "date": null,
       "roles": [],
       "skills": [
-        "Excel"
+        "Интеграции",
+        "API",
+        "REST API",
+        "SQL",
+        "Swagger/OpenAPI"
+      ],
+      "employerId": "11722574"
+    },
+    {
+      "id": "134793061",
+      "url": "https://omsk.hh.ru/vacancy/134793061",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики"
       ]
     },
     {
-      "id": "134835289",
-      "url": "https://omsk.hh.ru/vacancy/134835289",
+      "id": "134805254",
+      "url": "https://omsk.hh.ru/vacancy/134805254",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики",
+        "BI",
+        "Linux",
+        "PostgreSQL",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134611548",
+      "url": "https://omsk.hh.ru/vacancy/134611548",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BPMN",
+        "UML"
+      ]
+    },
+    {
+      "id": "115529176",
+      "url": "https://omsk.hh.ru/vacancy/115529176",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -7021,8 +6309,8 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Интеграции",
-        "Системный анализ",
-        "BI"
+        "BPMN",
+        "UML"
       ]
     },
     {
@@ -7038,22 +6326,9 @@ window.PREPBASE_SKILL_STATS = {
         "Бизнес-анализ",
         "Интеграции",
         "Системный анализ",
+        "BI",
         "BPMN",
         "UML"
-      ]
-    },
-    {
-      "id": "134549027",
-      "url": "https://omsk.hh.ru/vacancy/134549027",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BI"
       ]
     },
     {
@@ -7067,70 +6342,14 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Бизнес-анализ",
-        "BI",
-        "Power BI",
-        "SQL",
-        "Tableau"
-      ]
-    },
-    {
-      "id": "134657620",
-      "url": "https://omsk.hh.ru/vacancy/134657620",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Метрики",
-        "BI",
-        "Power BI",
-        "SQL",
-        "Tableau"
-      ]
-    },
-    {
-      "id": "134165726",
-      "url": "https://omsk.hh.ru/vacancy/134165726",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
         "Интеграции",
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "134273221",
-      "url": "https://omsk.hh.ru/vacancy/134273221",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация"
-      ]
-    },
-    {
-      "id": "134611548",
-      "url": "https://omsk.hh.ru/vacancy/134611548",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
         "Системный анализ",
+        "API",
+        "BI",
         "BPMN",
+        "Power BI",
+        "SQL",
+        "Tableau",
         "UML"
       ]
     },
@@ -7146,15 +6365,12 @@ window.PREPBASE_SKILL_STATS = {
       "skills": [
         "Английский",
         "Системный анализ",
-        "API",
-        "BPMN",
-        "Confluence",
-        "SQL"
+        "BPMN"
       ]
     },
     {
-      "id": "134721286",
-      "url": "https://omsk.hh.ru/vacancy/134721286",
+      "id": "134273221",
+      "url": "https://omsk.hh.ru/vacancy/134273221",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -7163,14 +6379,14 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Английский",
+        "Коммуникация",
         "Системный анализ",
-        "API",
         "BPMN"
       ]
     },
     {
-      "id": "134541431",
-      "url": "https://omsk.hh.ru/vacancy/134541431",
+      "id": "134700012",
+      "url": "https://omsk.hh.ru/vacancy/134700012",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -7178,35 +6394,27 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "REST API",
-        "SQL",
-        "Swagger/OpenAPI",
-        "UML"
+        "Коммуникация"
       ]
     },
     {
-      "id": "134164866",
-      "url": "https://omsk.hh.ru/vacancy/134164866?hhtmFrom=vacancy_search_list",
+      "id": "134431185",
+      "url": "https://omsk.hh.ru/vacancy/134431185?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
+      "employer": "АО МТТ (MTC Exolve)",
+      "area": "Санкт-Петербург",
       "date": null,
       "roles": [],
       "skills": [
-        "BI",
-        "Python",
-        "SQL"
+        "Коммуникация"
       ],
-      "employerId": "80",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3096625.png"
+      "employerId": "12034",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6882775.png"
     },
     {
-      "id": "133860940",
-      "url": "https://omsk.hh.ru/vacancy/133860940",
+      "id": "130889943",
+      "url": "https://omsk.hh.ru/vacancy/130889943",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -7214,33 +6422,75 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "Agile/Scrum",
+        "Английский",
         "API",
-        "BI",
-        "BPMN",
-        "Confluence",
-        "MS SQL",
-        "Python",
-        "REST API",
-        "SQL",
-        "UML"
+        "SQL"
       ]
     },
     {
-      "id": "134774161",
-      "url": "https://omsk.hh.ru/vacancy/134774161?hhtmFrom=vacancy_search_list",
+      "id": "134145311",
+      "url": "https://omsk.hh.ru/vacancy/134145311?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "AIR ASTANA, АО",
-      "area": "Алматы, Алмалинский район, улица Жамбыла, 106",
+      "employer": "ООО Акульчев",
+      "area": "деревня Румянцево",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ],
+      "employerId": "22212"
+    },
+    {
+      "id": "134157906",
+      "url": "https://omsk.hh.ru/vacancy/134157906?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134165726",
+      "url": "https://omsk.hh.ru/vacancy/134165726?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Форвард",
+      "area": "Новосибирск",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "REST API",
+        "Swagger/OpenAPI"
+      ]
+    },
+    {
+      "id": "134656560",
+      "url": "https://omsk.hh.ru/vacancy/134656560?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "CSI (Кристалл Сервис Интеграция)",
+      "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "31453",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7339070.png"
+      "employerId": "10160",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/1911459.png"
+    },
+    {
+      "id": "134731739",
+      "url": "https://omsk.hh.ru/vacancy/134731739?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Пермский пороховой завод, ФКП",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "833660"
     },
     {
       "id": "133677330",
@@ -7256,45 +6506,105 @@ window.PREPBASE_SKILL_STATS = {
       "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6476446.jpeg"
     },
     {
-      "id": "134484848",
-      "url": "https://omsk.hh.ru/vacancy/134484848?hhtmFrom=vacancy_search_list",
+      "id": "134817785",
+      "url": "https://omsk.hh.ru/vacancy/134817785?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "Сбер. IT",
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [
-        "Метрики"
-      ],
-      "employerId": "4181",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2369889.png"
+      "skills": [],
+      "employerId": "3529",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
     },
     {
-      "id": "134434932",
-      "url": "https://omsk.hh.ru/vacancy/134434932?hhtmFrom=vacancy_search_list",
+      "id": "134090020",
+      "url": "https://omsk.hh.ru/vacancy/134090020?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Первый ОФД",
+      "employer": "БЮРО 1440",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "5266429",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7174340.png"
+    },
+    {
+      "id": "134439795",
+      "url": "https://omsk.hh.ru/vacancy/134439795?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО М13",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "1631253"
+    },
+    {
+      "id": "134041382",
+      "url": "https://omsk.hh.ru/vacancy/134041382?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Ёхор Иркутск",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "12833132"
+    },
+    {
+      "id": "133780210",
+      "url": "https://omsk.hh.ru/vacancy/133780210?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Старик Хинкалыч",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "5301308"
+    },
+    {
+      "id": "134790872",
+      "url": "https://omsk.hh.ru/vacancy/134790872?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО СюйГун Ру",
       "area": "Москва",
       "date": null,
       "roles": [],
       "skills": [
         "Английский"
       ],
-      "employerId": "2366627"
+      "employerId": "1534187",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7189464.png"
     },
     {
-      "id": "134723860",
-      "url": "https://omsk.hh.ru/vacancy/134723860?hhtmFrom=vacancy_search_list",
+      "id": "134807597",
+      "url": "https://omsk.hh.ru/vacancy/134807597?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Центр информационных технологий Мингорисполкома",
-      "area": "Минск",
+      "employer": "ВЕБ АЙ ТИ",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134653317",
+      "url": "https://omsk.hh.ru/vacancy/134653317?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "786514"
+      "employerId": "11680",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2260492.jpeg"
     },
     {
       "id": "132599419",
@@ -7305,62 +6615,25 @@ window.PREPBASE_SKILL_STATS = {
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "2990"
-    },
-    {
-      "id": "134181537",
-      "url": "https://omsk.hh.ru/vacancy/134181537?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Т-Банк. ИТ. Аналитика",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "78638",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7240373.png"
-    },
-    {
-      "id": "134095823",
-      "url": "https://omsk.hh.ru/vacancy/134095823?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО АБП",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
       "skills": [
         "BPMN",
         "UML"
       ],
-      "employerId": "3054781"
+      "employerId": "2990"
     },
     {
-      "id": "134482077",
-      "url": "https://omsk.hh.ru/vacancy/134482077?hhtmFrom=vacancy_search_list",
+      "id": "134010997",
+      "url": "https://omsk.hh.ru/vacancy/134010997",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Университет ИТМО",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "1795976",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5654817.jpeg"
-    },
-    {
-      "id": "132124816",
-      "url": "https://omsk.hh.ru/vacancy/132124816?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Логистические операции МОЛКОМ",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "972833",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6681499.png"
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация"
+      ]
     },
     {
       "id": "134471873",
@@ -7368,35 +6641,32 @@ window.PREPBASE_SKILL_STATS = {
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": "АО Корпорация развития Дальнего Востока и Арктики",
-      "area": "Москва",
+      "area": "Владивосток, Океанский проспект, 17",
       "date": null,
       "roles": [],
       "skills": [
-        "BI",
-        "Excel",
-        "Power BI",
-        "SQL",
-        "Tableau"
+        "Коммуникация",
+        "Excel"
       ],
       "employerId": "2100849"
     },
     {
-      "id": "134424700",
-      "url": "https://omsk.hh.ru/vacancy/134424700?hhtmFrom=vacancy_search_list",
+      "id": "133934071",
+      "url": "https://omsk.hh.ru/vacancy/133934071",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Управление Судебного департамента в Ханты-Мансийском автономном округе - Югре",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Бизнес-анализ",
-        "Системный анализ"
+        "Коммуникация",
+        "Excel"
       ]
     },
     {
-      "id": "131853198",
-      "url": "https://omsk.hh.ru/vacancy/131853198",
+      "id": "134657969",
+      "url": "https://omsk.hh.ru/vacancy/134657969",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -7405,17 +6675,28 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Бизнес-анализ",
-        "Интеграции",
         "Коммуникация",
-        "Системный анализ",
+        "Метрики",
         "API",
+        "BPMN",
         "REST API",
         "Swagger/OpenAPI"
       ]
     },
     {
-      "id": "134496015",
-      "url": "https://omsk.hh.ru/vacancy/134496015",
+      "id": "129411363",
+      "url": "https://omsk.hh.ru/vacancy/129411363",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134755899",
+      "url": "https://omsk.hh.ru/vacancy/134755899",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -7424,8 +6705,17 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ"
+        "Системный анализ",
+        "API",
+        "BI",
+        "BPMN",
+        "Excel",
+        "Power BI",
+        "REST API",
+        "SOAP",
+        "SQL",
+        "Swagger/OpenAPI",
+        "UML"
       ]
     },
     {
@@ -7444,72 +6734,6 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134315720",
-      "url": "https://omsk.hh.ru/vacancy/134315720",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Метрики",
-        "BPMN"
-      ]
-    },
-    {
-      "id": "134683827",
-      "url": "https://omsk.hh.ru/vacancy/134683827",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BPMN",
-        "DWH"
-      ]
-    },
-    {
-      "id": "134257462",
-      "url": "https://omsk.hh.ru/vacancy/134257462",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "API",
-        "BPMN",
-        "Excel",
-        "Power BI",
-        "REST API",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134029556",
-      "url": "https://omsk.hh.ru/vacancy/134029556",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BI",
-        "Excel",
-        "Power BI",
-        "Python",
-        "SQL"
-      ]
-    },
-    {
       "id": "134580489",
       "url": "https://omsk.hh.ru/vacancy/134580489",
       "source": "https://hh.ru/search/vacancy",
@@ -7523,15 +6747,14 @@ window.PREPBASE_SKILL_STATS = {
         "Бизнес-анализ",
         "Метрики",
         "BI",
-        "Excel",
-        "Power BI",
+        "BPMN",
         "SQL",
         "Tableau"
       ]
     },
     {
-      "id": "134760135",
-      "url": "https://omsk.hh.ru/vacancy/134760135",
+      "id": "134702561",
+      "url": "https://omsk.hh.ru/vacancy/134702561",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -7539,89 +6762,65 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
+        "Английский",
         "SQL"
       ]
     },
     {
-      "id": "134786552",
-      "url": "https://omsk.hh.ru/vacancy/134786552",
+      "id": "133878328",
+      "url": "https://omsk.hh.ru/vacancy/133878328?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "Glass Décor, компания",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "REST API",
-        "SOAP",
-        "SQL",
-        "Swagger/OpenAPI",
-        "UML"
-      ]
-    },
-    {
-      "id": "134844371",
-      "url": "https://omsk.hh.ru/vacancy/134844371",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "API",
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "134498647",
-      "url": "https://omsk.hh.ru/vacancy/134498647",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
         "Интеграции",
-        "Системный анализ",
         "API",
         "BPMN",
         "REST API",
-        "SOAP",
         "SQL"
-      ]
+      ],
+      "employerId": "161799"
     },
     {
-      "id": "134564202",
-      "url": "https://omsk.hh.ru/vacancy/134564202?hhtmFrom=vacancy_search_list",
+      "id": "134307796",
+      "url": "https://omsk.hh.ru/vacancy/134307796",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "SMS Aero",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "1208766"
+      "skills": []
     },
     {
-      "id": "134758870",
-      "url": "https://omsk.hh.ru/vacancy/134758870?hhtmFrom=vacancy_search_list",
+      "id": "134760135",
+      "url": "https://omsk.hh.ru/vacancy/134760135?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Аналитика",
-      "area": null,
+      "employer": "Abbott Laboratories",
+      "area": "Москва",
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "53797",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7728367.png"
+      "employerId": "13789"
+    },
+    {
+      "id": "134768016",
+      "url": "https://omsk.hh.ru/vacancy/134768016?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Sol Lab",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Jira"
+      ],
+      "employerId": "10609766"
     },
     {
       "id": "133652243",
@@ -7635,31 +6834,40 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134677527",
-      "url": "https://omsk.hh.ru/vacancy/134677527?hhtmFrom=vacancy_search_list",
+      "id": "134342988",
+      "url": "https://omsk.hh.ru/vacancy/134342988?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Контроль Москвы",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Excel",
-        "SQL"
-      ],
-      "employerId": "12312458"
-    },
-    {
-      "id": "134836896",
-      "url": "https://omsk.hh.ru/vacancy/134836896?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "Пятёрочка. Офисные сотрудники",
       "area": null,
       "date": null,
       "roles": [],
-      "skills": []
+      "skills": [],
+      "employerId": "1942330"
+    },
+    {
+      "id": "134806138",
+      "url": "https://omsk.hh.ru/vacancy/134806138?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Агроальянс МТ",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "2643307"
+    },
+    {
+      "id": "128772268",
+      "url": "https://omsk.hh.ru/vacancy/128772268?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Altenar",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "976061"
     },
     {
       "id": "134083058",
@@ -7674,67 +6882,42 @@ window.PREPBASE_SKILL_STATS = {
       "employerId": "833871"
     },
     {
-      "id": "134709700",
-      "url": "https://omsk.hh.ru/vacancy/134709700?hhtmFrom=vacancy_search_list",
+      "id": "133558619",
+      "url": "https://omsk.hh.ru/vacancy/133558619?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Конфитрейд",
+      "employer": "Makita",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "19848"
+    },
+    {
+      "id": "134025175",
+      "url": "https://omsk.hh.ru/vacancy/134025175?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Colvir Software Solutions",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ"
+      ]
+    },
+    {
+      "id": "133777708",
+      "url": "https://omsk.hh.ru/vacancy/133777708?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "МТС Банк. Начало Карьеры",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "4328663"
-    },
-    {
-      "id": "134716884",
-      "url": "https://omsk.hh.ru/vacancy/134716884?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "BFG Group",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "1022259"
-    },
-    {
-      "id": "134816940",
-      "url": "https://omsk.hh.ru/vacancy/134816940?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Администрация городского округа Самара",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134379901",
-      "url": "https://omsk.hh.ru/vacancy/134379901?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО ТаймВэб",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "230159"
-    },
-    {
-      "id": "134769348",
-      "url": "https://omsk.hh.ru/vacancy/134769348?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "USETECH",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "681672"
+      "employerId": "4496",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/12302932.png"
     },
     {
       "id": "133906140",
@@ -7742,43 +6925,40 @@ window.PREPBASE_SKILL_STATS = {
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": "OFFPRICE",
-      "area": "Москва",
+      "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "2452849",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/4280221.png"
+      "skills": []
     },
     {
-      "id": "134609359",
-      "url": "https://omsk.hh.ru/vacancy/134609359?hhtmFrom=vacancy_search_list",
+      "id": "133934673",
+      "url": "https://omsk.hh.ru/vacancy/133934673?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "АО Цифровой семейный офис",
-      "area": "Москва",
+      "employer": "Студия автоматизации и найма Антона Ольховского",
+      "area": "Санкт-Петербург",
       "date": null,
       "roles": [],
       "skills": [
-        "BPMN"
+        "Английский"
       ],
-      "employerId": "12559062"
+      "employerId": "4357116"
     },
     {
-      "id": "134746978",
-      "url": "https://omsk.hh.ru/vacancy/134746978?hhtmFrom=vacancy_search_list",
+      "id": "134043484",
+      "url": "https://omsk.hh.ru/vacancy/134043484?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Группа ВИС",
+      "employer": "ООО ОДуо",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "247689",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3745048.png"
+      "employerId": "2950286"
     },
     {
-      "id": "134835565",
-      "url": "https://omsk.hh.ru/vacancy/134835565?hhtmFrom=vacancy_search_list",
+      "id": "134329168",
+      "url": "https://omsk.hh.ru/vacancy/134329168?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -7788,8 +6968,46 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134674476",
-      "url": "https://omsk.hh.ru/vacancy/134674476",
+      "id": "134769348",
+      "url": "https://omsk.hh.ru/vacancy/134769348?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ]
+    },
+    {
+      "id": "134702427",
+      "url": "https://omsk.hh.ru/vacancy/134702427?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Iconicompany",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "10119554"
+    },
+    {
+      "id": "134261328",
+      "url": "https://omsk.hh.ru/vacancy/134261328?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО ИЦ АЙ-ТЕКО",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "872178",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2559134.png"
+    },
+    {
+      "id": "134615396",
+      "url": "https://omsk.hh.ru/vacancy/134615396",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -7798,12 +7016,16 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Английский",
+        "Бизнес-анализ",
+        "Системный анализ",
+        "API",
+        "REST API",
         "SQL"
       ]
     },
     {
-      "id": "131624571",
-      "url": "https://omsk.hh.ru/vacancy/131624571",
+      "id": "134767962",
+      "url": "https://omsk.hh.ru/vacancy/134767962?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -7812,12 +7034,37 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Английский",
-        "Интеграции",
-        "Системный анализ",
-        "API",
-        "Kafka",
-        "RabbitMQ",
+        "Бизнес-анализ",
         "SQL"
+      ],
+      "employerId": "4181",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2369889.png"
+    },
+    {
+      "id": "134160317",
+      "url": "https://omsk.hh.ru/vacancy/134160317",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ]
+    },
+    {
+      "id": "134650402",
+      "url": "https://omsk.hh.ru/vacancy/134650402",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ"
       ]
     },
     {
@@ -7831,261 +7078,49 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Английский",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133866116",
-      "url": "https://omsk.hh.ru/vacancy/133866116",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "UML"
-      ]
-    },
-    {
-      "id": "134151990",
-      "url": "https://omsk.hh.ru/vacancy/134151990",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Коммуникация",
-        "Системный анализ"
-      ]
-    },
-    {
-      "id": "134612216",
-      "url": "https://omsk.hh.ru/vacancy/134612216",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Коммуникация",
-        "Метрики",
-        "Системный анализ",
-        "API"
-      ]
-    },
-    {
-      "id": "134721622",
-      "url": "https://omsk.hh.ru/vacancy/134721622",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Метрики",
-        "API",
-        "Excel"
-      ]
-    },
-    {
-      "id": "134767962",
-      "url": "https://omsk.hh.ru/vacancy/134767962",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ"
-      ]
-    },
-    {
-      "id": "134841558",
-      "url": "https://omsk.hh.ru/vacancy/134841558",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "BI",
-        "ClickHouse",
-        "PostgreSQL",
-        "Power BI",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133977698",
-      "url": "https://omsk.hh.ru/vacancy/133977698",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Системный анализ",
-        "API",
-        "BI",
-        "BPMN",
-        "ClickHouse",
-        "PostgreSQL",
-        "Power BI",
-        "REST API",
-        "SOAP",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "134276414",
-      "url": "https://omsk.hh.ru/vacancy/134276414",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
         "Бизнес-анализ",
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "134383695",
-      "url": "https://omsk.hh.ru/vacancy/134383695",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
+        "Системный анализ",
         "API",
         "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133912013",
-      "url": "https://omsk.hh.ru/vacancy/133912013",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "API",
-        "BPMN",
-        "ETL",
-        "Kafka",
         "REST API",
-        "SOAP",
         "SQL",
         "UML"
       ]
     },
     {
-      "id": "134487403",
-      "url": "https://omsk.hh.ru/vacancy/134487403",
+      "id": "134678243",
+      "url": "https://omsk.hh.ru/vacancy/134678243?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
+      "employer": "ООО Йуми",
+      "area": "Москва",
       "date": null,
       "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "API",
-        "BPMN",
-        "ETL",
-        "Kafka",
-        "REST API",
-        "SOAP",
-        "SQL",
-        "UML"
-      ]
+      "skills": [],
+      "employerId": "5289311"
     },
     {
-      "id": "134716676",
-      "url": "https://omsk.hh.ru/vacancy/134716676",
+      "id": "134367173",
+      "url": "https://omsk.hh.ru/vacancy/134367173?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "134081100",
-      "url": "https://omsk.hh.ru/vacancy/134081100",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Excel",
-        "Python"
-      ]
-    },
-    {
-      "id": "134779081",
-      "url": "https://omsk.hh.ru/vacancy/134779081?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ПАО Банк ПСБ, ИТ",
+      "employer": "Наука-Связь",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "6591",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3165213.png"
+      "employerId": "15"
     },
     {
-      "id": "134565196",
-      "url": "https://omsk.hh.ru/vacancy/134565196?hhtmFrom=vacancy_search_list",
+      "id": "134836896",
+      "url": "https://omsk.hh.ru/vacancy/134836896?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Холдинг Афанасий",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "2353109"
+      "skills": []
     },
     {
       "id": "134730356",
@@ -8100,28 +7135,15 @@ window.PREPBASE_SKILL_STATS = {
       "employerId": "68644"
     },
     {
-      "id": "124694728",
-      "url": "https://omsk.hh.ru/vacancy/124694728?hhtmFrom=vacancy_search_list",
+      "id": "134080578",
+      "url": "https://omsk.hh.ru/vacancy/134080578?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "АО СИ ЭС Групп",
+      "employer": "АО ИНТРАК",
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "11434977"
-    },
-    {
-      "id": "134603855",
-      "url": "https://omsk.hh.ru/vacancy/134603855?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АНУ ВО Агентство Мониторинга и Социологических Исследований",
-      "area": "Вологда, Козлёнская улица, 33",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "4433736"
+      "skills": []
     },
     {
       "id": "134712037",
@@ -8137,117 +7159,30 @@ window.PREPBASE_SKILL_STATS = {
       "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5847806.png"
     },
     {
-      "id": "134367173",
-      "url": "https://omsk.hh.ru/vacancy/134367173?hhtmFrom=vacancy_search_list",
+      "id": "134779081",
+      "url": "https://omsk.hh.ru/vacancy/134779081?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Наука-Связь",
+      "employer": "ПАО Банк ПСБ, ИТ",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "15"
+      "employerId": "6591",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3165213.png"
     },
     {
-      "id": "134205358",
-      "url": "https://omsk.hh.ru/vacancy/134205358?hhtmFrom=vacancy_search_list",
+      "id": "134835565",
+      "url": "https://omsk.hh.ru/vacancy/134835565?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "AliExpress",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация"
-      ],
-      "employerId": "2592107"
-    },
-    {
-      "id": "134219371",
-      "url": "https://omsk.hh.ru/vacancy/134219371?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Правительство Московской области",
+      "employer": "Сбер для экспертов",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "1575814",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/1586003.jpeg"
-    },
-    {
-      "id": "134279840",
-      "url": "https://omsk.hh.ru/vacancy/134279840?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Гензис",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "2208439"
-    },
-    {
-      "id": "134805378",
-      "url": "https://omsk.hh.ru/vacancy/134805378?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134745877",
-      "url": "https://omsk.hh.ru/vacancy/134745877?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Амариста",
-      "area": "Минск",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "4523645"
-    },
-    {
-      "id": "134754484",
-      "url": "https://omsk.hh.ru/vacancy/134754484?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Aston",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Системный анализ"
-      ],
-      "employerId": "6093775",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6574070.jpeg"
-    },
-    {
-      "id": "133651192",
-      "url": "https://omsk.hh.ru/vacancy/133651192?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Топлайн",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "81793"
-    },
-    {
-      "id": "132146886",
-      "url": "https://omsk.hh.ru/vacancy/132146886?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Аналитика",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
+      "employerId": "3529",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
     },
     {
       "id": "134446919",
@@ -8260,14 +7195,20 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Системный анализ",
-        "Excel"
+        "A/B-тесты",
+        "BI",
+        "ETL",
+        "Git",
+        "Python",
+        "SQL",
+        "Tableau"
       ],
       "employerId": "3776",
       "employerLogo": "https://img.hhcdn.ru/employer-logo/7176732.png"
     },
     {
-      "id": "133629847",
-      "url": "https://omsk.hh.ru/vacancy/133629847",
+      "id": "132146886",
+      "url": "https://omsk.hh.ru/vacancy/132146886",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -8276,84 +7217,25 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Интеграции",
-        "Коммуникация",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "134264913",
-      "url": "https://omsk.hh.ru/vacancy/134264913?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ПАО Банк ПСБ, Старт карьеры",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "6591",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3165213.png"
-    },
-    {
-      "id": "134833866",
-      "url": "https://omsk.hh.ru/vacancy/134833866?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО ВТБ Лизинг",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "84355",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2978357.png"
-    },
-    {
-      "id": "134607374",
-      "url": "https://omsk.hh.ru/vacancy/134607374?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО РСХБ-Интех",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "3131901",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7274221.png"
-    },
-    {
-      "id": "134628093",
-      "url": "https://omsk.hh.ru/vacancy/134628093?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134830583",
-      "url": "https://omsk.hh.ru/vacancy/134830583?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
         "Excel"
       ]
     },
     {
-      "id": "134709541",
-      "url": "https://omsk.hh.ru/vacancy/134709541",
+      "id": "134106974",
+      "url": "https://omsk.hh.ru/vacancy/134106974",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ"
+      ]
+    },
+    {
+      "id": "134666787",
+      "url": "https://omsk.hh.ru/vacancy/134666787",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -8363,13 +7245,103 @@ window.PREPBASE_SKILL_STATS = {
       "skills": [
         "Бизнес-анализ",
         "Метрики",
+        "BPMN"
+      ]
+    },
+    {
+      "id": "128047675",
+      "url": "https://omsk.hh.ru/vacancy/128047675",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Коммуникация",
+        "API",
         "BPMN",
+        "Kafka",
+        "PostgreSQL",
+        "RabbitMQ",
+        "REST API",
+        "SQL",
         "UML"
       ]
     },
     {
-      "id": "134446805",
-      "url": "https://omsk.hh.ru/vacancy/134446805",
+      "id": "133289986",
+      "url": "https://omsk.hh.ru/vacancy/133289986?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "OSMINOG Project",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Системный анализ",
+        "Agile/Scrum",
+        "Confluence",
+        "Jira"
+      ],
+      "employerId": "4139440"
+    },
+    {
+      "id": "134586013",
+      "url": "https://omsk.hh.ru/vacancy/134586013?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Пойзон Дроп",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ],
+      "employerId": "1707753"
+    },
+    {
+      "id": "134487144",
+      "url": "https://omsk.hh.ru/vacancy/134487144?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ИП Таланова Анастасия Игоревна",
+      "area": "Пермь",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "11987869"
+    },
+    {
+      "id": "134606354",
+      "url": "https://omsk.hh.ru/vacancy/134606354?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Инжиниринговый холдинг «эВ-групп»",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "3676"
+    },
+    {
+      "id": "134455292",
+      "url": "https://omsk.hh.ru/vacancy/134455292",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "SQL"
+      ]
+    },
+    {
+      "id": "134594816",
+      "url": "https://omsk.hh.ru/vacancy/134594816",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -8379,15 +7351,23 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134541731",
-      "url": "https://omsk.hh.ru/vacancy/134541731",
+      "id": "134225346",
+      "url": "https://omsk.hh.ru/vacancy/134225346?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "Центр Информационных технологий Роскадастр-Инфотех Филиал Роскадастр",
       "area": null,
       "date": null,
       "roles": [],
-      "skills": []
+      "skills": [
+        "Бизнес-анализ",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "REST API",
+        "UML"
+      ],
+      "employerId": "9613936"
     },
     {
       "id": "134089086",
@@ -8399,30 +7379,60 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
+        "Английский",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "REST API"
+      ]
+    },
+    {
+      "id": "134138655",
+      "url": "https://omsk.hh.ru/vacancy/134138655",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
         "Английский"
       ]
     },
     {
-      "id": "134837800",
-      "url": "https://omsk.hh.ru/vacancy/134837800?hhtmFrom=vacancy_search_list",
+      "id": "134509825",
+      "url": "https://omsk.hh.ru/vacancy/134509825",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "АО Группа Илим",
-      "area": "Санкт-Петербург",
+      "employer": null,
+      "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Excel",
-        "Tableau"
+        "Системный анализ",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134758009",
+      "url": "https://omsk.hh.ru/vacancy/134758009?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ЭЛЕКТРОННЫЕ ОФИСНЫЕ СИСТЕМЫ",
+      "area": "Уфа, р-н Октябрьский",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "UML"
       ],
-      "employerId": "6867",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/12229736.png"
+      "employerId": "17688"
     },
     {
-      "id": "134500874",
-      "url": "https://omsk.hh.ru/vacancy/134500874",
+      "id": "131744396",
+      "url": "https://omsk.hh.ru/vacancy/131744396",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -8430,314 +7440,47 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
-        "Коммуникация",
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "134762003",
-      "url": "https://omsk.hh.ru/vacancy/134762003",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "134823895",
-      "url": "https://omsk.hh.ru/vacancy/134823895",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Метрики"
+        "Метрики",
+        "Системный анализ"
       ]
     },
     {
       "id": "133348523",
-      "url": "https://omsk.hh.ru/vacancy/133348523",
+      "url": "https://omsk.hh.ru/vacancy/133348523?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Метрики"
-      ]
-    },
-    {
-      "id": "134380780",
-      "url": "https://omsk.hh.ru/vacancy/134380780",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "Торговый Дом Стройтерминал",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
         "Метрики"
-      ]
-    },
-    {
-      "id": "134534499",
-      "url": "https://omsk.hh.ru/vacancy/134534499?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Ттс 16",
-      "area": "Тетюши, улица Горького, 56Р",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики"
       ],
-      "employerId": "12867985"
+      "employerId": "85027",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/12320121.png"
     },
     {
-      "id": "134732451",
-      "url": "https://omsk.hh.ru/vacancy/134732451",
+      "id": "133856792",
+      "url": "https://omsk.hh.ru/vacancy/133856792?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "134816463",
-      "url": "https://omsk.hh.ru/vacancy/134816463?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО СО INSON",
-      "area": "Ташкент, улица Зульфияханум, 12",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "SQL",
-        "UML"
-      ],
-      "employerId": "5848352"
-    },
-    {
-      "id": "134212520",
-      "url": "https://omsk.hh.ru/vacancy/134212520",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "134586724",
-      "url": "https://omsk.hh.ru/vacancy/134586724",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "API",
-        "BI",
-        "ClickHouse",
-        "Excel",
-        "PostgreSQL",
-        "Python",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134065081",
-      "url": "https://omsk.hh.ru/vacancy/134065081?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Кейтеринбург",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI",
-        "ClickHouse",
-        "Excel",
-        "PostgreSQL",
-        "Python",
-        "SQL"
-      ],
-      "employerId": "5866454",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7175532.png"
-    },
-    {
-      "id": "134359692",
-      "url": "https://omsk.hh.ru/vacancy/134359692?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Первый Бит",
-      "area": null,
+      "employer": "ООО Альянс Регион",
+      "area": "Москва",
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "3177",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2982497.png"
+      "employerId": "11569886"
     },
     {
-      "id": "134620696",
-      "url": "https://omsk.hh.ru/vacancy/134620696?hhtmFrom=vacancy_search_list",
+      "id": "133855808",
+      "url": "https://omsk.hh.ru/vacancy/133855808?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "АО Бийское Производственное Объединение Сибприбормаш",
       "area": null,
       "date": null,
       "roles": [],
       "skills": []
-    },
-    {
-      "id": "133635415",
-      "url": "https://omsk.hh.ru/vacancy/133635415?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Discover invest",
-      "area": "Ташкент, улица Сеульская, 16A",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "2211503"
-    },
-    {
-      "id": "134702208",
-      "url": "https://omsk.hh.ru/vacancy/134702208?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО НижСтенд",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "1665487"
-    },
-    {
-      "id": "134219936",
-      "url": "https://omsk.hh.ru/vacancy/134219936?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "БУРГЕР КИНГ РОССИЯ",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI",
-        "Excel"
-      ],
-      "employerId": "625332",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6664907.png"
-    },
-    {
-      "id": "134275232",
-      "url": "https://omsk.hh.ru/vacancy/134275232?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134499497",
-      "url": "https://omsk.hh.ru/vacancy/134499497?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Флит Лизинг",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "API"
-      ],
-      "employerId": "5934159"
-    },
-    {
-      "id": "134535098",
-      "url": "https://omsk.hh.ru/vacancy/134535098?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Production IT",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BPMN"
-      ]
-    },
-    {
-      "id": "134653376",
-      "url": "https://omsk.hh.ru/vacancy/134653376?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО ZORDOC",
-      "area": "Ташкент, Мирзо-Улугбекский район, улица Сайрам, 21",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "SQL"
-      ],
-      "employerId": "9319884"
-    },
-    {
-      "id": "133860050",
-      "url": "https://omsk.hh.ru/vacancy/133860050?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134716828",
-      "url": "https://omsk.hh.ru/vacancy/134716828?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Нек. орг. ЧПОУ ЦИО Нефтегаз",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "3057598"
     },
     {
       "id": "134795423",
@@ -8751,45 +7494,232 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134548015",
-      "url": "https://omsk.hh.ru/vacancy/134548015?hhtmFrom=vacancy_search_list",
+      "id": "134018096",
+      "url": "https://omsk.hh.ru/vacancy/134018096?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО НМТ",
+      "employer": "ООО Кью Лид",
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "4358932"
+      "skills": [
+        "Английский",
+        "Бизнес-анализ",
+        "BI",
+        "Excel"
+      ]
+    },
+    {
+      "id": "134548015",
+      "url": "https://omsk.hh.ru/vacancy/134548015",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "MS SQL",
+        "REST API",
+        "SQL",
+        "Swagger/OpenAPI",
+        "UML"
+      ]
     },
     {
       "id": "134605339",
-      "url": "https://omsk.hh.ru/vacancy/134605339?hhtmFrom=vacancy_search_list",
+      "url": "https://omsk.hh.ru/vacancy/134605339",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО СК «Росгосстрах Жизнь»",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "3700352",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7396889.png"
+      "skills": [
+        "Бизнес-анализ",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "Git",
+        "MS SQL",
+        "REST API",
+        "SQL",
+        "UML"
+      ]
     },
     {
-      "id": "134678725",
-      "url": "https://omsk.hh.ru/vacancy/134678725?hhtmFrom=vacancy_search_list",
+      "id": "134651848",
+      "url": "https://omsk.hh.ru/vacancy/134651848",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО ВЕРТИКАЛЬ",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "72126"
+      "skills": [
+        "Коммуникация",
+        "API",
+        "BPMN",
+        "Git",
+        "MS SQL",
+        "REST API",
+        "SQL",
+        "UML"
+      ]
     },
     {
-      "id": "134455292",
-      "url": "https://omsk.hh.ru/vacancy/134455292",
+      "id": "134716828",
+      "url": "https://omsk.hh.ru/vacancy/134716828",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "134732538",
+      "url": "https://omsk.hh.ru/vacancy/134732538",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "REST API",
+        "SOAP"
+      ]
+    },
+    {
+      "id": "134714510",
+      "url": "https://omsk.hh.ru/vacancy/134714510",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BI",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134822667",
+      "url": "https://omsk.hh.ru/vacancy/134822667",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Системный анализ",
+        "BI",
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134004833",
+      "url": "https://omsk.hh.ru/vacancy/134004833?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ДПО Корпоративный Университет Правительства Нижегородской Области (КУПНО)",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel"
+      ],
+      "employerId": "5367559"
+    },
+    {
+      "id": "133724924",
+      "url": "https://omsk.hh.ru/vacancy/133724924?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Группа компаний Аэроклуб",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики",
+        "Excel"
+      ],
+      "employerId": "679"
+    },
+    {
+      "id": "134542804",
+      "url": "https://omsk.hh.ru/vacancy/134542804?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "КОФЕФЕСТ",
+      "area": "Москва, р-н Нагорный",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ],
+      "employerId": "3464728"
+    },
+    {
+      "id": "134677907",
+      "url": "https://omsk.hh.ru/vacancy/134677907?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Оптиком, компания",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BI"
+      ],
+      "employerId": "135455",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/4080796.png"
+    },
+    {
+      "id": "130884085",
+      "url": "https://omsk.hh.ru/vacancy/130884085?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "АО «Freedom Bank Kazakhstan»",
+      "area": "Алматы",
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134297728",
+      "url": "https://omsk.hh.ru/vacancy/134297728",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "BI",
+        "Excel",
+        "Power BI",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "134299216",
+      "url": "https://omsk.hh.ru/vacancy/134299216",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -8799,11 +7729,24 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134541533",
-      "url": "https://omsk.hh.ru/vacancy/134541533?hhtmFrom=vacancy_search_list",
+      "id": "134531238",
+      "url": "https://omsk.hh.ru/vacancy/134531238",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Правительство Москвы",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BPMN"
+      ]
+    },
+    {
+      "id": "134541533",
+      "url": "https://omsk.hh.ru/vacancy/134541533",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
@@ -8815,9 +7758,7 @@ window.PREPBASE_SKILL_STATS = {
         "Python",
         "SQL",
         "UML"
-      ],
-      "employerId": "895945",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/596592.png"
+      ]
     },
     {
       "id": "134614845",
@@ -8839,19 +7780,8 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134250075",
-      "url": "https://omsk.hh.ru/vacancy/134250075",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134613390",
-      "url": "https://omsk.hh.ru/vacancy/134613390",
+      "id": "134232219",
+      "url": "https://omsk.hh.ru/vacancy/134232219",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -8859,7 +7789,6 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
         "Excel"
       ]
     },
@@ -8878,6 +7807,21 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
+      "id": "134613390",
+      "url": "https://omsk.hh.ru/vacancy/134613390",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "API",
+        "Excel"
+      ]
+    },
+    {
       "id": "134617282",
       "url": "https://omsk.hh.ru/vacancy/134617282",
       "source": "https://hh.ru/search/vacancy",
@@ -8892,8 +7836,8 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134694756",
-      "url": "https://omsk.hh.ru/vacancy/134694756",
+      "id": "134450435",
+      "url": "https://omsk.hh.ru/vacancy/134450435",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -8901,14 +7845,13 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Бизнес-анализ",
         "BPMN",
-        "Excel"
+        "SQL"
       ]
     },
     {
-      "id": "134106859",
-      "url": "https://omsk.hh.ru/vacancy/134106859",
+      "id": "134121996",
+      "url": "https://omsk.hh.ru/vacancy/134121996",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -8920,39 +7863,15 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "133910471",
-      "url": "https://omsk.hh.ru/vacancy/133910471",
+      "id": "134563236",
+      "url": "https://omsk.hh.ru/vacancy/134563236",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Коммуникация",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "134297728",
-      "url": "https://omsk.hh.ru/vacancy/134297728",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "BPMN",
-        "Excel",
-        "SQL",
-        "UML"
-      ]
+      "skills": []
     },
     {
       "id": "132601695",
@@ -8964,216 +7883,155 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Excel",
-        "UML"
-      ]
-    },
-    {
-      "id": "134530440",
-      "url": "https://omsk.hh.ru/vacancy/134530440",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
         "API",
-        "BPMN",
-        "REST API",
-        "SOAP",
-        "SQL",
-        "UML"
+        "Swagger/OpenAPI"
       ]
     },
     {
-      "id": "134841382",
-      "url": "https://omsk.hh.ru/vacancy/134841382",
+      "id": "134694756",
+      "url": "https://omsk.hh.ru/vacancy/134694756?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "134450435",
-      "url": "https://omsk.hh.ru/vacancy/134450435",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "134010121",
-      "url": "https://omsk.hh.ru/vacancy/134010121",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Интеграции",
-        "API"
-      ]
-    },
-    {
-      "id": "134018666",
-      "url": "https://omsk.hh.ru/vacancy/134018666",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Интеграции",
-        "API",
-        "BI",
-        "Excel",
-        "Power BI"
-      ]
-    },
-    {
-      "id": "134121996",
-      "url": "https://omsk.hh.ru/vacancy/134121996?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Софтнетикс",
-      "area": "Минск",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции"
-      ],
-      "employerId": "3897145"
-    },
-    {
-      "id": "134273768",
-      "url": "https://omsk.hh.ru/vacancy/134273768",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "134572451",
-      "url": "https://omsk.hh.ru/vacancy/134572451",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BPMN"
-      ]
-    },
-    {
-      "id": "133853378",
-      "url": "https://omsk.hh.ru/vacancy/133853378?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО Роствертол",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BPMN"
-      ],
-      "employerId": "1170038"
-    },
-    {
-      "id": "134276495",
-      "url": "https://omsk.hh.ru/vacancy/134276495?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Витта компани, аптеки Диалог",
+      "employer": "ЛЭтуаль Логистический центр",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "1705975"
+      "employerId": "30637"
     },
     {
-      "id": "134689068",
-      "url": "https://omsk.hh.ru/vacancy/134689068?hhtmFrom=vacancy_search_list",
+      "id": "133914379",
+      "url": "https://omsk.hh.ru/vacancy/133914379?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО ПП «Южуралкомсервис»",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "2276466"
+      "employerId": "4181",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2369889.png"
     },
     {
-      "id": "133966131",
-      "url": "https://omsk.hh.ru/vacancy/133966131?hhtmFrom=vacancy_search_list",
+      "id": "134278336",
+      "url": "https://omsk.hh.ru/vacancy/134278336?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "ООО ПринтЭкс",
       "area": null,
       "date": null,
       "roles": [],
       "skills": []
     },
     {
-      "id": "134252738",
-      "url": "https://omsk.hh.ru/vacancy/134252738?hhtmFrom=vacancy_search_list",
+      "id": "134569029",
+      "url": "https://omsk.hh.ru/vacancy/134569029?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Правительство Москвы",
-      "area": null,
+      "employer": "ООО Дженерал лизинг",
+      "area": "Минск, улица Тимирязева, 72",
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "895945",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/596592.png"
+      "skills": [
+        "BI"
+      ],
+      "employerId": "2630371",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6250039.png"
     },
     {
-      "id": "131749697",
-      "url": "https://omsk.hh.ru/vacancy/131749697?hhtmFrom=vacancy_search_list",
+      "id": "134714522",
+      "url": "https://omsk.hh.ru/vacancy/134714522?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Лига Цифровой Экономики",
+      "employer": "ООО Гранд-Стар",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "DWH"
+        "BI",
+        "DWH",
+        "ETL",
+        "Python",
+        "SQL"
       ],
-      "employerId": "2733062",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/4233417.png"
+      "employerId": "2659408"
+    },
+    {
+      "id": "134018666",
+      "url": "https://omsk.hh.ru/vacancy/134018666?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "19989",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7184820.png"
+    },
+    {
+      "id": "134023802",
+      "url": "https://omsk.hh.ru/vacancy/134023802?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО А7-ТЕХНОЛОГИИ",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel",
+        "Power BI"
+      ],
+      "employerId": "12363292"
+    },
+    {
+      "id": "134584533",
+      "url": "https://omsk.hh.ru/vacancy/134584533?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "АО Азиатско-Тихоокеанский Банк",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "176941",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/12331401.png"
+    },
+    {
+      "id": "134829302",
+      "url": "https://omsk.hh.ru/vacancy/134829302?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "АО Hayot Bank",
+      "area": "Ташкент, улица Паркент, 120/2",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "9730310"
+    },
+    {
+      "id": "134563157",
+      "url": "https://omsk.hh.ru/vacancy/134563157?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Новабев Инфо Тех",
+      "area": "Москва, Якиманская набережная",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "12684043"
+    },
+    {
+      "id": "134003544",
+      "url": "https://omsk.hh.ru/vacancy/134003544?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Вайбс",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "4923615"
     },
     {
       "id": "134291208",
@@ -9188,37 +8046,20 @@ window.PREPBASE_SKILL_STATS = {
       "employerId": "807429"
     },
     {
-      "id": "133128424",
-      "url": "https://omsk.hh.ru/vacancy/133128424",
+      "id": "133853378",
+      "url": "https://omsk.hh.ru/vacancy/133853378?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "АО Роствертол",
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [
-        "Метрики",
-        "Python",
-        "SQL"
-      ]
+      "skills": [],
+      "employerId": "1170038"
     },
     {
-      "id": "132580741",
-      "url": "https://omsk.hh.ru/vacancy/132580741?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО РУТ КОД",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ"
-      ],
-      "employerId": "8642172"
-    },
-    {
-      "id": "133471929",
-      "url": "https://omsk.hh.ru/vacancy/133471929?hhtmFrom=vacancy_search_list",
+      "id": "134529046",
+      "url": "https://omsk.hh.ru/vacancy/134529046?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -9228,20 +8069,8 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134064700",
-      "url": "https://omsk.hh.ru/vacancy/134064700?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ТОО EUROVIT (ЕВРОВИТ)",
-      "area": "Алматы, проспект Аль-Фараби, 95",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "9801819"
-    },
-    {
-      "id": "134525276",
-      "url": "https://omsk.hh.ru/vacancy/134525276",
+      "id": "134383689",
+      "url": "https://omsk.hh.ru/vacancy/134383689",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -9249,15 +8078,14 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Бизнес-анализ",
-        "Коммуникация",
+        "Интеграции",
         "Системный анализ",
-        "BPMN"
+        "SQL"
       ]
     },
     {
-      "id": "134704205",
-      "url": "https://omsk.hh.ru/vacancy/134704205",
+      "id": "134441956",
+      "url": "https://omsk.hh.ru/vacancy/134441956",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -9265,11 +8093,128 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Бизнес-анализ",
+        "Интеграции",
+        "Метрики",
+        "Системный анализ",
+        "Excel",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134521156",
+      "url": "https://omsk.hh.ru/vacancy/134521156",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики"
+      ]
+    },
+    {
+      "id": "134475716",
+      "url": "https://omsk.hh.ru/vacancy/134475716",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
         "Коммуникация",
         "Метрики",
         "Системный анализ",
-        "Excel"
+        "API",
+        "Excel",
+        "Python",
+        "SOAP",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "134660286",
+      "url": "https://omsk.hh.ru/vacancy/134660286",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики",
+        "Системный анализ",
+        "API",
+        "SOAP",
+        "UML"
+      ]
+    },
+    {
+      "id": "134223389",
+      "url": "https://omsk.hh.ru/vacancy/134223389",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API"
+      ]
+    },
+    {
+      "id": "134804832",
+      "url": "https://omsk.hh.ru/vacancy/134804832?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "АО Нурбанк",
+      "area": "Алматы",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "25917"
+    },
+    {
+      "id": "133373088",
+      "url": "https://omsk.hh.ru/vacancy/133373088?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Altenar",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ]
+    },
+    {
+      "id": "134034771",
+      "url": "https://omsk.hh.ru/vacancy/134034771?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Сталепромышленная компания",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ]
+    },
+    {
+      "id": "134820079",
+      "url": "https://omsk.hh.ru/vacancy/134820079",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "API",
+        "REST API"
       ]
     },
     {
@@ -9289,238 +8234,17 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134683166",
-      "url": "https://omsk.hh.ru/vacancy/134683166",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Коммуникация",
-        "Системный анализ",
-        "BPMN",
-        "Confluence",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133601224",
-      "url": "https://omsk.hh.ru/vacancy/133601224",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "Kafka",
-        "PostgreSQL",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "134693074",
-      "url": "https://omsk.hh.ru/vacancy/134693074?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО Группа компаний ВЛП",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "Kafka",
-        "PostgreSQL",
-        "REST API",
-        "SQL",
-        "UML"
-      ],
-      "employerId": "703742"
-    },
-    {
-      "id": "133312529",
-      "url": "https://omsk.hh.ru/vacancy/133312529",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "134662925",
-      "url": "https://omsk.hh.ru/vacancy/134662925",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "BPMN"
-      ]
-    },
-    {
-      "id": "134716634",
-      "url": "https://omsk.hh.ru/vacancy/134716634",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BPMN",
-        "Excel"
-      ]
-    },
-    {
-      "id": "134717927",
-      "url": "https://omsk.hh.ru/vacancy/134717927",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Excel"
-      ]
-    },
-    {
-      "id": "134757976",
-      "url": "https://omsk.hh.ru/vacancy/134757976",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "133859389",
-      "url": "https://omsk.hh.ru/vacancy/133859389",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133888507",
-      "url": "https://omsk.hh.ru/vacancy/133888507",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики",
-        "Системный анализ"
-      ]
-    },
-    {
-      "id": "134313622",
-      "url": "https://omsk.hh.ru/vacancy/134313622",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134053254",
-      "url": "https://omsk.hh.ru/vacancy/134053254",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134495058",
-      "url": "https://omsk.hh.ru/vacancy/134495058",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Excel",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134536571",
-      "url": "https://omsk.hh.ru/vacancy/134536571",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Excel",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134185283",
-      "url": "https://omsk.hh.ru/vacancy/134185283",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BPMN"
-      ]
-    },
-    {
       "id": "134153403",
-      "url": "https://omsk.hh.ru/vacancy/134153403?hhtmFrom=vacancy_search_list",
+      "url": "https://omsk.hh.ru/vacancy/134153403",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Медиа Ком",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Excel",
-        "Power BI"
-      ],
-      "employerId": "9066533"
+        "Английский"
+      ]
     },
     {
       "id": "134313077",
@@ -9531,73 +8255,166 @@ window.PREPBASE_SKILL_STATS = {
       "area": null,
       "date": null,
       "roles": [],
-      "skills": []
+      "skills": [
+        "Бизнес-анализ"
+      ],
+      "employerId": "10607",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3379106.png"
     },
     {
-      "id": "134181753",
-      "url": "https://omsk.hh.ru/vacancy/134181753?hhtmFrom=vacancy_search_list",
+      "id": "134388821",
+      "url": "https://omsk.hh.ru/vacancy/134388821",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "USETECH",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Метрики"
-      ],
-      "employerId": "681672"
+        "Метрики",
+        "Excel",
+        "Power BI"
+      ]
     },
     {
-      "id": "134811689",
-      "url": "https://omsk.hh.ru/vacancy/134811689?hhtmFrom=vacancy_search_list",
+      "id": "134776917",
+      "url": "https://omsk.hh.ru/vacancy/134776917",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Маркетплейс",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel",
+        "Power BI"
+      ]
+    },
+    {
+      "id": "134672986",
+      "url": "https://omsk.hh.ru/vacancy/134672986",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "API",
+        "BPMN",
+        "REST API",
+        "UML"
+      ]
+    },
+    {
+      "id": "133222885",
+      "url": "https://omsk.hh.ru/vacancy/133222885?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Ситуационно-Информационный Центр Министерства Транспорта Российской Федерации",
+      "area": "Москва, р-н Тверской",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BPMN"
+      ],
+      "employerId": "9089161"
+    },
+    {
+      "id": "134053254",
+      "url": "https://omsk.hh.ru/vacancy/134053254?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Счетная палата Российской Федерации",
       "area": "Москва",
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "12711499"
-    },
-    {
-      "id": "134231645",
-      "url": "https://omsk.hh.ru/vacancy/134231645?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "IBC Real Estate",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel"
-      ],
-      "employerId": "2756"
-    },
-    {
-      "id": "134683973",
-      "url": "https://omsk.hh.ru/vacancy/134683973?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Selecty",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ"
-      ],
-      "employerId": "2406247"
+      "employerId": "3792849"
     },
     {
       "id": "134210862",
       "url": "https://omsk.hh.ru/vacancy/134210862?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Корпрешения",
-      "area": "Москва",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134536571",
+      "url": "https://omsk.hh.ru/vacancy/134536571?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "КРЕДИТ ЕВРОПА БАНК",
+      "area": "Москва, р-н Мещанский",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "SQL"
+      ],
+      "employerId": "1947",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/382088.jpeg"
+    },
+    {
+      "id": "134719764",
+      "url": "https://omsk.hh.ru/vacancy/134719764?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Сбер. IT",
+      "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "12856656"
+      "employerId": "3529",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
+    },
+    {
+      "id": "130899107",
+      "url": "https://omsk.hh.ru/vacancy/130899107?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Нетрика Медицина",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134105408",
+      "url": "https://omsk.hh.ru/vacancy/134105408?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BPMN",
+        "UML"
+      ]
+    },
+    {
+      "id": "134363188",
+      "url": "https://omsk.hh.ru/vacancy/134363188?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Банк Русский Стандарт",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции"
+      ],
+      "employerId": "586",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/12336441.png"
     },
     {
       "id": "134534866",
@@ -9608,186 +8425,145 @@ window.PREPBASE_SKILL_STATS = {
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "2406247",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7327290.png"
-    },
-    {
-      "id": "133653109",
-      "url": "https://omsk.hh.ru/vacancy/133653109",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "ClickHouse",
-        "PostgreSQL",
-        "REST API",
-        "SOAP",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132291054",
-      "url": "https://omsk.hh.ru/vacancy/132291054",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Метрики",
-        "Excel",
-        "Jira",
-        "Python",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "134795890",
-      "url": "https://omsk.hh.ru/vacancy/134795890?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "MEGATOP",
-      "area": "Минск",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "748455",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7315518.png"
-    },
-    {
-      "id": "134382441",
-      "url": "https://omsk.hh.ru/vacancy/134382441?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ТРТ",
-      "area": "Тбилиси",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ"
-      ],
-      "employerId": "9111934"
-    },
-    {
-      "id": "134725463",
-      "url": "https://omsk.hh.ru/vacancy/134725463?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "894410",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3818352.png"
-    },
-    {
-      "id": "132175943",
-      "url": "https://omsk.hh.ru/vacancy/132175943?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ПАО Банк ПСБ, Бизнес и инфраструктура",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BPMN",
-        "Excel",
-        "UML"
-      ],
-      "employerId": "6591",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3165213.png"
-    },
-    {
-      "id": "134231851",
-      "url": "https://omsk.hh.ru/vacancy/134231851?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Правительство Москвы",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "895945",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/596592.png"
-    },
-    {
-      "id": "134387103",
-      "url": "https://omsk.hh.ru/vacancy/134387103?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Glass Décor, компания",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "161799"
-    },
-    {
-      "id": "134543948",
-      "url": "https://omsk.hh.ru/vacancy/134543948?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО ТП Инжиниринг",
-      "area": "Волгоград, р-н Красноармейский",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "3113622"
-    },
-    {
-      "id": "134611088",
-      "url": "https://omsk.hh.ru/vacancy/134611088?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО 1C-Рарус",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "172",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7206688.png"
-    },
-    {
-      "id": "132932582",
-      "url": "https://omsk.hh.ru/vacancy/132932582?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Bell Integrator",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "6189",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6739103.jpeg"
-    },
-    {
-      "id": "133348958",
-      "url": "https://omsk.hh.ru/vacancy/133348958?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
       "skills": [
         "API",
         "REST API",
         "SOAP"
+      ],
+      "employerId": "2406247",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7327290.png"
+    },
+    {
+      "id": "133669445",
+      "url": "https://omsk.hh.ru/vacancy/133669445?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "MAREE",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134228916",
+      "url": "https://omsk.hh.ru/vacancy/134228916?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Брайт Солюшенз",
+      "area": "Минск",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики"
+      ],
+      "employerId": "1391634"
+    },
+    {
+      "id": "134810618",
+      "url": "https://omsk.hh.ru/vacancy/134810618?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ИП Бузаев Павел Сергеевич",
+      "area": "Брянск",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "12889231"
+    },
+    {
+      "id": "134222056",
+      "url": "https://omsk.hh.ru/vacancy/134222056?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО МОБИ Недвижимость",
+      "area": "Калининград, р-н Ленинградский",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "5903956"
+    },
+    {
+      "id": "134654312",
+      "url": "https://omsk.hh.ru/vacancy/134654312?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО СПЕКТР",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BI"
+      ]
+    },
+    {
+      "id": "134716634",
+      "url": "https://omsk.hh.ru/vacancy/134716634?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Мостовик",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134045831",
+      "url": "https://omsk.hh.ru/vacancy/134045831",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ"
+      ]
+    },
+    {
+      "id": "134618456",
+      "url": "https://omsk.hh.ru/vacancy/134618456",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Системный анализ",
+        "Agile/Scrum",
+        "API",
+        "Git",
+        "MS SQL",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134179074",
+      "url": "https://omsk.hh.ru/vacancy/134179074",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "SQL"
+      ]
+    },
+    {
+      "id": "132175943",
+      "url": "https://omsk.hh.ru/vacancy/132175943",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Метрики",
+        "Excel"
       ]
     },
     {
@@ -9800,6 +8576,8 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
+        "Бизнес-анализ",
+        "Метрики",
         "Системный анализ",
         "API",
         "BPMN",
@@ -9808,8 +8586,8 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134081227",
-      "url": "https://omsk.hh.ru/vacancy/134081227",
+      "id": "134625701",
+      "url": "https://omsk.hh.ru/vacancy/134625701",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -9817,6 +8595,7 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
+        "Бизнес-анализ",
         "API",
         "BPMN",
         "SQL",
@@ -9824,19 +8603,8 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134179074",
-      "url": "https://omsk.hh.ru/vacancy/134179074",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "131431377",
-      "url": "https://omsk.hh.ru/vacancy/131431377",
+      "id": "132991621",
+      "url": "https://omsk.hh.ru/vacancy/132991621",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -9844,12 +8612,7 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
-        "Коммуникация",
-        "Метрики",
-        "API",
-        "Python",
-        "SQL"
+        "Бизнес-анализ"
       ]
     },
     {
@@ -9864,20 +8627,8 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134789372",
-      "url": "https://omsk.hh.ru/vacancy/134789372?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Глобал АйТи",
-      "area": "Санкт-Петербург, р-н Приморский",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "5532476"
-    },
-    {
-      "id": "134251747",
-      "url": "https://omsk.hh.ru/vacancy/134251747",
+      "id": "133302031",
+      "url": "https://omsk.hh.ru/vacancy/133302031",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -9887,22 +8638,19 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134842405",
-      "url": "https://omsk.hh.ru/vacancy/134842405?hhtmFrom=vacancy_search_list",
+      "id": "133950509",
+      "url": "https://omsk.hh.ru/vacancy/133950509",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Платформа Трим",
-      "area": "Новосибирск",
+      "employer": null,
+      "area": null,
       "date": null,
       "roles": [],
-      "skills": [
-        "API"
-      ],
-      "employerId": "10553941"
+      "skills": []
     },
     {
-      "id": "132716010",
-      "url": "https://omsk.hh.ru/vacancy/132716010",
+      "id": "133397162",
+      "url": "https://omsk.hh.ru/vacancy/133397162",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -9910,8 +8658,43 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Интеграции"
+        "Бизнес-анализ",
+        "Agile/Scrum"
       ]
+    },
+    {
+      "id": "134011170",
+      "url": "https://omsk.hh.ru/vacancy/134011170?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО АМТ Страхование",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Метрики",
+        "Agile/Scrum",
+        "Excel",
+        "Python"
+      ],
+      "employerId": "1470260"
+    },
+    {
+      "id": "134302828",
+      "url": "https://omsk.hh.ru/vacancy/134302828?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ГКУ Инфогород",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "BPMN",
+        "UML"
+      ],
+      "employerId": "2427329"
     },
     {
       "id": "134488731",
@@ -9922,109 +8705,15 @@ window.PREPBASE_SKILL_STATS = {
       "area": null,
       "date": null,
       "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134011170",
-      "url": "https://omsk.hh.ru/vacancy/134011170",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
       "skills": [
         "Бизнес-анализ",
-        "Коммуникация",
-        "Метрики",
-        "Excel",
-        "Python"
+        "BPMN",
+        "UML"
       ]
-    },
-    {
-      "id": "134699608",
-      "url": "https://omsk.hh.ru/vacancy/134699608?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Управление Роскомнадзора по Республике Татарстан (Татарстан)",
-      "area": "Казань",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Коммуникация",
-        "Метрики",
-        "Системный анализ",
-        "Excel",
-        "Python"
-      ],
-      "employerId": "71218"
     },
     {
       "id": "134756638",
-      "url": "https://omsk.hh.ru/vacancy/134756638",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Коммуникация",
-        "Системный анализ",
-        "API",
-        "Excel",
-        "Kafka",
-        "REST API"
-      ]
-    },
-    {
-      "id": "132583671",
-      "url": "https://omsk.hh.ru/vacancy/132583671",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "134045831",
-      "url": "https://omsk.hh.ru/vacancy/134045831",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "BPMN",
-        "UML"
-      ]
-    },
-    {
-      "id": "134564430",
-      "url": "https://omsk.hh.ru/vacancy/134564430",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "API"
-      ]
-    },
-    {
-      "id": "134827862",
-      "url": "https://omsk.hh.ru/vacancy/134827862",
+      "url": "https://omsk.hh.ru/vacancy/134756638?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -10033,339 +8722,167 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Английский",
-        "Бизнес-анализ",
-        "Excel",
-        "SQL"
+        "Системный анализ"
       ]
     },
     {
-      "id": "134697699",
-      "url": "https://omsk.hh.ru/vacancy/134697699?hhtmFrom=vacancy_search_list",
+      "id": "134028685",
+      "url": "https://omsk.hh.ru/vacancy/134028685?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Сбер. IT",
+      "employer": "ООО Адакта",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "3529",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
+      "employerId": "2367969"
     },
     {
-      "id": "134600634",
-      "url": "https://omsk.hh.ru/vacancy/134600634?hhtmFrom=vacancy_search_list",
+      "id": "134771804",
+      "url": "https://omsk.hh.ru/vacancy/134771804?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ANCOR",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "1947314"
-    },
-    {
-      "id": "86184131",
-      "url": "https://omsk.hh.ru/vacancy/86184131?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Банк Прио-Внешторгбанк",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "912251"
-    },
-    {
-      "id": "133967667",
-      "url": "https://omsk.hh.ru/vacancy/133967667?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО РГ-Девелопмент",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "131909157",
-      "url": "https://omsk.hh.ru/vacancy/131909157",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "Системный анализ",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "132032887",
-      "url": "https://omsk.hh.ru/vacancy/132032887",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "Коммуникация",
-        "Системный анализ",
-        "BPMN",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "134649224",
-      "url": "https://omsk.hh.ru/vacancy/134649224",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "API",
-        "BPMN",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "134846538",
-      "url": "https://omsk.hh.ru/vacancy/134846538",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "API",
-        "REST API",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133698631",
-      "url": "https://omsk.hh.ru/vacancy/133698631",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Коммуникация",
-        "Метрики"
-      ]
-    },
-    {
-      "id": "133862582",
-      "url": "https://omsk.hh.ru/vacancy/133862582",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Метрики",
-        "API",
-        "BPMN",
-        "Confluence",
-        "Jira",
-        "REST API",
-        "SOAP"
-      ]
-    },
-    {
-      "id": "134662426",
-      "url": "https://omsk.hh.ru/vacancy/134662426",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
+      "employer": "Промышленная компания BRUMEX",
+      "area": "Самара",
       "date": null,
       "roles": [],
       "skills": [
         "Английский"
-      ]
-    },
-    {
-      "id": "133876569",
-      "url": "https://omsk.hh.ru/vacancy/133876569",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "BI",
-        "Excel",
-        "Power BI"
-      ]
-    },
-    {
-      "id": "134023817",
-      "url": "https://omsk.hh.ru/vacancy/134023817",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "API",
-        "BI",
-        "Excel",
-        "Power BI"
-      ]
-    },
-    {
-      "id": "134706678",
-      "url": "https://omsk.hh.ru/vacancy/134706678?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ЗАО Интернет-магазин Евроопт",
-      "area": "Минск",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "1810433",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7277241.png"
-    },
-    {
-      "id": "133949884",
-      "url": "https://omsk.hh.ru/vacancy/133949884?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ПАО ЛЭСК",
-      "area": "Липецк, р-н Октябрьский",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "SQL"
       ],
-      "employerId": "542758"
+      "employerId": "620650"
     },
     {
-      "id": "134044125",
-      "url": "https://omsk.hh.ru/vacancy/134044125?hhtmFrom=vacancy_search_list",
+      "id": "134650068",
+      "url": "https://omsk.hh.ru/vacancy/134650068?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО ОДуо",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "2950286"
-    },
-    {
-      "id": "134543767",
-      "url": "https://omsk.hh.ru/vacancy/134543767?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Лига Цифровой Экономики",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "2733062",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/4233417.png"
-    },
-    {
-      "id": "134648987",
-      "url": "https://omsk.hh.ru/vacancy/134648987?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Диалог Регионы",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134580274",
-      "url": "https://omsk.hh.ru/vacancy/134580274?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Cotton Club (Коттон Клаб)",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "5100",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6696015.jpeg"
-    },
-    {
-      "id": "134229119",
-      "url": "https://omsk.hh.ru/vacancy/134229119?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Детский мир. ДМ-тех",
+      "employer": "ООО Группа Астон",
       "area": "Москва",
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "4880",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7253169.png"
+      "employerId": "4946247"
     },
     {
-      "id": "134703803",
-      "url": "https://omsk.hh.ru/vacancy/134703803?hhtmFrom=vacancy_search_list",
+      "id": "134649224",
+      "url": "https://omsk.hh.ru/vacancy/134649224?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ПАО Совкомбанк. Центральный офис.",
+      "employer": "СПб ГКУ Санкт-Петербургский информационно-аналитический центр",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "BPMN"
+        "BPMN",
+        "UML"
       ],
-      "employerId": "7944",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7236733.png"
+      "employerId": "728292"
     },
     {
-      "id": "133874942",
-      "url": "https://omsk.hh.ru/vacancy/133874942?hhtmFrom=vacancy_search_list",
+      "id": "134711143",
+      "url": "https://omsk.hh.ru/vacancy/134711143?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО ЕВРОФОРД",
-      "area": "Минск, улица Автомобилистов, 4",
+      "employer": "ООО SAYONAR",
+      "area": "Ташкент, улица Чорбог, 42",
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "4837413"
+      "employerId": "11253439"
     },
     {
-      "id": "133666146",
-      "url": "https://omsk.hh.ru/vacancy/133666146?hhtmFrom=vacancy_search_list",
+      "id": "134023817",
+      "url": "https://omsk.hh.ru/vacancy/134023817?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Платежное Решение",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": []
+    },
+    {
+      "id": "86184131",
+      "url": "https://omsk.hh.ru/vacancy/86184131",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "API",
+        "BPMN",
+        "REST API",
+        "SQL",
+        "Swagger/OpenAPI",
+        "UML"
+      ]
+    },
+    {
+      "id": "134295012",
+      "url": "https://omsk.hh.ru/vacancy/134295012",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Git"
+      ]
+    },
+    {
+      "id": "134450823",
+      "url": "https://omsk.hh.ru/vacancy/134450823",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "UML"
+      ]
+    },
+    {
+      "id": "134107773",
+      "url": "https://omsk.hh.ru/vacancy/134107773?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Стоквелл",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Excel",
+        "SQL"
+      ],
+      "employerId": "743014"
+    },
+    {
+      "id": "134276391",
+      "url": "https://omsk.hh.ru/vacancy/134276391",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "BPMN",
+        "REST API",
+        "UML"
+      ]
     },
     {
       "id": "134385140",
@@ -10379,8 +8896,8 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134503953",
-      "url": "https://omsk.hh.ru/vacancy/134503953",
+      "id": "133701727",
+      "url": "https://omsk.hh.ru/vacancy/133701727",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -10388,12 +8905,14 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "SQL"
+        "Метрики",
+        "BPMN",
+        "UML"
       ]
     },
     {
-      "id": "134653121",
-      "url": "https://omsk.hh.ru/vacancy/134653121",
+      "id": "134229119",
+      "url": "https://omsk.hh.ru/vacancy/134229119",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -10401,14 +8920,25 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
         "Бизнес-анализ",
-        "SQL"
+        "Метрики",
+        "BPMN"
       ]
     },
     {
-      "id": "134316056",
-      "url": "https://omsk.hh.ru/vacancy/134316056",
+      "id": "134703803",
+      "url": "https://omsk.hh.ru/vacancy/134703803",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "133846557",
+      "url": "https://omsk.hh.ru/vacancy/133846557",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -10416,23 +8946,8 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "DWH",
-        "Excel",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134373680",
-      "url": "https://omsk.hh.ru/vacancy/134373680",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel",
-        "SQL"
+        "Бизнес-анализ",
+        "Метрики"
       ]
     },
     {
@@ -10454,62 +8969,205 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134597081",
-      "url": "https://omsk.hh.ru/vacancy/134597081?hhtmFrom=vacancy_search_list",
+      "id": "131737719",
+      "url": "https://omsk.hh.ru/vacancy/131737719",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Мираторг, Агропромышленный холдинг",
-      "area": "Мценский район, Особая экономическая зона промышленно-производственного типа Орёл",
+      "employer": null,
+      "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
-        "Excel"
-      ],
-      "employerId": "17275"
+        "Бизнес-анализ",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "REST API",
+        "SQL",
+        "UML"
+      ]
     },
     {
-      "id": "134557621",
-      "url": "https://omsk.hh.ru/vacancy/134557621?hhtmFrom=vacancy_search_list",
+      "id": "132424636",
+      "url": "https://omsk.hh.ru/vacancy/132424636",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Группа компаний Астра",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции"
+      ]
+    },
+    {
+      "id": "134439278",
+      "url": "https://omsk.hh.ru/vacancy/134439278",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции"
+      ]
+    },
+    {
+      "id": "134518498",
+      "url": "https://omsk.hh.ru/vacancy/134518498",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134648254",
+      "url": "https://omsk.hh.ru/vacancy/134648254",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134733625",
+      "url": "https://omsk.hh.ru/vacancy/134733625",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134738324",
+      "url": "https://omsk.hh.ru/vacancy/134738324",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134599138",
+      "url": "https://omsk.hh.ru/vacancy/134599138",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Системный анализ",
+        "API",
+        "Confluence",
+        "Jira",
+        "PostgreSQL",
+        "Python",
+        "RabbitMQ",
+        "REST API",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134614354",
+      "url": "https://omsk.hh.ru/vacancy/134614354",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Системный анализ",
+        "API",
+        "Confluence",
+        "Jira",
+        "PostgreSQL",
+        "Python",
+        "RabbitMQ",
+        "REST API",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134426912",
+      "url": "https://omsk.hh.ru/vacancy/134426912",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel"
+      ]
+    },
+    {
+      "id": "133996588",
+      "url": "https://omsk.hh.ru/vacancy/133996588?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "АО TAYANCH MIKROMOLIYA BANKI",
+      "area": "Ташкент, улица Мукими, 178А",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "11871906"
+    },
+    {
+      "id": "134021677",
+      "url": "https://omsk.hh.ru/vacancy/134021677?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Элимери Групп",
+      "area": "Рязань, р-н Октябрьский",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "9621382"
+    },
+    {
+      "id": "132255834",
+      "url": "https://omsk.hh.ru/vacancy/132255834?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Компания Апогей",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "5060211",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/7394493.jpeg"
+      "employerId": "735216"
     },
     {
-      "id": "134600979",
-      "url": "https://omsk.hh.ru/vacancy/134600979?hhtmFrom=vacancy_search_list",
+      "id": "134754209",
+      "url": "https://omsk.hh.ru/vacancy/134754209?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ЛУКОЙЛ",
-      "area": "Москва",
+      "employer": "ООО Дёке Трейд Маркетинг",
+      "area": null,
       "date": null,
       "roles": [],
-      "skills": [
-        "BPMN",
-        "UML"
-      ],
-      "employerId": "907345"
-    },
-    {
-      "id": "133372697",
-      "url": "https://omsk.hh.ru/vacancy/133372697?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Finstar Financial Group",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Системный анализ"
-      ],
-      "employerId": "180028"
+      "skills": [],
+      "employerId": "95903",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5983274.png"
     },
     {
       "id": "134757363",
@@ -10520,21 +9178,49 @@ window.PREPBASE_SKILL_STATS = {
       "area": null,
       "date": null,
       "roles": [],
-      "skills": []
+      "skills": [],
+      "employerId": "5050567"
     },
     {
-      "id": "134341859",
-      "url": "https://omsk.hh.ru/vacancy/134341859?hhtmFrom=vacancy_search_list",
+      "id": "134821854",
+      "url": "https://omsk.hh.ru/vacancy/134821854?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ЗАО Уайт Бёрд",
-      "area": "Минск, улица Свердлова, 11",
+      "employer": "Интерсофт",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "104281"
+    },
+    {
+      "id": "134600979",
+      "url": "https://omsk.hh.ru/vacancy/134600979?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ЛУКОЙЛ",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "2406247",
+      "employerLogo": "https://img.hhcdn.ru/brand-snippet-pictures/04688.png"
+    },
+    {
+      "id": "134720157",
+      "url": "https://omsk.hh.ru/vacancy/134720157?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ГК Черноголовка",
+      "area": null,
       "date": null,
       "roles": [],
       "skills": [
         "Интеграции",
-        "API"
-      ]
+        "Excel"
+      ],
+      "employerId": "20839",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7567267.png"
     },
     {
       "id": "133477161",
@@ -10542,187 +9228,77 @@ window.PREPBASE_SKILL_STATS = {
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": "Bonduelle",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ]
+    },
+    {
+      "id": "134534681",
+      "url": "https://omsk.hh.ru/vacancy/134534681?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "OmniMed",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "4471137"
+    },
+    {
+      "id": "134618418",
+      "url": "https://omsk.hh.ru/vacancy/134618418?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Changellenge",
       "area": "Москва",
       "date": null,
       "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "51119",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7727631.png"
+      "skills": [],
+      "employerId": "1304253"
     },
     {
-      "id": "134105447",
-      "url": "https://omsk.hh.ru/vacancy/134105447",
+      "id": "134789091",
+      "url": "https://omsk.hh.ru/vacancy/134789091?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "ООО Софарма Рус",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Метрики",
         "Excel"
       ]
     },
     {
-      "id": "134262580",
-      "url": "https://omsk.hh.ru/vacancy/134262580?hhtmFrom=vacancy_search_list",
+      "id": "132595884",
+      "url": "https://omsk.hh.ru/vacancy/132595884?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ТОО Фирма Траяна",
-      "area": "Караганда, Заводская улица, 19/2",
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133571477",
-      "url": "https://omsk.hh.ru/vacancy/133571477?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "Маяк",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
-        "Excel"
-      ],
-      "employerId": "2166",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5595293.png"
-    },
-    {
-      "id": "134332952",
-      "url": "https://omsk.hh.ru/vacancy/134332952?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "БПМСОФТ",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "9251203"
-    },
-    {
-      "id": "133470613",
-      "url": "https://omsk.hh.ru/vacancy/133470613?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134004806",
-      "url": "https://omsk.hh.ru/vacancy/134004806?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Эм Си Арт",
-      "area": "Санкт-Петербург",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "600722"
-    },
-    {
-      "id": "134250628",
-      "url": "https://omsk.hh.ru/vacancy/134250628?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Сбер. IT",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "3529",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
-    },
-    {
-      "id": "134469817",
-      "url": "https://omsk.hh.ru/vacancy/134469817?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ПАО ТАНТК им.Г.М. Бериева",
-      "area": "Таганрог, площадь Авиаторов, 1",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "1368152"
-    },
-    {
-      "id": "133646085",
-      "url": "https://omsk.hh.ru/vacancy/133646085?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Простые решения",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "2887078"
-    },
-    {
-      "id": "134527408",
-      "url": "https://omsk.hh.ru/vacancy/134527408?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ГКУЗ МИАЦ",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "12039773"
-    },
-    {
-      "id": "134556948",
-      "url": "https://omsk.hh.ru/vacancy/134556948?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ТОО Мобайл Телеком-Сервис (Объединенная Компания Tele2/Altel) | IT",
-      "area": "Алматы",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel"
-      ],
-      "employerId": "111304",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6209450.png"
-    },
-    {
-      "id": "134152192",
-      "url": "https://omsk.hh.ru/vacancy/134152192?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134494262",
-      "url": "https://omsk.hh.ru/vacancy/134494262",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Excel"
+        "SQL"
       ]
     },
     {
-      "id": "133496925",
-      "url": "https://omsk.hh.ru/vacancy/133496925",
+      "id": "134681160",
+      "url": "https://omsk.hh.ru/vacancy/134681160?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Фодев",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "132892016",
+      "url": "https://omsk.hh.ru/vacancy/132892016",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -10730,7 +9306,10 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский"
+        "Бизнес-анализ",
+        "BI",
+        "Excel",
+        "Power BI"
       ]
     },
     {
@@ -10743,103 +9322,50 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
         "Бизнес-анализ",
         "Системный анализ",
+        "BI",
         "BPMN",
         "Confluence",
-        "Excel"
-      ]
-    },
-    {
-      "id": "134169065",
-      "url": "https://omsk.hh.ru/vacancy/134169065?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "DNS Технологии",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Системный анализ",
-        "BPMN",
-        "Confluence",
-        "Excel"
-      ],
-      "employerId": "9311920"
-    },
-    {
-      "id": "134745418",
-      "url": "https://omsk.hh.ru/vacancy/134745418",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "BPMN"
-      ]
-    },
-    {
-      "id": "132595884",
-      "url": "https://omsk.hh.ru/vacancy/132595884",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "134619745",
-      "url": "https://omsk.hh.ru/vacancy/134619745",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "API",
-        "BPMN",
-        "REST API",
-        "SOAP",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133989007",
-      "url": "https://omsk.hh.ru/vacancy/133989007?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Авантаж",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "Agile/Scrum",
-        "API",
-        "BPMN",
         "Excel",
+        "Power BI"
+      ]
+    },
+    {
+      "id": "134423723",
+      "url": "https://omsk.hh.ru/vacancy/134423723",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Confluence",
         "Jira",
-        "SOAP",
+        "MS SQL",
+        "PostgreSQL",
         "SQL"
-      ],
-      "employerId": "988844"
+      ]
+    },
+    {
+      "id": "134557862",
+      "url": "https://omsk.hh.ru/vacancy/134557862",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Confluence",
+        "DWH",
+        "Jira",
+        "MS SQL",
+        "PostgreSQL",
+        "SQL"
+      ]
     },
     {
       "id": "134694545",
@@ -10851,84 +9377,317 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
         "Бизнес-анализ",
-        "BI"
+        "BI",
+        "SQL"
       ]
     },
     {
-      "id": "134808952",
-      "url": "https://omsk.hh.ru/vacancy/134808952?hhtmFrom=vacancy_search_list",
+      "id": "134004806",
+      "url": "https://omsk.hh.ru/vacancy/134004806",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО ПромИнгредиентс",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Английский"
+        "Бизнес-анализ",
+        "Коммуникация",
+        "BI"
       ]
     },
     {
-      "id": "133943390",
-      "url": "https://omsk.hh.ru/vacancy/133943390?hhtmFrom=vacancy_search_list",
+      "id": "134557492",
+      "url": "https://omsk.hh.ru/vacancy/134557492",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Сбер для экспертов",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "3529",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
+      "skills": [
+        "Коммуникация",
+        "Системный анализ"
+      ]
     },
     {
-      "id": "133851641",
-      "url": "https://omsk.hh.ru/vacancy/133851641?hhtmFrom=vacancy_search_list",
+      "id": "134832434",
+      "url": "https://omsk.hh.ru/vacancy/134832434?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Автоллион",
-      "area": "Самара",
+      "employer": "ООО Гипер",
+      "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "11649030"
+      "skills": [
+        "Excel"
+      ],
+      "employerId": "735321"
+    },
+    {
+      "id": "133646085",
+      "url": "https://omsk.hh.ru/vacancy/133646085",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel"
+      ]
+    },
+    {
+      "id": "134815471",
+      "url": "https://omsk.hh.ru/vacancy/134815471",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "133496925",
+      "url": "https://omsk.hh.ru/vacancy/133496925",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "134709936",
+      "url": "https://omsk.hh.ru/vacancy/134709936",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "API",
+        "Linux",
+        "SOAP"
+      ]
+    },
+    {
+      "id": "134745418",
+      "url": "https://omsk.hh.ru/vacancy/134745418?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Нисат",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "API",
+        "Linux",
+        "SOAP"
+      ],
+      "employerId": "12857148"
+    },
+    {
+      "id": "133348770",
+      "url": "https://omsk.hh.ru/vacancy/133348770?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "МАГНИТ, Розничная сеть. Магазины продуктов",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Метрики",
+        "Excel",
+        "MS SQL",
+        "SQL"
+      ],
+      "employerId": "49357",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7202688.png"
+    },
+    {
+      "id": "133981133",
+      "url": "https://omsk.hh.ru/vacancy/133981133",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Интеграции",
+        "API",
+        "Excel",
+        "Kafka",
+        "MS SQL",
+        "PostgreSQL",
+        "REST API",
+        "SQL",
+        "Swagger/OpenAPI",
+        "UML"
+      ]
     },
     {
       "id": "134019743",
-      "url": "https://omsk.hh.ru/vacancy/134019743?hhtmFrom=vacancy_search_list",
+      "url": "https://omsk.hh.ru/vacancy/134019743",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Trussardi",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "12047797"
-    },
-    {
-      "id": "134279654",
-      "url": "https://omsk.hh.ru/vacancy/134279654?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Банк Русский Стандарт",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
-      "skills": []
+      "skills": [
+        "Английский",
+        "Бизнес-анализ",
+        "Метрики",
+        "Excel"
+      ]
     },
     {
-      "id": "134554606",
-      "url": "https://omsk.hh.ru/vacancy/134554606?hhtmFrom=vacancy_search_list",
+      "id": "134155664",
+      "url": "https://omsk.hh.ru/vacancy/134155664",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Озон Фармацевтика",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Excel"
+      ]
+    },
+    {
+      "id": "134494262",
+      "url": "https://omsk.hh.ru/vacancy/134494262",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel"
+      ]
+    },
+    {
+      "id": "134678519",
+      "url": "https://omsk.hh.ru/vacancy/134678519",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "REST API"
+      ]
+    },
+    {
+      "id": "132852451",
+      "url": "https://omsk.hh.ru/vacancy/132852451?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Волжская Судоходная Компания",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "65617",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7163848.png"
+      "employerId": "566686"
+    },
+    {
+      "id": "134102189",
+      "url": "https://omsk.hh.ru/vacancy/134102189?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Сима-ленд",
+      "area": "Екатеринбург, р-н Чкаловский",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ],
+      "employerId": "46587"
+    },
+    {
+      "id": "134452999",
+      "url": "https://omsk.hh.ru/vacancy/134452999?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "АО Система Безопасных Коммуникаций",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация"
+      ],
+      "employerId": "10435763",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6847731.jpeg"
+    },
+    {
+      "id": "131986683",
+      "url": "https://omsk.hh.ru/vacancy/131986683?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ЗАО Институт телекоммуникаций",
+      "area": "Санкт-Петербург",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "BPMN"
+      ],
+      "employerId": "1231316"
+    },
+    {
+      "id": "134619745",
+      "url": "https://omsk.hh.ru/vacancy/134619745?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ТЛЦ",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "1281576"
+    },
+    {
+      "id": "133989007",
+      "url": "https://omsk.hh.ru/vacancy/133989007?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Авантаж",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "988844"
+    },
+    {
+      "id": "134271166",
+      "url": "https://omsk.hh.ru/vacancy/134271166?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "OPEN group",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "7733",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2902677.png"
     },
     {
       "id": "134619734",
@@ -10943,8 +9702,19 @@ window.PREPBASE_SKILL_STATS = {
       "employerId": "4105707"
     },
     {
-      "id": "134740802",
-      "url": "https://omsk.hh.ru/vacancy/134740802?hhtmFrom=vacancy_search_list",
+      "id": "132015923",
+      "url": "https://omsk.hh.ru/vacancy/132015923?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Первый Бит",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "133943390",
+      "url": "https://omsk.hh.ru/vacancy/133943390?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -10954,49 +9724,52 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134754862",
-      "url": "https://omsk.hh.ru/vacancy/134754862?hhtmFrom=vacancy_search_list",
+      "id": "134842968",
+      "url": "https://omsk.hh.ru/vacancy/134842968?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "BI Consult",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI",
-        "DWH"
-      ]
-    },
-    {
-      "id": "134804898",
-      "url": "https://omsk.hh.ru/vacancy/134804898?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО Тульский молочный комбинат",
-      "area": "Тула, р-н Центральный",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "723820"
-    },
-    {
-      "id": "134225233",
-      "url": "https://omsk.hh.ru/vacancy/134225233?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "М.Видео-Эльдорадо. ИТ",
+      "employer": "Т-Банк. ИТ. Управление продуктами и проектами",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "2523",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7823963.png"
+      "employerId": "78638",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7240373.png"
     },
     {
-      "id": "134037592",
-      "url": "https://omsk.hh.ru/vacancy/134037592",
+      "id": "133851641",
+      "url": "https://omsk.hh.ru/vacancy/133851641?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Автоллион",
+      "area": "Самара",
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134554606",
+      "url": "https://omsk.hh.ru/vacancy/134554606",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Agile/Scrum",
+        "API",
+        "BI",
+        "BPMN",
+        "DWH",
+        "MS SQL",
+        "REST API",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134753115",
+      "url": "https://omsk.hh.ru/vacancy/134753115?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -11006,8 +9779,129 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134220133",
-      "url": "https://omsk.hh.ru/vacancy/134220133",
+      "id": "132983636",
+      "url": "https://omsk.hh.ru/vacancy/132983636",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ",
+        "BPMN",
+        "PostgreSQL",
+        "Python",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "134497740",
+      "url": "https://omsk.hh.ru/vacancy/134497740",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134807067",
+      "url": "https://omsk.hh.ru/vacancy/134807067",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "PostgreSQL",
+        "REST API",
+        "SQL",
+        "Swagger/OpenAPI",
+        "UML"
+      ]
+    },
+    {
+      "id": "134147097",
+      "url": "https://omsk.hh.ru/vacancy/134147097",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "API",
+        "PostgreSQL",
+        "Python",
+        "REST API",
+        "SQL",
+        "Swagger/OpenAPI",
+        "UML"
+      ]
+    },
+    {
+      "id": "134159511",
+      "url": "https://omsk.hh.ru/vacancy/134159511?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "RedLab",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "REST API",
+        "UML"
+      ],
+      "employerId": "4614421",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7237941.png"
+    },
+    {
+      "id": "134579312",
+      "url": "https://omsk.hh.ru/vacancy/134579312?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ОАО Паритетбанк",
+      "area": "Минск",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "REST API",
+        "SQL",
+        "UML"
+      ],
+      "employerId": "893621",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5777309.png"
+    },
+    {
+      "id": "134600452",
+      "url": "https://omsk.hh.ru/vacancy/134600452",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel"
+      ]
+    },
+    {
+      "id": "132239588",
+      "url": "https://omsk.hh.ru/vacancy/132239588",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -11016,12 +9910,169 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Интеграции",
+        "BPMN",
+        "Confluence",
+        "ETL",
+        "Jira",
+        "Python",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "132348666",
+      "url": "https://omsk.hh.ru/vacancy/132348666",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "BI",
+        "DWH",
+        "Power BI",
+        "REST API",
+        "SOAP",
+        "Tableau"
+      ]
+    },
+    {
+      "id": "134053037",
+      "url": "https://omsk.hh.ru/vacancy/134053037?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "KVINT",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "A/B-тесты",
+        "API",
+        "BI",
+        "BPMN",
+        "DWH",
+        "Excel",
+        "Power BI",
+        "REST API",
+        "SOAP",
+        "Tableau"
+      ],
+      "employerId": "4010751"
+    },
+    {
+      "id": "134343713",
+      "url": "https://omsk.hh.ru/vacancy/134343713",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Коммуникация",
+        "BPMN"
+      ]
+    },
+    {
+      "id": "132010537",
+      "url": "https://omsk.hh.ru/vacancy/132010537",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Системный анализ",
+        "BPMN",
+        "Kafka",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "133912112",
+      "url": "https://omsk.hh.ru/vacancy/133912112",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "MS SQL",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "133867484",
+      "url": "https://omsk.hh.ru/vacancy/133867484?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ТИК | Группа компаний (ООО НПП ТИК)",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Системный анализ",
+        "API",
+        "MS SQL",
+        "SQL"
+      ],
+      "employerId": "722245"
+    },
+    {
+      "id": "134257688",
+      "url": "https://omsk.hh.ru/vacancy/134257688",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "134643785",
+      "url": "https://omsk.hh.ru/vacancy/134643785",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
         "SQL"
       ]
     },
     {
-      "id": "134673114",
-      "url": "https://omsk.hh.ru/vacancy/134673114",
+      "id": "134678224",
+      "url": "https://omsk.hh.ru/vacancy/134678224?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ГК Фармасинтез",
+      "area": "городской округ Калуга, индустриальный парк Росва, 36",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "829326",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/12328465.png"
+    },
+    {
+      "id": "133133877",
+      "url": "https://omsk.hh.ru/vacancy/133133877",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -11029,270 +10080,88 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Бизнес-анализ",
-        "API",
-        "BPMN",
-        "Excel",
-        "Python"
-      ]
-    },
-    {
-      "id": "134045145",
-      "url": "https://omsk.hh.ru/vacancy/134045145",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134646950",
-      "url": "https://omsk.hh.ru/vacancy/134646950",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики"
-      ]
-    },
-    {
-      "id": "132631882",
-      "url": "https://omsk.hh.ru/vacancy/132631882?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО Щербинский лифтостроительный завод",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "3024465"
-    },
-    {
-      "id": "134495409",
-      "url": "https://omsk.hh.ru/vacancy/134495409?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "MODERN",
-      "area": "Махачкала, улица Азизова, 35Г",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "1012223"
-    },
-    {
-      "id": "134211389",
-      "url": "https://omsk.hh.ru/vacancy/134211389?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Абсолют авто",
-      "area": "Челябинск, р-н Тракторозаводский",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "11278091"
-    },
-    {
-      "id": "132239588",
-      "url": "https://omsk.hh.ru/vacancy/132239588?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Айтими",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
         "Excel"
-      ],
-      "employerId": "11529939",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7185324.png"
+      ]
     },
     {
-      "id": "134500150",
-      "url": "https://omsk.hh.ru/vacancy/134500150?hhtmFrom=vacancy_search_list",
+      "id": "134217073",
+      "url": "https://omsk.hh.ru/vacancy/134217073?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Бизнес Технологии",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "14809"
+    },
+    {
+      "id": "134219308",
+      "url": "https://omsk.hh.ru/vacancy/134219308?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Nedra Digital",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "4801531",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5971634.png"
+    },
+    {
+      "id": "134276968",
+      "url": "https://omsk.hh.ru/vacancy/134276968?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "6164545"
+    },
+    {
+      "id": "133956774",
+      "url": "https://omsk.hh.ru/vacancy/133956774?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "АО Народный банк Казахстана",
+      "area": "Алматы",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "23817"
+    },
+    {
+      "id": "134672803",
+      "url": "https://omsk.hh.ru/vacancy/134672803?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ВТБ Факторинг",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "3809754"
+    },
+    {
+      "id": "134713700",
+      "url": "https://omsk.hh.ru/vacancy/134713700?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": "Сбер. IT",
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
+      "skills": [
+        "BPMN"
+      ],
       "employerId": "3529",
       "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
     },
     {
-      "id": "134569530",
-      "url": "https://omsk.hh.ru/vacancy/134569530?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО ВАЗСИСТЕМ",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "2377577"
-    },
-    {
-      "id": "133872006",
-      "url": "https://omsk.hh.ru/vacancy/133872006",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "BI",
-        "Excel",
-        "Power BI"
-      ]
-    },
-    {
-      "id": "134579312",
-      "url": "https://omsk.hh.ru/vacancy/134579312",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "Kafka",
-        "RabbitMQ",
-        "REST API",
-        "SOAP",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134593489",
-      "url": "https://omsk.hh.ru/vacancy/134593489",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "API",
-        "BPMN",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134662697",
-      "url": "https://omsk.hh.ru/vacancy/134662697",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "A/B-тесты",
-        "BPMN",
-        "Excel"
-      ]
-    },
-    {
-      "id": "133392473",
-      "url": "https://omsk.hh.ru/vacancy/133392473",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Коммуникация",
-        "API",
-        "REST API",
-        "UML"
-      ]
-    },
-    {
-      "id": "134541743",
-      "url": "https://omsk.hh.ru/vacancy/134541743",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Kafka",
-        "Python",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133700304",
-      "url": "https://omsk.hh.ru/vacancy/133700304",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Метрики",
-        "API",
-        "BPMN",
-        "Kafka",
-        "MS SQL",
-        "REST API",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "133964332",
-      "url": "https://omsk.hh.ru/vacancy/133964332",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции"
-      ]
-    },
-    {
-      "id": "134276968",
-      "url": "https://omsk.hh.ru/vacancy/134276968",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BI",
-        "BPMN",
-        "Power BI",
-        "UML"
-      ]
-    },
-    {
-      "id": "134431299",
-      "url": "https://omsk.hh.ru/vacancy/134431299",
+      "id": "132622366",
+      "url": "https://omsk.hh.ru/vacancy/132622366?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -11302,68 +10171,18 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134703693",
-      "url": "https://omsk.hh.ru/vacancy/134703693?hhtmFrom=vacancy_search_list",
+      "id": "133786763",
+      "url": "https://omsk.hh.ru/vacancy/133786763?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "IBS",
+      "employer": "Positive Technologies",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Английский"
+        "Системный анализ"
       ],
-      "employerId": "139",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/12330093.png"
-    },
-    {
-      "id": "134504771",
-      "url": "https://omsk.hh.ru/vacancy/134504771?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "М.Видео-Эльдорадо. ИТ",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "2523",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7823963.png"
-    },
-    {
-      "id": "134584370",
-      "url": "https://omsk.hh.ru/vacancy/134584370?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО ТехАргос",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "3452582"
-    },
-    {
-      "id": "133834771",
-      "url": "https://omsk.hh.ru/vacancy/133834771?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Группа RBI",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134273727",
-      "url": "https://omsk.hh.ru/vacancy/134273727?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "VK",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "15478",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6808731.png"
+      "employerId": "26624"
     },
     {
       "id": "134626812",
@@ -11379,19 +10198,21 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134746975",
-      "url": "https://omsk.hh.ru/vacancy/134746975?hhtmFrom=vacancy_search_list",
+      "id": "134757360",
+      "url": "https://omsk.hh.ru/vacancy/134757360?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "ООО Градум",
       "area": null,
       "date": null,
       "roles": [],
-      "skills": []
+      "skills": [],
+      "employerId": "5518950",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6552362.png"
     },
     {
-      "id": "134210912",
-      "url": "https://omsk.hh.ru/vacancy/134210912",
+      "id": "134580872",
+      "url": "https://omsk.hh.ru/vacancy/134580872?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -11399,46 +10220,16 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Системный анализ",
-        "API",
-        "Excel",
-        "REST API",
-        "SOAP"
-      ]
-    },
-    {
-      "id": "132622366",
-      "url": "https://omsk.hh.ru/vacancy/132622366",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
         "Метрики",
-        "Системный анализ"
+        "API",
+        "BPMN",
+        "SQL",
+        "UML"
       ]
     },
     {
-      "id": "133030028",
-      "url": "https://omsk.hh.ru/vacancy/133030028?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Группа Компаний Автоимпорт",
-      "area": "Рязань, р-н Советский",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "811902",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/7120999.jpeg"
-    },
-    {
-      "id": "133855286",
-      "url": "https://omsk.hh.ru/vacancy/133855286?hhtmFrom=vacancy_search_list",
+      "id": "134658026",
+      "url": "https://omsk.hh.ru/vacancy/134658026",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -11446,7 +10237,10 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Excel"
+        "API",
+        "BPMN",
+        "SQL",
+        "UML"
       ]
     },
     {
@@ -11458,76 +10252,141 @@ window.PREPBASE_SKILL_STATS = {
       "area": null,
       "date": null,
       "roles": [],
+      "skills": [],
+      "employerId": "138191",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3601012.png"
+    },
+    {
+      "id": "134530302",
+      "url": "https://omsk.hh.ru/vacancy/134530302?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Сбер. Кибербезопасность",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "3529",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
+    },
+    {
+      "id": "134703884",
+      "url": "https://omsk.hh.ru/vacancy/134703884?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Газпромбанк. Общий банк",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "3388",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/12349841.png"
+    },
+    {
+      "id": "134776675",
+      "url": "https://omsk.hh.ru/vacancy/134776675?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ"
+      ]
+    },
+    {
+      "id": "134795170",
+      "url": "https://omsk.hh.ru/vacancy/134795170?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "API",
+        "REST API"
+      ]
+    },
+    {
+      "id": "134642909",
+      "url": "https://omsk.hh.ru/vacancy/134642909?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Kaspi.kz",
+      "area": "Алматы",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "25880"
+    },
+    {
+      "id": "133943678",
+      "url": "https://omsk.hh.ru/vacancy/133943678?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ИП Ульянов Константин Юрьевич",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "3907147"
+    },
+    {
+      "id": "133030028",
+      "url": "https://omsk.hh.ru/vacancy/133030028",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
       "skills": []
     },
     {
-      "id": "134567423",
-      "url": "https://omsk.hh.ru/vacancy/134567423",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "ТЗ"
-      ]
-    },
-    {
-      "id": "133975677",
-      "url": "https://omsk.hh.ru/vacancy/133975677",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "BI",
-        "Excel",
-        "Power BI"
-      ]
-    },
-    {
-      "id": "134613474",
-      "url": "https://omsk.hh.ru/vacancy/134613474",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "Коммуникация",
-        "Системный анализ",
-        "ТЗ",
-        "API",
-        "Excel",
-        "Jira"
-      ]
-    },
-    {
       "id": "133292793",
-      "url": "https://omsk.hh.ru/vacancy/133292793",
+      "url": "https://omsk.hh.ru/vacancy/133292793?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "ООО Лоция",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
         "Интеграции",
         "ТЗ",
         "API",
-        "Excel",
         "Kafka",
         "REST API",
         "UML"
+      ],
+      "employerId": "5860936"
+    },
+    {
+      "id": "134277275",
+      "url": "https://omsk.hh.ru/vacancy/134277275?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "НАЙМАКС",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "9139584"
+    },
+    {
+      "id": "133855286",
+      "url": "https://omsk.hh.ru/vacancy/133855286",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "SQL"
       ]
     },
     {
@@ -11540,57 +10399,127 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
         "Бизнес-анализ",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134121627",
+      "url": "https://omsk.hh.ru/vacancy/134121627",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "BPMN",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "134308136",
+      "url": "https://omsk.hh.ru/vacancy/134308136",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BI",
+        "BPMN",
+        "Excel",
+        "Power BI",
+        "Tableau",
+        "UML"
+      ]
+    },
+    {
+      "id": "129739595",
+      "url": "https://omsk.hh.ru/vacancy/129739595",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Метрики",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134459598",
+      "url": "https://omsk.hh.ru/vacancy/134459598",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Метрики",
+        "Excel",
+        "SQL"
+      ]
+    },
+    {
+      "id": "133975677",
+      "url": "https://omsk.hh.ru/vacancy/133975677",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BI",
+        "Excel",
+        "Power BI"
+      ]
+    },
+    {
+      "id": "134435516",
+      "url": "https://omsk.hh.ru/vacancy/134435516",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "BI",
+        "Excel",
+        "Power BI",
+        "SQL"
+      ]
+    },
+    {
+      "id": "133469673",
+      "url": "https://omsk.hh.ru/vacancy/133469673",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
         "Интеграции",
-        "API",
-        "Kafka",
-        "REST API",
-        "SQL"
-      ]
-    },
-    {
-      "id": "131350462",
-      "url": "https://omsk.hh.ru/vacancy/131350462",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Коммуникация",
         "Системный анализ",
         "API",
         "BPMN",
-        "Jira",
+        "Excel",
         "PostgreSQL",
         "REST API",
         "SOAP",
-        "SQL"
-      ]
-    },
-    {
-      "id": "131674319",
-      "url": "https://omsk.hh.ru/vacancy/131674319",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Коммуникация",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "Jira",
-        "PostgreSQL",
-        "REST API",
-        "SOAP",
-        "SQL"
+        "SQL",
+        "Swagger/OpenAPI",
+        "UML"
       ]
     },
     {
@@ -11603,36 +10532,15 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
         "Интеграции",
-        "Метрики",
         "Kafka",
         "PostgreSQL",
         "SQL"
       ]
     },
     {
-      "id": "134308136",
-      "url": "https://omsk.hh.ru/vacancy/134308136?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Крезол",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Коммуникация",
-        "BI",
-        "Excel",
-        "Power BI",
-        "Tableau"
-      ],
-      "employerId": "228718"
-    },
-    {
-      "id": "134445891",
-      "url": "https://omsk.hh.ru/vacancy/134445891",
+      "id": "134805573",
+      "url": "https://omsk.hh.ru/vacancy/134805573",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -11642,16 +10550,221 @@ window.PREPBASE_SKILL_STATS = {
       "skills": [
         "Английский",
         "Бизнес-анализ",
+        "Метрики"
+      ]
+    },
+    {
+      "id": "134823230",
+      "url": "https://omsk.hh.ru/vacancy/134823230",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "131674319",
+      "url": "https://omsk.hh.ru/vacancy/131674319",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
         "Коммуникация",
+        "API"
+      ]
+    },
+    {
+      "id": "134644230",
+      "url": "https://omsk.hh.ru/vacancy/134644230",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
         "Системный анализ",
-        "BI",
+        "API",
         "BPMN",
-        "Excel",
-        "Jira",
         "Power BI",
-        "Tableau",
         "UML"
       ]
+    },
+    {
+      "id": "131350462",
+      "url": "https://omsk.hh.ru/vacancy/131350462",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "Jira",
+        "PostgreSQL",
+        "Power BI",
+        "REST API",
+        "SOAP",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134272596",
+      "url": "https://omsk.hh.ru/vacancy/134272596",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "Jira",
+        "PostgreSQL",
+        "REST API",
+        "SOAP",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134380272",
+      "url": "https://omsk.hh.ru/vacancy/134380272?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134470221",
+      "url": "https://omsk.hh.ru/vacancy/134470221?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "МАГНИТ, Розничная сеть. Офис",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "49357",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7202688.png"
+    },
+    {
+      "id": "134542842",
+      "url": "https://omsk.hh.ru/vacancy/134542842?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "4181",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2369889.png"
+    },
+    {
+      "id": "130586727",
+      "url": "https://omsk.hh.ru/vacancy/130586727?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "133912142",
+      "url": "https://omsk.hh.ru/vacancy/133912142?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ТОО Samal Software",
+      "area": "Астана, проспект Кабанбай батыра, 11/5",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "5795799"
+    },
+    {
+      "id": "134155435",
+      "url": "https://omsk.hh.ru/vacancy/134155435?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Агентство КИТ Консалт",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "637743"
+    },
+    {
+      "id": "134445891",
+      "url": "https://omsk.hh.ru/vacancy/134445891?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ТОО Networks Energy",
+      "area": "Астана, проспект Рахимжана Кошкарбаева, 1/4",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация"
+      ],
+      "employerId": "2122877"
+    },
+    {
+      "id": "134567436",
+      "url": "https://omsk.hh.ru/vacancy/134567436?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ЛИАН",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Системный анализ"
+      ],
+      "employerId": "4768936"
+    },
+    {
+      "id": "134613639",
+      "url": "https://omsk.hh.ru/vacancy/134613639?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ЛИАН",
+      "area": "Москва, р-н Тверской",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ],
+      "employerId": "4768936"
+    },
+    {
+      "id": "134227637",
+      "url": "https://omsk.hh.ru/vacancy/134227637?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
     },
     {
       "id": "132929340",
@@ -11662,57 +10775,18 @@ window.PREPBASE_SKILL_STATS = {
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [
-        "Английский",
-        "BPMN",
-        "SQL"
-      ],
-      "employerId": "872178",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2559134.png"
+      "skills": []
     },
     {
-      "id": "134380272",
-      "url": "https://omsk.hh.ru/vacancy/134380272?hhtmFrom=vacancy_search_list",
+      "id": "133907722",
+      "url": "https://omsk.hh.ru/vacancy/133907722?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Правительство Москвы",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "895945",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/596592.png"
-    },
-    {
-      "id": "133469818",
-      "url": "https://omsk.hh.ru/vacancy/133469818?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Детский мир. Офис",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "SQL"
-      ],
-      "employerId": "4880",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7253169.png"
-    },
-    {
-      "id": "134174613",
-      "url": "https://omsk.hh.ru/vacancy/134174613?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО УАЗ",
-      "area": "Химки",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "2225338"
+      "skills": []
     },
     {
       "id": "134569472",
@@ -11723,38 +10797,64 @@ window.PREPBASE_SKILL_STATS = {
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
+      "skills": [
+        "Интеграции",
+        "API",
+        "Kafka",
+        "PostgreSQL",
+        "REST API",
+        "SQL"
+      ],
       "employerId": "5382804"
     },
     {
-      "id": "133469673",
-      "url": "https://omsk.hh.ru/vacancy/133469673?hhtmFrom=vacancy_search_list",
+      "id": "134614370",
+      "url": "https://omsk.hh.ru/vacancy/134614370?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Международный концерн ДорХан",
+      "employer": "Первый Бит",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "15307"
+      "employerId": "3177",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2982497.png"
     },
     {
-      "id": "133996692",
-      "url": "https://omsk.hh.ru/vacancy/133996692?hhtmFrom=vacancy_search_list",
+      "id": "133469818",
+      "url": "https://omsk.hh.ru/vacancy/133469818",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО РСХБ-Интех",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Метрики",
+        "A/B-тесты",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134025037",
+      "url": "https://omsk.hh.ru/vacancy/134025037?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Работа в офисе",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
         "Английский",
         "Excel"
-      ]
+      ],
+      "employerId": "5676487",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7728243.png"
     },
     {
-      "id": "134523501",
-      "url": "https://omsk.hh.ru/vacancy/134523501",
+      "id": "134130215",
+      "url": "https://omsk.hh.ru/vacancy/134130215",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -11762,65 +10862,53 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Интеграции"
+        "Английский",
+        "Бизнес-анализ",
+        "Интеграции",
+        "Метрики",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "Jira",
+        "SQL",
+        "UML"
       ]
     },
     {
-      "id": "134613639",
-      "url": "https://omsk.hh.ru/vacancy/134613639",
+      "id": "134460595",
+      "url": "https://omsk.hh.ru/vacancy/134460595?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "Staffwell",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "710"
+    },
+    {
+      "id": "133994425",
+      "url": "https://omsk.hh.ru/vacancy/133994425?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ФГБУ Национальный Медицинский Исследовательский Центр Онкологии Имени Н.Н. Петрова Министерства Здравоохранения Российской Федерации",
       "area": null,
       "date": null,
       "roles": [],
       "skills": []
     },
     {
-      "id": "133288841",
-      "url": "https://omsk.hh.ru/vacancy/133288841",
+      "id": "131621716",
+      "url": "https://omsk.hh.ru/vacancy/131621716?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "Vedexx",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Интеграции",
-        "Системный анализ",
-        "ТЗ",
-        "Agile/Scrum",
-        "API",
-        "BPMN",
-        "Kafka",
-        "REST API",
-        "SQL",
-        "UML"
+        "Excel"
       ]
-    },
-    {
-      "id": "134274732",
-      "url": "https://omsk.hh.ru/vacancy/134274732?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "wintergreen",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "649521"
-    },
-    {
-      "id": "134478731",
-      "url": "https://omsk.hh.ru/vacancy/134478731?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "РГП на ПХВ Инженерно-технический центр Управления Делами Президента Республики Казахстан",
-      "area": "Нур-Султан (Астана), проспект Мангилик Ел, 8",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "5349502"
     },
     {
       "id": "134766729",
@@ -11836,73 +10924,8 @@ window.PREPBASE_SKILL_STATS = {
       "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6665975.png"
     },
     {
-      "id": "134842937",
-      "url": "https://omsk.hh.ru/vacancy/134842937?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО ГК Альянс",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ]
-    },
-    {
-      "id": "134170305",
-      "url": "https://omsk.hh.ru/vacancy/134170305?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "\"МТС\", Аналитика",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "3776",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7176732.png"
-    },
-    {
-      "id": "134460595",
-      "url": "https://omsk.hh.ru/vacancy/134460595?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Staffwell",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "710"
-    },
-    {
-      "id": "134725796",
-      "url": "https://omsk.hh.ru/vacancy/134725796?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Changellenge",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "1304253"
-    },
-    {
-      "id": "133954593",
-      "url": "https://omsk.hh.ru/vacancy/133954593?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ОсОО РУСТЭЛЬ",
-      "area": "Бишкек, улица Тимура Фрунзе, 2",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel",
-        "SQL"
-      ],
-      "employerId": "2457065"
-    },
-    {
-      "id": "134650983",
-      "url": "https://omsk.hh.ru/vacancy/134650983?hhtmFrom=vacancy_search_list",
+      "id": "134781265",
+      "url": "https://omsk.hh.ru/vacancy/134781265?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -11912,8 +10935,19 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134781265",
-      "url": "https://omsk.hh.ru/vacancy/134781265",
+      "id": "133051776",
+      "url": "https://omsk.hh.ru/vacancy/133051776",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "133539569",
+      "url": "https://omsk.hh.ru/vacancy/133539569",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -11921,34 +10955,31 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Интеграции",
-        "Метрики",
-        "Системный анализ",
-        "Git",
-        "Jira",
-        "Kafka",
+        "Бизнес-анализ",
         "SQL"
       ]
     },
     {
-      "id": "134802799",
-      "url": "https://omsk.hh.ru/vacancy/134802799?hhtmFrom=vacancy_search_list",
+      "id": "133950281",
+      "url": "https://omsk.hh.ru/vacancy/133950281?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Ук. Дримфит",
-      "area": null,
+      "employer": "Технорос",
+      "area": "Санкт-Петербург",
       "date": null,
       "roles": [],
       "skills": [
-        "Интеграции",
-        "Метрики",
-        "Системный анализ"
+        "API",
+        "BPMN",
+        "REST API",
+        "SQL",
+        "UML"
       ],
-      "employerId": "12361786"
+      "employerId": "1376"
     },
     {
-      "id": "132930578",
-      "url": "https://omsk.hh.ru/vacancy/132930578",
+      "id": "134120483",
+      "url": "https://omsk.hh.ru/vacancy/134120483",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -11956,12 +10987,30 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
+        "Английский",
+        "Бизнес-анализ",
+        "BPMN",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "133974264",
+      "url": "https://omsk.hh.ru/vacancy/133974264",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
         "Коммуникация"
       ]
     },
     {
-      "id": "134023878",
-      "url": "https://omsk.hh.ru/vacancy/134023878",
+      "id": "134078795",
+      "url": "https://omsk.hh.ru/vacancy/134078795",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -11969,12 +11018,12 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Excel"
+        "Бизнес-анализ"
       ]
     },
     {
-      "id": "134227329",
-      "url": "https://omsk.hh.ru/vacancy/134227329",
+      "id": "134698553",
+      "url": "https://omsk.hh.ru/vacancy/134698553",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -11982,14 +11031,12 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Agile/Scrum",
-        "Confluence",
-        "Jira"
+        "Интеграции"
       ]
     },
     {
-      "id": "133758018",
-      "url": "https://omsk.hh.ru/vacancy/133758018",
+      "id": "134845168",
+      "url": "https://omsk.hh.ru/vacancy/134845168",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -11997,210 +11044,145 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Интеграции",
+        "Английский",
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "134226854",
+      "url": "https://omsk.hh.ru/vacancy/134226854",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "134338226",
+      "url": "https://omsk.hh.ru/vacancy/134338226",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
         "Системный анализ",
-        "Git",
+        "API",
+        "BPMN",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "134377651",
+      "url": "https://omsk.hh.ru/vacancy/134377651",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "131656676",
+      "url": "https://omsk.hh.ru/vacancy/131656676",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "REST API",
+        "SOAP",
         "SQL"
       ]
     },
     {
-      "id": "134841075",
-      "url": "https://omsk.hh.ru/vacancy/134841075",
+      "id": "134427580",
+      "url": "https://omsk.hh.ru/vacancy/134427580",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [],
-      "skills": []
+      "skills": [
+        "Коммуникация",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "REST API",
+        "SOAP",
+        "SQL"
+      ]
+    },
+    {
+      "id": "132591254",
+      "url": "https://omsk.hh.ru/vacancy/132591254?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Сбер. IT",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Метрики",
+        "Python",
+        "SQL"
+      ],
+      "employerId": "3529",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
     },
     {
       "id": "134733200",
-      "url": "https://omsk.hh.ru/vacancy/134733200",
+      "url": "https://omsk.hh.ru/vacancy/134733200?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
+      "employer": "Sintec Group",
+      "area": "Обнинск, Киевское шоссе, 59",
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
-        "Бизнес-анализ",
+        "Метрики",
         "BI",
-        "DWH",
-        "Excel"
-      ]
-    },
-    {
-      "id": "134504003",
-      "url": "https://omsk.hh.ru/vacancy/134504003",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Коммуникация",
-        "Системный анализ",
-        "BI",
-        "Confluence",
-        "Jira",
+        "Excel",
+        "Python",
         "SQL"
-      ]
-    },
-    {
-      "id": "133949745",
-      "url": "https://omsk.hh.ru/vacancy/133949745?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО Россельхозбанк, Без опыта",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132993262",
-      "url": "https://omsk.hh.ru/vacancy/132993262?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Directum",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Коммуникация"
       ],
-      "employerId": "2488771",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7165196.png"
+      "employerId": "33725"
     },
     {
-      "id": "134301135",
-      "url": "https://omsk.hh.ru/vacancy/134301135?hhtmFrom=vacancy_search_list",
+      "id": "134767946",
+      "url": "https://omsk.hh.ru/vacancy/134767946?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Aston",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ"
-      ],
-      "employerId": "6093775",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6574070.jpeg"
-    },
-    {
-      "id": "133003252",
-      "url": "https://omsk.hh.ru/vacancy/133003252?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Сбер2B",
-      "area": null,
+      "employer": "Цифровой аудит",
+      "area": "Москва",
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "3513136"
-    },
-    {
-      "id": "134781929",
-      "url": "https://omsk.hh.ru/vacancy/134781929?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ПАО Россети Центр. Молодые специалисты",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "19833"
-    },
-    {
-      "id": "134840112",
-      "url": "https://omsk.hh.ru/vacancy/134840112?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО ASTERIUM",
-      "area": "Ташкент, улица Саида Барака, 12А",
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132114984",
-      "url": "https://omsk.hh.ru/vacancy/132114984?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Пятёрочка. Офисные сотрудники",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "1942330",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/7101935.png"
-    },
-    {
-      "id": "134080130",
-      "url": "https://omsk.hh.ru/vacancy/134080130?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ТОО Saltanat Strategic & Development Group",
-      "area": "Астана, микрорайон Самал, 12",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "12679552"
-    },
-    {
-      "id": "134741309",
-      "url": "https://omsk.hh.ru/vacancy/134741309?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel"
-      ]
-    },
-    {
-      "id": "134826916",
-      "url": "https://omsk.hh.ru/vacancy/134826916?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Страховая компания Сбербанк страхование",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133889808",
-      "url": "https://omsk.hh.ru/vacancy/133889808?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Рубеж, Группа компаний",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "55307",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3991424.png"
-    },
-    {
-      "id": "133963485",
-      "url": "https://omsk.hh.ru/vacancy/133963485?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
+      "employerId": "11660779"
     },
     {
       "id": "134120393",
@@ -12214,164 +11196,459 @@ window.PREPBASE_SKILL_STATS = {
       "skills": [
         "Английский",
         "Бизнес-анализ",
+        "Метрики",
         "BPMN",
         "SQL",
         "UML"
       ]
     },
     {
-      "id": "134565094",
-      "url": "https://omsk.hh.ru/vacancy/134565094",
+      "id": "134802799",
+      "url": "https://omsk.hh.ru/vacancy/134802799?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "ООО Ук. Дримфит",
       "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Метрики",
+        "BPMN",
+        "SQL",
+        "UML"
+      ],
+      "employerId": "12361786"
+    },
+    {
+      "id": "134806372",
+      "url": "https://omsk.hh.ru/vacancy/134806372?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Крупный девелопер",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134832431",
+      "url": "https://omsk.hh.ru/vacancy/134832431?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "МФО CreditNOVA",
+      "area": "Алматы",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel"
+      ],
+      "employerId": "11314266"
+    },
+    {
+      "id": "132787488",
+      "url": "https://omsk.hh.ru/vacancy/132787488?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Деловые Линии. Офис",
+      "area": "Минск",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ"
+      ],
+      "employerId": "29413",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/7013943.png"
+    },
+    {
+      "id": "134451365",
+      "url": "https://omsk.hh.ru/vacancy/134451365?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "АО Alatau City Bank",
+      "area": "Алматы",
       "date": null,
       "roles": [],
       "skills": [
         "Английский",
         "Бизнес-анализ",
-        "Метрики",
-        "Excel",
-        "MS SQL",
-        "Power BI",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134438887",
-      "url": "https://omsk.hh.ru/vacancy/134438887?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО ПСК ФАРМА",
-      "area": "Дубна, улица Программистов",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Метрики",
-        "Системный анализ",
-        "Python",
-        "SQL"
+        "API",
+        "BPMN",
+        "UML"
       ],
-      "employerId": "1423833"
+      "employerId": "146547",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7346910.png"
     },
     {
-      "id": "131656676",
-      "url": "https://omsk.hh.ru/vacancy/131656676",
+      "id": "134139065",
+      "url": "https://omsk.hh.ru/vacancy/134139065?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "Метрики",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "REST API",
-        "SOAP",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134382630",
-      "url": "https://omsk.hh.ru/vacancy/134382630",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Интеграции",
-        "Системный анализ",
-        "API",
-        "BPMN",
-        "REST API",
-        "SOAP",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134556466",
-      "url": "https://omsk.hh.ru/vacancy/134556466?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133891445",
-      "url": "https://omsk.hh.ru/vacancy/133891445?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ОБУ Информационно-технический центр",
+      "employer": "ООО Сэнсэй",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "1040474"
+      "employerId": "10540780"
     },
     {
-      "id": "134748310",
-      "url": "https://omsk.hh.ru/vacancy/134748310?hhtmFrom=vacancy_search_list",
+      "id": "134140775",
+      "url": "https://omsk.hh.ru/vacancy/134140775?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ОАО Агентство цифровой трансформации",
-      "area": "Минск, улица Клары Цеткин, 24",
+      "employer": "ГБУЗ РХ РМИАЦ",
+      "area": null,
       "date": null,
       "roles": [],
-      "skills": [
-        "Коммуникация"
-      ],
-      "employerId": "6107283"
+      "skills": [],
+      "employerId": "8653593"
     },
     {
-      "id": "134539419",
-      "url": "https://omsk.hh.ru/vacancy/134539419?hhtmFrom=vacancy_search_list",
+      "id": "134779604",
+      "url": "https://omsk.hh.ru/vacancy/134779604?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО ПСК Геодор",
-      "area": "Энгельс, проспект Химиков, 1с17",
+      "employer": "АКРОН ХОЛДИНГ",
+      "area": "Москва",
       "date": null,
       "roles": [],
       "skills": [
         "Английский"
       ],
-      "employerId": "1737185",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7392033.png"
+      "employerId": "208189"
     },
     {
-      "id": "134108300",
-      "url": "https://omsk.hh.ru/vacancy/134108300?hhtmFrom=vacancy_search_list",
+      "id": "134542352",
+      "url": "https://omsk.hh.ru/vacancy/134542352?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "1С-Архитектор бизнеса",
+      "employer": "ЖБИ2-ИНВЕСТ",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Agile/Scrum"
+      ],
+      "employerId": "1302718"
+    },
+    {
+      "id": "133827348",
+      "url": "https://omsk.hh.ru/vacancy/133827348?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Актив",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "2235",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6080058.png"
+      "employerId": "2147",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7185532.png"
     },
     {
-      "id": "134672756",
-      "url": "https://omsk.hh.ru/vacancy/134672756?hhtmFrom=vacancy_search_list",
+      "id": "133949745",
+      "url": "https://omsk.hh.ru/vacancy/133949745?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "АО РЕАЛИСТ БАНК",
+      "employer": "АО Россельхозбанк, Без опыта",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "58320",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6775787.png"
+    },
+    {
+      "id": "134071149",
+      "url": "https://omsk.hh.ru/vacancy/134071149?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО FIN.by / Акцент-Консалт",
+      "area": "Минск, улица Володько, 6",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ",
+        "Коммуникация",
+        "BI"
+      ]
+    },
+    {
+      "id": "134695478",
+      "url": "https://omsk.hh.ru/vacancy/134695478?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Группа компаний РБЕ (RBE Group)",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "SQL"
+      ]
+    },
+    {
+      "id": "133758018",
+      "url": "https://omsk.hh.ru/vacancy/133758018?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": []
+    },
+    {
+      "id": "134266495",
+      "url": "https://omsk.hh.ru/vacancy/134266495?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "133994511",
+      "url": "https://omsk.hh.ru/vacancy/133994511",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel"
+      ]
+    },
+    {
+      "id": "133350637",
+      "url": "https://omsk.hh.ru/vacancy/133350637?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Тэйсти Кофе",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134810827",
+      "url": "https://omsk.hh.ru/vacancy/134810827?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "4394",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6395486.png"
+    },
+    {
+      "id": "133615218",
+      "url": "https://omsk.hh.ru/vacancy/133615218?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "БФТ-Холдинг",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики"
+      ],
+      "employerId": "9188",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/12309213.png"
+    },
+    {
+      "id": "134298794",
+      "url": "https://omsk.hh.ru/vacancy/134298794?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Министерство Инвестиционного Развития Смоленской Области",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "2764641"
+    },
+    {
+      "id": "131401658",
+      "url": "https://omsk.hh.ru/vacancy/131401658?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Тритон-ЭлектроникС",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134697562",
+      "url": "https://omsk.hh.ru/vacancy/134697562?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ББР Банк",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134168173",
+      "url": "https://omsk.hh.ru/vacancy/134168173",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "MS SQL",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134175575",
+      "url": "https://omsk.hh.ru/vacancy/134175575",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация"
+      ]
+    },
+    {
+      "id": "134041694",
+      "url": "https://omsk.hh.ru/vacancy/134041694",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "REST API"
+      ]
+    },
+    {
+      "id": "134108300",
+      "url": "https://omsk.hh.ru/vacancy/134108300",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Excel"
+      ]
+    },
+    {
+      "id": "134539419",
+      "url": "https://omsk.hh.ru/vacancy/134539419",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Метрики",
+        "Excel"
+      ]
+    },
+    {
+      "id": "134168927",
+      "url": "https://omsk.hh.ru/vacancy/134168927",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ"
+      ]
+    },
+    {
+      "id": "134177920",
+      "url": "https://omsk.hh.ru/vacancy/134177920",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Git"
+      ]
+    },
+    {
+      "id": "134025925",
+      "url": "https://omsk.hh.ru/vacancy/134025925",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Excel"
+      ]
+    },
+    {
+      "id": "134440784",
+      "url": "https://omsk.hh.ru/vacancy/134440784",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики"
+      ]
+    },
+    {
+      "id": "134212259",
+      "url": "https://omsk.hh.ru/vacancy/134212259",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel"
+      ]
+    },
+    {
+      "id": "134361168",
+      "url": "https://omsk.hh.ru/vacancy/134361168?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Сбер. IT",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Метрики",
+        "BI",
+        "Excel",
+        "Power BI"
+      ],
+      "employerId": "3529",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
     },
     {
       "id": "134655714",
@@ -12383,38 +11660,14 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский"
+        "Бизнес-анализ",
+        "Метрики"
       ],
       "employerId": "4079862"
     },
     {
-      "id": "134175575",
-      "url": "https://omsk.hh.ru/vacancy/134175575?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Главбух",
-      "area": "Минск",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "1094856"
-    },
-    {
-      "id": "134603391",
-      "url": "https://omsk.hh.ru/vacancy/134603391?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Johnson & Johnson",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "2768",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2923689.jpeg"
-    },
-    {
-      "id": "134775430",
-      "url": "https://omsk.hh.ru/vacancy/134775430?hhtmFrom=vacancy_search_list",
+      "id": "134273360",
+      "url": "https://omsk.hh.ru/vacancy/134273360",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -12422,63 +11675,12 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский"
+        "Метрики"
       ]
     },
     {
-      "id": "134269622",
-      "url": "https://omsk.hh.ru/vacancy/134269622?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ОМ Софт",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "10327600"
-    },
-    {
-      "id": "134445324",
-      "url": "https://omsk.hh.ru/vacancy/134445324?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "«Останкинский мясоперерабатывающий холдинг», Производство",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "12917",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3837220.png"
-    },
-    {
-      "id": "133059357",
-      "url": "https://omsk.hh.ru/vacancy/133059357?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ЦЕМРОС",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "2222",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5859838.png"
-    },
-    {
-      "id": "133615218",
-      "url": "https://omsk.hh.ru/vacancy/133615218?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "БФТ-Холдинг",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "9188",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/12309213.png"
-    },
-    {
-      "id": "132336877",
-      "url": "https://omsk.hh.ru/vacancy/132336877",
+      "id": "134548823",
+      "url": "https://omsk.hh.ru/vacancy/134548823",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -12486,35 +11688,12 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
-        "Системный анализ",
-        "Agile/Scrum",
-        "API",
-        "BPMN",
-        "Git",
-        "REST API",
-        "SQL",
-        "Swagger/OpenAPI"
+        "A/B-тесты"
       ]
     },
     {
-      "id": "133499826",
-      "url": "https://omsk.hh.ru/vacancy/133499826?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Пятёрочка. Диджитал",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "1942330",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/7101935.png"
-    },
-    {
-      "id": "132120192",
-      "url": "https://omsk.hh.ru/vacancy/132120192",
+      "id": "132453157",
+      "url": "https://omsk.hh.ru/vacancy/132453157",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -12522,7 +11701,6 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
         "Agile/Scrum",
         "BPMN",
         "SQL",
@@ -12530,147 +11708,8 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "132968942",
-      "url": "https://omsk.hh.ru/vacancy/132968942?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Центральный банк Российской Федерации (Банк России)",
-      "area": "Томск, р-н Кировский",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "47858",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5846330.png"
-    },
-    {
-      "id": "133852218",
-      "url": "https://omsk.hh.ru/vacancy/133852218?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Севентек",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "3102126",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7167916.png"
-    },
-    {
-      "id": "134177294",
-      "url": "https://omsk.hh.ru/vacancy/134177294?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ТОО Sapa Digital Communications",
-      "area": "Алматы",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Системный анализ"
-      ]
-    },
-    {
-      "id": "134344352",
-      "url": "https://omsk.hh.ru/vacancy/134344352?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Сбер. IT",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "API"
-      ],
-      "employerId": "3529",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6865267.jpeg"
-    },
-    {
-      "id": "130051289",
-      "url": "https://omsk.hh.ru/vacancy/130051289?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО Россельхозбанк, Филиалы и отделения",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "132638970",
-      "url": "https://omsk.hh.ru/vacancy/132638970?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "DDX Fitness",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "3305831"
-    },
-    {
-      "id": "133665865",
-      "url": "https://omsk.hh.ru/vacancy/133665865?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО ИЦ АЙ-ТЕКО",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134428190",
-      "url": "https://omsk.hh.ru/vacancy/134428190",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Метрики",
-        "Excel"
-      ]
-    },
-    {
-      "id": "134660082",
-      "url": "https://omsk.hh.ru/vacancy/134660082",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "BPMN",
-        "Excel",
-        "UML"
-      ]
-    },
-    {
-      "id": "133703972",
-      "url": "https://omsk.hh.ru/vacancy/133703972",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "BPMN",
-        "Excel",
-        "Python",
-        "SQL",
-        "UML"
-      ]
-    },
-    {
-      "id": "134699896",
-      "url": "https://omsk.hh.ru/vacancy/134699896",
+      "id": "134380566",
+      "url": "https://omsk.hh.ru/vacancy/134380566?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -12680,72 +11719,22 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "130556054",
-      "url": "https://omsk.hh.ru/vacancy/130556054",
+      "id": "134546716",
+      "url": "https://omsk.hh.ru/vacancy/134546716?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
-      "title": "Вакансия 130556054",
-      "employer": null,
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Coding Team",
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Интеграции",
-        "BPMN"
-      ]
+      "skills": []
     },
     {
-      "id": "133604680",
-      "url": "https://omsk.hh.ru/vacancy/133604680",
+      "id": "134497167",
+      "url": "https://omsk.hh.ru/vacancy/134497167?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Интеграции",
-        "BPMN",
-        "ETL"
-      ]
-    },
-    {
-      "id": "133960086",
-      "url": "https://omsk.hh.ru/vacancy/133960086",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Метрики",
-        "Excel"
-      ]
-    },
-    {
-      "id": "134441795",
-      "url": "https://omsk.hh.ru/vacancy/134441795",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Excel"
-      ]
-    },
-    {
-      "id": "134576729",
-      "url": "https://omsk.hh.ru/vacancy/134576729",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "ООО ГСП ЦЕНТР",
       "area": null,
       "date": null,
       "roles": [],
@@ -12754,47 +11743,178 @@ window.PREPBASE_SKILL_STATS = {
       ]
     },
     {
-      "id": "134105400",
-      "url": "https://omsk.hh.ru/vacancy/134105400?hhtmFrom=vacancy_search_list",
+      "id": "133525354",
+      "url": "https://omsk.hh.ru/vacancy/133525354?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Совкомбанк Лизинг",
+      "employer": null,
       "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134199722",
+      "url": "https://omsk.hh.ru/vacancy/134199722?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "133986402",
+      "url": "https://omsk.hh.ru/vacancy/133986402?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО АЭРО - ХИТ",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "11171782"
+    },
+    {
+      "id": "134061818",
+      "url": "https://omsk.hh.ru/vacancy/134061818?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Служба Технического Надзора",
+      "area": "Казань, р-н Вахитовский",
       "date": null,
       "roles": [],
       "skills": [
         "Английский"
+      ],
+      "employerId": "994567"
+    },
+    {
+      "id": "132544926",
+      "url": "https://omsk.hh.ru/vacancy/132544926?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "TKV Group",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "5588",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6522158.png"
+    },
+    {
+      "id": "133308704",
+      "url": "https://omsk.hh.ru/vacancy/133308704?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Сбер2B",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134210618",
+      "url": "https://omsk.hh.ru/vacancy/134210618?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Союзспецодежда",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "95539",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/4019740.jpeg"
+    },
+    {
+      "id": "134737237",
+      "url": "https://omsk.hh.ru/vacancy/134737237?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ТОО Epam Kazakhstan (Эпам Казахстан),ТОО",
+      "area": "Алматы, проспект Жибек Жолы, 135/10А",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ"
+      ]
+    },
+    {
+      "id": "133912275",
+      "url": "https://omsk.hh.ru/vacancy/133912275?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "133301942",
+      "url": "https://omsk.hh.ru/vacancy/133301942",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Системный анализ",
+        "API",
+        "REST API",
+        "SOAP",
+        "SQL"
+      ]
+    },
+    {
+      "id": "134656195",
+      "url": "https://omsk.hh.ru/vacancy/134656195",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "BPMN",
+        "UML"
+      ]
+    },
+    {
+      "id": "134176509",
+      "url": "https://omsk.hh.ru/vacancy/134176509?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Аналитика",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel"
+      ],
+      "employerId": "53797",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7728367.png"
+    },
+    {
+      "id": "132867398",
+      "url": "https://omsk.hh.ru/vacancy/132867398",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Excel",
+        "SQL"
       ]
     },
     {
       "id": "134305970",
-      "url": "https://omsk.hh.ru/vacancy/134305970?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Синтегро консалтинг",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "3112915"
-    },
-    {
-      "id": "132867398",
-      "url": "https://omsk.hh.ru/vacancy/132867398?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ЛУКОЙЛ",
-      "area": "Москва, р-н Тверской",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ"
-      ],
-      "employerId": "907345"
-    },
-    {
-      "id": "134477335",
-      "url": "https://omsk.hh.ru/vacancy/134477335?hhtmFrom=vacancy_search_list",
+      "url": "https://omsk.hh.ru/vacancy/134305970",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -12802,7 +11922,25 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "BPMN"
+        "Бизнес-анализ",
+        "Коммуникация",
+        "Метрики"
+      ]
+    },
+    {
+      "id": "134561006",
+      "url": "https://omsk.hh.ru/vacancy/134561006",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Excel",
+        "Python",
+        "SQL"
       ]
     },
     {
@@ -12817,8 +11955,199 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "133941693",
-      "url": "https://omsk.hh.ru/vacancy/133941693",
+      "id": "134689014",
+      "url": "https://omsk.hh.ru/vacancy/134689014",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики"
+      ]
+    },
+    {
+      "id": "133907006",
+      "url": "https://omsk.hh.ru/vacancy/133907006",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Метрики",
+        "Системный анализ"
+      ]
+    },
+    {
+      "id": "134731716",
+      "url": "https://omsk.hh.ru/vacancy/134731716?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Пермский пороховой завод, ФКП",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Agile/Scrum",
+        "Confluence",
+        "PostgreSQL",
+        "SQL"
+      ],
+      "employerId": "833660"
+    },
+    {
+      "id": "134844159",
+      "url": "https://omsk.hh.ru/vacancy/134844159?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "«Роза Хутор» IT",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "10422",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7184792.png"
+    },
+    {
+      "id": "134045356",
+      "url": "https://omsk.hh.ru/vacancy/134045356",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "API",
+        "Git",
+        "GraphQL",
+        "REST API"
+      ]
+    },
+    {
+      "id": "134662106",
+      "url": "https://omsk.hh.ru/vacancy/134662106?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "АО Смартиндустрия",
+      "area": "Москва, р-н Замоскворечье",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Метрики",
+        "BI",
+        "DataLens",
+        "PostgreSQL",
+        "Python",
+        "SQL"
+      ],
+      "employerId": "11234421"
+    },
+    {
+      "id": "134186583",
+      "url": "https://omsk.hh.ru/vacancy/134186583",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Интеграции",
+        "Agile/Scrum",
+        "API",
+        "BPMN",
+        "Confluence",
+        "Jira",
+        "Kafka",
+        "REST API",
+        "SOAP",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "134211471",
+      "url": "https://omsk.hh.ru/vacancy/134211471?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ТОО Apple City Corps",
+      "area": "Алматы, улица Кабдолова, 1/13",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Интеграции",
+        "Коммуникация",
+        "Agile/Scrum",
+        "API",
+        "BI",
+        "BPMN",
+        "Confluence",
+        "Excel",
+        "Jira",
+        "Kafka",
+        "REST API",
+        "SOAP",
+        "SQL",
+        "UML"
+      ],
+      "employerId": "25870"
+    },
+    {
+      "id": "134518099",
+      "url": "https://omsk.hh.ru/vacancy/134518099?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ПАО Банк ПСБ, ИТ",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ],
+      "employerId": "6591",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3165213.png"
+    },
+    {
+      "id": "134592153",
+      "url": "https://omsk.hh.ru/vacancy/134592153?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "АО Опытный завод Нефтехим",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "PostgreSQL",
+        "SQL"
+      ],
+      "employerId": "555745"
+    },
+    {
+      "id": "134762358",
+      "url": "https://omsk.hh.ru/vacancy/134762358?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Агентство КИТ Консалт",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "API",
+        "REST API"
+      ],
+      "employerId": "637743"
+    },
+    {
+      "id": "134841075",
+      "url": "https://omsk.hh.ru/vacancy/134841075?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -12828,135 +12157,15 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134185137",
-      "url": "https://omsk.hh.ru/vacancy/134185137?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Восток-Сервис",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Коммуникация",
-        "BPMN"
-      ],
-      "employerId": "339",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/9744719.png"
-    },
-    {
-      "id": "133301942",
-      "url": "https://omsk.hh.ru/vacancy/133301942",
+      "id": "134739622",
+      "url": "https://omsk.hh.ru/vacancy/134739622?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Коммуникация",
-        "BPMN"
-      ]
-    },
-    {
-      "id": "134051806",
-      "url": "https://omsk.hh.ru/vacancy/134051806",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Системный анализ",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134094989",
-      "url": "https://omsk.hh.ru/vacancy/134094989",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "Метрики",
-        "Системный анализ",
-        "BI",
-        "DataLens",
-        "PostgreSQL",
-        "Python",
-        "SQL"
-      ]
-    },
-    {
-      "id": "133900250",
-      "url": "https://omsk.hh.ru/vacancy/133900250",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Бизнес-анализ",
-        "Коммуникация",
-        "Системный анализ",
-        "BI",
-        "Excel"
-      ]
-    },
-    {
-      "id": "134418540",
-      "url": "https://omsk.hh.ru/vacancy/134418540",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "Системный анализ",
-        "Excel"
-      ]
-    },
-    {
-      "id": "134584857",
-      "url": "https://omsk.hh.ru/vacancy/134584857",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel"
-      ]
-    },
-    {
-      "id": "133995008",
-      "url": "https://omsk.hh.ru/vacancy/133995008",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Метрики",
-        "Agile/Scrum",
-        "Confluence",
-        "PostgreSQL",
-        "SQL"
-      ]
+      "skills": []
     },
     {
       "id": "134026878",
@@ -12967,37 +12176,7 @@ window.PREPBASE_SKILL_STATS = {
       "area": null,
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "2427329"
-    },
-    {
-      "id": "134212259",
-      "url": "https://omsk.hh.ru/vacancy/134212259?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО МЯСНОЙ ДОМ БОРОДИНА",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel"
-      ],
-      "employerId": "2846"
-    },
-    {
-      "id": "133874938",
-      "url": "https://omsk.hh.ru/vacancy/133874938?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Сджей Глобал",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский",
-        "BPMN",
-        "UML"
-      ]
+      "skills": []
     },
     {
       "id": "134166037",
@@ -13008,35 +12187,21 @@ window.PREPBASE_SKILL_STATS = {
       "area": null,
       "date": null,
       "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134257989",
+      "url": "https://omsk.hh.ru/vacancy/134257989?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ИП Sulu Home",
+      "area": "Алматы, улица Москвина, 13",
+      "date": null,
+      "roles": [],
       "skills": [
-        "API",
-        "REST API"
-      ],
-      "employerId": "32501"
-    },
-    {
-      "id": "134782444",
-      "url": "https://omsk.hh.ru/vacancy/134782444?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Сервисный центр Транстелематика",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "2679520"
-    },
-    {
-      "id": "134246280",
-      "url": "https://omsk.hh.ru/vacancy/134246280?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ИП Paradise",
-      "area": "Астана, проспект Кабанбай Батыра, 17",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "11996099"
+        "BI",
+        "Excel"
+      ]
     },
     {
       "id": "134601815",
@@ -13044,296 +12209,185 @@ window.PREPBASE_SKILL_STATS = {
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": "Центральный банк Российской Федерации (Банк России)",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "133619719",
+      "url": "https://omsk.hh.ru/vacancy/133619719",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Agile/Scrum",
+        "API",
+        "REST API",
+        "SOAP"
+      ]
+    },
+    {
+      "id": "133241989",
+      "url": "https://omsk.hh.ru/vacancy/133241989",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Коммуникация",
+        "Метрики",
+        "Excel"
+      ]
+    },
+    {
+      "id": "134760539",
+      "url": "https://omsk.hh.ru/vacancy/134760539?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "133968327",
+      "url": "https://omsk.hh.ru/vacancy/133968327?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Первый Бит",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "3177",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/2982497.png"
+    },
+    {
+      "id": "134150486",
+      "url": "https://omsk.hh.ru/vacancy/134150486?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134166298",
+      "url": "https://omsk.hh.ru/vacancy/134166298?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Займиго МКК",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "1457854"
+    },
+    {
+      "id": "134244316",
+      "url": "https://omsk.hh.ru/vacancy/134244316?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "A-hiring",
       "area": "Москва",
       "date": null,
       "roles": [],
-      "skills": [],
-      "employerId": "47858"
-    },
-    {
-      "id": "133259917",
-      "url": "https://omsk.hh.ru/vacancy/133259917?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО ИТ-Элемент29",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "10051541",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo/7193692.png"
-    },
-    {
-      "id": "134025023",
-      "url": "https://omsk.hh.ru/vacancy/134025023?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "SkillStaff",
-      "area": null,
-      "date": null,
-      "roles": [],
       "skills": [
-        "SQL"
+        "Английский"
       ],
-      "employerId": "819979",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6665975.png"
+      "employerId": "5271532"
     },
     {
-      "id": "134487272",
-      "url": "https://omsk.hh.ru/vacancy/134487272?hhtmFrom=vacancy_search_list",
+      "id": "134430597",
+      "url": "https://omsk.hh.ru/vacancy/134430597?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО КТС-ПРОЕКТ",
+      "employer": "Spectr",
       "area": null,
       "date": null,
       "roles": [],
-      "skills": []
+      "skills": [],
+      "employerId": "2770726"
     },
     {
-      "id": "134762358",
-      "url": "https://omsk.hh.ru/vacancy/134762358",
+      "id": "132206388",
+      "url": "https://omsk.hh.ru/vacancy/132206388?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
+      "employer": "АО Россельхозбанк, Головной офис",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "BI",
         "BPMN",
-        "Power BI"
-      ]
+        "UML"
+      ],
+      "employerId": "58320",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6775787.png"
     },
     {
-      "id": "134578730",
-      "url": "https://omsk.hh.ru/vacancy/134578730",
+      "id": "134540439",
+      "url": "https://omsk.hh.ru/vacancy/134540439?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
+      "employer": "ООО Капстрой",
+      "area": "Набережные Челны, улица Нариманова, 56",
       "date": null,
       "roles": [],
       "skills": [
-        "Коммуникация",
-        "Excel"
-      ]
-    },
-    {
-      "id": "131931280",
-      "url": "https://omsk.hh.ru/vacancy/131931280",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Excel"
-      ]
-    },
-    {
-      "id": "133303585",
-      "url": "https://omsk.hh.ru/vacancy/133303585",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация"
-      ]
-    },
-    {
-      "id": "134499852",
-      "url": "https://omsk.hh.ru/vacancy/134499852",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Коммуникация"
-      ]
-    },
-    {
-      "id": "132538510",
-      "url": "https://omsk.hh.ru/vacancy/132538510",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "DataLens",
-        "Excel",
+        "Английский",
         "Python"
-      ]
-    },
-    {
-      "id": "134063556",
-      "url": "https://omsk.hh.ru/vacancy/134063556",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "API",
-        "Excel",
-        "SQL"
-      ]
-    },
-    {
-      "id": "134350139",
-      "url": "https://omsk.hh.ru/vacancy/134350139",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133943835",
-      "url": "https://omsk.hh.ru/vacancy/133943835?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Ангиофарм",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134077623",
-      "url": "https://omsk.hh.ru/vacancy/134077623?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ТОО Микрофинансовая организация ФРИДОМ ФИНАНС Кредит",
-      "area": "Алматы, проспект Сакена Сейфуллина, 502",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Метрики"
       ],
-      "employerId": "5489435"
+      "employerId": "9822729"
     },
     {
-      "id": "128467396",
-      "url": "https://omsk.hh.ru/vacancy/128467396?hhtmFrom=vacancy_search_list",
+      "id": "134738839",
+      "url": "https://omsk.hh.ru/vacancy/134738839?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Евроторг",
-      "area": "Минск",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "753017",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/6639098.jpeg"
-    },
-    {
-      "id": "132167788",
-      "url": "https://omsk.hh.ru/vacancy/132167788?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Аналитика",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134750767",
-      "url": "https://omsk.hh.ru/vacancy/134750767?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Andersen",
-      "area": "Тбилиси",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Системный анализ"
-      ]
-    },
-    {
-      "id": "134490349",
-      "url": "https://omsk.hh.ru/vacancy/134490349",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Интеграции",
-        "API",
-        "BPMN",
-        "Kafka",
-        "REST API",
-        "Swagger/OpenAPI"
-      ]
-    },
-    {
-      "id": "133370342",
-      "url": "https://omsk.hh.ru/vacancy/133370342",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "134373818",
-      "url": "https://omsk.hh.ru/vacancy/134373818",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация"
-      ]
-    },
-    {
-      "id": "133070482",
-      "url": "https://omsk.hh.ru/vacancy/133070482",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ",
-        "Коммуникация"
-      ]
-    },
-    {
-      "id": "134264865",
-      "url": "https://omsk.hh.ru/vacancy/134264865?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО ПРОФ-ИТ ГРУПП",
+      "employer": "ООО КонсалтикаПлюс",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [],
-      "employerId": "1668887"
+      "employerId": "3961061"
     },
     {
-      "id": "134715558",
-      "url": "https://omsk.hh.ru/vacancy/134715558",
+      "id": "132992319",
+      "url": "https://omsk.hh.ru/vacancy/132992319?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "The ACT",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "4173972"
+    },
+    {
+      "id": "134437944",
+      "url": "https://omsk.hh.ru/vacancy/134437944?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Интер РАО - Цифровые решения",
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "134747200",
+      "url": "https://omsk.hh.ru/vacancy/134747200?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -13341,34 +12395,6 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": []
-    },
-    {
-      "id": "134450745",
-      "url": "https://omsk.hh.ru/vacancy/134450745",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ"
-      ]
-    },
-    {
-      "id": "134780562",
-      "url": "https://omsk.hh.ru/vacancy/134780562",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": null,
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Excel",
-        "Power BI",
-        "SQL"
-      ]
     },
     {
       "id": "134788520",
@@ -13382,8 +12408,8 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "134312025",
-      "url": "https://omsk.hh.ru/vacancy/134312025",
+      "id": "134070171",
+      "url": "https://omsk.hh.ru/vacancy/134070171",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -13391,8 +12417,31 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Интеграции"
+        "Excel",
+        "Power BI"
       ]
+    },
+    {
+      "id": "134264865",
+      "url": "https://omsk.hh.ru/vacancy/134264865",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
+    },
+    {
+      "id": "132670934",
+      "url": "https://omsk.hh.ru/vacancy/132670934",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": []
     },
     {
       "id": "134369106",
@@ -13404,14 +12453,13 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Интеграции",
         "Confluence",
         "Jira"
       ]
     },
     {
-      "id": "134706412",
-      "url": "https://omsk.hh.ru/vacancy/134706412",
+      "id": "134490349",
+      "url": "https://omsk.hh.ru/vacancy/134490349",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -13419,35 +12467,12 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Английский",
-        "API",
-        "Confluence",
-        "SQL",
-        "Swagger/OpenAPI",
-        "UML"
+        "API"
       ]
     },
     {
-      "id": "134825792",
-      "url": "https://omsk.hh.ru/vacancy/134825792?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Платформа Трим",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Коммуникация",
-        "Метрики",
-        "API",
-        "BI",
-        "Excel"
-      ],
-      "employerId": "10553941"
-    },
-    {
-      "id": "134496848",
-      "url": "https://omsk.hh.ru/vacancy/134496848",
+      "id": "132259808",
+      "url": "https://omsk.hh.ru/vacancy/132259808",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -13456,34 +12481,127 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Интеграции",
-        "Метрики",
-        "API",
-        "Python",
-        "SQL",
-        "Tableau"
+        "API"
       ]
     },
     {
-      "id": "133720080",
-      "url": "https://omsk.hh.ru/vacancy/133720080?hhtmFrom=vacancy_search_list",
+      "id": "134615045",
+      "url": "https://omsk.hh.ru/vacancy/134615045?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "Okkam",
+      "employer": "ПИКАССО",
+      "area": "Санкт-Петербург",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "737268"
+    },
+    {
+      "id": "134014089",
+      "url": "https://omsk.hh.ru/vacancy/134014089?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Мегаполис",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Метрики"
+      ],
+      "employerId": "57045",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7405549.png"
+    },
+    {
+      "id": "134312025",
+      "url": "https://omsk.hh.ru/vacancy/134312025?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Ростелеком Информационные Технологии",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ],
+      "employerId": "3144945"
+    },
+    {
+      "id": "133370342",
+      "url": "https://omsk.hh.ru/vacancy/133370342?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ПАО Банк ПСБ, Бизнес и инфраструктура",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "6591",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/3165213.png"
+    },
+    {
+      "id": "134314603",
+      "url": "https://omsk.hh.ru/vacancy/134314603?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ООО Пульс Инноваций",
+      "area": "Москва",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "12449170"
+    },
+    {
+      "id": "134496848",
+      "url": "https://omsk.hh.ru/vacancy/134496848?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "MIXIT",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
-        "Коммуникация",
-        "Метрики",
+        "Интеграции",
         "API",
-        "Swagger/OpenAPI"
+        "BPMN",
+        "RabbitMQ",
+        "REST API",
+        "UML"
       ],
-      "employerId": "6528",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5673277.png"
+      "employerId": "2314605",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo/7451619.png"
     },
     {
-      "id": "133010800",
-      "url": "https://omsk.hh.ru/vacancy/133010800?hhtmFrom=vacancy_search_list",
+      "id": "134059594",
+      "url": "https://omsk.hh.ru/vacancy/134059594?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "ИП Саидов Алишер Ринатович",
+      "area": "Ташкент",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Бизнес-анализ",
+        "Системный анализ"
+      ],
+      "employerId": "12023081"
+    },
+    {
+      "id": "134605992",
+      "url": "https://omsk.hh.ru/vacancy/134605992?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "Центральный банк Российской Федерации (Банк России)",
+      "area": "Екатеринбург, р-н Ленинский",
+      "date": null,
+      "roles": [],
+      "skills": [],
+      "employerId": "47858",
+      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/5846330.png"
+    },
+    {
+      "id": "134608228",
+      "url": "https://omsk.hh.ru/vacancy/134608228?hhtmFrom=vacancy_search_list",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -13493,149 +12611,37 @@ window.PREPBASE_SKILL_STATS = {
       "skills": []
     },
     {
-      "id": "133856625",
-      "url": "https://omsk.hh.ru/vacancy/133856625?hhtmFrom=vacancy_search_list",
+      "id": "133394688",
+      "url": "https://omsk.hh.ru/vacancy/133394688",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Объединенные кондитеры",
-      "area": "Москва",
+      "employer": null,
+      "area": null,
       "date": null,
       "roles": [],
       "skills": [
         "Английский",
-        "API",
-        "REST API",
+        "Бизнес-анализ",
+        "Коммуникация",
+        "BI",
+        "BPMN",
+        "Python",
         "SQL"
-      ],
-      "employerId": "44877",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/1868275.jpeg"
-    },
-    {
-      "id": "130292698",
-      "url": "https://omsk.hh.ru/vacancy/130292698?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Ойком",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "2139406"
-    },
-    {
-      "id": "134061390",
-      "url": "https://omsk.hh.ru/vacancy/134061390?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Партнер",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "1626185"
-    },
-    {
-      "id": "134069284",
-      "url": "https://omsk.hh.ru/vacancy/134069284?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "Andersen",
-      "area": "Алматы",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Бизнес-анализ"
-      ],
-      "employerId": "851604",
-      "employerLogo": "https://img.hhcdn.ru/employer-logo-round/4243145.png"
-    },
-    {
-      "id": "134559710",
-      "url": "https://omsk.hh.ru/vacancy/134559710?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО Нурбанк",
-      "area": "Алматы",
-      "date": null,
-      "roles": [],
-      "skills": [
-        "Английский"
-      ],
-      "employerId": "25917"
-    },
-    {
-      "id": "133665985",
-      "url": "https://omsk.hh.ru/vacancy/133665985?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО СПВБ",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "3971962"
-    },
-    {
-      "id": "133943343",
-      "url": "https://omsk.hh.ru/vacancy/133943343?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ТОО Витайм",
-      "area": "Костанай, улица Генерала Арыстанбекова, 3/9",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "835603"
-    },
-    {
-      "id": "134404725",
-      "url": "https://omsk.hh.ru/vacancy/134404725?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Фирма КиН",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": []
-    },
-    {
-      "id": "133813685",
-      "url": "https://omsk.hh.ru/vacancy/133813685?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "ООО ТехАргос",
-      "area": "Москва",
-      "date": null,
-      "roles": [],
-      "skills": [],
-      "employerId": "3452582"
-    },
-    {
-      "id": "134334932",
-      "url": "https://omsk.hh.ru/vacancy/134334932?hhtmFrom=vacancy_search_list",
-      "source": "https://hh.ru/search/vacancy",
-      "title": "Подтвердите, что вы не робот",
-      "employer": "АО СПЕЦИАЛИЗИРОВАННЫЙ ЗАСТРОЙЩИК ДОМОСТРОИТЕЛЬНЫЙ КОМБИНАТ",
-      "area": null,
-      "date": null,
-      "roles": [],
-      "skills": [
-        "API",
-        "REST API"
       ]
     },
     {
-      "id": "134383127",
-      "url": "https://omsk.hh.ru/vacancy/134383127?hhtmFrom=vacancy_search_list",
+      "id": "133859127",
+      "url": "https://omsk.hh.ru/vacancy/133859127",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
-      "employer": "ООО Миллениум",
+      "employer": null,
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
         "Английский",
-        "Коммуникация"
+        "Бизнес-анализ",
+        "Excel"
       ]
     },
     {
@@ -13648,14 +12654,128 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
+        "Английский",
         "Интеграции",
-        "Коммуникация",
         "API",
         "BPMN",
         "Confluence",
         "Excel",
         "Jira",
         "REST API",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "134614594",
+      "url": "https://omsk.hh.ru/vacancy/134614594",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Интеграции",
+        "API",
+        "BPMN",
+        "Confluence",
+        "Jira",
+        "REST API",
+        "SQL",
+        "Swagger/OpenAPI",
+        "UML"
+      ]
+    },
+    {
+      "id": "134021478",
+      "url": "https://omsk.hh.ru/vacancy/134021478",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "API",
+        "Swagger/OpenAPI"
+      ]
+    },
+    {
+      "id": "133592700",
+      "url": "https://omsk.hh.ru/vacancy/133592700",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
+      ]
+    },
+    {
+      "id": "134559710",
+      "url": "https://omsk.hh.ru/vacancy/134559710?hhtmFrom=vacancy_search_list",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": "АО Нурбанк",
+      "area": "Алматы",
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ"
+      ],
+      "employerId": "25917"
+    },
+    {
+      "id": "134089263",
+      "url": "https://omsk.hh.ru/vacancy/134089263",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Бизнес-анализ",
+        "Интеграции",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "Confluence",
+        "Jira",
+        "PostgreSQL",
+        "REST API",
+        "SOAP",
+        "SQL",
+        "UML"
+      ]
+    },
+    {
+      "id": "134414122",
+      "url": "https://omsk.hh.ru/vacancy/134414122",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский",
+        "Интеграции",
+        "Системный анализ",
+        "API",
+        "BPMN",
+        "Confluence",
+        "Jira",
+        "PostgreSQL",
+        "REST API",
+        "SOAP",
         "SQL",
         "UML"
       ]
@@ -13670,19 +12790,14 @@ window.PREPBASE_SKILL_STATS = {
       "date": null,
       "roles": [],
       "skills": [
-        "Интеграции",
-        "API",
+        "Английский",
         "BPMN",
-        "Confluence",
-        "Jira",
-        "REST API",
-        "SQL",
-        "UML"
+        "SQL"
       ]
     },
     {
-      "id": "133899198",
-      "url": "https://omsk.hh.ru/vacancy/133899198",
+      "id": "134580761",
+      "url": "https://omsk.hh.ru/vacancy/134580761",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -13691,14 +12806,12 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Английский",
-        "Бизнес-анализ",
-        "BPMN",
-        "Excel"
+        "Интеграции"
       ]
     },
     {
-      "id": "134477452",
-      "url": "https://omsk.hh.ru/vacancy/134477452",
+      "id": "134747649",
+      "url": "https://omsk.hh.ru/vacancy/134747649",
       "source": "https://hh.ru/search/vacancy",
       "title": "Подтвердите, что вы не робот",
       "employer": null,
@@ -13707,20 +12820,29 @@ window.PREPBASE_SKILL_STATS = {
       "roles": [],
       "skills": [
         "Английский",
-        "Коммуникация",
-        "Системный анализ",
-        "Excel"
+        "Интеграции"
+      ]
+    },
+    {
+      "id": "134841525",
+      "url": "https://omsk.hh.ru/vacancy/134841525",
+      "source": "https://hh.ru/search/vacancy",
+      "title": "Подтвердите, что вы не робот",
+      "employer": null,
+      "area": null,
+      "date": null,
+      "roles": [],
+      "skills": [
+        "Английский"
       ]
     }
   ],
-  "errors": [
-    "vacancy 130556054: HTTP 502: Error 502 502 - Bad Gateway . That’s an error. Looks like we have got an invalid response from the upstream server. That’s all we know."
-  ],
+  "errors": [],
   "parserPostprocess": {
     "name": "rebuild-company-stats",
-    "generatedAt": "2026-07-03T17:40:13.109Z",
+    "generatedAt": "2026-07-03T19:28:52.339Z",
     "source": "vacancies + hh search html",
-    "enrichedVacancies": 780,
-    "skippedUnknownCompanies": 335
+    "enrichedVacancies": 785,
+    "skippedUnknownCompanies": 322
   }
 };

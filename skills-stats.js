@@ -132,6 +132,25 @@ window.PREPBASE_SKILL_STATS = {
       "lastPublishedAt": null
     },
     {
+      "employerId": "197135",
+      "name": "ООО ИК СИБИНТЕК",
+      "logo": null,
+      "vacanciesCount": 3,
+      "vacancyIds": [
+        "135417401",
+        "135596257",
+        "136395288"
+      ],
+      "roles": {},
+      "areas": {},
+      "skills": {
+        "Бизнес-анализ": 1,
+        "API": 1
+      },
+      "firstPublishedAt": null,
+      "lastPublishedAt": null
+    },
+    {
       "employerId": "872178",
       "name": "ООО ИЦ АЙ-ТЕКО",
       "logo": "https://img.hhcdn.ru/employer-logo-round/2559134.png",
@@ -252,23 +271,6 @@ window.PREPBASE_SKILL_STATS = {
         "SOAP": 1,
         "SQL": 1,
         "UML": 1
-      },
-      "firstPublishedAt": null,
-      "lastPublishedAt": null
-    },
-    {
-      "employerId": "197135",
-      "name": "ООО ИК СИБИНТЕК",
-      "logo": null,
-      "vacanciesCount": 2,
-      "vacancyIds": [
-        "135417401",
-        "136395288"
-      ],
-      "roles": {},
-      "areas": {},
-      "skills": {
-        "API": 1
       },
       "firstPublishedAt": null,
       "lastPublishedAt": null
@@ -2708,7 +2710,7 @@ window.PREPBASE_SKILL_STATS = {
   "companyStatsMeta": {
     "totalCompanies": 143,
     "limit": 500,
-    "generatedAt": "2026-08-19T20:44:09.744Z"
+    "generatedAt": "2026-08-19T22:14:37.401Z"
   },
   "skills": [
     {
@@ -3180,13 +3182,14 @@ window.PREPBASE_SKILL_STATS = {
       "url": "https://feedback.hh.ru/knowledge-base/article/00038?search=a072cc087d3a0544c6f4ff80394005d5%22}]},%22companySiteUrl%22:%22http://www.sibintek.ru%22,%22accreditedITEmployer%22:true,%22employerOnAdditionalCheck%22:false,%22employerReviews%22:{%22totalRating%22:%223.5%22,%22reviewsCount%22:1857}},%22compensation%22:{%22noCompensation%22:{}},%22publicationTime%22:{%22@timestamp%22:1785141432,%22$%22:%222026-07-27T11:37:12.405+03:00%22},%22area%22:{%22@id%22:1,%22name%22:%22%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%22,%22path%22:%22.113.232.1.%22},%22acceptTemporary%22:false,%22address%22:{%22@id%22:266346,%22@disabled%22:false,%22@wrong%22:false,%22rawAddress%22:%22%22,%22metroStations%22:{%22@lat%22:55.773505,%22@lng%22:37.545518,%22metro%22:[{%22@isAlias%22:false,%22@cityId%22:1,%22@id%22:18,%22@name%22:%22metro.18%22,%22@order%22:7,%22@translit%22:%22begovaya%22,%22id%22:18,%22lat%22:55.773505,%22line%22:{%22@id%22:7,%22@name%22:%22metroline.7%22,%22@translit%22:%22tagansko_krasnopresnenskaya%22,%22@cityId%22:1,%22id%22:7,%22name%22:%22%D0%A2%D0%B0%D0%B3%D0%B0%D0%BD%D1%81%D0%BA%D0%BE-%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%BF%D1%80%D0%B5%D1%81%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%22,%22color%22:%22#943E90%22},%22lng%22:37.545518,%22name%22:%22%D0%91%D0%B5%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F%22}]},%22city%22:%22%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%22,%22street%22:%22%D0%91%D0%B5%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%22,%22building%22:%223%D1%811%22,%22displayName%22:%22%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,%20%D0%91%D0%B5%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0,%203%D1%811%22,%22mapData%22:%22{\\%22points\\%22:{\\%22center\\%22:{\\%22lat\\%22:55.774755518199406,\\%22lng\\%22:37.549309004098184,\\%22zoom\\%22:16},\\%22marker\\%22:{\\%22lat\\%22:55.776006,\\%22lng\\%22:37.5531},\\%22metro\\%22:{\\%22lat\\%22:55.773505,\\%22lng\\%22:37.545518}},\\%22manualMetro\\%22:false}%22,%22marker%22:{%22@lat%22:55.776006,%22@lng%22:37.5531},%22manager%22:{%22@id%22:3269495},%22districtDto%22:{%22id%22:95,%22isMicroDistrict%22:false,%22name%22:%22%D0%A5%D0%BE%D1%80%D0%BE%D1%88%D1%91%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%22}},%22creationSite%22:%22hh.ru%22,%22creationSiteId%22:1,%22displayHost%22:%22omsk.hh.ru%22,%22lastChangeTime%22:{%22@timestamp%22:1786961524,%22$%22:%222026-08-17T13:12:04.650+03:00%22},%22creationTime%22:%222026-07-27T11:37:12.405+03:00%22,%22canBeShared%22:true,%22employerManager%22:{%22latestActivity%22:%22offline%22},%22inboxPossibility%22:true,%22chatWritePossibility%22:%22ENABLED_AFTER_INVITATION%22,%22notify%22:false,%22links%22:{%22desktop%22:%22https://omsk.hh.ru/vacancy/135596257%22,%22mobile%22:%22https://m.hh.ru/vacancy/135596257%22},%22acceptIncompleteResumes%22:false,%22driverLicenseTypes%22:[{}],%22languages%22:[{}],%22workingDays%22:[{}],%22workingTimeIntervals%22:[{}],%22workingTimeModes%22:[{}],%22division%22:{%22@id%22:286},%22vacancyProperties%22:{%22properties%22:[{%22property%22:[{%22id%22:661950845,%22propertyType%22:%22HH_STANDARD%22,%22defining%22:true,%22classifying%22:true,%22bundle%22:%22HH%22,%22propertyWeight%22:400,%22parameters%22:[{%22parameter%22:[{%22key%22:%22packageName%22,%22value%22:%22VP%22},{%22key%22:%22serviceId%22,%22value%22:%2263789965%22}]}],%22startTimeIso%22:%222026-07-27T11:37:12.416+03:00%22,%22endTimeIso%22:%222026-08-26T11:37:12.416+03:00%22},{%22id%22:676123104,%22propertyType%22:%22HH_MONETIZATION_PERFORMANCE_PESSIMIZATION%22,%22bundle%22:%22HH%22,%22propertyWeight%22:1500,%22parameters%22:[{%22parameter%22:[{%22key%22:%22actionReason%22,%22value%22:%22VACANCY_HYPERLIQUID%22},{%22key%22:%22packageName%22,%22value%22:%22HH_MONETIZATION_PERFORMANCE%22},{%22key%22:%22serviceId%22,%22value%22:%22-200%22},{%22key%22:%22searchPessimizationRate%22,%22value%22:%220.8%22}]}],%22startTimeIso%22:%222026-08-17T06:17:29.031844+03:00%22},{%22id%22:661950843,%22propertyType%22:%22HH_RESUME_GIFTS%22,%22bundle%22:%22HH%22,%22propertyWeight%22:400,%22parameters%22:[{%22parameter%22:[{%22key%22:%22giftsCount%22,%22value%22:%2215%22},{%22key%22:%22packageName%22,%22value%22:%22VP%22},{%22key%22:%22serviceId%22,%22value%22:%2263789965%22}]}],%22startTimeIso%22:%222026-07-27T11:37:12.416+03:00%22,%22endTimeIso%22:%222026-08-26T11:37:12.416+03:00%22},{%22id%22:661950844,%22propertyType%22:%22HH_SEARCH_RESULTS_NORMAL_POSITION%22,%22bundle%22:%22HH%22,%22propertyWeight%22:400,%22parameters%22:[{%22parameter%22:[{%22key%22:%22packageName%22,%22value%22:%22VP%22},{%22key%22:%22serviceId%22,%22value%22:%2263789965%22}]}],%22startTimeIso%22:%222026-07-27T11:37:12.416+03:00%22,%22endTimeIso%22:%222026-08-26T11:37:12.416+03:00%22}]}],%22calculatedStates%22:{%22HH%22:{%22advertising%22:false,%22anonymous%22:false,%22filteredPropertyNames%22:[%22HH_MONETIZATION_PERFORMANCE_PESSIMIZATION%22,%22HH_SEARCH_RESULTS_NORMAL_POSITION%22,%22HH_RESUME_GIFTS%22,%22HH_STANDARD%22],%22free%22:false,%22optimum%22:false,%22optionPremium%22:false,%22payForPerformance%22:false,%22premium%22:false,%22standard%22:true,%22standardPlus%22:false,%22translationKeys%22:[%22employer.VacancyCreate.PublicationType.STANDARD%22],%22virtualRecruiter%22:false,%22translation%22:%22%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%22}}},%22vacancyPlatforms%22:[%22HH%22],%22professionalRoleIds%22:[{%22professionalRoleId%22:[150]}],%22workExperience%22:%22between1And3%22,%22employment%22:{%22@type%22:%22FULL%22},%22closedForApplicants%22:false,%22userTestPresent%22:false,%22employmentForm%22:%22FULL%22,%22flyInFlyOutDurations%22:[{}],%22internship%22:false,%22nightShifts%22:false,%22workFormats%22:[{%22workFormatsElement%22:[%22ON_SITE%22,%22REMOTE%22]}],%22workScheduleByDays%22:[{%22workScheduleByDaysElement%22:[%22FIVE_ON_TWO_OFF%22]}],%22workingHours%22:[{%22workingHoursElement%22:[%22HOURS_9%22]}],%22experimentalModes%22:[{%22experimentalMode%22:[%22newContractFields%22,%22newEmploymentTerms%22,%22usingNewInclusivenessFields%22,%22newCompensationModes%22]}],%22acceptLaborContract%22:true,%22civilLawContracts%22:[{}],%22autoResponse%22:{%22acceptAutoResponse%22:true},%22inclusivenessTypes%22:[{}],%22contactInfo%22:null,%22userLabels%22:[],%22snippet%22:{%22req%22:%22%D0%97%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B8%20%D0%BD%D0%B0%D0%B2%D1%8B%D0%BA%D0%B8%20%D0%B2%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8%20%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B8,%20%D0%B1%D1%83%D1%85%D0%B3%D0%B0%D0%BB%D1%82%D0%B5%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%83%D1%87%D0%B5%D1%82%D0%B0%20%D0%B8%20%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0,%20%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%B0.%20%D0%9D%D0%B0%D0%B2%D1%8B%D0%BA%D0%B8%20%D0%B2%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8%20%D1%84%D0%BE%D1%80%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9%20%D0%B8%D0%BB%D0%B8%20%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%BE%D1%82%D1%87%D0%B5%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8...%22,%22resp%22:%22%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%B5%20%D0%B2%D0%BE%20%D0%B2%D0%BD%D0%B5%D0%B4%D1%80%D0%B5%D0%BD%D0%B8%D0%B8%20%D0%98%D0%A2-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%BE-%D1%85%D0%BE%D0%B7%D1%8F%D0%B9%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9%20%D0%B4%D0%B5%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F%D1%85%20%D0%BD%D0%B5%D1%84%D1%82%D0%B5%D0%B3%D0%B0%D0%B7%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D0%B8.%20%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%20%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0%20%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D0%BE%D0%B2%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BF%D0%BB%D0%B0%D0%BD%D0%BE%D0%B2...%22,%22cond%22:%22%D0%9E%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D1%88%D1%82%D0%B0%D1%82%20%D0%B2%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B8%20%D1%81%20%D0%A2%D0%9A%20%D0%A0%D0%A4.%20%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B2%20%D0%B0%D0%BA%D0%BA%D1%80%D0%B5%D0%B4%D0%B8%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B9%20%D0%9C%D0%B8%D0%BD%D1%86%D0%B8%D1%84%D1%80%D0%B0%D0%BC%D0%B8%20%D0%98%D0%A2-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8.%20%D0%9A%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D0%B5%D0%BD%D1%82%D0%BE%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%BD%D0%B0%D1%8F%20%D0%B7%D0%B0%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%20(%D0%BE%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%BF%D0%BE%20%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D0%B0%D0%BC...%22,%22skill%22:%22%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7,%20%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2,%20%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2,%20%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2,%20%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2,%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9%22,%22desc%22:null},%22responsesCount%22:555,%22totalResponsesCount%22:625,%22online_users_count%22:1,%22tags%22:[{%22id%22:%22vacancy-serp__vacancy-work-experience-between1And3%22,%22text%22:%22%D0%9E%D0%BF%D1%8B%D1%82%201-3%20%D0%B3%D0%BE%D0%B4%D0%B0%22,%22icon%22:%22BriefcaseOutlinedSize16%22},{%22id%22:%22vacancy-label-work-schedule-remote%22,%22text%22:%22%D0%9C%D0%BE%D0%B6%D0%BD%D0%BE%20%D1%83%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D0%BE%22}],%22labels%22:[],%22extraLabels%22:[],%22searchRid%22:%221787170546756ba156a07f031741f003%22},{%22@workSchedule%22:%22fullDay%22,%22@showCon",
       "source": "https://hh.ru/search/vacancy",
       "title": "Как проверить ИТ-аккредитацию работодателя: hh.ru и Госуслуги",
-      "employer": null,
+      "employer": "ООО ИК СИБИНТЕК",
       "area": null,
       "date": null,
       "roles": [],
       "skills": [
         "Бизнес-анализ"
-      ]
+      ],
+      "employerId": "197135"
     },
     {
       "id": "135515515",
@@ -16730,9 +16733,9 @@ window.PREPBASE_SKILL_STATS = {
   ],
   "parserPostprocess": {
     "name": "rebuild-company-stats",
-    "generatedAt": "2026-08-19T20:44:09.744Z",
+    "generatedAt": "2026-08-19T22:14:37.401Z",
     "source": "vacancies + hh search html",
-    "enrichedVacancies": 783,
-    "skippedUnknownCompanies": 701
+    "enrichedVacancies": 18,
+    "skippedUnknownCompanies": 700
   }
 };

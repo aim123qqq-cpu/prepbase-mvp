@@ -1538,7 +1538,7 @@ window.PREPBASE_SKILL_STATS = {
   "companyStatsMeta": {
     "totalCompanies": 80,
     "limit": 500,
-    "generatedAt": "2026-08-24T02:55:37.029Z"
+    "generatedAt": "2026-08-24T04:35:24.281Z"
   },
   "skills": [
     {
@@ -15270,7 +15270,7 @@ window.PREPBASE_SKILL_STATS = {
   ],
   "parserPostprocess": {
     "name": "rebuild-company-stats",
-    "generatedAt": "2026-08-24T02:55:37.029Z",
+    "generatedAt": "2026-08-24T04:35:24.281Z",
     "source": "vacancies + hh search html",
     "enrichedVacancies": 0,
     "skippedUnknownCompanies": 779
